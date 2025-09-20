@@ -93,7 +93,7 @@ El Abecedario Político nos enseña que **programar también puede ser un gesto 
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/tuusuario/abecedario-politico.git
+   https://github.com/AnaMar-8a/Las_Juanas/blob/main/index.html
    ```
 2. Abrir el archivo `index.html` en tu navegador.
 3. Explorar el glosario, contribuir desde el botón de WhatsApp o proponer cambios vía Pull Request.
