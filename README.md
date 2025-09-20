@@ -1,41 +1,30 @@
-# 📖 Abecedario Político Feminista (Herramienta Interactiva)
+# 📖 Abecedario Político Interactivo
 
-Este proyecto es una herramienta pedagógica digital pensada para acompañar procesos de formación política feminista en clave decolonial. Se trata de un glosario interactivo que permite navegar conceptos clave desde una experiencia visual orgánica, cálida y accesible.
-
----
-
-## 🌟 Concepto
-
-El **Abecedario Político** es más que un diccionario: es una herramienta viva que nombra, visibiliza y resignifica. Cada palabra se despliega en un modal con su definición y una práctica cotidiana o política que la encarna.
-
-El diseño busca alejarse de lo rígido y lo institucional, para abrazar una estética feminista, orgánica y de cuidado.
+Un proyecto de la **Escuela de Formación Política Feminista Las Juanas** 🌿 ✊🏽.
+Este repositorio contiene el código del **glosario interactivo**, una herramienta pedagógica, digital y comunitaria que busca nombrar el mundo desde las luchas feministas, decoloniales y colectivas.
 
 ---
 
-## 🛠️ Elementos creados en el código
+## 🚀 Concepto del Proyecto
 
-1. **Estructura base HTML**
+El **Abecedario Político Interactivo** es más que un recurso digital: es una práctica de memoria viva. Cada término, cada animación y cada interacción fue pensada como un ejercicio de **cuidado, pedagogía y transformación**.
 
-   * Navegación lateral (escritorio) y superior (móvil/tablet).
-   * Área principal con portada, buscador y lista de términos.
-   * Modal interactivo para definiciones.
+El proyecto se basa en la convicción de que **nombrar es transformar**: rescatar palabras, resignificarlas y compartirlas es un acto de soberanía epistémica y de creación colectiva.
 
-2. **Estilos CSS con Tailwind y tipografías de Google Fonts**
+---
 
-   * Fuentes: *Inter* (texto) y *Domine* (títulos).
-   * Paleta inicial: morado (#6d28d9) como acento, con grises y blanco.
-   * Animaciones: *fade in*, *pulse*, transiciones hover y escalados.
+## 💻 Elementos Técnicos del Código
 
-3. **Animación de fondo con Canvas**
+* **Framework visual:** Tailwind CSS.
+* **Tipografías:** Inter (texto) y Domine (títulos).
+* **Diseño responsivo:** navegación lateral en escritorio y superior horizontal en móvil.
+* **Glosario interactivo:** búsqueda, navegación por letras, selección aleatoria.
+* **Modal de cuidado:** los términos se abren en un espacio de lectura calmada y reflexiva.
+* **Animación rizomática:** un fondo vivo que representa redes comunitarias, orgánicas y no jerárquicas.
+* **Lenguaje inclusivo en funciones JS:**
 
-   * Rizomas digitales: nodos y conexiones en movimiento, evocando redes comunitarias.
-
-4. **JavaScript**
-
-   * Renderizado dinámico de términos.
-   * Apertura y cierre de modales con nombres narrativos (`abrirCuidadoDeLaPalabra`, `cerrarEspacioDeReflexion`).
-   * Función de “término aleatorio”.
-   * Buscador interactivo con resultados en tiempo real.
+  * `abrirCuidadoDeLaPalabra()` en lugar de `showTermPopup()`.
+  * `cerrarEspacioDeReflexion()` en lugar de `hideTermPopup()`.
 
 ---
 
@@ -43,102 +32,83 @@ El diseño busca alejarse de lo rígido y lo institucional, para abrazar una est
 
 ### 1. Tipografía: voz clara y acogedora
 
-* **Actualmente**: Inter (cuerpo), Domine (títulos).
-* **Sugerencia**:
+* **Cuerpo de texto:** Inter (accesible y legible).
+* **Títulos:** Fraunces, Crimson Pro o Domine (más orgánicas, con aire editorial).
+* **Accesibilidad:** mínimo 18px en móviles.
 
-  * Inter (cuerpo de texto, claro y accesible).
-  * Fraunces, Crimson Pro o Domine (para títulos, más orgánicas, con un aire editorial).
-* **Accesibilidad**: Mantener fuente mínima de 18px en móviles.
+### 2. Paleta de colores feminista y de cuidado
 
-### 2. Paleta de colores feminista, orgánica y de cuidado
+* Morado vibrante **#6d28d9** como acento.
+* Tonos tierra suaves: **#f5f0e6**, **#d68c45**.
+* Verdes y rosados apagados: **#9CA986**, **#E6A6A1**.
+* Fondos claros cálidos en secciones largas.
+* Diferenciar paneles con degradados suaves o texturas.
 
-* Mantener el morado vibrante como acento simbólico.
-* Integrar tonos tierra y cálidos: arena (#f5f0e6), terracota (#d68c45), verde salvia (#9CA986), rosa arcilla (#E6A6A1).
-* Fondos claros cálidos en secciones largas para evitar cansancio visual.
-* Diferenciar modales y paneles con degradados suaves o texturas tipo papel.
+### 3. UX/UI inclusiva
 
-### 3. Experiencia visual y de usuario (UX/UI)
-
-* Revisar contraste para accesibilidad (morado sobre gris claro puede ser difícil).
-* Añadir modo “alto contraste” o “lectura simple”.
-* Navegación inclusiva:
-
-  * Abecedario como scroll horizontal en móvil.
-  * Buscador por palabra clave.
-* Animaciones más orgánicas:
-
-  * Rizomas más sutiles, con opacidad baja o botón para apagarlos.
-  * Transiciones suaves (fade + deslizar).
+* Revisar contraste para accesibilidad.
+* Modo **alto contraste / lectura simple**.
+* Navegación horizontal en móvil + buscador superior.
+* Animaciones sutiles: transiciones fluidas en lugar de bruscas.
 
 ### 4. Lenguaje de cuidado en la interfaz
 
-* Cambiar textos técnicos por expresiones de cuidado:
-
-  * “Inicio” → “Casa común” o “Volver al abrazo”.
-  * “Cerrar” → “Cuidar la vista” o “Volver”.
-* Cada definición incluir un **ejemplo cotidiano** resaltado en una caja cálida.
+* “Inicio” → “Volver al abrazo / Casa común”.
+* “Cerrar” → “Volver / Cuidar la vista”.
+* Cada definición con **ejemplo cotidiano** resaltado en un cuadro cálido.
 
 ### 5. Elementos pedagógicos feministas
 
-* **Cuerpo-territorio digital**: integrar ilustraciones suaves de plantas, tejidos, cuerpos.
-* **Colectividad**: abrir espacio para comentarios o resignificación de términos.
-* **Memoria viva**: opción de escuchar cada término con voces de mujeres de la comunidad.
-* **Despatriarcalizar el código**: mantener nomenclaturas narrativas y afectivas en las funciones.
+* **Cuerpo-territorio digital:** ilustraciones suaves (plantas, tejidos, cuerpos).
+* **Colectividad:** futura opción de comentarios colaborativos.
+* **Memoria viva:** botón *“Escucha esta palabra”* con voces de mujeres.
+* **Despatriarcalizar el código:** funciones con nombres narrativos.
 
 ---
 
-## ✨ Reflexión sobre el código como ejercicio de género y cuidado
+## ✨ Elementos adicionales de cuidado y comunidad
 
-Este proyecto no es solo un artefacto digital: es un **ejercicio pedagógico feminista** que habita el lenguaje del código para abrir espacios de cuidado, memoria y transformación política. Revisar el código nos invita a pensar no únicamente en su funcionalidad técnica, sino también en cómo transmite valores de **inclusión, accesibilidad y colectividad**.
-
-### 🌿 Cuidado en la experiencia
-
-* La metáfora del **rizoma** como fondo animado habla de una pedagogía feminista que no busca centros de poder, sino redes que se expanden, se interconectan y se regeneran.
-* Navegación diferenciada para móvil y escritorio, cuidando contextos diversos de acceso.
-* Colores cálidos y transiciones suaves crean un entorno que invita al diálogo.
-
-### 📖 Lenguaje como gesto político
-
-* Funciones renombradas para reflejar cuidado: `abrirCuidadoDeLaPalabra()`, `cerrarEspacioDeReflexion()`.
-* Botones con lenguaje afectivo: **“Volver al abrazo”**, **“Cuidar la vista”**.
-
-### 🌸 Accesibilidad y pedagogía feminista
-
-* Buscador como gesto inclusivo: cada persona puede encontrar su palabra.
-* Modales con definición + **ejemplo cotidiano**, bajando la teoría al día a día.
-* Co-creadoras y diseñadora nombradas e hipervinculadas, reconociendo la colectividad.
-
-### 🌍 Código como cuerpo-territorio
-
-* El canvas animado evoca rizomas y redes de vida: cuerpo y territorio inseparables, también en lo digital.
-* El código late con *pulse* y *fade*, respirando como un cuerpo vivo.
-* Las decisiones visuales buscan un entorno de cuidado más que de productividad acelerada.
-
-### 💜 Hacia una tecnología feminista
-
-Este código muestra que **despatriarcalizar lo digital** implica más que visibilizar mujeres: significa pensar la tecnología como espacio de afecto, memoria y autonomía.
-
-Cada clase CSS, cada nombre de función, cada animación es una decisión política: ¿reproducimos la rigidez del software corporativo o abrimos grietas para una estética feminista, orgánica y colectiva?
-
-🌿 *Así, el glosario no solo enseña palabras: también enseña que el propio código puede ser un acto de cuidado y resistencia.*
+* **Consentimiento digital:** incluir un aviso de que la información puede ser resignificada y que se invita a navegar con calma.
+* **Ritmos orgánicos:** permitir que usuarias ajusten velocidad de animaciones o apagarlas.
+* **Espacios de crecimiento colectivo:** integrar módulos donde las participantes puedan sumar nuevos términos en futuras versiones.
+* **Cartografía de vínculos:** añadir visualizaciones que muestren cómo las palabras se conectan entre sí como una red viva.
+* **Prácticas de autocuidado:** pequeñas pausas o recordatorios que inviten a descansar la vista o a reflexionar.
 
 ---
 
-## 🚀 Próximos pasos sugeridos
+## 🌸 Reflexión Feminista y de Cuidado
 
-1. Ajustar tipografía y colores para mayor organicidad.
-2. Incluir CTA sutiles con hover cálido y sombras suaves.
-3. Implementar buscador mejorado y accesibilidad con toggle de contraste.
-4. Incorporar audios y ejemplos cotidianos en cada definición.
-5. Mantener la coherencia feminista en la estructura y el lenguaje del código.
+Este código no es neutro: es una **herramienta política**. Cada función, cada estilo, cada palabra refleja un compromiso con el **cuidado, la memoria y la comunidad**.
+
+* Usar un **glosario feminista digital** es disputar la narrativa de internet, haciéndolo espacio de afecto, resistencia y aprendizaje.
+* La elección de nombres de funciones narrativas es un acto de **despatriarcalización del código**.
+* El fondo rizomático no es solo estético: es metáfora de las redes feministas, horizontales, resilientes y colectivas.
+* La interfaz no solo informa: **abraza, acompaña y nombra**.
+
+---
+
+## 📂 Estructura del Repositorio
+
+```
+.
+├── index.html   # Código principal
+├── README.md    # Documentación
+└── assets/      # Carpeta futura para imágenes, audios o ilustraciones
+```
 
 ---
 
 ## 🤝 Créditos
 
-* **Co-creación**: Movimiento Político Electas, Instituto Update, Corporación Recuperando Identidad.
-* **Diseño de herramienta**: [AnaMar8a](https://www.linkedin.com/in/8aanamaria/).
+* **Escuela de Formación Política Feminista Las Juanas**
+* **Movimiento Político Electas**
+* **Instituto Update**
+* **Corporación Recuperando Identidad**
+* Diseño y código: [AnaMar8a](https://www.linkedin.com/in/8aanamaria/)
 
 ---
 
-💜 *Nombrar es el primer paso para transformar.*
+## 🪴 Licencia
+
+Este proyecto es de **uso libre con fines pedagógicos y comunitarios**.
+Se invita a su remezcla, resignificación y expansión, siempre que se reconozca la autoría colectiva y se mantenga su espíritu feminista y de cuidado.
