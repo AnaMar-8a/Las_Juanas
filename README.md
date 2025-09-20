@@ -1,114 +1,113 @@
-# 📖 Abecedario Político Interactivo
+# 📖 Abecedario Político Interactivo — Escuela Las Juanas
 
-Un proyecto de la **Escuela de Formación Política Feminista Las Juanas** 🌿 ✊🏽.
-Este repositorio contiene el código del **glosario interactivo**, una herramienta pedagógica, digital y comunitaria que busca nombrar el mundo desde las luchas feministas, decoloniales y colectivas.
-
----
-
-## 🚀 Concepto del Proyecto
-
-El **Abecedario Político Interactivo** es más que un recurso digital: es una práctica de memoria viva. Cada término, cada animación y cada interacción fue pensada como un ejercicio de **cuidado, pedagogía y transformación**.
-
-El proyecto se basa en la convicción de que **nombrar es transformar**: rescatar palabras, resignificarlas y compartirlas es un acto de soberanía epistémica y de creación colectiva.
+Una herramienta digital feminista y pedagógica para **nombrar, compartir y transformar**. Este glosario interactivo está pensado como un **espacio vivo**: no solo entrega definiciones, sino que invita a la comunidad a co-crear, aportar y resignificar.
 
 ---
 
-## 💻 Elementos Técnicos del Código
+## ✨ Novedades en la versión 2.1
 
-* **Framework visual:** Tailwind CSS.
-* **Tipografías:** Inter (texto) y Domine (títulos).
-* **Diseño responsivo:** navegación lateral en escritorio y superior horizontal en móvil.
-* **Glosario interactivo:** búsqueda, navegación por letras, selección aleatoria.
-* **Modal de cuidado:** los términos se abren en un espacio de lectura calmada y reflexiva.
-* **Animación rizomática:** un fondo vivo que representa redes comunitarias, orgánicas y no jerárquicas.
-* **Lenguaje inclusivo en funciones JS:**
+### 🌱 Rizomas en Crecimiento
 
-  * `abrirCuidadoDeLaPalabra()` en lugar de `showTermPopup()`.
-  * `cerrarEspacioDeReflexion()` en lugar de `hideTermPopup()`.
+* La animación del fondo ha sido reprogramada para crecer **progresivamente en 20 minutos**.
+* Los rizomas comienzan sutiles y lentamente expanden sus conexiones hasta tejer una red que abarca toda la página.
+* Esta metáfora visual refuerza la idea de un conocimiento que se expande y se fortalece colectivamente con el tiempo.
+
+### 💬 Botón de Co-creación (WhatsApp)
+
+* Nuevo botón flotante en el lateral derecho.
+* Invita a la comunidad a sumarse y aportar al glosario vivo.
+* Mensaje predeterminado: *“Hola, quisiera aportar al glosario vivo de Las Juanas”.*
+
+### 📝 Código Comentado
+
+* Cada sección clave del HTML y JS ahora incluye comentarios.
+* Identificación sencilla de:
+
+  * Botón de WhatsApp.
+  * Parámetros de la animación de rizomas.
+  * Espacios de contenido principal.
 
 ---
 
-## 🌿 Recomendaciones Generales para Optimizar la Herramienta
+## 🌿 Concepto
+
+El Abecedario Político es más que una lista de definiciones: es un **territorio digital de cuidado** donde cada palabra se siembra y florece colectivamente.
+
+* **Lenguaje vivo:** las definiciones incluyen ejemplos cotidianos.
+* **Cuidado estético:** tipografía orgánica, colores feministas y animaciones suaves.
+* **Memoria y colectividad:** visibiliza a co-creadoras y diseñadora, honrando la autoría compartida.
+
+---
+
+## 🎨 Recomendaciones Generales para Optimizar la Herramienta
 
 ### 1. Tipografía: voz clara y acogedora
 
-* **Cuerpo de texto:** Inter (accesible y legible).
-* **Títulos:** Fraunces, Crimson Pro o Domine (más orgánicas, con aire editorial).
-* **Accesibilidad:** mínimo 18px en móviles.
+* **Inter** → cuerpo de texto.
+* **Fraunces, Crimson Pro o Domine** → títulos con aire editorial.
+* Tamaño mínimo 18px en móviles.
 
-### 2. Paleta de colores feminista y de cuidado
+### 2. Paleta de colores feminista y orgánica
 
-* Morado vibrante **#6d28d9** como acento.
-* Tonos tierra suaves: **#f5f0e6**, **#d68c45**.
-* Verdes y rosados apagados: **#9CA986**, **#E6A6A1**.
-* Fondos claros cálidos en secciones largas.
-* Diferenciar paneles con degradados suaves o texturas.
+* Morado vibrante `#6d28d9` como acento.
+* Complementar con tonos tierra suaves, verdes salvia `#9CA986`, rosa arcilla `#E6A6A1`.
+* Fondos claros cálidos y degradados suaves.
 
 ### 3. UX/UI inclusiva
 
-* Revisar contraste para accesibilidad.
-* Modo **alto contraste / lectura simple**.
-* Navegación horizontal en móvil + buscador superior.
-* Animaciones sutiles: transiciones fluidas en lugar de bruscas.
+* Contrastes accesibles y opción de “modo lectura simple”.
+* Navegación alfabética horizontal en móvil.
+* Buscador por palabra clave.
+* Animaciones con fade y deslizamiento en lugar de escalas bruscas.
 
 ### 4. Lenguaje de cuidado en la interfaz
 
-* “Inicio” → “Volver al abrazo / Casa común”.
-* “Cerrar” → “Volver / Cuidar la vista”.
-* Cada definición con **ejemplo cotidiano** resaltado en un cuadro cálido.
+* “Volver al abrazo” en vez de Inicio.
+* “Cuidar la vista” en vez de Cerrar.
+* Cada término con un **ejemplo cotidiano** en recuadro cálido.
 
 ### 5. Elementos pedagógicos feministas
 
-* **Cuerpo-territorio digital:** ilustraciones suaves (plantas, tejidos, cuerpos).
-* **Colectividad:** futura opción de comentarios colaborativos.
-* **Memoria viva:** botón *“Escucha esta palabra”* con voces de mujeres.
-* **Despatriarcalizar el código:** funciones con nombres narrativos.
+* **Cuerpo-territorio digital:** rizomas como metáfora de conocimiento.
+* **Colectividad:** botón de WhatsApp para sumar voces.
+* **Memoria viva:** posibilidad de agregar audios con voces comunitarias.
+* **Código narrativo:** funciones con nombres como `abrirCuidadoDeLaPalabra()`.
 
 ---
 
-## ✨ Elementos adicionales de cuidado y comunidad
+## 🌸 Reflexión Feminista sobre el Código
 
-* **Consentimiento digital:** incluir un aviso de que la información puede ser resignificada y que se invita a navegar con calma.
-* **Ritmos orgánicos:** permitir que usuarias ajusten velocidad de animaciones o apagarlas.
-* **Espacios de crecimiento colectivo:** integrar módulos donde las participantes puedan sumar nuevos términos en futuras versiones.
-* **Cartografía de vínculos:** añadir visualizaciones que muestren cómo las palabras se conectan entre sí como una red viva.
-* **Prácticas de autocuidado:** pequeñas pausas o recordatorios que inviten a descansar la vista o a reflexionar.
+Este código no es neutral: es un **acto de cuidado y resistencia**.
 
----
+* El fondo rizomático recuerda que los saberes se tejen en red, no en jerarquía.
+* Las funciones nombradas con ternura politizan el lenguaje técnico.
+* Las animaciones suaves humanizan la interacción, alejándola del productivismo digital.
+* El botón de WhatsApp materializa la **co-creación**: la herramienta crece con la comunidad.
 
-## 🌸 Reflexión Feminista y de Cuidado
-
-Este código no es neutro: es una **herramienta política**. Cada función, cada estilo, cada palabra refleja un compromiso con el **cuidado, la memoria y la comunidad**.
-
-* Usar un **glosario feminista digital** es disputar la narrativa de internet, haciéndolo espacio de afecto, resistencia y aprendizaje.
-* La elección de nombres de funciones narrativas es un acto de **despatriarcalización del código**.
-* El fondo rizomático no es solo estético: es metáfora de las redes feministas, horizontales, resilientes y colectivas.
-* La interfaz no solo informa: **abraza, acompaña y nombra**.
+El Abecedario Político nos enseña que **programar también puede ser un gesto feminista**, un espacio donde la tecnología se habita con afecto, memoria y colectividad.
 
 ---
 
-## 📂 Estructura del Repositorio
+## 🚀 Instalación y uso
 
-```
-.
-├── index.html   # Código principal
-├── README.md    # Documentación
-└── assets/      # Carpeta futura para imágenes, audios o ilustraciones
-```
+1. Clonar el repositorio:
 
----
-
-## 🤝 Créditos
-
-* **Escuela de Formación Política Feminista Las Juanas**
-* **Movimiento Político Electas**
-* **Instituto Update**
-* **Corporación Recuperando Identidad**
-* Diseño y código: [AnaMar8a](https://www.linkedin.com/in/8aanamaria/)
+   ```bash
+   git clone https://github.com/tuusuario/abecedario-politico.git
+   ```
+2. Abrir el archivo `index.html` en tu navegador.
+3. Explorar el glosario, contribuir desde el botón de WhatsApp o proponer cambios vía Pull Request.
 
 ---
 
-## 🪴 Licencia
+## 👩‍💻 Autoría
 
-Este proyecto es de **uso libre con fines pedagógicos y comunitarios**.
-Se invita a su remezcla, resignificación y expansión, siempre que se reconozca la autoría colectiva y se mantenga su espíritu feminista y de cuidado.
+* **Escuela de Formación Política Feminista Las Juanas** — Herramienta co-creada desde la escuela.
+* **AnaMar8a** — Diseño y desarrollo.
+* **Movimiento Electas, Instituto Update, Corporación Recuperando Identidad** — Aliadas en la co-creación.
+
+---
+
+## 💜 Licencia
+
+Este proyecto es de uso libre bajo licencia **Creative Commons BY-SA 4.0**. Comparte, remezcla y expande, siempre reconociendo la autoría colectiva.
