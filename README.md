@@ -16,25 +16,26 @@ El diseño busca alejarse de lo rígido y lo institucional, para abrazar una est
 
 1. **Estructura base HTML**
 
-   * Navegación lateral con letras del abecedario.
-   * Área principal con portada y lista de términos.
+   * Navegación lateral (escritorio) y superior (móvil/tablet).
+   * Área principal con portada, buscador y lista de términos.
    * Modal interactivo para definiciones.
 
 2. **Estilos CSS con Tailwind y tipografías de Google Fonts**
 
-   * Fuentes actuales: *Inter* (texto) y *Montserrat* (títulos).
+   * Fuentes: *Inter* (texto) y *Domine* (títulos).
    * Paleta inicial: morado (#6d28d9) como acento, con grises y blanco.
-   * Animaciones sutiles: *fade in*, transiciones hover y escalados.
+   * Animaciones: *fade in*, *pulse*, transiciones hover y escalados.
 
 3. **Animación de fondo con Canvas**
 
-   * Partículas y conexiones en movimiento, generando un efecto rizomático.
+   * Rizomas digitales: nodos y conexiones en movimiento, evocando redes comunitarias.
 
 4. **JavaScript**
 
    * Renderizado dinámico de términos.
-   * Apertura y cierre de modales.
+   * Apertura y cierre de modales con nombres narrativos (`abrirCuidadoDeLaPalabra`, `cerrarEspacioDeReflexion`).
    * Función de “término aleatorio”.
+   * Buscador interactivo con resultados en tiempo real.
 
 ---
 
@@ -42,7 +43,7 @@ El diseño busca alejarse de lo rígido y lo institucional, para abrazar una est
 
 ### 1. Tipografía: voz clara y acogedora
 
-* **Actualmente**: Inter (cuerpo), Montserrat (títulos).
+* **Actualmente**: Inter (cuerpo), Domine (títulos).
 * **Sugerencia**:
 
   * Inter (cuerpo de texto, claro y accesible).
@@ -66,7 +67,7 @@ El diseño busca alejarse de lo rígido y lo institucional, para abrazar una est
   * Buscador por palabra clave.
 * Animaciones más orgánicas:
 
-  * Partículas con menor opacidad o posibilidad de apagarlas.
+  * Rizomas más sutiles, con opacidad baja o botón para apagarlos.
   * Transiciones suaves (fade + deslizar).
 
 ### 4. Lenguaje de cuidado en la interfaz
@@ -75,17 +76,51 @@ El diseño busca alejarse de lo rígido y lo institucional, para abrazar una est
 
   * “Inicio” → “Casa común” o “Volver al abrazo”.
   * “Cerrar” → “Cuidar la vista” o “Volver”.
-* Cada definición puede incluir un **ejemplo cotidiano** resaltado en una caja cálida.
+* Cada definición incluir un **ejemplo cotidiano** resaltado en una caja cálida.
 
 ### 5. Elementos pedagógicos feministas
 
 * **Cuerpo-territorio digital**: integrar ilustraciones suaves de plantas, tejidos, cuerpos.
 * **Colectividad**: abrir espacio para comentarios o resignificación de términos.
 * **Memoria viva**: opción de escuchar cada término con voces de mujeres de la comunidad.
-* **Despatriarcalizar el código**: renombrar funciones con metáforas narrativas:
+* **Despatriarcalizar el código**: mantener nomenclaturas narrativas y afectivas en las funciones.
 
-  * `showTermPopup()` → `abrirCuidadoDeLaPalabra()`.
-  * `hideTermPopup()` → `cerrarEspacioDeReflexion()`.
+---
+
+## ✨ Reflexión sobre el código como ejercicio de género y cuidado
+
+Este proyecto no es solo un artefacto digital: es un **ejercicio pedagógico feminista** que habita el lenguaje del código para abrir espacios de cuidado, memoria y transformación política. Revisar el código nos invita a pensar no únicamente en su funcionalidad técnica, sino también en cómo transmite valores de **inclusión, accesibilidad y colectividad**.
+
+### 🌿 Cuidado en la experiencia
+
+* La metáfora del **rizoma** como fondo animado habla de una pedagogía feminista que no busca centros de poder, sino redes que se expanden, se interconectan y se regeneran.
+* Navegación diferenciada para móvil y escritorio, cuidando contextos diversos de acceso.
+* Colores cálidos y transiciones suaves crean un entorno que invita al diálogo.
+
+### 📖 Lenguaje como gesto político
+
+* Funciones renombradas para reflejar cuidado: `abrirCuidadoDeLaPalabra()`, `cerrarEspacioDeReflexion()`.
+* Botones con lenguaje afectivo: **“Volver al abrazo”**, **“Cuidar la vista”**.
+
+### 🌸 Accesibilidad y pedagogía feminista
+
+* Buscador como gesto inclusivo: cada persona puede encontrar su palabra.
+* Modales con definición + **ejemplo cotidiano**, bajando la teoría al día a día.
+* Co-creadoras y diseñadora nombradas e hipervinculadas, reconociendo la colectividad.
+
+### 🌍 Código como cuerpo-territorio
+
+* El canvas animado evoca rizomas y redes de vida: cuerpo y territorio inseparables, también en lo digital.
+* El código late con *pulse* y *fade*, respirando como un cuerpo vivo.
+* Las decisiones visuales buscan un entorno de cuidado más que de productividad acelerada.
+
+### 💜 Hacia una tecnología feminista
+
+Este código muestra que **despatriarcalizar lo digital** implica más que visibilizar mujeres: significa pensar la tecnología como espacio de afecto, memoria y autonomía.
+
+Cada clase CSS, cada nombre de función, cada animación es una decisión política: ¿reproducimos la rigidez del software corporativo o abrimos grietas para una estética feminista, orgánica y colectiva?
+
+🌿 *Así, el glosario no solo enseña palabras: también enseña que el propio código puede ser un acto de cuidado y resistencia.*
 
 ---
 
@@ -93,9 +128,9 @@ El diseño busca alejarse de lo rígido y lo institucional, para abrazar una est
 
 1. Ajustar tipografía y colores para mayor organicidad.
 2. Incluir CTA sutiles con hover cálido y sombras suaves.
-3. Implementar buscador y accesibilidad con toggle de contraste.
+3. Implementar buscador mejorado y accesibilidad con toggle de contraste.
 4. Incorporar audios y ejemplos cotidianos en cada definición.
-5. Revisar el código para aplicar nomenclaturas feministas.
+5. Mantener la coherencia feminista en la estructura y el lenguaje del código.
 
 ---
 
