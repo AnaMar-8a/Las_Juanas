@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return response.json(); // Convertimos la respuesta a formato JSON.
         })
         .then(data => {
-            glossaryData = data; // Guardamos los datos en nuestra variable.
+            glossaryData = data.terms; // Guardamos la lista de términos, no el objeto completo.
             // Una vez cargados los datos, iniciamos la aplicación.
             initializeApp();
         })
@@ -435,5 +435,3 @@ document.addEventListener('DOMContentLoaded', function () {
         animationFrameId = requestAnimationFrame(animate);
     }
 });
-
-
