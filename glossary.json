@@ -1,0 +1,191 @@
+{
+    "_meta": {
+        "projectName": "Abecedario Político Interactivo",
+        "version": "1.0",
+        "description": "Este archivo contiene todos los términos, definiciones y ejemplos del glosario. Está diseñado para ser la única fuente de verdad de los datos, facilitando su actualización y mantenimiento.",
+        "contribution_guide": "Para añadir o sugerir un cambio, por favor, utiliza la plantilla 'Sugerencia de Término' en la sección de 'Issues' del repositorio de GitHub. No edites este archivo directamente en la rama principal."
+    },
+    "terms": [
+        {
+            "letter": "A",
+            "term": "Abya Yala",
+            "definition": "Es el nombre con el que el pueblo Guna ha nombrado desde siempre al continente que hoy conocemos como América. Significa \"tierra en plena madurez\" o \"tierra de sangre vital\". Utilizar \"Abya Yala\" es un acto de soberanía epistémica. Desafía directamente la narrativa colonial del \"descubrimiento\", que presenta a este continente como un territorio vacío, salvaje y sin historia, esperando ser \"encontrado\" por Europa.",
+            "practice": "Cuando decimos \"luchas desde Abya Yala\", no solo ubicamos geográficamente nuestra acción. Estamos afirmando nuestra pertenencia a un proyecto continental de liberación que se nutre de las memorias y resistencias de los pueblos originarios, y que busca un futuro más allá del Estado-nación moderno impuesto."
+        },
+        {
+            "letter": "A",
+            "term": "Acciones Afirmativas",
+            "definition": "Son políticas y medidas temporales diseñadas para corregir las desigualdades históricas y estructurales que enfrentan ciertos grupos de la población (mujeres, pueblos indígenas, afrodescendientes, etc.). No son \"privilegios\", sino herramientas para nivelar el punto de partida.",
+            "practice": "Implementar acciones afirmativas, como se mencionó en la sesión sobre curules feministas, es una característica clave de una agenda transformadora. Un ejemplo concreto son las \"becas para personas trans y no binarias\" logradas en Medellín, que buscan reparar una exclusión histórica del sistema educativo."
+        },
+        {
+            "letter": "A",
+            "term": "Agenda Política Feminista",
+            "definition": "Es el conjunto de objetivos, propuestas y reivindicaciones estratégicas que un movimiento o actor político feminista busca impulsar. No es una lista de \"temas de mujeres\", sino un proyecto integral para transformar la sociedad en su conjunto.",
+            "practice": "La agenda política feminista se materializa en propuestas concretas como la creación de un Sistema de Cuidado, la lucha por la justicia ambiental, la defensa de los derechos sexuales y reproductivos o la asignación de presupuestos con perspectiva de género. Es la hoja de ruta que guía la incidencia política."
+        },
+        {
+            "letter": "A",
+            "term": "Améfrica / Amefricanidad",
+            "definition": "Un concepto político y geográfico acuñado por la visionaria intelectual afrobrasileña Lélia Gonzalez. Es una herramienta teórica para demoler el mito de la \"democracia racial\" y del \"mestizaje\" como proyectos de blanqueamiento y borramiento de la herencia africana.",
+            "practice": "Cuando la ponente Tania Ramírez se enuncia como \"amefricana del Sur\", está reivindicando su lugar en una genealogía de lucha antirracista transnacional. Sitúa su feminismo en diálogo directo con el pensamiento de las mujeres negras del continente."
+        },
+        {
+            "letter": "A",
+            "term": "Androcentrismo",
+            "definition": "Es la visión del mundo que sitúa al hombre (varón) como el centro y la medida de todas las cosas. Lo masculino se convierte en la norma universal y lo femenino es considerado \"lo otro\", una desviación o una excepción.",
+            "practice": "Cuestionar el androcentrismo significa preguntarnos activamente: ¿dónde están las mujeres en esta historia? ¿Esta política pública tiene en cuenta las necesidades específicas de las mujeres y disidencia? Es un ejercicio constante de descentrar la mirada masculina."
+        },
+        {
+            "letter": "B",
+            "term": "Buen Vivir (Sumak Kawsay)",
+            "definition": "Es un horizonte de vida y un paradigma civilizatorio que surge de las cosmovisiones indígenas de los Andes, que propone una vida en plenitud y armonía, no solo entre los seres humanos, sino con la totalidad de la existencia, con la Pachamama o Madre Tierra.",
+            "practice": "El Buen Vivir nos inspira a construir economías que pongan el cuidado de la vida en el centro, a organizar nuestras comunidades de forma más horizontal y a luchar contra los proyectos extractivistas que destruyen el tejido de la vida. Es un horizonte político que nos permite imaginar futuros más allá del capitalismo."
+        },
+        {
+            "letter": "C",
+            "term": "Cimarronaje",
+            "definition": "Es el acto histórico y continuo de rebelión y fuga de las personas africanas esclavizadas, quienes crearon comunidades autónomas y libres llamadas palenques o quilombos. Es una filosofía política de la libertad.",
+            "practice": "La organización de Wendy Pérez, \"CIMARRONAS\", evoca directamente esta herencia. Hoy, el cimarronaje se manifiesta en la defensa de los territorios colectivos y en la recuperación de saberes ancestrales como forma de sanación y resistencia política."
+        },
+        {
+            "letter": "C",
+            "term": "Cisheteropatriarcado",
+            "definition": "Describe el sistema de opresión en el que no solo domina lo masculino (patriarcado), sino que también se impone la heterosexualidad (hetero-) y la identidad cisgénero (cis-) como las únicas normas válidas y naturales.",
+            "practice": "Luchar contra el cisheteropatriarcado, como se enuncia en el guion de la escuela, es ir más allá de la lucha por los derechos de las mujeres cisgénero. Implica defender el derecho a la identidad de las personas trans y combatir la homofobia y la transfobia."
+        },
+        {
+            "letter": "C",
+            "term": "Cuerpo-Territorio",
+            "definition": "Concepto central en los feminismos comunitarios que afirma la conexión inseparable entre nuestro cuerpo y la tierra que habitamos. El cuerpo es nuestro primer territorio de soberanía.",
+            "practice": "Al proponer \"protocolos de cuidado\" en nuestras asambleas, estamos ejerciendo un acto político de defensa de nuestros cuerpos como territorios que merecen ser habitados con seguridad y respeto. Defender la soberanía sobre nuestros cuerpos es defender el territorio."
+        },
+        {
+            "letter": "C",
+            "term": "Curul Feminista",
+            "definition": "Es un espacio de representación política que es ocupado con el objetivo explícito de impulsar una agenda política feminista para transformar las estructuras de desigualdad. No es un simple asiento ocupado por una mujer; es un \"territorio de disputa\".",
+            "practice": "Una curul feminista se caracteriza por la representation sustantiva, la autonomía política, la promoción de acciones afirmativas y la valentía para defender posturas impopulares pero necesarias. Las victorias tangibles, como la creación de un Sistema de Cuidado en Medellín, son el resultado de la incidencia desde estas curules."
+        },
+        {
+            "letter": "D",
+            "term": "Despatriarcalización",
+            "definition": "Es un proceso político radical que busca desmontar el patriarcado, entendido como un sistema de organización social jerárquico que fue impuesto y reconfigurado por el colonialismo. Es necesariamente una lucha antirracista y anticapitalista.",
+            "practice": "El trabajo que lidera Wendy Pérez en Bolivia es un ejemplo. No se trata solo de crear leyes contra la violencia de género, sino de transformar las estructuras del Estado y de la sociedad para que se basen en principios de complementariedad y reciprocidad."
+        },
+        {
+            "letter": "E",
+            "term": "Economía del Cuidado",
+            "definition": "Se refiere a todo el trabajo, mayoritariamente no remunerado e invisibilizado, que se realiza para sostener la vida y el bienestar de las personas. La economía feminista busca visibilizar, valorar y redistribuir este trabajo.",
+            "practice": "Luchar por sistemas públicos de cuidado (guarderías, centros de día para mayores), exigir que el trabajo doméstico sea remunerado y valorado, y redistribuir las tareas del hogar de forma equitativa son formas de politizar la economía del cuidado y construir \"economías para la vida\"."
+        },
+        {
+            "letter": "E",
+            "term": "Escri-vivencia (Escrevivência)",
+            "definition": "Un concepto creado por Conceição Evaristo para describir una forma de escritura que nace de la experiencia vivida, colectiva y cotidiana de las mujeres negras. No es una escritura \"sobre\" la vida, sino que es la vida misma haciéndose texto.",
+            "practice": "La propuesta de la presentación de usar la \"Escri-vivencia\" como herramienta es una invitación a documentar nuestros procesos no desde una mirada externa y \"objetiva\", sino desde nuestras propias voces y cuerpos."
+        },
+        {
+            "letter": "F",
+            "term": "Feminismo(s)",
+            "definition": "Es un conjunto de movimientos políticos, sociales y teorías que tienen como objetivo común la liberación de las mujeres y la erradicación de todas las formas de opresión generadas por el patriarcado. Se habla en plural para reconocer la diversidad de corrientes (negro, indígena, comunitario, etc.).",
+            "practice": "Ser parte de Las Juanas es hacer feminismo. Es un movimiento que busca no solo la igualdad ante la ley, sino la transformación radical de todas las estructuras de poder que nos oprimen."
+        },
+        {
+            "letter": "G",
+            "term": "Género",
+            "definition": "Es la construcción social y cultural que se asigna a las personas a partir de su sexo biológico. No es algo natural, sino un conjunto de ideas, roles y expectativas que una sociedad impone sobre lo que significa \"ser hombre\" o \"ser mujer\".",
+            "practice": "Cuestionar los roles de género es desobedecer los mandatos del patriarcado. Es validar que no hay una única forma de ser mujer, es luchar por el reconocimiento de todas las identidades de género."
+        },
+        {
+            "letter": "H",
+            "term": "Hegemonía",
+            "definition": "Es el liderazgo o dominio de un grupo social sobre otros, basado no solo en la fuerza, sino en la capacidad de presentar sus intereses como si fueran los de toda la sociedad, como \"sentido común\".",
+            "practice": "La lucha feminista y decolonial es una lucha contra-hegemónica. Buscamos romper ese falso \"sentido común\" para demostrar que existen otros saberes y otras formas de organizar la vida. Cada vez que hablamos de \"feminismos\" en plural, estamos desafiando la hegemonía de un único feminismo."
+        },
+        {
+            "letter": "I",
+            "term": "Incidencia",
+            "definition": "Es la capacidad de influir y generar cambios concretos en las decisiones políticas, las políticas públicas, los presupuestos y las narrativas sociales. Es el proceso de traducir la presencia y la voz política en resultados tangibles.",
+            "practice": "La incidencia se logra a través de debates de control político, la presentación de proyectos de ley y la fiscalización de los recursos públicos para garantizar que lleguen a las mujeres y comunidades históricamente excluidas."
+        },
+        {
+            "letter": "I",
+            "term": "Interseccionalidad",
+            "definition": "Herramienta analítica propuesta por Kimberlé Crenshaw para comprender cómo las diferentes estructuras de poder (racismo, patriarcado, etc.) se cruzan e interactúan, produciendo experiencias de opresión específicas y agravadas.",
+            "practice": "Cuando diseñamos una política, el enfoque interseccional nos obliga a situarnos en las encrucijadas de la opresión y a preguntarnos: ¿cómo afecta esto a una mujer indígena desplazada y con discapacidad? Nos exige construir políticas desde los márgenes."
+        },
+        {
+            "letter": "J",
+            "term": "Justicia Lingüística",
+            "definition": "Es un principio político que reconoce que todas las lenguas y formas de comunicación tienen el mismo valor, buscando garantizar que todas las personas puedan expresarse y comprender en su propia lengua.",
+            "practice": "Un protocolo de cuidado en un encuentro debe incluir la justicia lingüística. Esto significa tener intérpretes para lenguas originarias, pero también valorar los diferentes acentos y dialectos, entendiendo que la lengua es también un territorio de identidad y resistencia."
+        },
+        {
+            "letter": "N",
+            "term": "Necropolítica",
+            "definition": "Concepto de Achille Mbembe para describir cómo el poder soberano opera decidiendo quién debe vivir y quién debe morir, exponiendo a ciertas poblaciones a una precariedad extrema, a una muerte lenta o a una eliminación directa.",
+            "practice": "Vemos la necropolítica en las fronteras, en los territorios contaminados por extractivismo, en la violencia feminicida y en la brutalidad policial. Es una herramienta para analizar cómo operan las \"formas contemporáneas de subyugación de la vida al poder de la muerte\"."
+        },
+        {
+            "letter": "P",
+            "term": "Patriarcado",
+            "definition": "Es un sistema de dominación social, político y cultural en el que los hombres (lo masculino) ostentan el poder y los privilegios. No es la \"suma de hombres malos\", sino una estructura profunda que organiza toda la sociedad.",
+            "practice": "Nos enfrentamos al patriarcado cuando luchamos contra la violencia machista, cuando exigimos igual salario por igual trabajo, y cuando construimos formas de organización que no se basan en la jerarquía y la competencia."
+        },
+        {
+            "letter": "P",
+            "term": "Perspectiva de Género",
+            "definition": "Es una herramienta analítica que nos permite observar y comprender las desigualdades, roles y violencias que existen entre hombres, mujeres y otras identidades. Es como ponerse unas gafas para ver cómo el género impacta todos los aspectos de la vida.",
+            "practice": "Aplicar la perspectiva de género en una política pública significa analizar cómo afectará de manera diferenciada a hombres y a mujeres. En una organización, significa revisar si nuestras prácticas internas reproducen roles de género."
+        },
+        {
+            "letter": "P",
+            "term": "Poder (Concepción Feminista)",
+            "definition": "Es una redefinición radical del poder. Desafía el \"poder sobre\" (dominación) para proponer formas de \"poder para\" (capacidad de transformar) y \"poder con\" (construcción de fuerza colectiva).",
+            "practice": "Construir \"poder con\" significa tomar decisiones de forma más democrática y horizontal. Pasar del \"poder sobre\" al \"poder para\" se traduce en usar una curul no para el beneficio personal, sino para impulsar una agenda que mejore la vida de la comunidad."
+        },
+        {
+            "letter": "P",
+            "term": "Poder Popular",
+            "definition": "Es la capacidad política que construyen las comunidades desde la base para gobernar sus vidas y territorios de forma autónoma, sin depender de las estructuras del Estado o del capital.",
+            "practice": "Una asamblea comunitaria que decide de forma vinculante cómo gestionar sus recursos hídricos es Poder Popular. El gran desafío es \"despatriarcalizar\" los espacios de base para que no reproduzcan las mismas lógicas de poder que buscamos derribar."
+        },
+        {
+            "letter": "P",
+            "term": "Punitivismo",
+            "definition": "Se refiere a la tendencia a creer que la única solución a los problemas sociales, especialmente la violencia de género, es a través del castigo y la expansión del sistema penal. Desde una perspectiva feminista decolonial y antirracista, el punitivismo es una trampa.",
+            "practice": "Como se mencionó en la sesión sobre los retos de las curules feministas, es clave \"evitar la lógica punitiva\". Esto implica buscar alternativas como la justicia restaurativa, invertir en prevención, educación y autonomía económica para las mujeres."
+        },
+        {
+            "letter": "R",
+            "term": "Representación Sustantiva",
+            "definition": "Es un tipo de representación política que va más allá de la simple presencia numérica. Implica que las personas electas actúen en favor de los intereses y las agendas del grupo al que representan. Se trata de pasar \"de la cifra a la incidencia\".",
+            "practice": "Una curul feminista busca la representación sustantiva. No se limita a \"ser la voz de las mujeres\", sino que traduce las demandas de los movimientos feministas en leyes, políticas públicas y presupuestos concretos."
+        },
+        {
+            "letter": "R",
+            "term": "Rizoma",
+            "definition": "Concepto filosófico que describe una forma de organización que no tiene centro ni jerarquía, sino que se expande en red, como las raíces del jengibre. Es flexible, adaptable y resistente.",
+            "practice": "El movimiento #NiUnaMenos funciona de forma rizomática. No hay una única sede ni una presidenta, sino miles de nodos autónomos que comparten principios y se activan coordinadamente. \"La comunidad es el currículo\" y la red evoluciona constantemente."
+        },
+        {
+            "letter": "S",
+            "term": "Sistema de Cuidado",
+            "definition": "Es la materialización de la \"Economía del Cuidado\" a través de políticas públicas. Se trata de un conjunto de programas y servicios organizados por el Estado para reconocer, reducir y redistribuir el trabajo de cuidado.",
+            "practice": "La creación de un Sistema de Cuidado como programa estratégico en Medellín es una \"victoria tangible\" de la incidencia feminista. Este sistema puede incluir lavanderías comunitarias, comedores populares y espacios de cuidado infantil."
+        },
+        {
+            "letter": "S",
+            "term": "Sororidad",
+            "definition": "Es un pacto político y ético entre mujeres para apoyarse, reconocerse y luchar juntas contra el patriarcado. No es una \"amistad ingenua\", sino una alianza estratégica. Debe ser crítica e interseccional.",
+            "practice": "La sororidad se activa cuando creemos y apoyamos a una mujer que denuncia una agresión, cuando visibilizamos el trabajo de otras compañeras y cuando somos capaces de nombrar y confrontar el racismo y el clasismo dentro de nuestros propios movimientos."
+        },
+        {
+            "letter": "S",
+            "term": "Sur Global",
+            "definition": "Térmico político para referirse a los países de África, América Latina, Asia y Oceanía que comparten una historia de colonialismo y ocupan una posición de desventaja en el sistema económico mundial. Es un posicionamiento político de resistencia.",
+            "practice": "Definir nuestra política como emergente \"desde el Sur Global\" es conectar nuestras luchas locales a un movimiento planetario. Es valorar el conocimiento producido desde nuestras realidades y construir alianzas con otros pueblos que resisten al mismo sistema de opresión."
+        }
+    ]
+}
+
