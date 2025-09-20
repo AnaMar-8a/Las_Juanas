@@ -1,69 +1,40 @@
-name: "🐛 Reporte de Error"
-about: Ayúdanos a cuidar y mejorar este espacio reportando problemas o errores que encuentres.
-title: "BUG: [Describe el error brevemente]"
-labels: "bug"
-assignees: ""
+# 🐛 Reporte de Error
 
-body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Describe el error
-        Una descripción clara y amable de cuál es el problema que encontraste. Cuéntanos con tus palabras, para que podamos entenderlo y solucionarlo juntas.
+¡Hola! Gracias por ayudarnos a cuidar y mejorar este espacio. 💖  
+Tu aporte hace que este glosario sea más sabio, accesible y amoroso. 🌱  
 
-  - type: input
-    id: error-description
-    attributes:
-      label: "Describe el error"
-      placeholder: "Por ejemplo: el enlace de la palabra 'equidad' no lleva a ninguna parte."
-      required: true
+Por favor, completa la información a continuación para que podamos entender y solucionar el problema de la mejor manera posible.
 
-  - type: markdown
-    attributes:
-      value: |
-        ## Para reproducir
-        Pasos para reproducir el comportamiento que observaste:
+---
 
-  - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: "Pasos"
-      description: |
-        Ve a '...'
+## 📝 Describe el error
+Cuéntanos con tus palabras qué problema encontraste.  
+Queremos entenderlo bien para poder solucionarlo de manera amorosa y colaborativa.  
 
-        Haz clic en '....'
+**Ejemplo:** el enlace de la palabra "equidad" no lleva a ninguna parte.
 
-        Navega hacia abajo hasta '....'
+---
 
-        Observa el error
-      placeholder: "Escribe los pasos exactos para que podamos ver el error también."
-      required: true
+## 🔄 Para reproducir
+Indícanos los pasos exactos para reproducir el error:
 
-  - type: markdown
-    attributes:
-      value: |
-        ## Comportamiento esperado
-        Describe de manera clara y concisa lo que esperabas que sucediera, para que podamos entender la diferencia y mejorar la experiencia.
+1. Ve a '...'  
+2. Haz clic en '....'  
+3. Navega hacia abajo hasta '....'  
+4. Observa el error  
 
-  - type: input
-    id: expected-behavior
-    attributes:
-      label: "Comportamiento esperado"
-      placeholder: "Por ejemplo: el enlace debería llevar al término correspondiente del glosario."
-      required: true
+Esto nos ayuda a verlo como tú lo viste y arreglarlo mejor. 🛠️
 
-  - type: markdown
-    attributes:
-      value: |
-        ## Capturas de pantalla
-        Si es posible, añade capturas que nos ayuden a visualizar el problema.
+---
 
-  - type: input
-    id: screenshots
-    attributes:
-      label: "Capturas de pantalla"
-      placeholder: "Enlace a imagen o adjunta archivo aquí (si GitHub permite)."
+## 🎯 Comportamiento esperado
+Descríbenos qué esperabas que sucediera.  
+Esto nos permite entender la diferencia y mejorar la experiencia de todas.  
 
-  - type: markdown
-    attributes:
+**Ejemplo:** el enlace debería llevar al término correspondiente del glosario.
 
+---
+
+## 📸 Capturas de pantalla
+Si puedes, añade imágenes o capturas que nos ayuden a visualizar el problema.  
+Pueden ser enlaces
