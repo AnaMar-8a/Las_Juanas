@@ -1,6 +1,6 @@
 /**
  * PROYECTO: Abecedario Político Interactivo - Escuela Las Juanas
- * VERSIÓN:  2.2 (Código modularizado y comentado)
+ * VERSIÓN:  3.0 (Estructura Limpia)
  * FECHA:    20 de Septiembre, 2025
  * AUTORA:   AnaMar8a <https://www.linkedin.com/in/8aanamaria/>
  *
@@ -59,9 +59,11 @@ document.addEventListener('DOMContentLoaded', function () {
         .catch(error => {
             // Si hay un error al cargar, lo mostramos en la consola y en la pantalla.
             console.error('Error fatal:', error);
-            mainContent.innerHTML = `<div class="text-center text-red-500">
-                <h2 class="font-bold">No se pudo cargar el glosario</h2>
-                <p>${error.message}</p>
+            mainContent.innerHTML = `<div class="text-center text-red-500 p-8">
+                <h2 class="font-bold text-xl mb-2">Houston, tenemos un problema...</h2>
+                <p>No se pudo cargar el archivo <code>glossary.json</code>.</p>
+                <p class="text-sm mt-2">Revisa la consola (F12) para ver el error técnico.</p>
+                <p class="text-sm mt-1">Asegúrate de que el archivo exista en la raíz del proyecto.</p>
             </div>`;
         });
 
@@ -435,3 +437,4 @@ document.addEventListener('DOMContentLoaded', function () {
         animationFrameId = requestAnimationFrame(animate);
     }
 });
+
