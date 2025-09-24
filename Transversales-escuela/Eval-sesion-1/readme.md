@@ -25,56 +25,52 @@ La información presentada se alimenta directamente de la **Línea Base** y de l
 
 ## ☁️ Nube de Palabras  
 
-La **nube de palabras** es una herramienta visual que:  
-- Muestra los términos **más usados en el chat en vivo** de la sesión.  
-- Representa con **tamaño y color** la frecuencia y relevancia de cada concepto.  
-- Permite identificar rápidamente los **ejes emocionales y políticos** que resonaron en el grupo.  
+La **nube de palabras** refleja los conceptos más mencionados en el chat durante la sesión.  
 
-Ejemplo de interpretación en Sesión 1:  
-- **PODER** → fue el concepto dominante, asociado a la deconstrucción del “poder sobre” hacia un “poder para y con”.  
-- **MUJERES** y **FEMINISTA** → refuerzan el sentido del espacio como político y colectivo.  
-- **Nombres propios (DORA, PAOLA)** → muestran reconocimiento e identificación con las lideresas invitadas.  
+📌 Ejemplo visual:  
 
-La nube funciona no solo como una visualización estética, sino como un **mapa afectivo-político** del espacio.  
+![Nube de Palabras](./assets/wordcloud.png)  
+
+Interpretación en Sesión 1:  
+- **PODER** → concepto dominante, resignificado como "poder para/desde/con".  
+- **MUJERES** y **FEMINISTA** → refuerzan el carácter político del espacio.  
+- **Nombres propios (DORA, PAOLA)** → muestran identificación y reconocimiento hacia las lideresas invitadas.  
 
 ---
 
 ## 📊 Gráficas de Métricas  
 
-Se incluyeron visualizaciones gráficas para:  
+Las gráficas permiten **visualizar los datos de satisfacción y sentimientos**:  
 
 1. **Nivel de Satisfacción General**  
-   - Escala de 1 a 5.  
-   - Resultado: **Promedio 4.8/5**.  
-   - Lectura: altísimo nivel de pertinencia y conexión de la sesión con las participantes.  
+   ![Gráfica de Satisfacción](./assets/satisfaction.png)  
+
+   Resultado: **Promedio 4.8/5** → altísima valoración de la pertinencia de la sesión.  
 
 2. **Análisis de Sentimientos del Chat**  
-   - Categorías: entusiasmo, solidaridad, curiosidad, logística.  
-   - Resultado: **45% entusiasmo y 25% solidaridad** → confirma un ambiente de motivación y comunidad.  
+   ![Gráfica de Sentimientos](./assets/sentiments.png)  
 
-Las gráficas cumplen un rol de **traducción pedagógica de datos**: permiten ver en segundos lo que los números reflejan, facilitando la conversación sobre impacto.  
+   Resultado: **45% entusiasmo y 25% solidaridad** → confirma un ambiente de motivación y comunidad.  
 
 ---
 
 ## 🎓 El Ejercicio de la Escuela Feminista  
 
-Este análisis no es un simple reporte técnico:  
-- **Parte de la práctica política feminista** → reconocer que el conocimiento no está solo en los números, sino también en las voces y afectos.  
-- **Cruza datos cuantitativos con cualitativos** → encuestas y métricas se ponen en diálogo con los aprendizajes relatados y las emociones compartidas.  
-- **Fortalece la estrategia pedagógica** → lo técnico (gráficas, nubes) se convierte en insumo político para ajustar contenidos, equilibrar teoría con experiencia, y validar la relevancia de los espacios de formación.  
+Este análisis se enmarca en la pedagogía política feminista:  
 
-En la **Escuela Las Juanas**, cada sesión es un laboratorio político:  
-- Se mide satisfacción y aprendizaje,  
-- Se identifican demandas emergentes,  
-- Se construye un **archivo feminista de impacto colectivo** que sirve para la incidencia y la sostenibilidad del proyecto.  
+- **Datos como herramienta política** → no son neutros, sirven para validar, ajustar y fortalecer el proceso formativo.  
+- **Cruce entre lo cuantitativo y lo cualitativo** → números y emociones se leen en conjunto.  
+- **Archivo de memoria colectiva** → cada sesión aporta evidencia para la incidencia y sostenibilidad de los espacios feministas.  
+
+La **Escuela Las Juanas** convierte la evaluación en una práctica política: medir, reflexionar y transformar de manera colectiva.  
 
 ---
 
 ## 🚀 Próximos Pasos  
 
-- Incluir en futuras sesiones un **seguimiento longitudinal** de cómo evolucionan los conceptos clave en el tiempo.  
-- Ampliar la visualización con **líneas de tendencia** de satisfacción y aprendizajes.  
-- Incorporar **micro-testimonios de participantes** junto a los datos duros para seguir profundizando en el análisis feminista del impacto.  
+- Incorporar un **seguimiento longitudinal** de evolución de conceptos clave y satisfacción.  
+- Ampliar la visualización con **líneas de tendencia comparativas entre sesiones**.  
+- Integrar **micro-testimonios** de las participantes junto a los datos duros.  
 
 ---
 
