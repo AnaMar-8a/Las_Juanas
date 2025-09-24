@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe de Avance - Escuela Las Juanas</title>
+    
+    <!-- External Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        /* --- Base Styles --- */
+        @import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter:wght@400;600&display=swap');
+        body {
+            background-color: #e5e7eb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Inter', sans-serif;
+            color: #374151;
+        }
+
+        /* --- Layout & Responsiveness --- */
+        #presentation-container {
+            width: 100%;
+            height: 100vh;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+            background-color: #fbf9f6;
+        }
+        @media (min-width: 1024px) {
+            #presentation-container {
+                flex-direction: row;
+                max-width: 1280px;
+                aspect-ratio: 16 / 9;
+                height: auto;
+                border-radius: 0.5rem;
+                box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            }
+        }
+
+        /* --- Component Styles (Typography, Nav, Slides) --- */
+        h1, h2, h3, h4, .font-title {
+            font-family: 'Domine', serif;
+            color: #1f1d2b;
+        }
+        .content-slide {
+            display: none; 
+        }
+        .content-slide.active {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        .nav-link.active {
+            background-color: #8b5cf6;
+            color: white;
+        }
+        .nav-link.active h3, .nav-link.active svg {
+             color: white;
+        }
+        #mobile-nav-scroll {
+            scrollbar-width: none;
+        }
+        #mobile-nav-scroll::-webkit-scrollbar {
+            display: none;
+        }
+        
+        /* --- Animations --- */
+        .content-slide.active {
+            animation: fadeIn 0.6s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* --- Word Cloud Styles --- */
+        .word-cloud-container {
+            max-width: 600px; text-align: center; padding: 1rem;
+        }
+        .word {
+            font-weight: 600; display: inline-block; padding: 0.5rem 0.8rem;
+            transition: transform 0.3s ease-in-out; cursor: default;
+        }
+        .word:hover {
+            transform: scale(1.1) rotate(0deg) !important;
+            z-index: 10; position: relative;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main container for the presentation application -->
+    <div id="presentation-container">
+        
+        <!-- Navigation bar (sidebar on desktop, top bar on mobile) -->
+        <nav class="lg:w-1/4 bg-white/50 lg:border-r border-gray-200 p-4 lg:p-6 flex flex-col justify-between" role="navigation" aria-label="Navegación de diapositivas">
+            <div>
+                <!-- Header visible on desktop -->
+                <div class="hidden lg:block mb-8">
+                    <h2 class="text-2xl font-bold">Las Juanas</h2>
+                    <p class="text-sm text-gray-500">Informe de Avance</p>
+                </div>
+
+                <!-- Desktop navigation links with text -->
+                <div id="desktop-nav-links" class="hidden lg:block space-y-2" role="tablist" aria-orientation="vertical">
+                    <a href="#slide-0" class="nav-link active group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Inicio</h3></a>
+                    <a href="#slide-1" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Resumen</h3></a>
+                    <a href="#slide-2" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Satisfacción</h3></a>
+                    <a href="#slide-3" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Sentimientos</h3></a>
+                    <a href="#slide-4" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Aprendizajes S2</h3></a>
+                    <a href="#slide-5" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Conceptos S2</h3></a>
+                    <a href="#slide-6" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Progresión Ped.</h3></a>
+                    <a href="#slide-7" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Análisis Crítico</h3></a>
+                    <a href="#slide-8" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Recomendaciones</h3></a>
+                    <a href="#slide-9" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Conclusión</h3></a>
+                </div>
+
+                <!-- Mobile navigation with icons to save space -->
+                <div id="mobile-nav-scroll" class="lg:hidden flex justify-around items-center" role="tablist" aria-orientation="horizontal">
+                    <a href="#slide-0" title="Inicio" class="nav-link active flex-shrink-0 p-2 rounded-full text-sm font-semibold transition-colors" role="tab">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+                    </a>
+                    <a href="#slide-1" title="Resumen" class="nav-link flex-shrink-0 p-2 rounded-full text-sm font-semibold transition-colors" role="tab">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                    </a>
+                    <a href="#slide-2" title="Satisfacción" class="nav-link flex-shrink-0 p-2 rounded-full text-sm font-semibold transition-colors" role="tab">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>
+                    </a>
+                    <a href="#slide-3" title="Sentimientos" class="nav-link flex-shrink-0 p-2 rounded-full text-sm font-semibold transition-colors" role="tab">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+                    </a>
+                    <a href="#slide-4" title="Aprendizajes" class="nav-link flex-shrink-0 p-2 rounded-full text-sm font-semibold transition-colors" role="tab">
+                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
+                    </a>
+                     <a href="#slide-6" title="Progresión" class="nav-link flex-shrink-0 p-2 rounded-full text-sm font-semibold transition-colors" role="tab">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
+                    </a>
+                    <a href="#slide-7" title="Análisis Crítico" class="nav-link flex-shrink-0 p-2 rounded-full text-sm font-semibold transition-colors" role="tab">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Footer visible on desktop -->
+            <div class="hidden lg:flex items-center justify-center space-x-4 mt-4">
+                <p class="text-sm font-semibold text-gray-600">ELECTAS</p>
+                <span class="text-gray-300">|</span>
+                <p class="text-sm font-semibold text-gray-600">UPDATE</p>
+            </div>
+        </nav>
+        
+        <!-- Main content area where slides are displayed -->
+        <main class="flex-1 p-6 md:p-10 lg:p-12 overflow-y-auto">
+            <div id="slides-container" class="h-full">
+                <!-- Slide 0: Title Slide -->
+                <section id="slide-0" class="content-slide active items-center text-center" role="tabpanel">
+                      <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold">Informe de Avance y Evaluación Acumulativa</h1>
+                      <p class="mt-4 text-xl md:text-2xl text-gray-600">Escuela de Formación Política Feminista "Las Juanas"</p>
+                </section>
+    
+                <!-- Slide 1: Executive Summary -->
+                <section id="slide-1" class="content-slide" role="tabpanel" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Resumen Ejecutivo</h2>
+                    <div class="bg-white p-6 rounded-lg border border-gray-200 text-lg space-y-4">
+                       <p>La Escuela demuestra una progresión pedagógica exitosa, con una satisfacción excepcional y creciente (4.8 a 4.9/5). Se observa una evolución curricular coherente desde el <strong>"qué"</strong> de la disputa por el poder (Sesión 1) hacia el <strong>"cómo"</strong> se ejerce una política feminista decolonial (Sesión 2).</p>
+                       <p>Sin embargo, el análisis crítico revela la necesidad de complementar las encuestas con metodologías cualitativas más profundas (grupos focales) para capturar la complejidad de las transformaciones.</p>
+                    </div>
+                </section>
+                
+                <!-- Slide 2: Satisfaction Metrics -->
+                <section id="slide-2" class="content-slide" role="tabpanel" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Métricas de Satisfacción (Comparativa)</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h3 class="text-xl font-bold mb-4 text-center">Sesión 1: "¿Por qué?"</h3>
+                            <div class="space-y-4">
+                                <div>
+                                    <div class="flex items-center justify-between mb-1"><span class="font-semibold">5 (Muy Satisfecha)</span><span class="font-bold text-violet-700">85%</span></div>
+                                    <div class="w-full bg-gray-200 rounded-full h-4"><div class="bg-violet-500 h-4 rounded-full" style="width: 85%"></div></div>
+                                </div>
+                                <div>
+                                    <div class="flex items-center justify-between mb-1"><span class="font-semibold">4 (Satisfecha)</span><span class="font-bold text-violet-700">15%</span></div>
+                                    <div class="w-full bg-gray-200 rounded-full h-4"><div class="bg-violet-500 h-4 rounded-full" style="width: 15%"></div></div>
+                                </div>
+                            </div>
+                            <p class="text-center mt-6 text-2xl font-bold">Promedio: 4.8 / 5.0</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h3 class="text-xl font-bold mb-4 text-center">Sesión 2: "¿Cómo?"</h3>
+                             <div class="space-y-4">
+                                <div>
+                                    <div class="flex items-center justify-between mb-1"><span class="font-semibold">5 (Muy Satisfecha)</span><span class="font-bold text-violet-700">90%</span></div>
+                                    <div class="w-full bg-gray-200 rounded-full h-4"><div class="bg-violet-600 h-4 rounded-full" style="width: 90%"></div></div>
+                                </div>
+                                <div>
+                                    <div class="flex items-center justify-between mb-1"><span class="font-semibold">4 (Satisfecha)</span><span class="font-bold text-violet-700">10%</span></div>
+                                    <div class="w-full bg-gray-200 rounded-full h-4"><div class="bg-violet-600 h-4 rounded-full" style="width: 10%"></div></div>
+                                </div>
+                            </div>
+                             <p class="text-center mt-6 text-2xl font-bold">Promedio: 4.9 / 5.0</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 3: Sentiment Analysis (REVISED with Bar Charts) -->
+                <section id="slide-3" class="content-slide" role="tabpanel" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Análisis de Sentimientos del Chat</h2>
+                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+                        <!-- Session 1 Sentiment Bars -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                           <h3 class="text-xl font-bold mb-4 text-center">Sesión 1: Clima de Entusiasmo</h3>
+                           <div class="space-y-4">
+                                <div>
+                                    <div class="flex justify-between mb-1"><span class="font-semibold">Entusiasmo</span><span class="font-bold text-green-600">45%</span></div>
+                                    <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-green-500 h-3 rounded-full" style="width: 45%"></div></div>
+                                </div>
+                                <div>
+                                    <div class="flex justify-between mb-1"><span class="font-semibold">Solidaridad</span><span class="font-bold text-blue-600">25%</span></div>
+                                    <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full" style="width: 25%"></div></div>
+                                </div>
+                                <div>
+                                    <div class="flex justify-between mb-1"><span class="font-semibold">Curiosidad</span><span class="font-bold text-yellow-500">15%</span></div>
+                                    <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-yellow-500 h-3 rounded-full" style="width: 15%"></div></div>
+                                </div>
+                           </div>
+                        </div>
+                        <!-- Session 2 Sentiment Bars -->
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                           <h3 class="text-xl font-bold mb-4 text-center">Sesión 2: Clima de Solidaridad</h3>
+                           <div class="space-y-4">
+                                <div>
+                                    <div class="flex justify-between mb-1"><span class="font-semibold">Solidaridad</span><span class="font-bold text-blue-600">30%</span></div>
+                                    <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-blue-500 h-3 rounded-full" style="width: 30%"></div></div>
+                                </div>
+                                <div>
+                                    <div class="flex justify-between mb-1"><span class="font-semibold">Reflexión</span><span class="font-bold text-purple-600">20%</span></div>
+                                    <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-purple-500 h-3 rounded-full" style="width: 20%"></div></div>
+                                </div>
+                                <div>
+                                    <div class="flex justify-between mb-1"><span class="font-semibold">Apropiación</span><span class="font-bold text-teal-600">20%</span></div>
+                                    <div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-teal-500 h-3 rounded-full" style="width: 20%"></div></div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- Slide 4: Key Learnings from Session 2 -->
+                <section id="slide-4" class="content-slide" role="tabpanel" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Sesión 2: Aprendizajes Fundamentales</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="bg-violet-50 p-6 rounded-lg border border-violet-200"><h3 class="text-xl font-bold mb-2 text-violet-800">Cuerpo-Territorio</h3><p class="text-gray-600">Se instaló el concepto del cuerpo como el primer espacio de soberanía, conectando las luchas por la tierra con la autonomía corporal.</p></div>
+                        <div class="bg-violet-50 p-6 rounded-lg border border-violet-200"><h3 class="text-xl font-bold mb-2 text-violet-800">Economía para la Vida</h3><p class="text-gray-600">Se adoptó un marco político para visibilizar el trabajo de cuidados y construir alternativas al extractivismo depredador.</p></div>
+                        <div class="bg-violet-50 p-6 rounded-lg border border-violet-200"><h3 class="text-xl font-bold mb-2 text-violet-800">Disputa por la Narrativa</h3><p class="text-gray-600">Se valoró la "Escri-vivencia" (escritura desde la experiencia) como una herramienta legítima para producir conocimiento.</p></div>
+                    </div>
+                </section>
+
+                <!-- Slide 5: Key Concepts from Session 2 (Word Cloud) -->
+                <section id="slide-5" class="content-slide items-center" role="tabpanel" hidden>
+                    <h2 class="text-4xl font-bold mb-8 text-center">Sesión 2: Conceptos Clave del Debate</h2>
+                    <div class="word-cloud-container flex justify-center items-center flex-wrap gap-2 leading-tight">
+                        <span class="word" style="font-size: 3.8rem; color: #7c3aed; font-family: 'Domine', serif;">TERRITORIO</span>
+                        <span class="word" style="font-size: 2.8rem; color: #c084fc; transform: rotate(-5deg);">CUIDADO</span>
+                        <span class="word" style="font-size: 3.3rem; color: #a78bfa;">VIDA</span>
+                        <span class="word" style="font-size: 2.2rem; color: #6d28d9; transform: rotate(3deg);">CUERPO</span>
+                        <span class="word" style="font-size: 3rem; color: #8b5cf6; font-family: 'Domine', serif;">DECOLONIAL</span>
+                        <span class="word" style="font-size: 2.1rem; color: #a78bfa; transform: rotate(-3deg);">POLÍTICA</span>
+                    </div>
+                </section>
+
+                <!-- Slide 6: Pedagogical Progression -->
+                <section id="slide-6" class="content-slide" role="tabpanel" hidden>
+                    <h2 class="text-4xl font-bold mb-8 text-center">Progresión Temática: El Hilo Rojo Pedagógico</h2>
+                    <div class="flex flex-col md:flex-row items-center justify-around w-full gap-4">
+                        <div class="bg-white p-4 rounded-lg border border-gray-200 text-center w-full md:w-1/4">
+                            <h3 class="text-xl font-bold mb-2">1. Línea Base</h3>
+                            <p class="font-semibold text-violet-700 mb-2">Establece LA DEMANDA</p>
+                            <p class="text-sm text-gray-600">Formación Antirracista (95%) e Interseccional (92%).</p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-400 hidden md:block" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                        <div class="bg-white p-4 rounded-lg border border-gray-200 text-center w-full md:w-1/4">
+                             <h3 class="text-xl font-bold mb-2">2. Sesión 1</h3>
+                            <p class="font-semibold text-violet-700 mb-2">Aborda EL "QUÉ"</p>
+                            <p class="text-sm text-gray-600">Diagnóstico de la disputa por el poder formal.</p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-400 hidden md:block" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                        <div class="bg-white p-4 rounded-lg border border-gray-200 text-center w-full md:w-1/4">
+                             <h3 class="text-xl font-bold mb-2">3. Sesión 2</h3>
+                            <p class="font-semibold text-violet-700 mb-2">Responde al "CÓMO"</p>
+                            <p class="text-sm text-gray-600">Entrega del marco ético-práctico decolonial.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 7: Critical Analysis -->
+                <section id="slide-7" class="content-slide" role="tabpanel" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Análisis Crítico del Proceso de Evaluación</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-green-50 p-6 rounded-lg border border-green-200">
+                            <h3 class="text-xl font-bold mb-2 text-green-800">Fortalezas Metodológicas</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                                <li><strong>Triangulación de Datos:</strong> Visión robusta al combinar encuestas, chat y materiales.</li>
+                                <li><strong>Retroalimentación Rápida:</strong> Monitoreo ágil del proceso y detección de necesidades.</li>
+                            </ul>
+                        </div>
+                         <div class="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
+                            <h3 class="text-xl font-bold mb-2 text-yellow-800">Reflexiones y Puntos Ciegos</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                                <li><strong>Sesgo de Positividad:</strong> Altas calificaciones pueden invisibilizar críticas sutiles.</li>
+                                <li><strong>La "Data Oscura" del Chat:</strong> El silencio también es un dato. ¿Qué incomodidades no se verbalizan?</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Slide 8: Recommendations -->
+                 <section id="slide-8" class="content-slide" role="tabpanel" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Recomendaciones Estratégicas</h2>
+                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h3 class="text-xl font-bold mb-2">Para la Evaluación</h3>
+                            <p class="text-gray-600"><strong>Activar Grupos Focales Virtuales</strong> para complementar las encuestas, profundizar en matices y capturar aprendizajes no previstos.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                             <h3 class="text-xl font-bold mb-2">Para la Escuela</h3>
+                             <p class="text-gray-600">Diseñar <strong>Laboratorios de Práctica</strong> para aterrizar la teoría y formalizar <strong>Círculos de Confianza</strong> para tejer redes.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 9: Conclusion -->
+                 <section id="slide-9" class="content-slide" role="tabpanel" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Conclusión General</h2>
+                     <div class="bg-white p-8 rounded-lg border border-gray-200 text-center">
+                        <p class="text-gray-700 text-xl">La Escuela "Las Juanas" es un <strong>modelo pedagógico exitoso y pertinente.</strong> Un sistema de evaluación robusto, que combine la agilidad de las encuestas con la profundidad de los grupos focales, será clave para sistematizar un aprendizaje que no solo mida el impacto, sino que <strong>honre su complejidad y su potencial transformador.</strong></p>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- JavaScript for presentation logic -->
+    <script>
+        /**
+         * Initializes and controls the presentation slides.
+         * Handles navigation via clicks and keyboard arrows.
+         */
+        function initPresentation() {
+            // --- DOM Elements ---
+            const slides = document.querySelectorAll('.content-slide');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const navContainer = document.querySelector('nav');
+            
+            // --- State ---
+            let currentSlideIndex = 0;
+
+            /**
+             * Shows a specific slide by its index and updates the navigation UI.
+             * @param {number} slideIndex The index of the slide to display.
+             */
+            function showSlide(slideIndex) {
+                slides.forEach((slide, index) => {
+                    const isActive = (index === slideIndex);
+                    slide.classList.toggle('active', isActive);
+                    slide.toggleAttribute('hidden', !isActive);
+                });
+
+                navLinks.forEach(link => {
+                    const linkIndex = parseInt(link.getAttribute('href').substring(7));
+                    const isActive = (linkIndex === slideIndex);
+                    link.classList.toggle('active', isActive);
+                    link.setAttribute('aria-selected', isActive ? 'true' : 'false');
+                });
+                
+                currentSlideIndex = slideIndex;
+            }
+
+            /** Navigates to the next slide. */
+            function nextSlide() {
+                const nextIndex = Math.min(slides.length - 1, currentSlideIndex + 1);
+                if (nextIndex !== currentSlideIndex) showSlide(nextIndex);
+            }
+            
+            /** Navigates to the previous slide. */
+            function prevSlide() {
+                const prevIndex = Math.max(0, currentSlideIndex - 1);
+                if (prevIndex !== currentSlideIndex) showSlide(prevIndex);
+            }
+
+            // --- Event Listeners ---
+            navContainer.addEventListener('click', (e) => {
+                const navLink = e.target.closest('.nav-link');
+                if (navLink) {
+                    e.preventDefault();
+                    const targetIndex = parseInt(navLink.getAttribute('href').substring(7));
+                    showSlide(targetIndex);
+                }
+            });
+            
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowRight') nextSlide();
+                else if (e.key === 'ArrowLeft') prevSlide();
+            });
+
+            // --- Initialization ---
+            showSlide(0); 
+        }
+
+        // Run the presentation script once the DOM is fully loaded.
+        document.addEventListener('DOMContentLoaded', initPresentation);
+    </script>
+</body>
+</html>
+
