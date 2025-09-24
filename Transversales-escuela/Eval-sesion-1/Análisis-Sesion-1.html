@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis Sesión 1 - Escuela Las Juanas</title>
+    
+    <!-- External Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        /* --- Base Styles --- */
+        @import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter:wght@400;600&display=swap');
+        body {
+            background-color: #e5e7eb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Inter', sans-serif;
+            color: #374151;
+        }
+
+        /* --- Layout & Responsiveness --- */
+        #presentation-container {
+            width: 100%;
+            height: 100vh;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+            background-color: #fbf9f6;
+        }
+        @media (min-width: 1024px) {
+            #presentation-container {
+                flex-direction: row;
+                max-width: 1280px;
+                aspect-ratio: 16 / 9;
+                height: auto;
+                border-radius: 0.5rem;
+                box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            }
+        }
+
+        /* --- Component Styles (Typography, Nav, Slides) --- */
+        h1, h2, h3, h4, .font-title {
+            font-family: 'Domine', serif;
+            color: #1f1d2b;
+        }
+        .content-slide {
+            display: none; 
+        }
+        .content-slide.active {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+        .nav-link.active {
+            background-color: #8b5cf6;
+            color: white;
+        }
+        .nav-link.active h3 {
+             color: white;
+        }
+        #mobile-nav-scroll {
+            scrollbar-width: none;
+        }
+        #mobile-nav-scroll::-webkit-scrollbar {
+            display: none;
+        }
+        
+        /* --- Animations --- */
+        .content-slide.active {
+            animation: fadeIn 0.7s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* --- Word Cloud Styles --- */
+        .word-cloud-container {
+            max-width: 600px;
+            text-align: center;
+            padding: 1rem;
+        }
+        .word {
+            font-weight: 600;
+            display: inline-block;
+            padding: 0.5rem 0.8rem;
+            transition: transform 0.3s ease-in-out;
+            cursor: default;
+        }
+        .word:hover {
+            transform: scale(1.1) rotate(0deg) !important;
+            z-index: 10;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- =================================================================== -->
+    <!-- =================== PRESENTATION CONTAINER ======================== -->
+    <!-- =================================================================== -->
+    <div id="presentation-container">
+        
+        <!-- =================================================================== -->
+        <!-- ======================= SIDE NAVIGATION ========================= -->
+        <!-- =================================================================== -->
+        <nav class="lg:w-1/4 bg-white/50 lg:border-r border-gray-200 p-4 lg:p-6 flex flex-col justify-between" role="navigation" aria-label="Navegación de diapositivas">
+            <div>
+                <!-- Header -->
+                <div class="hidden lg:block mb-8">
+                    <h2 class="text-2xl font-bold">Las Juanas</h2>
+                    <p class="text-sm text-gray-500">Análisis de Impacto: Sesión 1</p>
+                </div>
+
+                <!-- Desktop Navigation Links -->
+                <div id="desktop-nav-links" class="hidden lg:block space-y-2" role="tablist" aria-orientation="vertical">
+                    <a href="#slide-0" class="nav-link active group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="true" aria-controls="slide-0"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Inicio</h3></a>
+                    <a href="#slide-1" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-1"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Resumen Ejecutivo</h3></a>
+                    <a href="#slide-2" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-2"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Métricas</h3></a>
+                    <a href="#slide-3" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-3"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Conceptos Clave</h3></a>
+                    <a href="#slide-4" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-4"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Aprendizajes</h3></a>
+                    <a href="#slide-5" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-5"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Cruce con Línea Base</h3></a>
+                    <a href="#slide-6" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-6"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Conclusiones</h3></a>
+                </div>
+
+                <!-- Mobile Navigation Links -->
+                <div id="mobile-nav-scroll" class="lg:hidden flex space-x-2 overflow-x-auto pb-2" role="tablist" aria-orientation="horizontal">
+                    <a href="#slide-0" class="nav-link active flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="true" aria-controls="slide-0">Inicio</a>
+                    <a href="#slide-1" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-1">Resumen</a>
+                    <a href="#slide-2" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-2">Métricas</a>
+                    <a href="#slide-3" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-3">Conceptos</a>
+                    <a href="#slide-4" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-4">Aprendizajes</a>
+                    <a href="#slide-5" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-5">Cruce</a>
+                    <a href="#slide-6" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-6">Final</a>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="hidden lg:flex items-center justify-center space-x-4 mt-4">
+                <p class="text-sm font-semibold text-gray-600">ELECTAS</p>
+                <span class="text-gray-300">|</span>
+                <p class="text-sm font-semibold text-gray-600">UPDATE</p>
+            </div>
+        </nav>
+        
+        <!-- =================================================================== -->
+        <!-- ==================== MAIN CONTENT AREA ========================== -->
+        <!-- =================================================================== -->
+        <main class="flex-1 p-6 md:p-10 lg:p-12 overflow-y-auto">
+            <div id="slides-container" class="h-full">
+                <!-- Slide 0: Inicio -->
+                <section id="slide-0" class="content-slide active items-center text-center" role="tabpanel">
+                     <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold">Análisis de Impacto: Sesión 1</h1>
+                     <p class="mt-4 text-xl md:text-2xl text-gray-600">¿Por qué deben existir curules feministas?</p>
+                </section>
+    
+                <!-- Slide 1: Resumen Ejecutivo -->
+                <section id="slide-1" class="content-slide" role="tabpanel" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Resumen Ejecutivo</h2>
+                    <div class="bg-white p-6 rounded-lg border border-gray-200">
+                        <p class="text-gray-700 text-lg">La sesión inaugural fue un éxito, con una satisfacción de 4.8/5. Conectó directamente con la demanda de una formación antirracista y decolonial. El análisis del chat revela un clima de alto entusiasmo (45%) y solidaridad (25%). Los aprendizajes se centraron en la deconstrucción del poder y la representación sustantiva, aunque emerge una clara demanda de mayor densidad teórica.</p>
+                    </div>
+                </section>
+                
+                <!-- Slide 2: Métricas -->
+                <section id="slide-2" class="content-slide" role="tabpanel" hidden>
+                     <h2 class="text-4xl font-bold mb-8">Métricas de la Sesión</h2>
+                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                            <h3 class="text-xl font-bold mb-4 text-violet-800">Nivel de Satisfacción General</h3>
+                            <div class="space-y-3">
+                                <div class="w-full"><div class="flex items-center justify-between mb-1"><span class="font-semibold">5 (Muy Satisfecha)</span><span class="font-bold text-violet-700">85%</span></div><div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-violet-600 h-3 rounded-full" style="width: 85%"></div></div></div>
+                                <div class="w-full"><div class="flex items-center justify-between mb-1"><span class="font-semibold">4 (Satisfecha)</span><span class="font-bold text-violet-700">15%</span></div><div class="w-full bg-gray-200 rounded-full h-3"><div class="bg-violet-600 h-3 rounded-full" style="width: 15%"></div></div></div>
+                            </div>
+                            <p class="text-center mt-4 text-lg font-bold">Promedio: 4.8 / 5.0</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg border border-gray-200">
+                             <h3 class="text-xl font-bold mb-4 text-violet-800">Análisis de Sentimientos (Chat)</h3>
+                             <ul class="space-y-2">
+                                <li class="flex items-center"><span class="font-bold text-green-600 text-2xl mr-2">45%</span> Entusiasmo y Afirmación</li>
+                                <li class="flex items-center"><span class="font-bold text-blue-600 text-2xl mr-2">25%</span> Solidaridad y Comunidad</li>
+                                <li class="flex items-center"><span class="font-bold text-yellow-600 text-2xl mr-2">15%</span> Curiosidad y Preguntas</li>
+                                <li class="flex items-center"><span class="font-bold text-gray-500 text-2xl mr-2">15%</span> Logística y Técnico</li>
+                             </ul>
+                        </div>
+                     </div>
+                </section>
+                
+                <!-- Slide 3: Conceptos Clave (Word Cloud) - ADJUSTED SIZES -->
+                <section id="slide-3" class="content-slide items-center" role="tabpanel" hidden>
+                    <h2 class="text-4xl font-bold mb-8 text-center">Conceptos Clave del Debate</h2>
+                    <div class="word-cloud-container flex justify-center items-center flex-wrap gap-2 leading-tight">
+                        <span class="word" style="font-size: 3.8rem; color: #7c3aed; font-family: 'Domine', serif;">PODER</span>
+                        <span class="word" style="font-size: 2.8rem; color: #c084fc; transform: rotate(-5deg);">MUJERES</span>
+                        <span class="word" style="font-size: 3.3rem; color: #a78bfa;">POLÍTICA</span>
+                        <span class="word" style="font-size: 2.2rem; color: #6d28d9; transform: rotate(3deg);">GRACIAS</span>
+                        <span class="word" style="font-size: 3rem; color: #8b5cf6; font-family: 'Domine', serif;">FEMINISTA</span>
+                        <span class="word" style="font-size: 2.1rem; color: #a78bfa; transform: rotate(-3deg);">ESPACIO</span>
+                        <span class="word" style="font-size: 2.9rem; color: #7c3aed;">LUCHA</span>
+                        <span class="word" style="font-size: 1.9rem; color: #c084fc;">DORA</span>
+                        <span class="word" style="font-size: 1.9rem; color: #a78bfa; transform: rotate(5deg);">PAOLA</span>
+                    </div>
+                    <p class="text-center mt-6">La frecuencia de palabras en el chat confirma la alineación temática y refuerza la percepción de un espacio seguro y valioso.</p>
+                </section>
+
+                <!-- Slide 4: Aprendizajes -->
+                <section id="slide-4" class="content-slide" role="tabpanel" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Análisis Cualitativo: Aprendizajes Clave</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="bg-violet-50 p-6 rounded-lg border border-violet-200"><h3 class="text-xl font-bold mb-2 text-violet-800">Deconstrucción del Poder</h3><p class="text-gray-600">Se adoptó el marco de pasar del "poder sobre" al "poder para y con" como herramienta clave para la práctica política.</p></div>
+                        <div class="bg-violet-50 p-6 rounded-lg border border-violet-200"><h3 class="text-xl font-bold mb-2 text-violet-800">Representación Sustantiva</h3><p class="text-gray-600">Se instaló la diferencia crítica entre la representación numérica y la necesidad de llegar al poder con una agenda feminista autónoma.</p></div>
+                        <div class="bg-violet-50 p-6 rounded-lg border border-violet-200"><h3 class="text-xl font-bold mb-2 text-violet-800">Victorias como Inspiración</h3><p class="text-gray-600">Ejemplos concretos (leyes, políticas) funcionaron como "victorias tangibles" que validan la lucha política como un camino efectivo.</p></div>
+                    </div>
+                </section>
+                
+                <!-- Slide 5: Cruce con Línea Base -->
+                <section id="slide-5" class="content-slide" role="tabpanel" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Cruce con la Línea Base</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="bg-white p-6 rounded-lg border border-gray-200"><h3 class="text-xl font-bold mb-2">Coherencia Antirracista (95%)</h3><p class="text-gray-600">La elección de Paola Cabezas, asambleísta afroecuatoriana, atendió directamente la principal expectativa del grupo.</p></div>
+                        <div class="bg-white p-6 rounded-lg border border-gray-200"><h3 class="text-xl font-bold mb-2">Profundización Conceptual (92%)</h3><p class="text-gray-600">La sesión comenzó a responder a la alta demanda de marcos teóricos, aunque la solicitud de más bibliografía persiste.</p></div>
+                        <div class="bg-white p-6 rounded-lg border border-gray-200"><h3 class="text-xl font-bold mb-2">Construcción de Alianzas (85%)</h3><p class="text-gray-600">El chat confirma empíricamente que la escuela funcionó como un nodo de articulación y "espacio seguro" desde el inicio.</p></div>
+                    </div>
+                </section>
+
+                <!-- Slide 6: Conclusiones -->
+                <section id="slide-6" class="content-slide" role="tabpanel" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Conclusiones y Siguientes Pasos</h2>
+                     <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg border border-gray-200"><h3 class="text-xl font-bold mb-2">1. Impacto Exitoso y Pertinente</h3><p class="text-gray-600">La sesión impactó políticamente al grupo, alineándose con sus expectativas antirracistas y su necesidad de marcos conceptuales.</p></div>
+                        <div class="bg-white p-6 rounded-lg border border-gray-200"><h3 class="text-xl font-bold mb-2">2. Pedagogía Híbrida Validada</h3><p class="text-gray-600">La combinación de experiencia testimonial con conceptualización estratégica se demostró como una fórmula de alto impacto.</p></div>
+                        <div class="bg-white p-6 rounded-lg border border-gray-200"><h3 class="text-xl font-bold mb-2">3. Hoja de Ruta Clara</h3><p class="text-gray-600">La sesión deja una base sólida y una demanda clara: mantener el equilibrio entre experiencia y densidad teórica.</p></div>
+                     </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- =================================================================== -->
+    <!-- ================== PRESENTATION SCRIPT ============================ -->
+    <!-- =================================================================== -->
+    <script>
+        /**
+         * This script manages the slide navigation logic for the presentation.
+         * It handles slide visibility, active states for navigation links,
+         * and keyboard controls (left/right arrows).
+         */
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            // --- DOM Elements ---
+            const slides = document.querySelectorAll('.content-slide');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const navContainer = document.querySelector('nav');
+            
+            // --- State ---
+            let currentSlideIndex = 0;
+
+            // --- Core Functions ---
+
+            /**
+             * Shows a specific slide by its index and updates the navigation UI.
+             * Hides all other slides.
+             * @param {number} slideIndex The index of the slide to display.
+             */
+            function showSlide(slideIndex) {
+                // Hide all slides and update their ARIA hidden attribute
+                slides.forEach((slide, index) => {
+                    const isActive = (index === slideIndex);
+                    slide.classList.toggle('active', isActive);
+                    slide.toggleAttribute('hidden', !isActive);
+                });
+
+                // Update navigation links' active state and ARIA selected attribute
+                navLinks.forEach(link => {
+                    // Extract the slide index from the link's href (e.g., #slide-1 -> 1)
+                    const linkIndex = parseInt(link.getAttribute('href').substring(7));
+                    const isActive = (linkIndex === slideIndex);
+                    link.classList.toggle('active', isActive);
+                    link.setAttribute('aria-selected', isActive ? 'true' : 'false');
+                });
+                
+                // Update the global state
+                currentSlideIndex = slideIndex;
+            }
+
+            /**
+             * Navigates to the next slide if not on the last one.
+             */
+            function nextSlide() {
+                const nextIndex = Math.min(slides.length - 1, currentSlideIndex + 1);
+                if (nextIndex !== currentSlideIndex) {
+                    showSlide(nextIndex);
+                }
+            }
+            
+            /**
+             * Navigates to the previous slide if not on the first one.
+             */
+            function prevSlide() {
+                const prevIndex = Math.max(0, currentSlideIndex - 1);
+                if (prevIndex !== currentSlideIndex) {
+                    showSlide(prevIndex);
+                }
+            }
+
+            // --- Event Listeners ---
+
+            /**
+             * Handles clicks on navigation links using event delegation for efficiency.
+             */
+            navContainer.addEventListener('click', (e) => {
+                // Find the closest nav-link ancestor of the clicked element
+                const navLink = e.target.closest('.nav-link');
+                if (navLink) {
+                    e.preventDefault(); // Prevent default anchor link behavior
+                    const targetIndex = parseInt(navLink.getAttribute('href').substring(7));
+                    showSlide(targetIndex);
+                }
+            });
+            
+            /**
+             * Handles keyboard navigation using the left and right arrow keys.
+             */
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowRight') {
+                    nextSlide();
+                } else if (e.key === 'ArrowLeft') {
+                    prevSlide();
+                }
+            });
+
+            // --- Initialization ---
+            // Show the first slide when the page loads.
+            showSlide(0); 
+        });
+    </script>
+</body>
+</html>
+
