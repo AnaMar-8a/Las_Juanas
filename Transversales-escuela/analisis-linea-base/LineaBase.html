@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Línea Base - Escuela Las Juanas</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        /* Import custom fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter:wght@400;600&display=swap');
+
+        /* Base styles for the body */
+        body {
+            background-color: #e5e7eb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Inter', sans-serif;
+            color: #374151;
+        }
+
+        /* Main container for the presentation */
+        #presentation-container {
+            width: 100%;
+            height: 100vh;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+            background-color: #fbf9f6;
+        }
+
+        /* Responsive styles for larger screens (16:9 aspect ratio) */
+        @media (min-width: 1024px) {
+            #presentation-container {
+                flex-direction: row;
+                max-width: 1280px;
+                aspect-ratio: 16 / 9;
+                height: auto;
+                border-radius: 0.5rem;
+                box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            }
+        }
+
+        /* Custom font for titles */
+        h1, h2, h3, h4, .font-title {
+            font-family: 'Domine', serif;
+            color: #1f1d2b;
+        }
+
+        /* Slide visibility and animation */
+        .content-slide {
+            display: none; /* Hidden by default */
+        }
+        
+        .content-slide.active {
+            display: flex; /* Active slide is visible */
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            animation: fadeIn 0.7s ease-in-out;
+        }
+
+        /* Fade-in animation for slides */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Active state for navigation links */
+        .nav-link.active {
+            background-color: #8b5cf6;
+            color: white;
+        }
+        .nav-link.active h3 {
+             color: white;
+        }
+
+        /* Hide scrollbar for mobile navigation */
+        #mobile-nav-scroll {
+            scrollbar-width: none;
+        }
+        #mobile-nav-scroll::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PRESENTATION CONTAINER -->
+    <div id="presentation-container">
+        
+        <!-- SIDE NAVIGATION -->
+        <nav class="lg:w-1/4 bg-white/50 lg:border-r border-gray-200 p-4 lg:p-6 flex flex-col justify-between" role="navigation" aria-label="Navegación de diapositivas">
+            <div>
+                <!-- Header -->
+                <div class="hidden lg:block mb-8">
+                    <h2 class="text-2xl font-bold">Las Juanas</h2>
+                    <p class="text-sm text-gray-500">Análisis de Línea Base</p>
+                </div>
+
+                <!-- Desktop Navigation Links -->
+                <div id="desktop-nav-links" class="hidden lg:block space-y-2" role="tablist" aria-orientation="vertical">
+                    <a href="#slide-0" class="nav-link active group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="true" aria-controls="slide-0"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Inicio</h3></a>
+                    <a href="#slide-1" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-1"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Perfil del Grupo</h3></a>
+                    <a href="#slide-2" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-2"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Tabla de Datos</h3></a>
+                    <a href="#slide-3" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-3"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Prioridades</h3></a>
+                    <a href="#slide-4" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-4"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Interpretación</h3></a>
+                    <a href="#slide-5" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-5"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Estrategia</h3></a>
+                    <a href="#slide-6" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-6"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Conclusiones</h3></a>
+                </div>
+
+                <!-- Mobile Navigation Links -->
+                <div id="mobile-nav-scroll" class="lg:hidden flex space-x-2 overflow-x-auto pb-2" role="tablist" aria-orientation="horizontal">
+                    <a href="#slide-0" class="nav-link active flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="true" aria-controls="slide-0">Inicio</a>
+                    <a href="#slide-1" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-1">Perfil</a>
+                    <a href="#slide-2" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-2">Datos</a>
+                    <a href="#slide-3" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-3">Prioridades</a>
+                    <a href="#slide-4" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-4">Análisis</a>
+                    <a href="#slide-5" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-5">Estrategia</a>
+                    <a href="#slide-6" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-6">Final</a>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="hidden lg:flex items-center justify-center space-x-4 mt-4">
+                <p class="text-sm font-semibold text-gray-600">ELECTAS</p>
+                <span class="text-gray-300">|</span>
+                <p class="text-sm font-semibold text-gray-600">UPDATE</p>
+            </div>
+        </nav>
+        
+        <!-- MAIN CONTENT AREA -->
+        <main class="flex-1 p-6 md:p-10 lg:p-12 overflow-y-auto">
+            <div id="slides-container" class="h-full">
+                <!-- Slide 0: Inicio -->
+                <section id="slide-0" class="content-slide active items-center text-center" role="tabpanel" aria-labelledby="nav-link-0">
+                     <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold">Escuela de Formación Política Feminista</h1>
+                     <p class="mt-4 text-xl md:text-2xl text-gray-600">Perfiles, Expectativas e Implicaciones Estratégicas</p>
+                </section>
+    
+                <!-- Slide 1: Caracterización -->
+                <section id="slide-1" class="content-slide" role="tabpanel" aria-labelledby="nav-link-1" hidden>
+                    <h2 class="text-4xl font-bold mb-8">¿Quiénes son Las Juanas? (Resumen)</h2>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+                        <div class="bg-white p-4 rounded-lg border border-gray-200 text-center flex flex-col items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-violet-500 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg><h4 class="font-bold text-violet-700">Edad</h4><p class="text-3xl font-bold text-gray-900">80%</p><p class="text-sm text-gray-500">25-45 años</p></div>
+                        <div class="bg-white p-4 rounded-lg border border-gray-200 text-center flex flex-col items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-violet-500 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2h8a2 2 0 002-2v-1a2 2 0 012-2h1.945M7.8 11.52A10 10 0 0112 5.5a10 10 0 014.2 6.02m-8.4 0a10 10 0 00-4.2 6.02" /></svg><h4 class="font-bold text-violet-700">Origen</h4><p class="text-3xl font-bold text-gray-900">76%</p><p class="text-sm text-gray-500">Colombia</p></div>
+                        <div class="bg-white p-4 rounded-lg border border-gray-200 text-center flex flex-col items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-violet-500 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" /></svg><h4 class="font-bold text-violet-700">Estrato</h4><p class="text-3xl font-bold text-gray-900">76%</p><p class="text-sm text-gray-500">Populares (2 y 3)</p></div>
+                        <div class="bg-white p-4 rounded-lg border border-gray-200 text-center flex flex-col items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-violet-500 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg><h4 class="font-bold text-violet-700">Étnia-Raza</h4><p class="text-3xl font-bold text-gray-900">32%</p><p class="text-sm text-gray-500">Indígena o Afro</p></div>
+                        <div class="bg-white p-4 rounded-lg border border-gray-200 text-center flex flex-col items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-violet-500 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg><h4 class="font-bold text-violet-700">Género</h4><p class="text-3xl font-bold text-gray-900">10%</p><p class="text-sm text-gray-500">Trans o No Binarie</p></div>
+                        <div class="bg-white p-4 rounded-lg border border-gray-200 text-center flex flex-col items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-violet-500 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg><h4 class="font-bold text-violet-700">Orientación</h4><p class="text-3xl font-bold text-gray-900">50%</p><p class="text-sm text-gray-500">LGBIQ+</p></div>
+                     </div>
+                </section>
+                
+                <!-- Slide 2: Tabla de Datos -->
+                <section id="slide-2" class="content-slide" role="tabpanel" aria-labelledby="nav-link-2" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Tabla de Datos Demográficos</h2>
+                    <div class="overflow-x-auto w-full">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="bg-violet-100/50"><th class="p-4 font-bold text-violet-800 border-b-2 border-violet-200">Característica</th><th class="p-4 font-bold text-violet-800 border-b-2 border-violet-200">Dato Principal</th><th class="p-4 font-bold text-violet-800 border-b-2 border-violet-200">Detalle</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr class="even:bg-violet-50/50"><td class="p-4 border-b border-gray-200 font-semibold">Grupo Etario Principal</td><td class="p-4 border-b border-gray-200 text-2xl font-bold">80%</td><td class="p-4 border-b border-gray-200">Concentrado entre los 25 y 45 años.</td></tr>
+                                <tr class="even:bg-violet-50/50"><td class="p-4 border-b border-gray-200 font-semibold">País de Residencia</td><td class="p-4 border-b border-gray-200 text-2xl font-bold">76%</td><td class="p-4 border-b border-gray-200">Colombia. Presencia de Venezuela y Ecuador.</td></tr>
+                                <tr class="even:bg-violet-50/50"><td class="p-4 border-b border-gray-200 font-semibold">Estrato Socioeconómico</td><td class="p-4 border-b border-gray-200 text-2xl font-bold">76%</td><td class="p-4 border-b border-gray-200">Provenientes de sectores populares (estratos 2 y 3).</td></tr>
+                                <tr class="even:bg-violet-50/50"><td class="p-4 border-b border-gray-200 font-semibold">Autoreconocimiento Étnico</td><td class="p-4 border-b border-gray-200 text-2xl font-bold">32%</td><td class="p-4 border-b border-gray-200">Se identifican como Indígenas o Afrodescendientes.</td></tr>
+                                <tr class="even:bg-violet-50/50"><td class="p-4 border-b border-gray-200 font-semibold">Identidades de Género</td><td class="p-4 border-b border-gray-200 text-2xl font-bold">10%</td><td class="p-4 border-b border-gray-200">Se identifican como mujeres Trans o personas No Binarias.</td></tr>
+                                <tr class="even:bg-violet-50/50"><td class="p-4 font-semibold">Orientación Sexual</td><td class="p-4 text-2xl font-bold">50%</td><td class="p-4">Se identifican dentro del espectro LGBIQ+.</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Slide 3: Prioridades -->
+                <section id="slide-3" class="content-slide" role="tabpanel" aria-labelledby="nav-link-3" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Prioridades Temáticas</h2>
+                    <div class="space-y-6 w-full">
+                        <div class="w-full"><div class="flex items-center justify-between mb-1"><span class="font-semibold">Cuestionar Racismo y Colonialismo</span><span class="font-bold text-violet-700">95%</span></div><div class="w-full bg-gray-200 rounded-full h-4"><div class="bg-violet-600 h-4 rounded-full" style="width: 95%"></div></div></div>
+                        <div class="w-full"><div class="flex items-center justify-between mb-1"><span class="font-semibold">Profundizar en Feminismo Interseccional</span><span class="font-bold text-violet-700">92%</span></div><div class="w-full bg-gray-200 rounded-full h-4"><div class="bg-violet-600 h-4 rounded-full" style="width: 92%"></div></div></div>
+                        <div class="w-full"><div class="flex items-center justify-between mb-1"><span class="font-semibold">Enfrentar Violencias Políticas</span><span class="font-bold text-violet-700">88%</span></div><div class="w-full bg-gray-200 rounded-full h-4"><div class="bg-violet-600 h-4 rounded-full" style="width: 88%"></div></div></div>
+                        <div class="w-full"><div class="flex items-center justify-between mb-1"><span class="font-semibold">Construir Alianzas y Redes</span><span class="font-bold text-violet-700">85%</span></div><div class="w-full bg-gray-200 rounded-full h-4"><div class="bg-violet-600 h-4 rounded-full" style="width: 85%"></div></div></div>
+                    </div>
+                </section>
+    
+                <!-- Slide 4: Interpretación -->
+                <section id="slide-4" class="content-slide" role="tabpanel" aria-labelledby="nav-link-4" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Análisis Interpretativo</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-white p-6 rounded-lg border border-gray-200"><h3 class="text-xl font-bold mb-2">Potencia de la Diversidad</h3><p class="text-gray-600">La heterogeneidad es estructural, creando un laboratorio político para la interseccionalidad.</p></div>
+                        <div class="bg-white p-6 rounded-lg border border-gray-200"><h3 class="text-xl font-bold mb-2">Centralidad Antirracista</h3><p class="text-gray-600">La máxima prioridad del grupo (95%) posiciona la escuela como un proyecto eminentemente decolonial.</p></div>
+                        <div class="bg-white p-6 rounded-lg border border-gray-200"><h3 class="text-xl font-bold mb-2">Demanda de Sostenibilidad</h3><p class="text-gray-600">Buscan herramientas teóricas y, crucialmente, estrategias de cuidado y sostenimiento emocional.</p></div>
+                        <div class="bg-white p-6 rounded-lg border border-gray-200"><h3 class="text-xl font-bold mb-2">Mandato de Articulación</h3><p class="text-gray-600">Las participantes ven la escuela como un nodo estratégico clave para tejer alianzas a nivel regional.</p></div>
+                    </div>
+                </section>
+                
+                <!-- Slide 5: Estrategia -->
+                <section id="slide-5" class="content-slide" role="tabpanel" aria-labelledby="nav-link-5" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Implicaciones Estratégicas</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                         <div class="bg-violet-50 p-6 rounded-lg border border-violet-200"><h3 class="text-xl font-bold mb-2 text-violet-800">Currículo Antirracista Transversal</h3><p class="text-gray-600">No un módulo aislado, sino un eje que impregne todas las sesiones y temáticas de la escuela.</p></div>
+                         <div class="bg-violet-50 p-6 rounded-lg border border-violet-200"><h3 class="text-xl font-bold mb-2 text-violet-800">Metodologías de Cuidado</h3><p class="text-gray-600">Incorporar activamente educación popular, círculos de la palabra y prácticas de reparación colectiva.</p></div>
+                         <div class="bg-violet-50 p-6 rounded-lg border border-violet-200"><h3 class="text-xl font-bold mb-2 text-violet-800">Fomentar "Amistad Política"</h3><p class="text-gray-600">Diseñar espacios intencionados para crear lazos, confianzas y proyectos colaborativos a largo plazo.</p></div>
+                         <div class="bg-violet-50 p-6 rounded-lg border border-violet-200"><h3 class="text-xl font-bold mb-2 text-violet-800">Articular la Diversidad</h3><p class="text-gray-600">Crear un espacio seguro para gestionar tensiones y privilegios dentro del movimiento feminista.</p></div>
+                    </div>
+                </section>
+    
+                <!-- Slide 6: Conclusiones -->
+                <section id="slide-6" class="content-slide" role="tabpanel" aria-labelledby="nav-link-6" hidden>
+                    <h2 class="text-4xl font-bold mb-8">Conclusiones Fundamentales</h2>
+                     <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg border border-gray-200"><h3 class="text-xl font-bold mb-2">1. Convocatoria Exitosa</h3><p class="text-gray-600">Se ha reunido a un grupo de actoras con diversidad estructural y un capital político y de activismo significativo.</p></div>
+                        <div class="bg-white p-6 rounded-lg border border-gray-200"><h3 class="text-xl font-bold mb-2">2. Demandas Claras y Contundentes</h3><p class="text-gray-600">Se exige una formación eminentemente antirracista y herramientas concretas para la sostenibilidad de los liderazgos.</p></div>
+                        <div class="bg-white p-6 rounded-lg border border-gray-200"><h3 class="text-xl font-bold mb-2">3. Pertinencia Validada y Hoja de Ruta</h3><p class="text-gray-600">Los datos confirman que la escuela responde a una necesidad real y proporcionan una guía precisa para su ejecución.</p></div>
+                     </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Optimized JavaScript for Presentation Logic -->
+    <script>
+        // Wait for the DOM to be fully loaded before running the script
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- Elements ---
+            const slides = document.querySelectorAll('.content-slide');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const navContainer = document.querySelector('nav');
+            
+            // --- State ---
+            let currentSlideIndex = 0;
+
+            // --- Functions ---
+
+            /**
+             * Shows a specific slide by its index and updates navigation.
+             * @param {number} slideIndex - The index of the slide to show.
+             */
+            function showSlide(slideIndex) {
+                // Hide all slides and update ARIA attributes
+                slides.forEach((slide, index) => {
+                    const isActive = index === slideIndex;
+                    slide.classList.toggle('active', isActive);
+                    slide.toggleAttribute('hidden', !isActive);
+                });
+
+                // Update navigation links state and ARIA attributes
+                navLinks.forEach(link => {
+                    const linkIndex = parseInt(link.getAttribute('href').substring(7));
+                    const isActive = linkIndex === slideIndex;
+                    link.classList.toggle('active', isActive);
+                    link.setAttribute('aria-selected', isActive ? 'true' : 'false');
+                });
+                
+                // Update current slide index
+                currentSlideIndex = slideIndex;
+            }
+
+            /**
+             * Navigates to the next slide.
+             */
+            function nextSlide() {
+                const nextIndex = Math.min(slides.length - 1, currentSlideIndex + 1);
+                if (nextIndex !== currentSlideIndex) {
+                    showSlide(nextIndex);
+                }
+            }
+            
+            /**
+             * Navigates to the previous slide.
+             */
+            function prevSlide() {
+                const prevIndex = Math.max(0, currentSlideIndex - 1);
+                if (prevIndex !== currentSlideIndex) {
+                    showSlide(prevIndex);
+                }
+            }
+
+            // --- Event Listeners ---
+
+            /**
+             * Handles clicks on the navigation container using event delegation.
+             */
+            navContainer.addEventListener('click', (e) => {
+                const navLink = e.target.closest('.nav-link');
+                if (navLink) {
+                    e.preventDefault();
+                    const targetIndex = parseInt(navLink.getAttribute('href').substring(7));
+                    showSlide(targetIndex);
+                }
+            });
+            
+            /**
+             * Handles keyboard navigation with arrow keys.
+             */
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowRight') {
+                    nextSlide();
+                } else if (e.key === 'ArrowLeft') {
+                    prevSlide();
+                }
+            });
+
+            // --- Initial State ---
+            showSlide(0); // Show the first slide initially
+        });
+    </script>
+</body>
+</html>
+
