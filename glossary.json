@@ -1,10 +1,10 @@
 {
   "_meta": {
     "projectName": "Abecedario Político Interactivo",
-    "version": "1.3",
+    "version": "1.4",
     "description": "Este archivo contiene todos los términos, definiciones y ejemplos del glosario. Está diseñado para ser la única fuente de verdad de los datos, facilitando su actualización y mantenimiento.",
     "contribution_guide": "Para añadir o sugerir un cambio, por favor, utiliza la plantilla 'Sugerencia de Término' en la sección de 'Issues' del repositorio de GitHub. No edites este archivo directamente en la rama principal.",
-    "last_updated": "2025-09-25T15:57:00-05:00"
+    "last_updated": "2025-09-25T16:01:00-05:00"
   },
   "terms": [
     {
@@ -22,7 +22,7 @@
     {
       "letter": "A",
       "term": "Améfrica / Amefricanidad",
-      "definition": "Un concepto político y geográfico acuñado por la visionaria intelectual afrobrasileña Lélia Gonzalez. Es una herramienta teórica para demoler el mito de la \"democracia racial\" y del \"mestizaje\" como proyectos de blanqueamiento y borramiento de la herencia africana.",
+      "definition": "Un concepto político y geográfico acuñado por la visionaria intelectual afrobrasleña Lélia Gonzalez. Es una herramienta teórica para demoler el mito de la \"democracia racial\" y del \"mestizaje\" como proyectos de blanqueamiento y borramiento de la herencia africana.",
       "practice": "Lélia Gonzalez nos enseña que la cultura latinoamericana es incomprensible sin su matriz africana. La \"amefricanidad\" no es solo una identidad racial, es una categoría político-cultural que nos permite analizar cómo el racismo estructura nuestras sociedades. Asumirse \"amefricana\" es reconocerse en una historia continental de esclavización, pero, sobre todo, en una historia de cimarronaje, rebelión y creación cultural."
     },
     {
@@ -30,6 +30,12 @@
       "term": "Androcentrismo",
       "definition": "Es la visión del mundo que sitúa al hombre (varón) como el centro y la medida de todas las cosas. Lo masculino se convierte en la norma universal y lo femenino es considerado \"lo otro\", una desviación o una excepción.",
       "practice": "Cuestionar el androcentrismo significa preguntarnos activamente: ¿dónde están las mujeres en esta historia? ¿Esta política pública tiene en cuenta las necesidades específicas de las mujeres y disidencias? ¿Este diseño urbano es seguro para todas? Es un ejercicio constante de descentrar la mirada masculina."
+    },
+    {
+      "letter": "B",
+      "term": "Backlash",
+      "definition": "Es la reacción violenta, organizada y a gran escala contra los avances del feminismo. No son críticas aisladas, sino una contraofensiva política y cultural que busca desacreditar, desmovilizar y revertir los derechos y libertades conquistadas por las mujeres y disidencias.",
+      "practice": "El backlash se manifiesta de muchas formas: en discursos políticos que ridiculizan la \"ideología de género\", en campañas de desinformación en redes sociales (a menudo orquestadas desde la Machosfera), en el recorte de presupuestos para políticas de igualdad, o en el resurgimiento de discursos que idealizan el rol tradicional de la mujer en el hogar. Reconocer el backlash es fundamental para no caer en la trampa de pensar que \"ya no hay nada por lo que luchar\" y para entender que cada derecho conquistado requiere una defensa constante."
     },
     {
       "letter": "B",
