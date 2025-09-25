@@ -1,10 +1,10 @@
 {
   "_meta": {
     "projectName": "Abecedario Político Interactivo",
-    "version": "1.2",
+    "version": "1.3",
     "description": "Este archivo contiene todos los términos, definiciones y ejemplos del glosario. Está diseñado para ser la única fuente de verdad de los datos, facilitando su actualización y mantenimiento.",
     "contribution_guide": "Para añadir o sugerir un cambio, por favor, utiliza la plantilla 'Sugerencia de Término' en la sección de 'Issues' del repositorio de GitHub. No edites este archivo directamente en la rama principal.",
-    "last_updated": "2025-09-24T20:02:00-05:00"
+    "last_updated": "2025-09-25T15:57:00-05:00"
   },
   "terms": [
     {
@@ -114,6 +114,12 @@
       "term": "Lugar de Enunciación",
       "definition": "Es el lugar social, político, histórico y corporal desde el cual una persona habla, piensa y produce conocimiento. Implica entender que no existe un conocimiento \"neutral\" u \"objetivo\".",
       "practice": "En nuestras asambleas, antes de dar una opinión, podemos hacer el ejercicio de preguntarnos: ¿desde dónde estoy hablando? ¿Qué privilegios u opresiones marcan mi mirada? Esto nos permite hablar con más honestidad y escuchar con más respeto las perspectivas de las demás."
+    },
+    {
+      "letter": "M",
+      "term": "Machosfera",
+      "definition": "Es el término usado para describir una red de comunidades en línea (blogs, foros, canales de YouTube, etc.) que promueven masculinidades tóxicas, misoginia y una fuerte oposición al feminismo. Es un ecosistema digital donde se comparten y refuerzan discursos de odio, antifeministas y sexistas.",
+      "practice": "La machosfera es una de las principales fuentes de radicalización y violencia digital contra las mujeres y disidencias. Funciona como una cámara de eco que valida y amplifica creencias misóginas, presentándolas como verdades irrefutables. Analizar la machosfera es clave para comprender la reacción violenta (backlash) contra los avances feministas en el entorno digital y para desarrollar estrategias de contra-narrativa, alfabetización mediática y creación de espacios en línea seguros."
     },
     {
       "letter": "M",
