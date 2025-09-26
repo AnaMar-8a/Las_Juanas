@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- =================================================================== -->
+    <!-- ======================= METADATOS Y LIBRERÍAS ===================== -->
+    <!-- =================================================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Proceso: Sesión 3 - Escuela Las Juanas</title>
+    
+    <!-- Librerías Externas: Tailwind CSS para estilos rápidos y Google Fonts para tipografía -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- =================================================================== -->
+    <!-- ========================== ESTILOS CSS ============================ -->
+    <!-- =================================================================== -->
+    <style>
+        /* ------------------------------------------------------------------- */
+        /* ------------------------- ESTILOS BASE -------------------------- */
+        /* ------------------------------------------------------------------- */
+        @import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter:wght@400;600&display=swap');
+        
+        body {
+            background-color: #e5e7eb; /* Gris claro de fondo */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Inter', sans-serif; /* Tipografía principal para contenido */
+            color: #374151; /* Color de texto principal */
+        }
+
+        /* ------------------------------------------------------------------- */
+        /* -------------------- CONTENEDOR Y RESPONSIVIDAD ------------------- */
+        /* ------------------------------------------------------------------- */
+        #presentation-container {
+            width: 100%;
+            height: 100vh;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+            background-color: #fbf9f6; /* Color de fondo principal de la presentación */
+        }
+        
+        /* Estilos para pantallas grandes (desktops) */
+        @media (min-width: 1024px) {
+            #presentation-container {
+                flex-direction: row;
+                max-width: 1280px;
+                aspect-ratio: 16 / 9; /* Mantiene la proporción 16:9 */
+                height: auto;
+                border-radius: 0.5rem;
+                box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* Sombra pronunciada */
+            }
+        }
+
+        /* ------------------------------------------------------------------- */
+        /* -------------------- ESTILOS DE COMPONENTES --------------------- */
+        /* ------------------------------------------------------------------- */
+        
+        /* Tipografía para títulos */
+        h1, h2, h3, h4, .font-title {
+            font-family: 'Domine', serif;
+            color: #1f1d2b; /* Color oscuro para títulos */
+        }
+        
+        /* Oculta las diapositivas por defecto */
+        .content-slide {
+            display: none; 
+        }
+        
+        /* Muestra la diapositiva activa */
+        .content-slide.active {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            animation: fadeIn 0.7s ease-in-out; /* Aplica animación de entrada */
+        }
+        
+        /* Estilo para el enlace de navegación activo */
+        .nav-link.active {
+            background-color: #8b5cf6; /* Color violeta */
+            color: white;
+        }
+        .nav-link.active h3 {
+           color: white;
+        }
+        
+        /* Oculta la barra de scroll en la navegación móvil */
+        #mobile-nav-scroll {
+            scrollbar-width: none;
+        }
+        #mobile-nav-scroll::-webkit-scrollbar {
+            display: none;
+        }
+        
+        /* ------------------------------------------------------------------- */
+        /* -------------------------- ANIMACIONES -------------------------- */
+        /* ------------------------------------------------------------------- */
+        
+        /* Animación de aparición gradual para las diapositivas */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Animación de crecimiento para las barras de los gráficos */
+        .bar-animation {
+            transform-origin: bottom; /* La animación crece desde la base */
+            animation: growBar 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+        }
+
+        @keyframes growBar {
+            from {
+                transform: scaleY(0);
+            }
+            to {
+                transform: scaleY(1);
+            }
+        }
+
+        /* ------------------------------------------------------------------- */
+        /* ----------------------- NUBE DE PALABRAS ------------------------ */
+        /* ------------------------------------------------------------------- */
+        .word-cloud-container {
+            max-width: 600px;
+            text-align: center;
+            padding: 1rem;
+        }
+        .word {
+            font-weight: 600;
+            display: inline-block;
+            padding: 0.5rem 0.8rem;
+            transition: transform 0.3s ease-in-out;
+            cursor: default;
+        }
+        .word:hover {
+            transform: scale(1.1) rotate(0deg) !important; /* Efecto al pasar el cursor */
+            z-index: 10;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- =================================================================== -->
+    <!-- =================== CONTENEDOR PRINCIPAL ========================== -->
+    <!-- =================================================================== -->
+    <div id="presentation-container">
+        
+        <!-- =================================================================== -->
+        <!-- ======================= NAVEGACIÓN LATERAL ======================== -->
+        <!-- =================================================================== -->
+        <nav class="lg:w-1/4 bg-white/50 lg:border-r border-gray-200 p-4 lg:p-6 flex flex-col justify-between" role="navigation" aria-label="Navegación de diapositivas">
+            <div>
+                <!-- Encabezado de la Navegación (visible en desktop) -->
+                <header class="hidden lg:block mb-8">
+                    <h2 class="text-2xl font-bold">Las Juanas</h2>
+                    <p class="text-sm text-gray-500">Análisis de Proceso: Sesión 3</p>
+                </header>
+
+                <!-- Enlaces de Navegación (Desktop) -->
+                <div id="desktop-nav-links" class="hidden lg:block space-y-2" role="tablist" aria-orientation="vertical">
+                    <a href="#slide-0" class="nav-link active group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="true" aria-controls="slide-0"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Portada</h3></a>
+                    <a href="#slide-1" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-1"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Resumen Ejecutivo</h3></a>
+                    <a href="#slide-2" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-2"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Métricas Clave</h3></a>
+                    <a href="#slide-3" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-3"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Tendencias Gráficas</h3></a>
+                    <a href="#slide-4" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-4"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">El Salto Cualitativo</h3></a>
+                    <a href="#slide-5" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-5"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Focos del Debate</h3></a>
+                    <a href="#slide-6" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-6"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Cruce con Línea Base</h3></a>
+                    <a href="#slide-7" class="nav-link group block p-3 rounded-lg transition-colors hover:bg-violet-100" role="tab" aria-selected="false" aria-controls="slide-7"><h3 class="font-bold text-gray-800 group-hover:text-violet-700">Conclusiones</h3></a>
+                </div>
+
+                <!-- Enlaces de Navegación (Móvil) -->
+                <div id="mobile-nav-scroll" class="lg:hidden flex space-x-2 overflow-x-auto pb-2" role="tablist" aria-orientation="horizontal">
+                    <a href="#slide-0" class="nav-link active flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="true" aria-controls="slide-0">Portada</a>
+                    <a href="#slide-1" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-1">Resumen</a>
+                    <a href="#slide-2" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-2">Métricas</a>
+                    <a href="#slide-3" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-3">Gráficos</a>
+                    <a href="#slide-4" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-4">Debate</a>
+                    <a href="#slide-5" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-5">Focos</a>
+                    <a href="#slide-6" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-6">Cruce</a>
+                    <a href="#slide-7" class="nav-link flex-shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-colors" role="tab" aria-selected="false" aria-controls="slide-7">Final</a>
+                </div>
+            </div>
+
+            <!-- Pie de página de la Navegación -->
+            <footer class="hidden lg:flex items-center justify-center space-x-4 mt-4">
+                <p class="text-sm font-semibold text-gray-600">ELECTAS</p>
+                <span class="text-gray-300">|</span>
+                <p class="text-sm font-semibold text-gray-600">UPDATE</p>
+            </footer>
+        </nav>
+        
+        <!-- =================================================================== -->
+        <!-- ================= ÁREA DE CONTENIDO PRINCIPAL =================== -->
+        <!-- =================================================================== -->
+        <main class="flex-1 p-6 md:p-10 lg:p-12 overflow-y-auto">
+
+            <!-- SLIDE 0: PORTADA -->
+            <section id="slide-0" class="content-slide active" role="tabpanel" aria-labelledby="title-slide-0">
+                <p class="text-lg md:text-xl font-semibold text-violet-600">Escuela de Formación Política "Las Juanas"</p>
+                <h1 id="title-slide-0" class="text-4xl md:text-5xl lg:text-6xl font-bold mt-2">Análisis de Proceso: Sesión 3</h1>
+                <p class="text-lg md:text-xl text-gray-600 mt-4">Evolución, Madurez y Hallazgos Clave del Enfoque Antirracista.</p>
+            </section>
+            
+            <!-- SLIDE 1: RESUMEN EJECUTIVO -->
+            <section id="slide-1" class="content-slide" role="tabpanel" aria-labelledby="title-slide-1">
+                 <h2 id="title-slide-1" class="text-3xl lg:text-4xl font-bold mb-6">Resumen Ejecutivo</h2>
+                 <div class="space-y-4 text-base lg:text-lg">
+                    <div class="p-4 bg-violet-50 rounded-lg border-l-4 border-violet-400"><strong>Éxito Pedagógico Sostenido:</strong> La satisfacción se mantiene en niveles de excelencia (4.9/5.0), validando la calidad del contenido.</div>
+                    <div class="p-4 bg-green-50 rounded-lg border-l-4 border-green-400"><strong>Salto Cualitativo en Madurez:</strong> El debate evolucionó de la afirmación inicial a una deliberación crítica, evidenciando un espacio de alta confianza.</div>
+                    <div class="p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-400"><strong>Doble Tendencia Descendente:</strong> Caída moderada en asistencia (70 a 51) y drástica en respuestas a encuestas (34% a 16%), siendo este el principal riesgo metodológico.</div>
+                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-blue-400"><strong>Superación de Expectativas:</strong> La escuela trascendió su mandato, pasando de incluir perspectivas (antirracista) a centrarlas.</div>
+                 </div>
+            </section>
+
+            <!-- SLIDE 2: MÉTRICAS CLAVE -->
+            <section id="slide-2" class="content-slide" role="tabpanel" aria-labelledby="title-slide-2">
+                 <h2 id="title-slide-2" class="text-3xl lg:text-4xl font-bold mb-6">Métricas Clave: La Doble Realidad</h2>
+                 <p class="text-gray-600 mb-4">Éxito en satisfacción, riesgo en la recolección de datos.</p>
+                 <div class="bg-white/70 p-4 rounded-xl border border-gray-200">
+                     <table class="w-full text-left table-auto">
+                         <thead class="text-gray-600 font-semibold">
+                             <tr>
+                                 <th class="p-3">Métrica</th>
+                                 <th class="p-3 text-center">Sesión 1</th>
+                                 <th class="p-3 text-center">Sesión 2</th>
+                                 <th class="p-3 text-center">Sesión 3</th>
+                             </tr>
+                         </thead>
+                         <tbody>
+                             <tr class="border-t">
+                                 <td class="p-3 font-semibold">Satisfacción General</td>
+                                 <td class="p-3 text-center text-xl font-bold text-green-600">4.8 / 5.0</td>
+                                 <td class="p-3 text-center text-xl font-bold text-green-600">4.9 / 5.0</td>
+                                 <td class="p-3 text-center text-xl font-bold text-green-600">4.9 / 5.0</td>
+                             </tr>
+                             <tr class="border-t">
+                                 <td class="p-3 font-semibold">Pico de Asistencia</td>
+                                 <td class="p-3 text-center text-xl font-bold">70</td>
+                                 <td class="p-3 text-center text-xl font-bold">58</td>
+                                 <td class="p-3 text-center text-xl font-bold">51</td>
+                             </tr>
+                             <tr class="border-t bg-yellow-50">
+                                 <td class="p-3 font-semibold">Tasa de Respuesta (Encuesta)</td>
+                                 <td class="p-3 text-center text-xl font-bold">34.3%</td>
+                                 <td class="p-3 text-center text-xl font-bold text-red-600">19.0%</td>
+                                 <td class="p-3 text-center text-xl font-bold text-red-600">15.7%</td>
+                             </tr>
+                         </tbody>
+                     </table>
+                 </div>
+            </section>
+
+            <!-- SLIDE 3: TENDENCIAS GRÁFICAS -->
+            <section id="slide-3" class="content-slide" role="tabpanel" aria-labelledby="title-slide-3">
+                <h2 id="title-slide-3" class="text-3xl lg:text-4xl font-bold mb-6">Tendencias de Participación</h2>
+                <p class="text-gray-600 mb-4">Visualizando la doble tendencia descendente: asistencia y respuestas.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Gráfico 1: Asistencia -->
+                    <div class="bg-white/70 p-4 rounded-xl border border-gray-200">
+                        <h4 class="font-bold text-center mb-2">Pico de Asistencia</h4>
+                        <div class="w-full h-56">
+                            <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                <defs>
+                                    <linearGradient id="asistenciaGradient" x1="0" x2="0" y1="0" y2="1">
+                                        <stop offset="0%" stop-color="#a78bfa"/>
+                                        <stop offset="100%" stop-color="#8b5cf6"/>
+                                    </linearGradient>
+                                </defs>
+                                <g class="bars-container" transform="translate(0, 90) scale(1, -1)">
+                                    <!-- Barra S1 -->
+                                    <g class="bar-animation">
+                                        <rect x="15" y="0" width="15" height="80" fill="url(#asistenciaGradient)" rx="2"/>
+                                    </g>
+                                    <!-- Barra S2 -->
+                                    <g class="bar-animation" style="animation-delay: 0.1s;">
+                                        <rect x="42.5" y="0" width="15" height="66.4" fill="url(#asistenciaGradient)" rx="2"/>
+                                    </g>
+                                    <!-- Barra S3 -->
+                                    <g class="bar-animation" style="animation-delay: 0.2s;">
+                                        <rect x="70" y="0" width="15" height="57.6" fill="url(#asistenciaGradient)" rx="2"/>
+                                    </g>
+                                </g>
+                                <!-- Línea de Tendencia -->
+                                <line x1="22.5" y1="10" x2="77.5" y2="32.4" stroke="#4b5563" stroke-width="1" stroke-dasharray="2,2"/>
+                                <!-- Eje X -->
+                                <text x="22.5" y="98" text-anchor="middle" font-size="5">S1</text>
+                                <text x="50" y="98" text-anchor="middle" font-size="5">S2</text>
+                                <text x="77.5" y="98" text-anchor="middle" font-size="5">S3</text>
+                                <!-- Etiquetas de Datos -->
+                                <text x="22.5" y="22" text-anchor="middle" font-size="6" fill="white" font-weight="bold">70</text>
+                                <text x="22.5" y="29" text-anchor="middle" font-size="4" fill="white">personas</text>
+                                <text x="50" y="35.6" text-anchor="middle" font-size="6" fill="white" font-weight="bold">58</text>
+                                <text x="50" y="42.6" text-anchor="middle" font-size="4" fill="white">personas</text>
+                                <text x="77.5" y="44.4" text-anchor="middle" font-size="6" fill="white" font-weight="bold">51</text>
+                                <text x="77.5" y="51.4" text-anchor="middle" font-size="4" fill="white">personas</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Gráfico 2: Tasa de Respuesta -->
+                    <div class="bg-white/70 p-4 rounded-xl border border-gray-200">
+                        <h4 class="font-bold text-center mb-2">Tasa de Respuesta (Encuesta)</h4>
+                        <div class="w-full h-56">
+                             <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                <defs>
+                                    <linearGradient id="respuestaGradient" x1="0" x2="0" y1="0" y2="1">
+                                        <stop offset="0%" stop-color="#fca5a5"/>
+                                        <stop offset="100%" stop-color="#ef4444"/>
+                                    </linearGradient>
+                                </defs>
+                                <g class="bars-container" transform="translate(0, 90) scale(1, -1)">
+                                    <!-- Barra S1 -->
+                                    <g class="bar-animation">
+                                        <rect x="15" y="0" width="15" height="80" fill="url(#respuestaGradient)" rx="2"/>
+                                    </g>
+                                    <!-- Barra S2 -->
+                                    <g class="bar-animation" style="animation-delay: 0.1s;">
+                                        <rect x="42.5" y="0" width="15" height="44.4" fill="url(#respuestaGradient)" rx="2"/>
+                                    </g>
+                                    <!-- Barra S3 -->
+                                    <g class="bar-animation" style="animation-delay: 0.2s;">
+                                        <rect x="70" y="0" width="15" height="35.6" fill="url(#respuestaGradient)" rx="2"/>
+                                    </g>
+                                </g>
+                                <!-- Línea de Tendencia -->
+                                <line x1="22.5" y1="10" x2="77.5" y2="54.4" stroke="#4b5563" stroke-width="1" stroke-dasharray="2,2"/>
+                                <!-- Eje X -->
+                                <text x="22.5" y="98" text-anchor="middle" font-size="5">S1</text>
+                                <text x="50" y="98" text-anchor="middle" font-size="5">S2</text>
+                                <text x="77.5" y="98" text-anchor="middle" font-size="5">S3</text>
+                                <!-- Etiquetas de Datos -->
+                                <text x="22.5" y="22" text-anchor="middle" font-size="5" fill="white" font-weight="bold">34.3%</text>
+                                <text x="22.5" y="29" text-anchor="middle" font-size="4" fill="white">(24 pers.)</text>
+                                <text x="50" y="57.6" text-anchor="middle" font-size="5" fill="white" font-weight="bold">19.0%</text>
+                                <text x="50" y="64.6" text-anchor="middle" font-size="4" fill="white">(11 pers.)</text>
+                                <text x="77.5" y="66.4" text-anchor="middle" font-size="5" fill="white" font-weight="bold">15.7%</text>
+                                <text x="77.5" y="73.4" text-anchor="middle" font-size="4" fill="white">(8 pers.)</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 4: EL SALTO CUALITATIVO DEL DEBATE -->
+            <section id="slide-4" class="content-slide" role="tabpanel" aria-labelledby="title-slide-4">
+                 <h2 id="title-slide-4" class="text-3xl lg:text-4xl font-bold mb-6">El Salto Cualitativo del Debate</h2>
+                 <p class="text-gray-600 mb-4">La evolución del chat en vivo como indicador de madurez política.</p>
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="p-6 bg-white rounded-lg border">
+                        <h4 class="text-xl font-bold mb-3">Sesión 1: Afirmación y Comunidad</h4>
+                        <p class="text-gray-600 text-sm">El foco estaba en la validación del espacio, el entusiasmo y la construcción de confianza. El disenso era inexistente.</p>
+                        <ul class="mt-4 space-y-2 text-sm">
+                            <li class="flex items-center"><span class="text-green-500 mr-2">●</span>Entusiasmo: 45%</li>
+                            <li class="flex items-center"><span class="text-blue-500 mr-2">●</span>Comunidad: 25%</li>
+                        </ul>
+                    </div>
+                    <div class="p-6 bg-violet-50 rounded-lg border-2 border-violet-300">
+                        <h4 class="text-xl font-bold mb-3 text-violet-800">Sesión 3: Deliberación y Crítica</h4>
+                        <p class="text-violet-700 text-sm">El grupo delibera, debate y gestiona tensiones (ej. gestión de Francia Márquez), demostrando alta seguridad psicológica.</p>
+                         <ul class="mt-4 space-y-2 text-sm">
+                            <li class="flex items-center"><span class="text-red-500 mr-2">●</span>Debate Crítico y Disenso: 30%</li>
+                            <li class="flex items-center"><span class="text-yellow-500 mr-2">●</span>Aportes y Recursos: 30%</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 5: FOCOS DEL DEBATE -->
+            <section id="slide-5" class="content-slide items-center" role="tabpanel" aria-labelledby="title-slide-5">
+                 <h2 id="title-slide-5" class="text-3xl lg:text-4xl font-bold mb-4 text-center">Focos del Debate: Sesión 3</h2>
+                 <div id="word-cloud" class="word-cloud-container">
+                    <span class="word" style="font-size: 3.5rem; color: #7e22ce;">RACISMO</span>
+                    <span class="word" style="font-size: 2.5rem; color: #5b21b6;">PODER</span>
+                    <span class="word" style="font-size: 2.2rem; color: #a855f7;">MUJERES</span>
+                    <span class="word" style="font-size: 2.0rem; color: #5b21b6;">PRIVILEGIO</span>
+                    <span class="word" style="font-size: 1.8rem; color: #9333ea;">TERRITORIO</span>
+                    <span class="word" style="font-size: 1.6rem; color: #a855f7;">FRANCIA</span>
+                    <span class="word" style="font-size: 1.4rem; color: #c084fc;">ANTIRRACISTA</span>
+                    <span class="word" style="font-size: 1.3rem; color: #9333ea;">DESAPRENDER</span>
+                 </div>
+            </section>
+
+            <!-- SLIDE 6: CRUCE CON LÍNEA BASE -->
+            <section id="slide-6" class="content-slide" role="tabpanel" aria-labelledby="title-slide-6">
+                <h2 id="title-slide-6" class="text-3xl lg:text-4xl font-bold mb-6">Cruce con Línea Base</h2>
+                <p class="text-gray-600 mb-4">La escuela no solo respondió a las demandas iniciales, las superó.</p>
+                <div class="space-y-4">
+                    <div class="p-4 rounded-lg bg-white border">
+                        <h4 class="font-bold text-lg">Demanda Antirracista (95%)</h4>
+                        <p>Evolución: De la <span class="font-semibold text-gray-500">inclusión</span> de una ponente a la <span class="font-semibold text-violet-600">centralidad</span> del tema en toda una sesión.</p>
+                    </div>
+                     <div class="p-4 rounded-lg bg-white border">
+                        <h4 class="font-bold text-lg">Profundización Conceptual (92%)</h4>
+                        <p>Evolución: De la <span class="font-semibold text-gray-500">recepción de teoría</span> a la <span class="font-semibold text-violet-600">co-construcción de conocimiento</span> (<a href="https://glosariolasjuanas.netlify.app/" target="_blank" class="underline hover:text-violet-800">Glosario Vivo</a>).</p>
+                    </div>
+                     <div class="p-4 rounded-lg bg-white border">
+                        <h4 class="font-bold text-lg">Construcción de Alianzas (85%)</h4>
+                        <p>Evolución: De la <span class="font-semibold text-gray-500">creación de confianza</span> a la <span class="font-semibold text-violet-600">gestión del disenso constructivo</span>, prueba de una alianza real.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 7: CONCLUSIONES Y RECOMENDACIONES -->
+            <section id="slide-7" class="content-slide" role="tabpanel" aria-labelledby="title-slide-7">
+                <h2 id="title-slide-7" class="text-3xl lg:text-4xl font-bold mb-6">Conclusiones y Recomendaciones</h2>
+                <div class="space-y-6">
+                    <div class="p-5 rounded-lg bg-yellow-100 border-l-4 border-yellow-500">
+                        <h4 class="font-bold text-lg text-yellow-800">1. Revertir la Tendencia en Datos (Acción Prioritaria)</h4>
+                        <p class="mt-1">Dedicarlos últimos 5 minutos a un **"bloque de cosecha y evaluación"** en tiempo real, presentándolo como una acción política para co-diseñar el futuro de la escuela.</p>
+                    </div>
+                    <div class="p-5 rounded-lg bg-green-100 border-l-4 border-green-500">
+                        <h4 class="font-bold text-lg text-green-800">2. Capitalizar la Madurez Deliberativa (Planificación)</h4>
+                        <p class="mt-1">Planificar futuras sesiones que aborden de frente **otras tensiones centrales del feminismo** (extractivismo, economía del cuidado, etc.) para mantener el interés del núcleo comprometido.</p>
+                    </div>
+                    <div class="p-5 rounded-lg bg-blue-100 border-l-4 border-blue-500">
+                        <h4 class="font-bold text-lg text-blue-800">3. Formalizar el Disenso como Éxito (Práctica Continua)</h4>
+                        <p class="mt-1">Crear en los informes una sección fija titulada **"Debates y Tensiones Emergentes"** para posicionar la crítica como evidencia de un espacio sano y democrático.</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- =================================================================== -->
+    <!-- ======================== SCRIPT JAVASCRIPT ======================== -->
+    <!-- =================================================================== -->
+    <script>
+        /**
+         * @file Manages the interactive presentation functionality.
+         * @author Gemini
+         * @description This script controls slide navigation, animations, and other interactive elements.
+         */
+        document.addEventListener('DOMContentLoaded', () => {
+
+            /**
+             * PresentationController manages the state and interactions of the slide deck.
+             * It's structured as an object to encapsulate all related logic.
+             */
+            const PresentationController = {
+                // --- Propiedades del Controlador ---
+                slides: null,
+                navLinks: null,
+                navContainer: null,
+                currentSlideIndex: 0,
+
+                /**
+                 * Initializes the presentation.
+                 * This method queries all necessary DOM elements and sets up event listeners.
+                 */
+                init() {
+                    this.navContainer = document.querySelector('nav');
+                    this.slides = document.querySelectorAll('.content-slide');
+                    this.navLinks = document.querySelectorAll('.nav-link');
+
+                    // Asigna los manejadores de eventos
+                    this.navContainer.addEventListener('click', this.handleNavClick.bind(this));
+                    document.addEventListener('keydown', this.handleKeyDown.bind(this));
+
+                    // Configuración inicial
+                    this.showSlide(0);
+                    this.randomizeWords();
+                },
+
+                /**
+                 * Displays a specific slide by its index and updates the navigation state.
+                 * @param {number} index - The index of the slide to show.
+                 */
+                showSlide(index) {
+                    // Valida que el índice esté dentro de los límites
+                    if (index < 0 || index >= this.slides.length) {
+                        console.error('Slide index out of bounds:', index);
+                        return;
+                    }
+
+                    // Actualiza las diapositivas
+                    this.slides.forEach((slide, i) => {
+                        slide.classList.toggle('active', i === index);
+                    });
+
+                    // Actualiza los enlaces de navegación
+                    this.navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        link.setAttribute('aria-selected', 'false');
+                        if (link.getAttribute('href') === `#slide-${index}`) {
+                            link.classList.add('active');
+                            link.setAttribute('aria-selected', 'true');
+                        }
+                    });
+                    
+                    this.currentSlideIndex = index;
+                },
+                
+                /**
+                 * Handles click events on the navigation menu using event delegation.
+                 * @param {Event} e - The click event object.
+                 */
+                handleNavClick(e) {
+                    const navLink = e.target.closest('.nav-link');
+                    if (navLink) {
+                        e.preventDefault();
+                        const targetIndex = parseInt(navLink.getAttribute('href').substring(7));
+                        this.showSlide(targetIndex);
+                    }
+                },
+
+                /**
+                 * Handles keyboard navigation with ArrowRight and ArrowLeft keys.
+                 * @param {Event} e - The keydown event object.
+                 */
+                handleKeyDown(e) {
+                    if (e.key === 'ArrowRight') {
+                        const nextIndex = Math.min(this.slides.length - 1, this.currentSlideIndex + 1);
+                        this.showSlide(nextIndex);
+                    } else if (e.key === 'ArrowLeft') {
+                        const prevIndex = Math.max(0, this.currentSlideIndex - 1);
+                        this.showSlide(prevIndex);
+                    }
+                },
+                
+                /**
+                 * Applies a slight random rotation to words in the word cloud for a dynamic, non-uniform effect.
+                 */
+                randomizeWords() {
+                    const words = document.querySelectorAll('#word-cloud .word');
+                    words.forEach(word => {
+                        // Genera una rotación aleatoria entre -10 y 10 grados
+                        const rotation = Math.floor(Math.random() * 20) - 10;
+                        word.style.transform = `rotate(${rotation}deg)`;
+                    });
+                },
+            };
+
+            // Inicializa el controlador cuando el DOM esté listo.
+            PresentationController.init();
+        });
+    </script>
+</body>
+</html>
+
