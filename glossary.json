@@ -1,10 +1,10 @@
 {
   "_meta": {
     "projectName": "Abecedario Político Interactivo",
-    "version": "1.4",
+    "version": "1.6",
     "description": "Este archivo contiene todos los términos, definiciones y ejemplos del glosario. Está diseñado para ser la única fuente de verdad de los datos, facilitando su actualización y mantenimiento.",
     "contribution_guide": "Para añadir o sugerir un cambio, por favor, utiliza la plantilla 'Sugerencia de Término' en la sección de 'Issues' del repositorio de GitHub. No edites este archivo directamente en la rama principal.",
-    "last_updated": "2025-09-25T16:01:00-05:00"
+    "last_updated": "2025-09-26T11:33:00-05:00"
   },
   "terms": [
     {
@@ -15,6 +15,18 @@
     },
     {
       "letter": "A",
+      "term": "Acción Antirracista",
+      "definition": "Es la materialización de la postura antirracista. Son las prácticas concretas y deliberadas que buscan desafiar, interrumpir y desmantelar el racismo en sus manifestaciones individuales, institucionales y estructurales. Va más allá de la simple ausencia de racismo.",
+      "practice": "Una acción antirracista es, por ejemplo, intervenir activamente ante un comentario racista, exigir que los paneles de discusión tengan diversidad racial, o diseñar políticas públicas con un enfoque étnico-racial explícito para reparar desigualdades históricas. No es reactiva, sino proactiva."
+    },
+    {
+      "letter": "A",
+      "term": "Acción Intencional",
+      "definition": "Es un término que aterriza el concepto de antirracismo. Enfatiza que para combatir un sistema estructuralmente racista, las acciones deben ser deliberadas, planificadas y sostenidas en el tiempo.",
+      "practice": "Se opone a la idea de que la neutralidad o las buenas intenciones son suficientes para generar un cambio real. Una acción intencional es, por ejemplo, establecer cuotas explícitas para la participación de mujeres afro e indígenas en listas electorales, garantizar su financiación, o crear programas de mentoría política para ellas."
+    },
+    {
+      "letter": "A",
       "term": "Acciones Afirmativas",
       "definition": "Son políticas y medidas temporales diseñadas para corregir las desigualdades históricas y estructurales que enfrentan ciertos grupos de la población (mujeres, pueblos indígenas, afrodesc-descendientes, personas con discapacidad, etc.). No son \"privilegios\", sino herramientas para nivelar el punto de partida.",
       "practice": "Estas acciones buscan garantizar una igualdad de oportunidades real, reconociendo que la igualdad formal (\"todos son iguales ante la ley\") no es suficiente. Ejemplos son las cuotas de participación política, las becas para grupos subrepresentados o los incentivos para la contratación. Implementar acciones afirmativas, como las \"becas para personas trans y no binarias\" logradas en Medellín, es una característica clave de una agenda transformadora."
@@ -22,7 +34,7 @@
     {
       "letter": "A",
       "term": "Améfrica / Amefricanidad",
-      "definition": "Un concepto político y geográfico acuñado por la visionaria intelectual afrobrasleña Lélia Gonzalez. Es una herramienta teórica para demoler el mito de la \"democracia racial\" y del \"mestizaje\" como proyectos de blanqueamiento y borramiento de la herencia africana.",
+      "definition": "Un concepto político y geográfico acuñado por la visionaria intelectual afrobrasileña Lélia Gonzalez. Es una herramienta teórica para demoler el mito de la \"democracia racial\" y del \"mestizaje\" como proyectos de blanqueamiento y borramiento de la herencia africana.",
       "practice": "Lélia Gonzalez nos enseña que la cultura latinoamericana es incomprensible sin su matriz africana. La \"amefricanidad\" no es solo una identidad racial, es una categoría político-cultural que nos permite analizar cómo el racismo estructura nuestras sociedades. Asumirse \"amefricana\" es reconocerse en una historia continental de esclavización, pero, sobre todo, en una historia de cimarronaje, rebelión y creación cultural."
     },
     {
@@ -51,9 +63,21 @@
     },
     {
       "letter": "C",
+      "term": "Corresponsabilidad (en la lucha antirracista)",
+      "definition": "Materializa la idea de que la lucha antirracista 'no es solo para mujeres afro'. Define el rol activo y la responsabilidad política que las personas no racializadas y aliadas deben asumir para desmantelar un sistema del que, de una u otra forma, son parte y se benefician.",
+      "practice": "No se trata de culpa o salvadorismo, sino de una responsabilidad política compartida. Se ejerce al usar el privilegio para abrir espacios, amplificar las voces de las compañeras racializadas sin suplantarlas, y confrontar el racismo en los círculos donde las personas racializadas no están presentes."
+    },
+    {
+      "letter": "C",
+      "term": "Cuotas de Género",
+      "definition": "Son un tipo de acción afirmativa que establece un porcentaje o número mínimo de participación para las mujeres en espacios donde han sido históricamente subrepresentadas, como las listas electorales, juntas directivas o cargos públicos.",
+      "practice": "Su objetivo es forzar la inclusión para romper barreras estructurales y garantizar una representación más descriptiva. Sin embargo, su implementación debe ser crítica, asegurando que no solo se cumpla el número, sino que se promueva una representación sustantiva. El debate feminista impulsa 'listas paritarias' (50/50) y 'cremallera' (alternancia hombre-mujer) como mecanismos más efectivos."
+    },
+    {
+      "letter": "C",
       "term": "Cuerpo-Territorio",
       "definition": "Es un concepto central en los feminismos comunitarios y decoloniales que afirma la conexión inseparable entre nuestro cuerpo y la tierra que habitamos. El cuerpo es nuestro primer territorio de soberanía.",
-      "practice": "Esta idea revela que el proyecto colonial y patriarcal opera a través de una doble violencia de despojo: sobre la tierra (extractivismo) y sobre los cuerpos (control, violencia). Defender la soberanía sobre nuestros cuerpos es defender el territorio. La sanación, por tanto, también debe ser doble: sanar la tierra es sanar nuestros cuerpos."
+      "practice": "Esta idea revela que el proyecto colonial y patrical opera a través de una doble violencia de despojo: sobre la tierra (extractivismo) y sobre los cuerpos (control, violencia). Defender la soberanía sobre nuestros cuerpos es defender el territorio. La sanación, por tanto, también debe ser doble: sanar la tierra es sanar nuestros cuerpos."
     },
     {
       "letter": "C",
@@ -63,9 +87,21 @@
     },
     {
       "letter": "D",
+      "term": "(Des)Aprendizaje Antirracista",
+      "definition": "Refleja la conclusión de que el antirracismo no es un destino, sino un proceso activo y continuo. Incluye la doble acción de desaprender los prejuicios y narrativas racistas interiorizadas y aprender nuevas formas de pensar, actuar y relacionarse desde una práctica consciente.",
+      "practice": "No basta con declararse 'no racista'. Este proceso se materializa en la creación de espacios de formación y autocrítica dentro de los movimientos, en la revisión constante de nuestros propios privilegios y en el compromiso de cuestionar chistes, comentarios y prácticas racistas en nuestro entorno cotidiano."
+    },
+    {
+      "letter": "D",
       "term": "Despatriarcalización",
       "definition": "Es un proceso político radical que busca desmontar el patriarcado, entendido no solo como la dominación de los hombres sobre las mujeres, sino como un sistema de organización social jerárquico, violento y depredador que fue impuesto y reconfigurado por el colonialismo.",
       "practice": "Desde una mirada decolonial, despatriarcalizar es mucho más que alcanzar la \"igualdad de género\". Es, necesariamente, una lucha antirracista y anticapitalista. Implica desmantelar la familia nuclear, la heterosexualidad obligatoria, la división sexual del trabajo y la jerarquía entre lo humano y lo no-humano."
+    },
+    {
+      "letter": "D",
+      "term": "Doble Desigualdad",
+      "definition": "Este término nombra de manera precisa la intersección específica de opresiones (racismo y sexismo) que atraviesa la experiencia de las mujeres afrodescendientes e indígenas en los espacios de poder.",
+      "practice": "Ayuda a visibilizar por qué las soluciones que solo atienden el género (feminismo blanco) o solo la raza (luchas antirracistas androcéntricas) son insuficientes. Su reconocimiento exige el diseño de acciones afirmativas y políticas públicas que aborden simultáneamente ambas dimensiones de la opresión."
     },
     {
       "letter": "E",
@@ -78,6 +114,12 @@
       "term": "Escri-vivencia (Escrevivência)",
       "definition": "Un concepto creado por la escritora afrobrasileña Conceição Evaristo para describir una forma de escritura que nace de la experiencia vivida, colectiva y cotidiana de las mujeres negras. No es una escritura \"sobre\" la vida, sino que es la vida misma haciéndose texto.",
       "practice": "Es una invitación a documentar nuestros procesos no desde una mirada externa y \"objetiva\", sino desde nuestras propias voces y cuerpos. Un acta de una asamblea, un diario de campo o un poema pueden ser, todos, formas de \"escribi-vivir\" nuestra lucha."
+    },
+    {
+      "letter": "E",
+      "term": "Estética es Política",
+      "definition": "Captura la idea de que la presencia de cuerpos diversos (racialmente, en términos de identidad de género, discapacidad, etc.) en espacios de poder es en sí misma un acto de ruptura política, ya que desafía la norma hegemónica de quién es visto como 'apto' para liderar.",
+      "practice": "Redefine los imaginarios del poder. La visibilidad de lideresas como la congresista brasileña Erika Hilton, con su estética disruptiva y su cuerpo trans, inspira a nuevas generaciones y rompe violentamente con los estereotipos del político tradicional, blanco y cisgénero."
     },
     {
       "letter": "F",
@@ -102,6 +144,12 @@
       "term": "Interseccionalidad",
       "definition": "Es una herramienta analítica propuesta por Kimberlé Crenshaw para comprender cómo las diferentes estructuras de poder (racismo, patriarcado, capitalismo) no actúan de forma aislada, sino que se cruzan (intersectan) y producen experiencias de opresión específicas y agravadas.",
       "practice": "Un enfoque interseccional nos obliga a construir políticas y acciones desde los márgenes de los márgenes, preguntándonos: ¿cómo afecta esto a una mujer indígena desplazada y con discapacidad? ¿A una mujer trans trabajadora sexual y migrante?"
+    },
+    {
+      "letter": "J",
+      "term": "Justicia Epistémica",
+      "definition": "Va más allá de la simple inclusión y apunta a la necesidad de reconocer, valorar e integrar los saberes, prácticas y liderazgos de las comunidades históricamente marginadas como conocimiento válido y fundamental para la formulación de políticas.",
+      "practice": "Es clave para descolonizar el poder. Se materializa al crear mecanismos para que las políticas públicas se construyan desde el conocimiento comunitario, como en consultas vinculantes, o al diseñar sistemas de salud que integren y respeten la medicina tradicional como un saber válido."
     },
     {
       "letter": "J",
@@ -168,6 +216,18 @@
       "term": "Poder Popular",
       "definition": "Es la capacidad política, económica y organizativa que construyen las comunidades desde la base para gobernar sus vidas y territorios de forma autónoma, sin depender de las estructuras del Estado o del capital.",
       "practice": "Una asamblea comunitaria que decide de forma vinculante cómo gestionar sus recursos hídricos es Poder Popular. Una red de economías solidarias que crea su propia moneda social es Poder Popular. El desafío es \"despatriarcalizar\" y \"descolonizar\" estos espacios."
+    },
+    {
+      "letter": "P",
+      "term": "Política de la Presencia (y sus límites)",
+      "definition": "Este concepto permite analizar el valor de la representación, pero también sus complejidades. Reconoce que la presencia de cuerpos históricamente excluidos en espacios de poder es un paso fundamental y una victoria simbólica, pero no es el fin de la lucha.",
+      "practice": "El debate sobre lideresas como Francia Márquez ilustra que, si bien la presencia es un hito, la comunidad exige también coherencia, gestión y resultados. Nos obliga a desarrollar una mirada crítica, exigiendo que la 'política de la presencia' se traduzca en una 'representación sustantiva' que materialice cambios reales."
+    },
+    {
+      "letter": "P",
+      "term": "Postura Antirracista",
+      "definition": "Es la toma de posición política y ética consciente y activa contra el racismo en todas sus formas. Implica reconocer la existencia del racismo estructural y comprometerse con su erradicación. No es una identidad estática, sino un compromiso continuo.",
+      "practice": "Adoptar una postura antirracista significa ir más allá de 'no ser racista' para ser activamente 'antirracista'. Se traduce en educarse constantemente, escuchar y validar las experiencias de las personas racializadas, y estar dispuesto/a a cuestionar los propios privilegios y sesgos. Es la base para la acción antirracista."
     },
     {
       "letter": "P",
