@@ -6,11 +6,6 @@ La información presentada se alimenta directamente de la **Línea Base** y de l
 
 ---
 
-## 🌐 Demo Interactiva  
-👉 [Ver presentación en vivo](./index.html)
-
----
-
 ## 📑 Estructura del Análisis  
 
 1. **Inicio** — Tema central: _¿Por qué deben existir curules feministas?_  
