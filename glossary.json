@@ -1,10 +1,10 @@
 {
   "_meta": {
     "projectName": "Abecedario Político Interactivo",
-    "version": "1.6",
+    "version": "1.7",
     "description": "Este archivo contiene todos los términos, definiciones y ejemplos del glosario. Está diseñado para ser la única fuente de verdad de los datos, facilitando su actualización y mantenimiento.",
     "contribution_guide": "Para añadir o sugerir un cambio, por favor, utiliza la plantilla 'Sugerencia de Término' en la sección de 'Issues' del repositorio de GitHub. No edites este archivo directamente en la rama principal.",
-    "last_updated": "2025-09-26T11:33:00-05:00"
+    "last_updated": "2025-09-26T11:37:00-05:00"
   },
   "terms": [
     {
@@ -112,8 +112,8 @@
     {
       "letter": "E",
       "term": "Escri-vivencia (Escrevivência)",
-      "definition": "Un concepto creado por la escritora afrobrasileña Conceição Evaristo para describir una forma de escritura que nace de la experiencia vivida, colectiva y cotidiana de las mujeres negras. No es una escritura \"sobre\" la vida, sino que es la vida misma haciéndose texto.",
-      "practice": "Es una invitación a documentar nuestros procesos no desde una mirada externa y \"objetiva\", sino desde nuestras propias voces y cuerpos. Un acta de una asamblea, un diario de campo o un poema pueden ser, todos, formas de \"escribi-vivir\" nuestra lucha."
+      "definition": "Concepto creado por la escritora afrobrasileña Conceição Evaristo, se refiere a la escritura que nace de la experiencia vivida, del cuerpo y de la memoria colectiva, especialmente de las mujeres negras. No es solo un acto literario, sino un acto político de existencia, resistencia y creación de conocimiento desde un lugar históricamente subalternizado.",
+      "practice": "Es una herramienta práctica para alcanzar la 'Justicia Epistémica' y la materialización de la 'Política del Lugar', donde la narración de la propia vida se convierte en fuente de teoría. Desafía la separación occidental entre 'vida' y 'conocimiento', 'arte' y 'política', demostrando que contar la propia historia es un acto fundamental de lucha."
     },
     {
       "letter": "E",
@@ -142,8 +142,8 @@
     {
       "letter": "I",
       "term": "Interseccionalidad",
-      "definition": "Es una herramienta analítica propuesta por Kimberlé Crenshaw para comprender cómo las diferentes estructuras de poder (racismo, patriarcado, capitalismo) no actúan de forma aislada, sino que se cruzan (intersectan) y producen experiencias de opresión específicas y agravadas.",
-      "practice": "Un enfoque interseccional nos obliga a construir políticas y acciones desde los márgenes de los márgenes, preguntándonos: ¿cómo afecta esto a una mujer indígena desplazada y con discapacidad? ¿A una mujer trans trabajadora sexual y migrante?"
+      "definition": "Acuñado por Kimberlé Crenshaw, este concepto es una herramienta analítica para comprender cómo las diferentes categorías sociales y sistemas de opresión (como raza, género, clase, etc.) no actúan de manera independiente, sino que se entrecruzan (intersectan), creando experiencias únicas y complejas de discriminación. No se trata de 'sumar' opresiones, sino de entender cómo crean una experiencia cualitativamente distinta.",
+      "practice": "Es el pilar fundamental para comprender la 'Doble Desigualdad'. Permite diseñar políticas públicas mucho más precisas al visibilizar a quienes quedan atrapadas en los 'cruces' de las opresiones y que son invisibles para los enfoques de una sola vía (solo género o solo raza). Un enfoque interseccional nos obliga a construir políticas desde los márgenes de los márgenes."
     },
     {
       "letter": "J",
@@ -201,6 +201,12 @@
     },
     {
       "letter": "P",
+      "term": "Pensamiento Decolonial",
+      "definition": "Es una corriente de pensamiento que argumenta que el colonialismo no terminó con la independencia de los países. Persiste a través de la 'colonialidad del poder, del saber y del ser': una estructura de poder que impone la cultura, el conocimiento y las formas de vida eurocéntricas como universales y superiores, mientras subordina y descalifica a todas las demás.",
+      "practice": "Es el marco teórico que da sentido a la 'Justicia Epistémica' y a la crítica a un feminismo hegemónico. Nos invita a cuestionar las raíces más profundas de la desigualdad y a reconocer que la emancipación real requiere desmantelar la herencia colonial en nuestras mentes, instituciones y relaciones sociales."
+    },
+    {
+      "letter": "P",
       "term": "Perspectiva de Género",
       "definition": "Es una herramienta analítica que nos permite observar y comprender las desigualdades, roles y violencias que existen entre hombres, mujeres y otras identidades en una sociedad. Es como ponerse unas gafas especiales que nos permiten ver cómo el género impacta todo.",
       "practice": "Aplicarla en una política pública significa analizar cómo afectará de manera diferenciada a hombres y a mujeres. En una organización, significa revisar si nuestras prácticas internas reproducen roles de género."
@@ -225,9 +231,21 @@
     },
     {
       "letter": "P",
+      "term": "Política del Lugar (o de la Identidad)",
+      "definition": "Sostiene que la identidad y la experiencia vivida de una persona (su lugar en el mundo) son puntos de partida legítimos y necesarios para la teoría y la acción política. Rechaza la idea de un sujeto político 'universal' y abstracto (que históricamente ha sido blanco y masculino).",
+      "practice": "Da sustento a la 'Política de la Presencia' y a que la 'Estética es Política'. La presencia de una mujer negra o indígena en el poder no es solo simbólica; es la afirmación de que su experiencia y perspectiva son conocimientos políticos válidos y necesarios para gobernar. Legitima las voces y las agendas de los grupos históricamente silenciados."
+    },
+    {
+      "letter": "P",
       "term": "Postura Antirracista",
       "definition": "Es la toma de posición política y ética consciente y activa contra el racismo en todas sus formas. Implica reconocer la existencia del racismo estructural y comprometerse con su erradicación. No es una identidad estática, sino un compromiso continuo.",
       "practice": "Adoptar una postura antirracista significa ir más allá de 'no ser racista' para ser activamente 'antirracista'. Se traduce en educarse constantemente, escuchar y validar las experiencias de las personas racializadas, y estar dispuesto/a a cuestionar los propios privilegios y sesgos. Es la base para la acción antirracista."
+    },
+    {
+      "letter": "P",
+      "term": "Privilegio",
+      "definition": "Se refiere a las ventajas, beneficios y facilidades no ganadas que una persona o grupo recibe simplemente por pertenecer a un grupo social dominante (blanco, mestizo, masculino, cisgénero, heterosexual, sin discapacidad, etc.). El privilegio es a menudo invisible para quien lo posee, ya que se percibe como 'lo normal'.",
+      "practice": "Es el concepto que se encuentra detrás del '(Des)Aprendizaje Antirracista' y la 'Corresponsabilidad'. Reconocer los propios privilegios es el punto de partida para que una persona aliada pueda asumir su responsabilidad. Mueve el foco del análisis del 'problema' de los oprimidos al 'sistema' que otorga ventajas a los dominantes."
     },
     {
       "letter": "P",
