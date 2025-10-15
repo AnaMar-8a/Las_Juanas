@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- =================================================================== -->
+    <!-- ======================= METADATOS Y LIBRERÍAS ===================== -->
+    <!-- =================================================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Análisis de Proceso: Sesión 5 - Escuela Las Juanas</title>
+    
+    <!-- Librerías Externas: Tailwind CSS para estilos y Google Fonts para tipografía -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- =================================================================== -->
+    <!-- ========================== ESTILOS CSS ============================ -->
+    <!-- =================================================================== -->
+    <style>
+        /* ------------------------- ESTILOS BASE -------------------------- */
+        @import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter:wght@400;600&display=swap');
+        
+        body {
+            background-color: #e5e7eb; /* Gris claro de fondo */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Inter', sans-serif;
+            color: #374151;
+        }
+
+        /* -------------------- CONTENEDOR Y RESPONSIVIDAD ------------------- */
+        #presentation-container {
+            width: 100%;
+            height: 100vh;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+            background-color: #fbf9f6;
+        }
+        
+        @media (min-width: 1024px) {
+            #presentation-container {
+                flex-direction: row;
+                max-width: 1280px;
+                aspect-ratio: 16 / 9;
+                height: auto;
+                border-radius: 0.5rem;
+                box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            }
+        }
+
+        /* -------------------- ESTILOS DE COMPONENTES --------------------- */
+        h1, h2, h3, h4, .font-title {
+            font-family: 'Domine', serif;
+            color: #1f1d2b;
+        }
+        
+        .content-slide { display: none; }
+        .content-slide.active {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            animation: fadeIn 0.7s ease-in-out;
+        }
+        
+        .nav-link.active {
+            background-color: #8b5cf6;
+            color: white;
+        }
+        .nav-link.active h3, .nav-link.active svg {
+           color: white;
+        }
+        
+        #mobile-nav-scroll { scrollbar-width: none; }
+        #mobile-nav-scroll::-webkit-scrollbar { display: none; }
+        
+        /* -------------------------- ANIMACIONES -------------------------- */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ----------------------- NUBE DE PALABRAS ------------------------ */
+        .word-cloud-container {
+            max-width: 600px; text-align: center; padding: 1rem;
+        }
+        .word {
+            font-weight: 600; display: inline-block; padding: 0.5rem 0.8rem;
+            transition: transform 0.3s ease-in-out; cursor: default;
+        }
+        .word:hover {
+            transform: scale(1.1) rotate(0deg) !important;
+            z-index: 10; position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- =================================================================== -->
+    <!-- =================== CONTENEDOR PRINCIPAL ========================== -->
+    <!-- =================================================================== -->
+    <div id="presentation-container">
+        
+        <!-- =================================================================== -->
+        <!-- ======================= NAVEGACIÓN LATERAL ======================== -->
+        <!-- =================================================================== -->
+        <nav class="lg:w-1/4 bg-white/50 lg:border-r border-gray-200 p-4 lg:p-6 flex flex-col justify-between" role="navigation" aria-label="Navegación de diapositivas">
+            <div>
+                <!-- Encabezado (desktop) -->
+                <header class="hidden lg:block mb-8">
+                    <h2 class="text-2xl font-bold">Las Juanas</h2>
+                    <p class="text-sm text-gray-500">Informe Integral y Crítico</p>
+                </header>
+
+                <!-- Navegación (Desktop) -->
+                <div id="desktop-nav-links" class="hidden lg:block space-y-1 text-sm" role="tablist" aria-orientation="vertical">
+                    <a href="#slide-0" class="nav-link active group block p-2 rounded-lg" role="tab"><h3 class="font-bold group-hover:text-violet-700">Portada</h3></a>
+                    <a href="#slide-1" class="nav-link group block p-2 rounded-lg" role="tab"><h3 class="font-bold group-hover:text-violet-700">Marco Analítico</h3></a>
+                    <a href="#slide-2" class="nav-link group block p-2 rounded-lg" role="tab"><h3 class="font-bold group-hover:text-violet-700">Autocrítica Metodológica</h3></a>
+                    <a href="#slide-3" class="nav-link group block p-2 rounded-lg" role="tab"><h3 class="font-bold group-hover:text-violet-700">Análisis Sesión 5</h3></a>
+                    <a href="#slide-4" class="nav-link group block p-2 rounded-lg" role="tab"><h3 class="font-bold group-hover:text-violet-700">Pulso del Debate</h3></a>
+                    <a href="#slide-5" class="nav-link group block p-2 rounded-lg" role="tab"><h3 class="font-bold group-hover:text-violet-700">Cruce con Línea Base</h3></a>
+                    <a href="#slide-6" class="nav-link group block p-2 rounded-lg" role="tab"><h3 class="font-bold group-hover:text-violet-700">Evolución Cuantitativa</h3></a>
+                    <a href="#slide-7" class="nav-link group block p-2 rounded-lg" role="tab"><h3 class="font-bold group-hover:text-violet-700">Análisis de Tendencias</h3></a>
+                    <a href="#slide-8" class="nav-link group block p-2 rounded-lg" role="tab"><h3 class="font-bold group-hover:text-violet-700">Evolución Conceptual</h3></a>
+                    <a href="#slide-9" class="nav-link group block p-2 rounded-lg" role="tab"><h3 class="font-bold group-hover:text-violet-700">Conclusiones</h3></a>
+                    <a href="#slide-10" class="nav-link group block p-2 rounded-lg" role="tab"><h3 class="font-bold group-hover:text-violet-700">Hoja de Ruta</h3></a>
+                </div>
+
+                <!-- Navegación (Móvil con iconos) -->
+                <div id="mobile-nav-scroll" class="lg:hidden flex justify-around items-center" role="tablist" aria-orientation="horizontal">
+                    <a href="#slide-0" class="nav-link active p-2 rounded-full" role="tab" aria-selected="true" aria-label="Portada"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg></a>
+                    <a href="#slide-1" class="nav-link p-2 rounded-full" role="tab" aria-label="Marco"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></a>
+                    <a href="#slide-2" class="nav-link p-2 rounded-full" role="tab" aria-label="Autocrítica"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg></a>
+                    <a href="#slide-3" class="nav-link p-2 rounded-full" role="tab" aria-label="Análisis S5"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg></a>
+                    <a href="#slide-4" class="nav-link p-2 rounded-full" role="tab" aria-label="Debate"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg></a>
+                    <a href="#slide-5" class="nav-link p-2 rounded-full" role="tab" aria-label="Línea Base"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path></svg></a>
+                    <a href="#slide-6" class="nav-link p-2 rounded-full" role="tab" aria-label="Evolución Datos"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg></a>
+                    <a href="#slide-7" class="nav-link p-2 rounded-full" role="tab" aria-label="Tendencias"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg></a>
+                    <a href="#slide-8" class="nav-link p-2 rounded-full" role="tab" aria-label="Evolución Conceptual"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg></a>
+                    <a href="#slide-9" class="nav-link p-2 rounded-full" role="tab" aria-label="Conclusiones"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></a>
+                    <a href="#slide-10" class="nav-link p-2 rounded-full" role="tab" aria-label="Ruta"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L20 12 9 20z"></path></svg></a>
+                </div>
+            </div>
+
+            <!-- Pie de página -->
+            <footer class="hidden lg:flex items-center justify-center space-x-4 mt-4">
+                <p class="text-sm font-semibold text-gray-600">ELECTAS</p>
+                <span class="text-gray-300">|</span>
+                <p class="text-sm font-semibold text-gray-600">UPDATE</p>
+            </footer>
+        </nav>
+        
+        <!-- =================================================================== -->
+        <!-- ================= ÁREA DE CONTENIDO PRINCIPAL =================== -->
+        <!-- =================================================================== -->
+        <main class="flex-1 p-6 md:p-10 lg:p-12 overflow-y-auto">
+
+            <!-- SLIDE 0: PORTADA -->
+            <section id="slide-0" class="content-slide active" role="tabpanel">
+                <p class="text-lg md:text-xl font-semibold text-violet-600">Escuela "Las Juanas"</p>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mt-2">Informe de Sesión 5</h1>
+                <p class="text-lg md:text-xl text-gray-600 mt-4">Un análisis integral y crítico del proceso formativo.</p>
+            </section>
+            
+            <!-- SLIDE 1: MARCO ANALÍTICO -->
+            <section id="slide-1" class="content-slide" role="tabpanel">
+                 <h2 class="text-3xl lg:text-4xl font-bold mb-6">Marco Analítico y Narrativa de Madurez</h2>
+                 <p class="text-lg">Este documento trasciende el reporte para constituirse como la **crónica de un proceso de maduración conceptual y política**. Su propósito es narrar la evolución de la Escuela a través de datos, interpretando la trayectoria del grupo y la consolidación de su espacio pedagógico, culminando en un análisis crítico y una hoja de ruta estratégica.</p>
+            </section>
+
+            <!-- SLIDE 2: AUTOCRÍTICA METODOLÓGICA -->
+            <section id="slide-2" class="content-slide" role="tabpanel">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-6">La Política de la Mirada: Autocrítica</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-base">
+                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-blue-400">
+                        <h4 class="font-bold">El Relato del Núcleo Comprometido</h4>
+                        <p>Con una tasa de respuesta promedio del **30%**, nuestros datos cuantitativos cuentan una historia de éxito, pero parcial. El 70% restante es un silencio que debemos reconocer.</p>
+                    </div>
+                    <div class="p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-400">
+                        <h4 class="font-bold">La Evaluación como Dato Político</h4>
+                        <p>La baja tasa de respuesta confirma la sobrecarga de las activistas. Nuestro método refleja, sin quererlo, la tensión sobre la sostenibilidad que la escuela busca abordar.</p>
+                        <blockquote class="mt-2 text-sm italic text-gray-600">“Ponerse la mochila no es fácil cuando el patriarcado nos sobrecarga...”</blockquote>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 3: ANÁLISIS SESIÓN 5 -->
+            <section id="slide-3" class="content-slide" role="tabpanel">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-6">Sesión 5: Anatomía de un Punto de Inflexión</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+                    <div class="p-4 bg-white rounded-lg border"><h4 class="font-semibold text-gray-500">Asistencia</h4><p class="text-4xl font-bold">33</p></div>
+                    <div class="p-4 bg-white rounded-lg border"><h4 class="font-semibold text-gray-500">Tasa de Respuesta</h4><p class="text-4xl font-bold text-red-500">36.4%</p></div>
+                    <div class="p-4 bg-white rounded-lg border"><h4 class="font-semibold text-gray-500">Satisfacción</h4><p class="text-4xl font-bold text-green-500">5.0/5.0</p></div>
+                </div>
+                <div class="mt-6 p-4 bg-violet-50 rounded-lg border-l-4 border-violet-400">
+                    <h4 class="font-bold">Aprendizaje Clave: Nombrar para Combatir</h4>
+                    <blockquote class="mt-1 text-base italic text-gray-700">“La securitización, las falsas narrativas, la manipulación de emociones... todas estas son sus herramientas.”</blockquote>
+                </div>
+            </section>
+
+            <!-- SLIDE 4: PULSO DEL DEBATE -->
+            <section id="slide-4" class="content-slide" role="tabpanel">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-6">El Pulso del Debate Colectivo (Sesión 5)</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                    <div>
+                        <h4 class="font-bold mb-3">Clima Emocional del Chat</h4>
+                        <ul class="space-y-2">
+                           <li><span class="font-bold text-blue-600">40%</span> Reflexión Crítica</li>
+                           <li><span class="font-bold text-green-600">30%</span> Solidaridad y Apoyo</li>
+                           <li><span class="font-bold text-yellow-600">20%</span> Compromiso y Acción</li>
+                        </ul>
+                        <p class="text-sm mt-4">El chat transita del entusiasmo inicial a un **taller de análisis político** y contención colectiva.</p>
+                    </div>
+                    <div class="word-cloud-container">
+                        <span class="word" style="font-size: 3.2rem; color: #7c3aed;">DERECHA</span>
+                        <span class="word" style="font-size: 2.5rem; color: #c084fc;">PODER</span>
+                        <span class="word" style="font-size: 2.8rem; color: #a78bfa;">MIEDO</span>
+                        <span class="word" style="font-size: 2.9rem; color: #8b5cf6;">AMOR</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 5: CRUCE CON LÍNEA BASE -->
+            <section id="slide-5" class="content-slide" role="tabpanel">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-6">Cruce con Línea Base: De la Expectativa a la Praxis</h2>
+                <div class="space-y-4">
+                    <div class="p-4 bg-white rounded-lg border border-gray-200">
+                        <h4 class="font-bold">Demanda: Enfrentar Violencias Políticas (88%)</h4>
+                        <p>La Sesión 5 responde directamente, pasando de la defensa al **análisis proactivo** de las estrategias del adversario, superando la expectativa inicial.</p>
+                    </div>
+                    <div class="p-4 bg-white rounded-lg border border-gray-200">
+                        <h4 class="font-bold">Demanda: Cuestionar Racismo (95%)</h4>
+                        <p>El itinerario ha transitado de la **inclusión** de voces (S1) a la **centralidad** del debate antirracista como eje analítico (S3, S4, S5).</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SLIDE 6: EVOLUCIÓN CUANTITATIVA -->
+            <section id="slide-6" class="content-slide" role="tabpanel">
+                 <h2 class="text-3xl lg:text-4xl font-bold mb-6">La Historia en Números (Comparativo)</h2>
+                 <div class="overflow-x-auto bg-white/70 p-2 rounded-xl border border-gray-200">
+                   <table class="w-full text-left table-auto text-sm">
+                       <thead class="text-gray-600 font-semibold">
+                           <tr>
+                               <th class="p-2">Indicador</th>
+                               <th class="p-2 text-center">Sesión 1</th>
+                               <th class="p-2 text-center">Sesión 2</th>
+                               <th class="p-2 text-center">Sesión 3</th>
+                               <th class="p-2 text-center">Sesión 5</th>
+                           </tr>
+                       </thead>
+                       <tbody>
+                           <tr class="border-t">
+                               <td class="p-2 font-semibold">Asistencia (aprox.)</td>
+                               <td class="p-2 text-center font-bold">~70</td>
+                               <td class="p-2 text-center font-bold">~60</td>
+                               <td class="p-2 text-center font-bold">51</td>
+                               <td class="p-2 text-center font-bold text-red-500">33 ↓</td>
+                           </tr>
+                           <tr class="border-t bg-yellow-50/50">
+                               <td class="p-2 font-semibold">Tasa de Respuesta</td>
+                               <td class="p-2 text-center font-bold">34.3%</td>
+                               <td class="p-2 text-center font-bold">33.3%</td>
+                               <td class="p-2 text-center font-bold text-red-500">15.7%</td>
+                               <td class="p-2 text-center font-bold">36.4%</td>
+                           </tr>
+                           <tr class="border-t">
+                               <td class="p-2 font-semibold">Satisfacción Promedio</td>
+                               <td class="p-2 text-center font-bold">4.8</td>
+                               <td class="p-2 text-center font-bold">4.9</td>
+                               <td class="p-2 text-center font-bold">4.9</td>
+                               <td class="p-2 text-center font-bold text-green-500">5.0 ↑</td>
+                           </tr>
+                       </tbody>
+                   </table>
+                 </div>
+                 <p class="text-sm mt-4 text-gray-600">Esta tabla revela una historia compleja: la experiencia es cada vez más valorada por un núcleo que se va consolidando, pero que también se va reduciendo.</p>
+            </section>
+
+            <!-- SLIDE 7: ANÁLISIS DE TENDENCIAS -->
+            <section id="slide-7" class="content-slide" role="tabpanel">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-6">Análisis de Tendencias (Proyección)</h2>
+                <div class="space-y-4">
+                    <div class="p-4 rounded-lg bg-green-100 border-l-4 border-green-500">
+                        <h4 class="font-bold text-lg text-green-800">Tendencia Ascendente ↑: Calidad y Pertinencia</h4>
+                        <p>La satisfacción creciente valida el modelo pedagógico y la progresión curricular. La escuela es **exitosa** para quienes permanecen.</p>
+                    </div>
+                    <div class="p-4 rounded-lg bg-red-100 border-l-4 border-red-500">
+                        <h4 class="font-bold text-lg text-red-800">Tendencia Descendente ↓: Asistencia</h4>
+                        <p>La disminución de participantes sugiere la consolidación de un núcleo. **Riesgo:** Convertir la escuela en un espacio de nicho, perdiendo alcance.</p>
+                    </div>
+                     <div class="p-4 rounded-lg bg-yellow-100 border-l-4 border-yellow-500">
+                        <h4 class="font-bold text-lg text-yellow-800">Tendencia Irregular ↔: Tasa de Respuesta</h4>
+                        <p>La baja y errática participación en la evaluación es la principal alerta metodológica. **Riesgo:** Afectar la validez de la evaluación final.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SLIDE 8: EVOLUCIÓN CONCEPTUAL -->
+            <section id="slide-8" class="content-slide" role="tabpanel">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-6">La Evolución del Lenguaje Político</h2>
+                <div class="relative space-y-4">
+                     <!-- Etapa 1 -->
+                     <div class="p-3 bg-white rounded-lg border border-gray-200">
+                         <h4 class="font-bold text-violet-700">Inicio (S1-S2): Construcción del Poder Propio</h4>
+                         <p class="text-sm font-semibold">Lenguaje Dominante: PODER, POLÍTICA, LUCHA, TERRITORIO</p>
+                     </div>
+                      <!-- Flecha -->
+                     <div class="text-center text-2xl text-gray-400">↓</div>
+                     <!-- Etapa 2 -->
+                     <div class="p-3 bg-white rounded-lg border border-gray-200">
+                         <h4 class="font-bold text-violet-700">Profundización (S3-S4): Violencias Estructurales</h4>
+                         <p class="text-sm font-semibold">Lenguaje Dominante: RACISMO, VIOLENCIA, DISCRIMINACIÓN</p>
+                     </div>
+                     <!-- Flecha -->
+                     <div class="text-center text-2xl text-gray-400">↓</div>
+                     <!-- Etapa 3 -->
+                     <div class="p-3 bg-violet-50 rounded-lg border-2 border-violet-300">
+                         <h4 class="font-bold text-violet-800">Estrategia (S5): Análisis del Adversario y Disputa Afectiva</h4>
+                         <p class="text-sm font-semibold text-violet-900">Lenguaje Dominante: DERECHA, MIEDO, AMOR</p>
+                     </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 9: CONCLUSIONES -->
+            <section id="slide-9" class="content-slide" role="tabpanel">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-6">Conclusiones Estratégicas</h2>
+                <div class="space-y-4">
+                    <div class="p-4 rounded-lg bg-green-100 border-l-4 border-green-500">
+                        <h4 class="font-bold text-lg text-green-800">1. Éxito Pedagógico Innegable</h4>
+                        <p>La escuela ha validado un modelo curricular progresivo y pertinente, capaz de cultivar un análisis político de alta complejidad.</p>
+                    </div>
+                    <div class="p-4 rounded-lg bg-yellow-100 border-l-4 border-yellow-500">
+                        <h4 class="font-bold text-lg text-yellow-800">2. Riesgo Metodológico Urgente</h4>
+                        <p>La baja participación en la evaluación amenaza con construir un relato de éxito basado en una muestra auto-seleccionada.</p>
+                    </div>
+                    <div class="p-4 rounded-lg bg-blue-100 border-l-4 border-blue-500">
+                        <h4 class="font-bold text-lg text-blue-800">3. Demanda de Praxis</h4>
+                        <p>El grupo ha madurado del análisis a la necesidad de acción. La próxima fase debe centrarse en la co-creación de herramientas prácticas.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 10: HOJA DE RUTA -->
+            <section id="slide-10" class="content-slide" role="tabpanel">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-6">Hoja de Ruta: Recomendación Prioritaria</h2>
+                 <div class="p-6 rounded-lg bg-violet-100 border-l-8 border-violet-500">
+                    <h4 class="font-bold text-xl text-violet-800">Implementar la Evaluación Colectiva</h4>
+                    <p class="mt-2 text-lg">Dedicarlos últimos **7 minutos** de cada sesión a completar la encuesta de manera **guiada y en tiempo real**.</p>
+                    <p class="mt-4 text-base">Esto no es una medida técnica, sino una **acción política de cuidado y corresponsabilidad** con nuestro proceso de aprendizaje, que responde directamente a la conciencia sobre el desgaste que ha emergido en el grupo.</p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- =================================================================== -->
+    <!-- ======================== SCRIPT JAVASCRIPT ======================== -->
+    <!-- =================================================================== -->
+    <script>
+        /**
+         * @file Manages the interactive presentation functionality.
+         * @description This script controls slide navigation, active states, and keyboard controls.
+         * It is encapsulated in an object for better organization and to avoid polluting the global scope.
+         */
+        document.addEventListener('DOMContentLoaded', () => {
+
+            const PresentationController = {
+                // --- DOM Elements ---
+                slides: null,
+                navLinks: null,
+                navContainer: null,
+                currentSlideIndex: 0,
+
+                /**
+                 * Initializes the presentation by querying DOM elements and setting up event listeners.
+                 */
+                init() {
+                    this.navContainer = document.querySelector('nav');
+                    this.slides = document.querySelectorAll('.content-slide');
+                    this.navLinks = document.querySelectorAll('.nav-link');
+
+                    this.navContainer.addEventListener('click', this.handleNavClick.bind(this));
+                    document.addEventListener('keydown', this.handleKeyDown.bind(this));
+
+                    this.showSlide(0); // Show the first slide on load
+                },
+
+                /**
+                 * Displays a specific slide and updates navigation UI.
+                 * @param {number} index - The index of the slide to show.
+                 */
+                showSlide(index) {
+                    if (index < 0 || index >= this.slides.length) return;
+
+                    // Update slide visibility
+                    this.slides.forEach((slide, i) => {
+                        slide.classList.toggle('active', i === index);
+                    });
+
+                    // Update navigation links' active state
+                    this.navLinks.forEach(link => {
+                        const linkIndex = parseInt(link.getAttribute('href').substring(7));
+                        link.classList.toggle('active', linkIndex === index);
+                        link.setAttribute('aria-selected', linkIndex === index);
+                    });
+                    
+                    this.currentSlideIndex = index;
+                },
+                
+                /**
+                 * Handles click events on the navigation menu using event delegation.
+                 * @param {Event} e - The click event object.
+                 */
+                handleNavClick(e) {
+                    const navLink = e.target.closest('.nav-link');
+                    if (navLink) {
+                        e.preventDefault();
+                        const targetIndex = parseInt(navLink.getAttribute('href').substring(7));
+                        this.showSlide(targetIndex);
+                    }
+                },
+
+                /**
+                 * Handles keyboard navigation with ArrowRight and ArrowLeft keys.
+                 * @param {Event} e - The keydown event object.
+                 */
+                handleKeyDown(e) {
+                    if (e.key === 'ArrowRight') {
+                        const nextIndex = Math.min(this.slides.length - 1, this.currentSlideIndex + 1);
+                        this.showSlide(nextIndex);
+                    } else if (e.key === 'ArrowLeft') {
+                        const prevIndex = Math.max(0, this.currentSlideIndex - 1);
+                        this.showSlide(prevIndex);
+                    }
+                },
+            };
+
+            // Initialize the controller.
+            PresentationController.init();
+        });
+    </script>
+</body>
+</html>
+
