@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- =================================================================== -->
+    <!-- ======================= METADATOS Y LIBRERÍAS ===================== -->
+    <!-- =================================================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe Final Integral y Crítico - Escuela Las Juanas</title>
+    
+    <!-- Librerías Externas: Tailwind CSS para estilos y Google Fonts para tipografía -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- =================================================================== -->
+    <!-- ========================== ESTILOS CSS ============================ -->
+    <!-- =================================================================== -->
+    <style>
+        /* ------------------------- ESTILOS BASE -------------------------- */
+        @import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Inter:wght@400;600&display=swap');
+        
+        body {
+            background-color: #e5e7eb; /* Gris claro de fondo */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Inter', sans-serif;
+            color: #374151;
+             font-size: 0.85rem; /* Ajuste tamaño fuente base general */
+        }
+         @media (min-width: 1024px) { body { font-size: 0.95rem; } } /* Ajuste LG */
+
+
+        /* -------------------- CONTENEDOR Y RESPONSIVIDAD ------------------- */
+        #presentation-container {
+            width: 100%;
+            height: 100vh;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+            background-color: #fbf9f6;
+        }
+        
+        @media (min-width: 1024px) {
+            #presentation-container {
+                flex-direction: row;
+                max-width: 1280px;
+                aspect-ratio: 16 / 9;
+                height: auto;
+                border-radius: 0.5rem;
+                box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            }
+        }
+
+        /* -------------------- ESTILOS DE COMPONENTES --------------------- */
+        h1, h2, h3, h4, .font-title {
+            font-family: 'Domine', serif;
+            color: #1f1d2b;
+        }
+         /* Ajuste tamaños títulos */
+         h1 { font-size: 1.8rem; } /* Reducido */
+         @media (min-width: 768px) { h1 { font-size: 2.2rem; } }
+         @media (min-width: 1024px) { h1 { font-size: 2.8rem; } }
+         h2 { font-size: 1.1rem; margin-bottom: 0.6rem;} /* Reducido */
+         @media (min-width: 768px) { h2 { font-size: 1.3rem; margin-bottom: 0.8rem;} }
+         @media (min-width: 1024px) { h2 { font-size: 1.5rem; margin-bottom: 0.8rem;} }
+         h3 { font-size: 0.9rem; }
+         h4 { font-size: 0.8rem; }
+        
+        /* Ajuste padding base y responsivo para slides */
+        .content-slide { display: none; padding: 0.8rem 0.8rem; } /* Reducido padding */
+         @media (min-width: 768px) { .content-slide { padding: 1rem 1rem; } }
+         @media (min-width: 1024px) { .content-slide { padding: 1.5rem 1.5rem; } }
+
+        .content-slide.active {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            animation: fadeIn 0.7s ease-in-out;
+        }
+        
+        /* Navegación */
+        .nav-link.active {
+            background-color: #8b5cf6;
+            color: white;
+        }
+        .nav-link.active h3, .nav-link.active svg {
+           color: white;
+        }
+        #desktop-nav-links h3 { font-size: 0.7rem; font-weight: 600; /* Adjusted from font-bold */ } /* Reducido tamaño nav desktop */
+        #desktop-nav-links a { padding: 0.3rem 0.5rem; } /* Reducido padding nav desktop */
+        
+        #mobile-nav-scroll { scrollbar-width: none; }
+        #mobile-nav-scroll::-webkit-scrollbar { display: none; }
+
+         /* Estilos específicos para tablas */
+        .evaluation-table th, .evaluation-table td { padding: 0.25rem 0.4rem; border-bottom: 1px solid #e5e7eb; font-size: 0.65rem; /* Muy reducido */ vertical-align: top; }
+        .evaluation-table th { background-color: #f3f4f6; font-weight: 600; text-align: left;}
+        .evaluation-table tr:last-child td { border-bottom: none; }
+        .evaluation-table .highlight-red { color: #dc2626; font-weight: bold; }
+        .evaluation-table .highlight-green { color: #16a34a; font-weight: bold; }
+        .evaluation-table .highlight-yellow { color: #ca8a04; font-weight: bold; }
+        .evaluation-table .bg-critical { background-color: #fee2e2 !important; } /* Fondo rojo claro para alerta crítica */
+        .evaluation-table .bg-warning { background-color: #fef9c3 !important; } /* Fondo amarillo claro para alerta */
+        .evaluation-table .text-xxs { font-size: 0.55rem; } /* Para notas muy pequeñas en tablas */
+        
+        blockquote { font-size: 0.75rem; } /* Reducido */
+
+        /* Ajustes menores para elementos específicos */
+         .text-xxs { font-size: 0.6rem; } /* Reducido */
+         .text-xs { font-size: 0.7rem; } /* Reducido */
+         .text-sm { font-size: 0.8rem; } /* Reducido */
+         .text-base { font-size: 0.9rem; } /* Reducido */
+         .text-lg { font-size: 1rem; } /* Reducido */
+
+         /* Utilidad para negrita */
+         .strong { font-weight: 600; } /* Usar clase semibold de Tailwind */
+
+
+        /* -------------------------- ANIMACIONES -------------------------- */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ----------------------- NUBE DE PALABRAS ------------------------ */
+        /* Estilos básicos si se usan */
+        .word-cloud-container { text-align: center; padding: 0.5rem; }
+        .word { font-weight: 600; display: inline-block; padding: 0.2rem 0.4rem; transition: transform 0.3s ease-in-out; cursor: default; line-height: 1.1; margin: 0.05rem; font-size: 0.9rem; } /* Reducido tamaño base */
+        .word:hover { transform: scale(1.1) rotate(0deg) !important; z-index: 10; position: relative; }
+    </style>
+</head>
+<body>
+
+    <!-- =================================================================== -->
+    <!-- =================== CONTENEDOR PRINCIPAL ========================== -->
+    <!-- =================================================================== -->
+    <div id="presentation-container">
+        
+        <!-- =================================================================== -->
+        <!-- ======================= NAVEGACIÓN LATERAL ======================== -->
+        <!-- =================================================================== -->
+        <nav class="lg:w-1/5 bg-white/50 lg:border-r border-gray-200 p-2 lg:p-4 flex flex-col justify-between overflow-y-auto" role="navigation" aria-label="Navegación de diapositivas"> <!-- Reducido ancho LG -->
+             <div>
+                <!-- Encabezado (desktop) -->
+                <header class="hidden lg:block mb-4">
+                    <h2 class="text-sm font-bold">Las Juanas</h2> <!-- Reducido -->
+                    <p class="text-xxs text-gray-500">Informe Final Integral y Crítico</p>
+                </header>
+
+                <!-- Navegación (Desktop - ajustada para más slides) -->
+                <div id="desktop-nav-links" class="hidden lg:block space-y-0" role="tablist" aria-orientation="vertical"> <!-- Eliminado text-xxs para usar tamaño h3 -->
+                    <a href="#slide-0" class="nav-link active group block p-1 rounded-lg" role="tab"><h3 class="group-hover:text-violet-700">Portada</h3></a>
+                    <a href="#slide-1" class="nav-link group block p-1 rounded-lg" role="tab"><h3 class="group-hover:text-violet-700">1. Marco Analítico</h3></a>
+                    <a href="#slide-2" class="nav-link group block p-1 rounded-lg" role="tab"><h3 class="group-hover:text-violet-700">2. Metodología: Política</h3></a>
+                    <a href="#slide-3" class="nav-link group block p-1 rounded-lg" role="tab"><h3 class="group-hover:text-violet-700">3. Metodología: Autocrítica</h3></a>
+                    <a href="#slide-4" class="nav-link group block p-1 rounded-lg" role="tab"><h3 class="group-hover:text-violet-700">4. Alerta Metodológica S6</h3></a>
+                    <a href="#slide-5" class="nav-link group block p-1 rounded-lg" role="tab"><h3 class="group-hover:text-violet-700">5. Análisis Sesión 6 (Cuali)</h3></a>
+                    <a href="#slide-6" class="nav-link group block p-1 rounded-lg" role="tab"><h3 class="group-hover:text-violet-700">6. Conceptos Clave S6</h3></a>
+                    <a href="#slide-7" class="nav-link group block p-1 rounded-lg" role="tab"><h3 class="group-hover:text-violet-700">7. Respuesta a Línea Base</h3></a>
+                    <a href="#slide-8" class="nav-link group block p-1 rounded-lg" role="tab"><h3 class="group-hover:text-violet-700">8. Evolución Cuantitativa</h3></a>
+                    <a href="#slide-9" class="nav-link group block p-1 rounded-lg" role="tab"><h3 class="group-hover:text-violet-700">9. Análisis de Tendencias</h3></a>
+                    <a href="#slide-10" class="nav-link group block p-1 rounded-lg" role="tab"><h3 class="group-hover:text-violet-700">10. Evolución Conceptual</h3></a>
+                    <a href="#slide-11" class="nav-link group block p-1 rounded-lg" role="tab"><h3 class="group-hover:text-violet-700">11. Madurez Final</h3></a>
+                    <a href="#slide-12" class="nav-link group block p-1 rounded-lg" role="tab"><h3 class="group-hover:text-violet-700">12. Conclusiones Finales</h3></a>
+                    <a href="#slide-13" class="nav-link group block p-1 rounded-lg" role="tab"><h3 class="group-hover:text-violet-700">13. Hoja de Ruta</h3></a>
+                </div>
+
+                <!-- Navegación (Móvil con iconos - scroll horizontal) -->
+                <div id="mobile-nav-scroll" class="lg:hidden flex space-x-1 overflow-x-auto pb-1" role="tablist" aria-orientation="horizontal">
+                     <!-- Iconos para cada slide (14 slides) -->
+                    <a href="#slide-0" class="nav-link active flex-shrink-0 p-1.5 rounded-full" role="tab" aria-label="Portada"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg></a>
+                    <a href="#slide-1" class="nav-link flex-shrink-0 p-1.5 rounded-full" role="tab" aria-label="Marco"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></a>
+                    <a href="#slide-2" class="nav-link flex-shrink-0 p-1.5 rounded-full" role="tab" aria-label="Metodología"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg></a>
+                    <a href="#slide-3" class="nav-link flex-shrink-0 p-1.5 rounded-full" role="tab" aria-label="Autocrítica"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></a>
+                    <a href="#slide-4" class="nav-link flex-shrink-0 p-1.5 rounded-full" role="tab" aria-label="Alerta S6"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg></a>
+                    <a href="#slide-5" class="nav-link flex-shrink-0 p-1.5 rounded-full" role="tab" aria-label="Análisis S6"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg></a>
+                    <a href="#slide-6" class="nav-link flex-shrink-0 p-1.5 rounded-full" role="tab" aria-label="Conceptos S6"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg></a>
+                    <a href="#slide-7" class="nav-link flex-shrink-0 p-1.5 rounded-full" role="tab" aria-label="Línea Base"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path></svg></a>
+                    <a href="#slide-8" class="nav-link flex-shrink-0 p-1.5 rounded-full" role="tab" aria-label="Evo Datos"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg></a>
+                    <a href="#slide-9" class="nav-link flex-shrink-0 p-1.5 rounded-full" role="tab" aria-label="Tendencias"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg></a>
+                    <a href="#slide-10" class="nav-link flex-shrink-0 p-1.5 rounded-full" role="tab" aria-label="Evo Conceptual"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg></a>
+                     <a href="#slide-11" class="nav-link flex-shrink-0 p-1.5 rounded-full" role="tab" aria-label="Madurez"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.293 2.293a1 1 0 010 1.414L11 12l4.293 4.293a1 1 0 010 1.414L13 20M11 3l-2.293 2.293a1 1 0 000 1.414L13 12l-4.293 4.293a1 1 0 000 1.414L11 20"></path></svg></a>
+                    <a href="#slide-12" class="nav-link flex-shrink-0 p-1.5 rounded-full" role="tab" aria-label="Conclusiones"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></a>
+                    <a href="#slide-13" class="nav-link flex-shrink-0 p-1.5 rounded-full" role="tab" aria-label="Ruta"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L20 12 9 20z"></path></svg></a>
+                </div>
+            </div>
+
+            <!-- Pie de página -->
+            <footer class="hidden lg:flex items-center justify-center space-x-4 mt-2">
+                <p class="text-xxs font-semibold text-gray-600">ELECTAS</p>
+                <span class="text-gray-300 text-xxs">|</span>
+                <p class="text-xxs font-semibold text-gray-600">UPDATE</p>
+            </footer>
+        </nav>
+        
+        <!-- =================================================================== -->
+        <!-- ================= ÁREA DE CONTENIDO PRINCIPAL =================== -->
+        <!-- =================================================================== -->
+        <main class="flex-1 p-3 md:p-4 lg:p-6 overflow-y-auto"> <!-- Reducido padding -->
+
+            <!-- SLIDE 0: PORTADA -->
+            <section id="slide-0" class="content-slide active" role="tabpanel">
+                <p class="text-sm md:text-base font-semibold text-violet-600">Escuela "Las Juanas"</p>
+                <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mt-1">Informe Final Integral y Crítico</h1>
+                <p class="text-sm md:text-base text-gray-600 mt-2">Tejiendo la conclusión del ciclo formativo evaluado (Oct 16, 2025).</p>
+            </section>
+            
+            <!-- SLIDE 1: MARCO ANALÍTICO -->
+            <section id="slide-1" class="content-slide" role="tabpanel">
+                 <h2 class="text-lg lg:text-xl font-bold mb-2">1. Marco Analítico: Crónica de Madurez</h2>
+                 <p class="text-xs lg:text-sm">Este documento narra la <strong class="font-semibold">evolución conceptual y política</strong> de la Escuela. Analizamos la Sesión 6 (16 Oct) como cierre del ciclo evaluado, conectando la línea base con cada etapa para ofrecer un análisis crítico y una hoja de ruta estratégica.</p>
+            </section>
+
+            <!-- SLIDE 2: LA POLÍTICA DE LA MIRADA -->
+             <section id="slide-2" class="content-slide" role="tabpanel">
+                 <h2 class="text-lg lg:text-xl font-bold mb-2">2. La Política de la Mirada: Metodología</h2>
+                 <p class="text-xs lg:text-sm mb-2">Nuestra evaluación es un acto político. Requiere <strong class="font-semibold">honestidad</strong> sobre cómo medimos y qué historias podemos (y no podemos) contar.</p>
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xxs">
+                     <div class="p-1.5 bg-blue-50 rounded border-l-4 border-blue-400">
+                         <h4 class="font-bold text-blue-800 text-xs">Fortalezas</h4>
+                         <p>Agilidad (feedback inmediato), Bajo costo, Triangulación de fuentes.</p>
+                     </div>
+                     <div class="p-1.5 bg-yellow-50 rounded border-l-4 border-yellow-400">
+                         <h4 class="font-bold text-yellow-800 text-xs">Debilidades ("Puntos Ciegos")</h4>
+                         <p>Baja tasa de respuesta, Sesgo de positividad, Insuficiente para capturar complejidad subjetiva.</p>
+                     </div>
+                 </div>
+             </section>
+
+             <!-- SLIDE 3: AUTOCRÍTICA PROFUNDA -->
+             <section id="slide-3" class="content-slide" role="tabpanel">
+                 <h2 class="text-lg lg:text-xl font-bold mb-2">3. Autocrítica: El Silencio como Dato Político</h2>
+                 <blockquote class="p-2 bg-gray-100 border-l-4 border-gray-400 italic text-gray-700 text-xs">
+                     “Ponerse la mochila no es fácil cuando el patriarcado nos sobrecarga de tanto, a veces me siento muy frustrada y cansada.”
+                     <span class="block text-right text-xxs not-italic mt-1">– Participante, Evaluación Sesión 5</span>
+                 </blockquote>
+                 <p class="mt-2 text-xs lg:text-sm">La baja participación en la evaluación <strong class="font-semibold">no es apatía</strong>, es un dato empírico sobre el <strong class="font-semibold">desgaste</strong>. Nuestra metodología debe reflejar la <strong class="font-semibold">política de cuidado</strong> que la escuela promueve.</p>
+             </section>
+
+            <!-- SLIDE 4: ALERTA METODOLÓGICA S6 (N=7 Revisado) -->
+            <section id="slide-4" class="content-slide" role="tabpanel">
+                <h2 class="text-lg lg:text-xl font-bold mb-2 text-yellow-700">4. Alerta Metodológica (Sesión 6, N=7)</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+                    <div class="p-1.5 bg-yellow-100 rounded-lg border-l-4 border-yellow-500">
+                        <h4 class="font-bold text-yellow-800 text-xs">Baja Representatividad Muestral</h4>
+                        <p>Solo <strong class="font-semibold">7 respuestas</strong> (de ~25-30 asistentes).</p>
+                        <p>Tasa de respuesta <strong class="font-semibold">~25-28%</strong>.</p>
+                        <p class="mt-1 font-semibold text-yellow-900">Datos cuantitativos indicativos, no generalizables.</p>
+                    </div>
+                     <div class="p-1.5 bg-yellow-100 rounded-lg border-l-4 border-yellow-500">
+                        <h4 class="font-bold text-yellow-800 text-xs">Implicaciones Analíticas</h4>
+                         <p>Análisis S6 basado <strong class="font-semibold">prioritariamente en datos cualitativos</strong> (chat, conclusiones).</p>
+                         <p>Las 7 respuestas se usan como <strong class="font-semibold">complemento ilustrativo</strong>.</p>
+                    </div>
+                </div>
+                 <p class="mt-2 text-xxs text-center text-yellow-700 font-semibold">Cautela al interpretar datos cuantitativos de S6.</p>
+            </section>
+
+            <!-- SLIDE 5: ANÁLISIS SESIÓN 6 (CUALITATIVO) -->
+            <section id="slide-5" class="content-slide" role="tabpanel">
+                <h2 class="text-lg lg:text-xl font-bold mb-2">5. Análisis Sesión 6: Feminismos vs. Violencia Política</h2>
+                 <div class="space-y-1.5 text-xs">
+                     <div class="p-1 bg-white rounded border flex items-center justify-between">
+                         <h4 class="font-bold">Satisfacción (N=7, Indicativo)</h4>
+                         <p class="text-base font-bold text-green-500">5.0 / 5.0</p>
+                     </div>
+                    <div class="p-1 bg-white rounded border">
+                         <h4 class="font-bold">Clima Chat (N~25-30)</h4>
+                         <p><span class="font-semibold text-blue-600">50%</span> Cierre Reflexivo | <span class="font-semibold text-yellow-600">30%</span> Compromiso</p>
+                    </div>
+                     <div class="p-1 bg-violet-50 rounded border border-violet-200">
+                         <h4 class="font-bold text-violet-800 text-xs">Aprendizajes Clave (Cualitativo)</h4>
+                         <ul class="list-disc list-inside mt-0.5">
+                             <li><strong class="font-semibold">Nombrar es Poder:</strong> Visibilizar la VPG.</li>
+                             <li><strong class="font-semibold">Interseccionalidad Práctica:</strong> Violencia se recrudece (ej. mención PCD).</li>
+                             <li><strong class="font-semibold">Feminismos como Praxis de Cuidado:</strong> Resistencia desde vida/territorio.</li>
+                         </ul>
+                     </div>
+                 </div>
+                 <blockquote class="mt-1 p-1 bg-gray-100 border-l-2 border-gray-400 italic text-gray-700 text-xxs">
+                     “Toma de conciencia [...] para lograr acciones claras.” – Evaluación S6 (N=7)
+                 </blockquote>
+                  <blockquote class="mt-1 p-1 bg-gray-100 border-l-2 border-gray-400 italic text-gray-700 text-xxs">
+                     “Necesitamos [...] espacios de formación que nos permitan concientizarnos de las múltiples formas de violencia...” – Chat S6
+                 </blockquote>
+            </section>
+
+            <!-- SLIDE 6: CONCEPTOS CLAVE S6 -->
+            <section id="slide-6" class="content-slide" role="tabpanel">
+                <h2 class="text-lg lg:text-xl font-bold mb-2">6. Conceptos Clave Emergentes (Sesión 6)</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-1 text-xxs">
+                    <div class="p-1 bg-white rounded border"><h4 class="font-bold text-violet-700 text-xs">Violencia Política</h4><p>Carácter estructural.</p></div>
+                    <div class="p-1 bg-white rounded border"><h4 class="font-bold text-violet-700 text-xs">Nombrar</h4><p>Primera estrategia.</p></div>
+                    <div class="p-1 bg-white rounded border"><h4 class="font-bold text-violet-700 text-xs">Interseccionalidad</h4><p>Herramienta concreta.</p></div>
+                    <div class="p-1 bg-white rounded border"><h4 class="font-bold text-violet-700 text-xs">Cuidado</h4><p>Principio / Praxis.</p></div>
+                    <div class="p-1 bg-white rounded border"><h4 class="font-bold text-violet-700 text-xs">Territorio</h4><p>Defensa de la vida.</p></div>
+                    <div class="p-1 bg-white rounded border"><h4 class="font-bold text-violet-700 text-xs">Redes</h4><p>Sostenibilidad.</p></div>
+                    <div class="p-1 bg-white rounded border md:col-span-1"><h4 class="font-bold text-violet-700 text-xs">Pedagogía</h4><p>Transformación cultural.</p></div>
+                </div>
+                 <p class="text-xxs mt-1 text-center">Integración final de análisis y praxis de cuidado y sostenibilidad.</p>
+            </section>
+
+            <!-- SLIDE 7: RESPUESTA A LÍNEA BASE -->
+            <section id="slide-7" class="content-slide" role="tabpanel">
+                <h2 class="text-lg lg:text-xl font-bold mb-2">7. Respuesta Final a las Demandas de la Línea Base</h2>
+                <div class="space-y-1 text-xxs">
+                    <p><span class="font-bold text-green-600 text-xs">✓ Superado:</span> <strong class="font-semibold">Enfrentar Violencias Políticas (88%):</strong> Culminó en S6 con enfoque en estrategias feministas.</p>
+                    <p><span class="font-bold text-green-600 text-xs">✓ Superado:</span> <strong class="font-semibold">Cuestionar Racismo/Colonialismo (95%):</strong> Se convirtió en eje articulador del análisis.</p>
+                    <p><span class="font-bold text-green-600 text-xs">✓ Consolidado:</span> <strong class="font-semibold">Profundizar Interseccionalidad (92%):</strong> Se consolidó como lente metodológico principal.</p>
+                    <p><span class="font-bold text-yellow-600 text-xs">~ Parcial:</span> <strong class="font-semibold">Construir Alianzas (85%):</strong> Espacio funcionó como nodo, pero sostenibilidad post-escuela es desafío.</p>
+                </div>
+                 <p class="mt-2 text-xs font-semibold text-center text-violet-800">La Escuela <strong class="font-semibold">profundizó y superó</strong> las expectativas iniciales.</p>
+            </section>
+            
+            <!-- SLIDE 8: EVOLUCIÓN CUANTITATIVA FINAL -->
+            <section id="slide-8" class="content-slide" role="tabpanel">
+                 <h2 class="text-lg lg:text-xl font-bold mb-2">8. La Historia en Números (Cierre)</h2>
+                 <div class="overflow-x-auto bg-white/70 p-1 rounded-xl border border-gray-200">
+                   <table class="w-full text-left table-auto text-xxs evaluation-table"> <!-- Reducido text size -->
+                       <thead>
+                           <tr>
+                               <th>Indicador</th>
+                               <th class="text-center">S1</th>
+                               <th class="text-center">S2</th>
+                               <th class="text-center">S3</th>
+                               <th class="text-center">S5</th>
+                               <th class="text-center bg-warning">S6</th>
+                           </tr>
+                       </thead>
+                       <tbody>
+                           <tr>
+                               <td class="font-semibold">Asistencia (aprox.)</td>
+                               <td class="text-center font-bold">~70</td>
+                               <td class="text-center font-bold">~60</td>
+                               <td class="text-center font-bold">51</td>
+                               <td class="text-center font-bold">33</td>
+                               <td class="text-center highlight-red bg-warning">~25 ↓</td>
+                           </tr>
+                           <tr class="bg-yellow-50/50">
+                               <td class="font-semibold">Tasa Respuesta</td>
+                               <td class="text-center font-bold">34.3%</td>
+                               <td class="text-center font-bold">33.3%</td>
+                               <td class="text-center highlight-red">15.7%</td>
+                               <td class="text-center font-bold">36.4%</td>
+                               <td class="text-center highlight-yellow bg-warning">~25% ↓</td>
+                           </tr>
+                           <tr>
+                               <td class="font-semibold">Satisfacción Prom.</td>
+                               <td class="text-center font-bold">4.8</td>
+                               <td class="text-center font-bold">4.9</td>
+                               <td class="text-center font-bold">4.9</td>
+                               <td class="text-center font-bold">5.0</td>
+                               <td class="text-center highlight-green bg-warning">5.0 <span class="text-xxs">(N=7)</span></td>
+                           </tr>
+                       </tbody>
+                   </table>
+                 </div>
+                 <p class="text-xxs mt-1 text-center text-red-700 font-semibold">Tendencia Final: Éxito pedagógico en núcleo, pero <strong class="font-semibold">alerta persistente</strong> por baja participación y datos poco representativos al final.</p>
+            </section>
+
+             <!-- SLIDE 9: ANÁLISIS DE TENDENCIAS -->
+            <section id="slide-9" class="content-slide" role="tabpanel">
+                <h2 class="text-lg lg:text-xl font-bold mb-2">9. Análisis de Tendencias (Proyección)</h2>
+                <div class="space-y-1.5">
+                    <div class="p-1.5 rounded-lg bg-green-100 border-l-4 border-green-500">
+                        <h4 class="font-bold text-xs text-green-800">Ascendente ↑: Calidad y Pertinencia</h4>
+                        <p class="text-xxs">Satisfacción valida modelo. Éxito para quienes permanecen.</p>
+                    </div>
+                    <div class="p-1.5 rounded-lg bg-red-100 border-l-4 border-red-500">
+                        <h4 class="font-bold text-xs text-red-800">Descendente ↓: Asistencia</h4>
+                        <p class="text-xxs">Sugiere consolidación de núcleo. <strong class="font-semibold">Riesgo:</strong> Nicho, pérdida alcance/diversidad.</p>
+                    </div>
+                     <div class="p-1.5 rounded-lg bg-yellow-100 border-l-4 border-yellow-500">
+                        <h4 class="font-bold text-xs text-yellow-800">Alerta ↔: Tasa de Respuesta</h4>
+                        <p class="text-xxs">Principal <strong class="font-semibold">alerta metodológica</strong>. <strong class="font-semibold">Riesgo:</strong> Validez evaluación final.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SLIDE 10: EVOLUCIÓN CONCEPTUAL FINAL -->
+            <section id="slide-10" class="content-slide" role="tabpanel">
+                <h2 class="text-lg lg:text-xl font-bold mb-2">10. La Evolución del Lenguaje Político</h2>
+                <div class="relative space-y-0.5"> <!-- Reducido space-y -->
+                     <!-- Etapa 1 -->
+                     <div class="p-1 bg-white rounded-lg border text-xxs">
+                         <h4 class="font-bold text-violet-700 text-xs">Inicio (S1-S2)</h4>
+                         <p class="font-semibold">PODER, LUCHA</p>
+                     </div>
+                      <!-- Flecha --> <div class="text-center text-xs text-gray-400">↓</div>
+                     <!-- Etapa 2 -->
+                     <div class="p-1 bg-white rounded-lg border text-xxs">
+                         <h4 class="font-bold text-violet-700 text-xs">Profundización (S3-S4)</h4>
+                         <p class="font-semibold">RACISMO, VIOLENCIA</p>
+                     </div>
+                     <!-- Flecha --> <div class="text-center text-xs text-gray-400">↓</div>
+                     <!-- Etapa 3 -->
+                      <div class="p-1 bg-white rounded-lg border text-xxs">
+                         <h4 class="font-bold text-violet-700 text-xs">Estrategia (S5)</h4>
+                         <p class="font-semibold">DERECHA, MIEDO, AMOR</p>
+                     </div>
+                      <!-- Flecha --> <div class="text-center text-xs text-gray-400">↓</div>
+                     <!-- Etapa 4 -->
+                     <div class="p-1 bg-violet-50 rounded-lg border-2 border-violet-300 text-xxs">
+                         <h4 class="font-bold text-violet-800 text-xs">Cierre (S6)</h4>
+                         <p class="font-semibold text-violet-900">CUIDADO, REDES, SOSTENER</p>
+                     </div>
+                </div>
+                 <p class="text-xxs mt-1 text-center">Del análisis del poder a la <strong class="font-semibold">praxis feminista de cuidado y sostenibilidad</strong>.</p>
+            </section>
+
+             <!-- SLIDE 11: MADUREZ FINAL -->
+             <section id="slide-11" class="content-slide" role="tabpanel">
+                 <h2 class="text-lg lg:text-xl font-bold mb-2">11. Madurez Conceptual Alcanzada</h2>
+                  <p class="text-xs lg:text-sm">La Escuela culmina (ciclo evaluado) con un grupo que:</p>
+                  <ul class="list-disc list-inside space-y-0.5 text-xs lg:text-sm mt-1">
+                      <li><strong class="font-semibold">Analiza</strong> poder, violencias y adversario con lente interseccional.</li>
+                      <li>Incorpora lenguaje de <strong class="font-semibold">estrategias feministas</strong> para desmontar violencia.</li>
+                      <li>Propone <strong class="font-semibold">alternativas basadas en cuidado</strong>, territorio y redes.</li>
+                      <li>Reconoce explícitamente la necesidad de <strong class="font-semibold">sostener</strong> las luchas a largo plazo.</li>
+                  </ul>
+                  <blockquote class="mt-2 p-1 bg-gray-100 border-l-2 border-gray-400 italic text-gray-700 text-xxs">
+                     “Que nuestros feminismos [...] sigan siendo caminos de libertad y cuidado” – Conclusiones S6
+                 </blockquote>
+             </section>
+
+            <!-- SLIDE 12: CONCLUSIONES FINALES -->
+            <section id="slide-12" class="content-slide" role="tabpanel">
+                <h2 class="text-lg lg:text-xl font-bold mb-2">12. Conclusiones Finales del Proceso</h2>
+                <div class="space-y-1 text-xs">
+                    <div class="p-1.5 rounded-lg bg-green-100 border-l-4 border-green-500">
+                        <h4 class="font-bold text-green-800 text-xs">Éxito Pedagógico Validado</h4>
+                        <p>Modelo curricular progresivo y de alta calidad fomentó madurez analítica en el núcleo.</p>
+                    </div>
+                     <div class="p-1.5 rounded-lg bg-blue-100 border-l-4 border-blue-500">
+                        <h4 class="font-bold text-blue-800 text-xs">Impacto y Madurez Analítica</h4>
+                        <p>Se superaron expectativas, instalando marco interseccional y generando demanda explícita de praxis.</p>
+                    </div>
+                    <div class="p-1.5 rounded-lg bg-yellow-100 border-l-4 border-yellow-500">
+                        <h4 class="font-bold text-yellow-800 text-xs">Desafío Metodológico Crítico</h4>
+                        <p>Baja tasa de respuesta compromete representatividad y evidencia tensión con sostenibilidad.</p>
+                    </div>
+                     <div class="p-1.5 rounded-lg bg-violet-100 border-l-4 border-violet-500">
+                        <h4 class="font-bold text-violet-800 text-xs">Consolidación de Comunidad</h4>
+                        <p>Se forjó núcleo comprometido y espacio seguro, aunque asistencia general disminuyó.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 13: HOJA DE RUTA -->
+            <section id="slide-13" class="content-slide" role="tabpanel">
+                <h2 class="text-lg lg:text-xl font-bold mb-2">13. Hoja de Ruta: Recomendaciones Clave</h2>
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-1.5 text-xxs">
+                     <div class="p-1.5 rounded-lg bg-yellow-100 border border-yellow-300">
+                        <h4 class="font-bold text-yellow-800 text-xs">1. Rediseñar Evaluación (Urgente)</h4>
+                        <p><strong class="font-semibold">Evaluación colectiva y guiada</strong> en cada sesión. Complementar con métodos cualitativos.</p>
+                    </div>
+                     <div class="p-1.5 rounded-lg bg-blue-100 border border-blue-300">
+                        <h4 class="font-bold text-blue-800 text-xs">2. Diseñar Fase 2: Praxis</h4>
+                        <p>Crear "Laboratorio de Praxis" enfocado en <strong class="font-semibold">co-crear herramientas</strong> para la acción política.</p>
+                    </div>
+                    <div class="p-1.5 rounded-lg bg-green-100 border border-green-300">
+                        <h4 class="font-bold text-green-800 text-xs">3. Sistematizar Modelo</h4>
+                        <p>Elaborar <strong class="font-semibold">"Lecciones Aprendidas"</strong> y kit pedagógico para consolidar y replicar el modelo.</p>
+                    </div>
+                     <div class="p-1.5 rounded-lg bg-violet-100 border border-violet-300">
+                        <h4 class="font-bold text-violet-800 text-xs">4. Fortalecer Red Post-Escuela</h4>
+                        <p>Diseñar mecanismos concretos para <strong class="font-semibold">mantener la conexión</strong> y apoyar iniciativas conjuntas.</p>
+                    </div>
+                 </div>
+                 <p class="text-center text-xs font-semibold mt-2">Ajustar cómo aprendemos para proyectar el legado hacia nuevas fases de acción.</p>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- =================================================================== -->
+    <!-- ======================== SCRIPT JAVASCRIPT ======================== -->
+    <!-- =================================================================== -->
+    <script>
+        /**
+         * @file Manages the interactive presentation functionality.
+         * @description This script controls slide navigation, active states, and keyboard controls.
+         * It is encapsulated in an object for better organization and to avoid polluting the global scope.
+         */
+        document.addEventListener('DOMContentLoaded', () => {
+
+            const PresentationController = {
+                // --- DOM Elements ---
+                slides: null,
+                navLinks: null,
+                navContainer: null,
+                currentSlideIndex: 0,
+
+                /**
+                 * Initializes the presentation by querying DOM elements and setting up event listeners.
+                 */
+                init() {
+                    this.navContainer = document.querySelector('nav');
+                    this.slides = document.querySelectorAll('.content-slide');
+                    this.navLinks = document.querySelectorAll('.nav-link');
+
+                    // Add event listeners
+                    this.navContainer.addEventListener('click', this.handleNavClick.bind(this));
+                    document.addEventListener('keydown', this.handleKeyDown.bind(this));
+
+                    // Initial setup
+                    this.showSlide(0); // Show the first slide on load
+                    this.randomizeWords(); // Apply random rotation if word cloud exists
+                },
+
+                /**
+                 * Displays a specific slide and updates navigation UI.
+                 * @param {number} index - The index of the slide to show.
+                 */
+                showSlide(index) {
+                    // Validate index bounds safely
+                    const validIndex = Math.max(0, Math.min(index, this.slides.length - 1));
+
+                    // Update slide visibility and ARIA attributes
+                    this.slides.forEach((slide, i) => {
+                        const isActive = (i === validIndex);
+                        slide.classList.toggle('active', isActive);
+                        slide.hidden = !isActive; // Manage hidden attribute for accessibility
+                    });
+
+                    // Update navigation links' active state and ARIA attributes
+                    this.navLinks.forEach(link => {
+                        const href = link.getAttribute('href');
+                        // Check if href exists and follows the pattern #slide-NUMBER
+                        if (href && href.startsWith('#slide-')) {
+                             try {
+                                const linkIndex = parseInt(href.substring(7));
+                                const isActive = (linkIndex === validIndex);
+                                link.classList.toggle('active', isActive);
+                                link.setAttribute('aria-selected', isActive ? 'true' : 'false');
+                             } catch (e) {
+                                 // Log error if href parsing fails, but don't break execution
+                                 console.error("Error parsing slide index from href:", href, e);
+                             }
+                        }
+                    });
+                    
+                    this.currentSlideIndex = validIndex;
+                },
+                
+                /**
+                 * Handles click events on the navigation menu using event delegation.
+                 * @param {Event} e - The click event object.
+                 */
+                handleNavClick(e) {
+                    // Find the closest ancestor which is a nav-link
+                    const navLink = e.target.closest('.nav-link');
+                    if (navLink) {
+                        e.preventDefault(); // Prevent default anchor behavior
+                         const href = navLink.getAttribute('href');
+                         // Ensure href exists and follows the pattern #slide-NUMBER
+                         if (href && href.startsWith('#slide-')) {
+                            try {
+                                const targetIndex = parseInt(href.substring(7));
+                                this.showSlide(targetIndex);
+                            } catch (e) {
+                                // Log error if href parsing fails
+                                console.error("Error parsing slide index from clicked href:", href, e);
+                            }
+                         }
+                    }
+                },
+
+                /**
+                 * Handles keyboard navigation with ArrowRight and ArrowLeft keys.
+                 * @param {Event} e - The keydown event object.
+                 */
+                handleKeyDown(e) {
+                    if (e.key === 'ArrowRight') {
+                        const nextIndex = this.currentSlideIndex + 1;
+                        this.showSlide(nextIndex); // showSlide handles bounds checking
+                    } else if (e.key === 'ArrowLeft') {
+                        const prevIndex = this.currentSlideIndex - 1;
+                        this.showSlide(prevIndex); // showSlide handles bounds checking
+                    }
+                },
+
+                 /**
+                 * Applies a slight random rotation to words in elements with the class 'word'
+                 * found within containers having the ID 'word-cloud-container' or similar.
+                 * This adds a dynamic visual effect. Checks if the word cloud container exists.
+                 */
+                randomizeWords() {
+                    const wordCloudContainers = document.querySelectorAll('.word-cloud-container');
+                    if (wordCloudContainers.length === 0) return; // Exit if no word clouds
+
+                    wordCloudContainers.forEach(container => {
+                        const words = container.querySelectorAll('.word');
+                        words.forEach(word => {
+                            // Generate a random rotation between -5 and 5 degrees for a subtle effect
+                            const rotation = Math.floor(Math.random() * 11) - 5;
+                            word.style.transform = `rotate(${rotation}deg)`;
+                        });
+                    });
+                },
+            };
+
+            // Initialize the controller once the DOM is fully loaded.
+            PresentationController.init();
+        });
+    </script>
+</body>
+</html>
+
