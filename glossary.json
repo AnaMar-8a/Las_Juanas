@@ -1,10 +1,10 @@
 {
   "_meta": {
     "projectName": "Abecedario Político Interactivo",
-    "version": "1.7",
+    "version": "1.8",
     "description": "Este archivo contiene todos los términos, definiciones y ejemplos del glosario. Está diseñado para ser la única fuente de verdad de los datos, facilitando su actualización y mantenimiento.",
     "contribution_guide": "Para añadir o sugerir un cambio, por favor, utiliza la plantilla 'Sugerencia de Término' en la sección de 'Issues' del repositorio de GitHub. No edites este archivo directamente en la rama principal.",
-    "last_updated": "2025-09-26T11:37:00-05:00"
+    "last_updated": "2025-10-30T18:22:00-05:00"
   },
   "terms": [
     {
@@ -35,7 +35,7 @@
       "letter": "A",
       "term": "Améfrica / Amefricanidad",
       "definition": "Un concepto político y geográfico acuñado por la visionaria intelectual afrobrasileña Lélia Gonzalez. Es una herramienta teórica para demoler el mito de la \"democracia racial\" y del \"mestizaje\" como proyectos de blanqueamiento y borramiento de la herencia africana.",
-      "practice": "Lélia Gonzalez nos enseña que la cultura latinoamericana es incomprensible sin su matriz africana. La \"amefricanidad\" no es solo una identidad racial, es una categoría político-cultural que nos permite analizar cómo el racismo estructura nuestras sociedades. Asumirse \"amefricana\" es reconocerse en una historia continental de esclavización, pero, sobre todo, en una historia de cimarronaje, rebelión y creación cultural."
+      "practice": "Lélia Gonzalez nos enseña que la cultura latinoamericana es incomprensible sin su matriz africana. La \"amefricanidad\" no es solo una identidad racial, es una categoría político-cultural que nos permite analizar cómo el racismo estructura nuestras societies. Asumirse \"amefricana\" es reconocerse en una historia continental de esclavización, pero, sobre todo, en una historia de cimarronaje, rebelión y creación cultural."
     },
     {
       "letter": "A",
@@ -142,8 +142,8 @@
     {
       "letter": "I",
       "term": "Interseccionalidad",
-      "definition": "Acuñado por Kimberlé Crenshaw, este concepto es una herramienta analítica para comprender cómo las diferentes categorías sociales y sistemas de opresión (como raza, género, clase, etc.) no actúan de manera independiente, sino que se entrecruzan (intersectan), creando experiencias únicas y complejas de discriminación. No se trata de 'sumar' opresiones, sino de entender cómo crean una experiencia cualitativamente distinta.",
-      "practice": "Es el pilar fundamental para comprender la 'Doble Desigualdad'. Permite diseñar políticas públicas mucho más precisas al visibilizar a quienes quedan atrapadas en los 'cruces' de las opresiones y que son invisibles para los enfoques de una sola vía (solo género o solo raza). Un enfoque interseccional nos obliga a construir políticas desde los márgenes de los márgenes."
+      "definition": "Acuñado por Kimberlé Crenshaw, este concepto es una herramienta analítica para comprender cómo las diferentes categorías sociales y sistemas de opresión (como raza, género, clase, capacidad, etc.) no actúan de manera independiente, sino que se entrecruzan (intersectan), creando experiencias únicas y complejas de discriminación. No se trata de 'sumar' opresiones, sino de entender cómo crean una experiencia cualitativamente distinta.",
+      "practice": "Es el pilar fundamental para comprender la 'Doble Desigualdad'. Permite diseñar políticas públicas mucho más precisas al visibilizar a quienes quedan atrapadas en los 'cruces' de las opresiones. Como se vio en la Sesión 6, un enfoque interseccional permite ver cómo la Violencia Política de Género se recrudece y toma formas específicas contra mujeres con discapacidad (PCD), mujeres trans o mujeres indígenas."
     },
     {
       "letter": "J",
@@ -177,6 +177,12 @@
     },
     {
       "letter": "M",
+      "term": "Miedo (como herramienta política)",
+      "definition": "Es el uso estratégico de la incertidumbre, la inseguridad y la amenaza (real o fabricada) como un mecanismo de control social y desmovilización política.",
+      "practice": "Como se analizó en la Sesión 5, las narrativas de la derecha a menudo manipulan las emociones, como el miedo a \"perder el país\", a la \"ideología de género\" o a la inseguridad. Usan el miedo para fragmentar la sociedad, justificar la securitización y deslegitimar las agendas de derechos humanos."
+    },
+    {
+      "letter": "M",
       "term": "Minga (Minka)",
       "definition": "Una práctica y filosofía de trabajo colectivo y recíproco con fines de utilidad social que proviene de las culturas indígenas andinas. Es la convocatoria a la acción conjunta, la materialización del principio de que \"el trabajo de todos beneficia a todos\".",
       "practice": "Cuando hablamos de \"hacer una minga de pensamiento\", estamos aplicando esta filosofía a la producción de conocimiento. Significa que construimos nuestras ideas no desde la genialidad individual, sino a través del diálogo, la escucha y el aporte de todas."
@@ -186,6 +192,12 @@
       "term": "Necropolítica",
       "definition": "Un concepto desarrollado por Achille Mbembe para describir cómo el poder soberano en el mundo contemporáneo opera decidiendo quién debe vivir y quién debe morir. No es solo matar, sino dejar morir, crear \"zonas de muerte\" donde la vida no tiene valor.",
       "practice": "Vemos la necropolítica en las fronteras donde se deja morir a migrantes, en los territorios contaminados por empresas extractivas, en la violencia feminicida que considera los cuerpos de las mujeres como desechables, y en la brutalidad policial sistemática contra las comunidades negras."
+    },
+    {
+      "letter": "N",
+      "term": "Nombrar es Poder",
+      "definition": "Es un principio político feminista fundamental que sostiene que el acto de nombrar y visibilizar una opresión (como la \"Violencia Política de Género\") es el primer paso indispensable para analizarla, combatirla y erradicarla.",
+      "practice": "Como se destacó en la Sesión 6, definir y conceptualizar la VPG no es solo un ejercicio académico, es una victoria política. Permite a las mujeres identificar sus experiencias no como problemas aislados, sino como parte de un sistema de violencia, dándoles la base para denunciar y exigir reparación."
     },
     {
       "letter": "O",
@@ -198,6 +210,12 @@
       "term": "Patriarcado",
       "definition": "Es un sistema de dominación social, político y cultural en el que los hombres (lo masculino) ostentan el poder y los privilegios. Es una estructura profunda que organiza toda la sociedad y se sostiene a través de la violencia y la imposición de roles de género.",
       "practice": "Nos enfrentamos al patriarcado cuando luchamos contra la violencia machista, cuando exigimos igual salario por igual trabajo, y cuando construimos formas de organización que no se basan en la jerarquía y la competencia."
+    },
+    {
+      "letter": "P",
+      "term": "Pedagogía Feminista",
+      "definition": "Es un enfoque de enseñanza y aprendizaje que es inherentemente político. Busca no solo transmitir información, sino transformar la conciencia, desmantelar jerarquías de poder (incluso en el aula) y construir conocimiento colectivamente a partir de la experiencia vivida.",
+      "practice": "La Escuela \"Las Juanas\" en sí misma es un ejercicio de pedagogía feminista. Como se mencionó en la Sesión 6, es una herramienta clave para desaprender el machismo y el racismo, y para llevar la conciencia crítica más allá del propio movimiento, \"incluyendo a hombres, niñas y niños\"."
     },
     {
       "letter": "P",
@@ -231,6 +249,12 @@
     },
     {
       "letter": "P",
+      "term": "Política del Amor",
+      "definition": "Acuñada por teóricas como bell hooks, es la propuesta de entender el amor no como un sentimiento romántico, sino como una práctica política radical de cuidado, compromiso y justicia. Es la fuerza afectiva que se opone a las lógicas de dominación, miedo y fragmentación.",
+      "practice": "Como surgió en la Sesión 5, es la contrapropuesta estratégica a la \"política del miedo\". Implica construir redes de solidaridad, descolonizar nuestros afectos y poner el cuidado de la vida en el centro de la acción política, como una fuerza movilizadora."
+    },
+    {
+      "letter": "P",
       "term": "Política del Lugar (o de la Identidad)",
       "definition": "Sostiene que la identidad y la experiencia vivida de una persona (su lugar en el mundo) son puntos de partida legítimos y necesarios para la teoría y la acción política. Rechaza la idea de un sujeto político 'universal' y abstracto (que históricamente ha sido blanco y masculino).",
       "practice": "Da sustento a la 'Política de la Presencia' y a que la 'Estética es Política'. La presencia de una mujer negra o indígena en el poder no es solo simbólica; es la afirmación de que su experiencia y perspectiva son conocimientos políticos válidos y necesarios para gobernar. Legitima las voces y las agendas de los grupos históricamente silenciados."
@@ -261,6 +285,12 @@
     },
     {
       "letter": "R",
+      "term": "Redes / Articulación",
+      "definition": "Es la estrategia política de tejer conexiones horizontales y flexibles entre personas, colectivos y movimientos. Reconoce que la fuerza no reside en una estructura centralizada, sino en la capacidad de actuar de forma coordinada y solidaria.",
+      "practice": "Como se concluyó en la Sesión 6, la creación de redes es la respuesta fundamental a la violencia y la clave para la \"sostenibilidad de la lucha\". Son redes de cuidado, de protección colectiva, de intercambio de saberes y de incidencia conjunta."
+    },
+    {
+      "letter": "R",
       "term": "Representación Sustantiva",
       "definition": "Es un tipo de representación política que va más allá de la simple presencia numérica. Implica que las personas electas actúen en favor de los intereses y las agendas del grupo al que representan.",
       "practice": "\"El aumento de mujeres en política no garantiza por sí mismo una transformación real\". Se trata de pasar de la cifra a la incidencia real. Una curul feminista busca la representación sustantiva, traduciendo las demandas de los movimientos en leyes y políticas concretas."
@@ -276,6 +306,12 @@
       "term": "Sistema de Cuidado",
       "definition": "Es la materialización de la \"Economía del Cuidado\" a través de políticas públicas. Se trata de un conjunto de programas y servicios organizados por el Estado para reconocer, reducir y redistribuir el trabajo de cuidado.",
       "practice": "La creación de un Sistema de Cuidado, como en Medellín, es una \"victoria tangible\" de la incidencia feminista. Puede incluir lavanderías comunitarias, comedores populares, centros de día para personas mayores y espacios de cuidado infantil."
+    },
+    {
+      "letter": "S",
+      "term": "Sostenibilidad (de la lucha)",
+      "definition": "Es la conciencia y la práctica de que la militancia y el activismo deben ser sostenibles a largo plazo, tanto a nivel colectivo como individual. Implica reconocer los límites, la sobrecarga y el desgaste (\"burnout\") como problemas políticos, no como fallas personales.",
+      "practice": "Este concepto (mencionado en las Sesiones 5 y 6) nos obliga a crear políticas de cuidado dentro de nuestros movimientos, a rotar tareas, a celebrar los logros y a construir redes de apoyo mutuo para que la lucha por la vida no nos cueste la vida."
     },
     {
       "letter": "S",
@@ -312,6 +348,12 @@
       "term": "Violencia Epistémica",
       "definition": "Es el acto de invalidar, silenciar o subordinar los conocimientos, saberes y formas de entender el mundo de un grupo oprimido. Es la violencia que ejerce el conocimiento hegemónico al presentarse como el único válido y universal.",
       "practice": "Ocurre cuando un médico desestima el saber de una partera tradicional o cuando en la academia solo se citan autores europeos. Combatirla implica un acto de \"soberanía epistémica\": valorar, recuperar y producir conocimiento desde nuestros propios lugares de enunciación."
+    },
+    {
+      "letter": "V",
+      "term": "Violencia Política de Género (VPG)",
+      "definition": "Son todas las acciones u omisiones (incluida la tolerancia) que, basadas en el género, tienen por objeto o resultado menoscabar o anular el reconocimiento, goce o ejercicio de los derechos políticos de las mujeres.",
+      "practice": "Como se analizó en la Sesión 6, la VPG no es solo la agresión física. Se manifiesta en el acoso digital, la difamación basada en estereotipos sexistas, la asignación de recursos inequitativa dentro de los partidos, o el asesinato, como el ejemplo trágico compartido en la sesión."
     },
     {
       "letter": "W",
