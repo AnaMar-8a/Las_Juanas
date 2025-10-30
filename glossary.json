@@ -1,10 +1,10 @@
 {
   "_meta": {
     "projectName": "Abecedario Político Interactivo",
-    "version": "2.2",
+    "version": "2.5",
     "description": "Este archivo contiene todos los términos, definiciones y ejemplos del glosario. Está diseñado para ser la única fuente de verdad de los datos, facilitando su actualización y mantenimiento.",
     "contribution_guide": "Para añadir o sugerir un cambio, por favor, utiliza la plantilla 'Sugerencia de Término' en la sección de 'Issues' del repositorio de GitHub. No edites este archivo directamente en la rama principal.",
-    "last_updated": "2025-10-30T18:40:00-05:00"
+    "last_updated": "2025-10-30T18:52:00-05:00"
   },
   "terms": [
     {
@@ -33,6 +33,12 @@
     },
     {
       "letter": "A",
+      "term": "Adultocentrismo",
+      "definition": "El sistema de opresión basado en la edad, que le da poder y credibilidad a los adultos sobre las jóvenes, niñas y adolescentes. Es la primera forma de jerarquía que aprendemos.",
+      "practice": "Reflexión eje: ¿Cómo desmantelamos el adultocentrismo en nuestros propios movimientos? ¿Cómo dejamos de tratar a las compañeras más jóvenes como \"futuras\" líderes en lugar de potencias presentes?"
+    },
+    {
+      "letter": "A",
       "term": "Améfrica / Amefricanidad",
       "definition": "Un concepto político y geográfico acuñado por la visionaria intelectual afrobrasSileña Lélia Gonzalez. Es una herramienta teórica para demoler el mito de la \"democracia racial\" y del \"mestizaje\" como proyectos de blanqueamiento y borramiento de la herencia africana.",
       "practice": "Lélia Gonzalez nos enseña que la cultura latinoamericana es incomprensible sin su matriz africana. La \"amefricanidad\" no es solo una identidad racial, es una categoría político-cultural que nos permite analizar cómo el racismo estructura nuestras societies. Asumirse \"amefricana\" es reconocerse en una historia continental de esclavización, pero, sobre todo, en una historia de cimarronaje, rebelión y creación cultural."
@@ -42,6 +48,12 @@
       "term": "Androcentrismo",
       "definition": "Es la visión del mundo que sitúa al hombre (varón) como el centro y la medida de todas las cosas. Lo masculino se convierte en la norma universal y lo femenino es considerado \"lo otro\", una desviación o una excepción.",
       "practice": "Cuestionar el androcentrismo significa preguntarnos activamente: ¿dónde están las mujeres en esta historia? ¿Esta política pública tiene en cuenta las necesidades específicas de las mujeres y disidencias? ¿Este diseño urbano es seguro para todas? Es un ejercicio constante de descentrar la mirada masculina."
+    },
+    {
+      "letter": "A",
+      "term": "Autodefensa Feminista",
+      "definition": "Ir más allá de la \"prevención\". Es la acción directa y legítima para proteger nuestra integridad (física, emocional, digital) frente a la violencia patriarcal. Es recuperar nuestro poder de agencia.",
+      "practice": "Reflexión eje: ¿Qué implica construir estrategias de autodefensa colectivas (escraches, redes de cuidado, autodefensa digital) en lugar de soluciones individuales?"
     },
     {
       "letter": "A",
@@ -69,9 +81,15 @@
     },
     {
       "letter": "C",
-      "term": "Cimarronaje (y Palenques)",
-      "definition": "Es el acto histórico y continuo de rebelión y fuga de las personas africanas esclavizadas, quienes crearon comunidades autónomas y libres llamadas palenques o quilombos. Es una filosofía política de la libertad y una estrategia de construcción de mundos alternativos.",
-      "practice": "Hoy, el cimarronaje se recupera como una práctica y una metáfora de resistencia sexual, de género y antirracista. Es la creación de espacios autónomos (palenques/quilombos) para sanar y resistir al 'Racismo Estructural' y la 'Colonialidad'."
+      "term": "Capitalismo Gore (o Capitalismo de Guerra)",
+      "definition": "La idea de que el capitalismo actual en nuestras regiones no solo explota, sino que necesita de la violencia extrema, el narco, la trata y el desmembramiento para funcionar y acumular.",
+      "practice": "Reflexión eje: ¿Cómo la precariedad laboral extrema que sufrimos se conecta con las formas más brutales de violencia? ¿No es el \"sicariato\" la forma más extrema de \"emprendedurismo\" neoliberal?"
+    },
+    {
+      "letter": "C",
+      "term": "Cimarronaje",
+      "definition": "Es el acto histórico y continuo de rebelión y fuga de las personas africanas esclavizadas. Es una filosofía política de la libertad y una estrategia de construcción de mundos alternativos frente al sistema colonial.",
+      "practice": "Hoy, el cimarronaje se recupera como una práctica y una metáfora de resistencia sexual, de género y antirracista. Es la creación de espacios autónomos (ver 'Quilombo / Palenque') para sanar y resistir al 'Racismo Estructural' y la 'Colonialidad'."
     },
     {
       "letter": "C",
@@ -113,7 +131,7 @@
       "letter": "C",
       "term": "Curul Feminista",
       "definition": "Es un espacio de representación política en un cuerpo de elección popular que es ocupado con el objetivo explícito de impulsar una agenda política feminista para transformar las estructuras de desigualdad. No es un simple asiento ocupado por una mujer; es un \"territorio de disputa\".",
-      "practice": "Una curul feminista se caracteriza por la representación sustantiva, la autonomía política y la valentía para defender posturas impopulares pero necesarias. Las victorias tangibles, como la creación de un Sistema de Cuidado en Medellín, son el resultado de la incidencia desde estas curules."
+      "practice": "Una curul feminista se caracteriza por la representation sustantiva, la autonomía política y la valentía para defender posturas impopulares pero necesarias. Las victorias tangibles, como la creación de un Sistema de Cuidado en Medellín, son el resultado de la incidencia desde estas curules."
     },
     {
       "letter": "D",
@@ -159,6 +177,12 @@
     },
     {
       "letter": "E",
+      "term": "Escrache (Dimensión política del)",
+      "definition": "No es solo una denuncia, sino una herramienta política colectiva que rompe el pacto de silencio masculino y reubica la vergüenza del lado del agresor, donde pertenece. Es una forma de 'Justicia (Alternativa)' construida desde la comunidad.",
+      "practice": "Reflexión eje: ¿Cómo cuidamos el escrache como herramienta para que no sea cooptado por el 'Punitivismo' (solo buscar castigo), sino que sirva para la transformación comunitaria y la reparación real?"
+    },
+    {
+      "letter": "E",
       "term": "Escri-vivencia (Escrevivência)",
       "definition": "Concepto creado por la escritora afrobrasileña Conceição Evaristo, se refiere a la escritura que nace de la experiencia vivida, del cuerpo y de la memoria colectiva, especialmente de las mujeres negras. No es solo un acto literario, sino un acto político de existencia, resistencia y creación de conocimiento desde un lugar históricamente subalternizado.",
       "practice": "Es una herramienta práctica para alcanzar la 'Justicia Epistémica' y la materialización de la 'Política del Lugar', donde la narración de la propia vida se convierte en fuente de teoría. Desafía la separación occidental entre 'vida' y 'conocimiento', 'arte' y 'política', demostrando que contar la propia historia es un acto fundamental de lucha."
@@ -189,9 +213,27 @@
     },
     {
       "letter": "G",
+      "term": "Genealogías Feministas (del Sur)",
+      "definition": "La práctica activa de buscar, rescatar, leer, citar y honrar a las que vinieron antes que nosotras en nuestro propio territorio (Abya Yala, Sur Global). Es descolonizar nuestra biblioteca y nuestra formación política.",
+      "practice": "Reflexión eje: ¿A quiénes leemos? ¿Conocemos a las feministas comunitarias de Guatemala, a las lesbianas feministas de los 80 en Chile, a las anarcofeministas de Argentina, a las negras de Brasil? Es un acto de 'Justicia Epistémica'."
+    },
+    {
+      "letter": "G",
       "term": "Género",
       "definition": "Es la construcción social y cultural que se asigna a las personas a partir de su sexo biológico. No es algo natural, sino un conjunto de ideas, roles y expectativas que una sociedad impone sobre lo que significa \"ser hombre\" o \"ser mujer\".",
       "practice": "Cuestionar los roles de género es desobedecer los mandatos del patriarcado. Es validar que no hay una única forma de ser mujer, es luchar por el reconocimiento de todas las identidades de género y es entender que nuestras capacidades y deseos no están determinados por nuestros genitales."
+    },
+    {
+      "letter": "G",
+      "term": "Gobernanza de los Afectos",
+      "definition": "Entender que el capitalismo y el patriarcado también nos educan sentimentalmente. Nos enseñan qué desear (el amor romántico, la maternidad obligatoria, el éxito individual) y cómo sentirlo, gobernando así nuestras vidas.",
+      "practice": "Reflexión eje: ¿Cómo desobedecemos esos mandatos afectivos? ¿Cómo construimos redes de afecto (amistad, compañerismo, 'Política del Amor') que sean tan fuertes como los lazos de parentesco o de pareja?"
+    },
+    {
+      "letter": "G",
+      "term": "Goce (como potencia política)",
+      "definition": "Recuperar el placer, la fiesta, el baile y el descanso como actos de resistencia. Es una respuesta al mandato capitalista de la productividad y al mandato patriarcal del sufrimiento y el sacrificio femenino.",
+      "practice": "Reflexión eje: Si nuestra lucha nos agota y nos quita el goce, el sistema ya ganó. ¿Cómo integramos el disfrute, el ocio y el goce cuir/trans/lésbico como parte central de nuestra agenda política ('Sostenibilidad de la lucha') y no como un 'extra'?"
     },
     {
       "letter": "H",
@@ -279,6 +321,12 @@
     },
     {
       "letter": "N",
+      "term": "Nepantla (Concepto Chicano/Fronterizo)",
+      "definition": "Estar \"en medio\". Es el espacio incómodo pero potente de la frontera, de la identidad mestiza, de la disidencia que no encaja ni aquí ni allá. Es un lugar de 'limbo' que, aunque doloroso, es un sitio de profunda creatividad y transformación.",
+      "practice": "Reflexión eje: ¿Cómo habitamos nuestras propias \"nepantlas\" (identitarias, políticas, territoriales)? ¿Cómo usamos esa incomodidad de no pertenecer del todo para crear nuevas políticas, nuevos lenguajes y nuevas formas de ser?"
+    },
+    {
+      "letter": "N",
       "term": "Nombrar es Poder",
       "definition": "Es un principio político feminista fundamental que sostiene que el acto de nombrar y visibilizar una opresión (como la \"Violencia Política de Género\") es el primer paso indispensable para analizarla, combatirla y erradicarla.",
       "practice": "Como se destacó en la Sesión 6, definir y conceptualizar la VPG no es solo un ejercicio académico, es una victoria política. Permite a las mujeres identificar sus experiencias no como problemas aislados, sino como parte de un sistema de violencia, dándoles la base para denunciar y exigir reparación."
@@ -300,6 +348,12 @@
       "term": "Pedagogía Feminista",
       "definition": "Es un enfoque de enseñanza y aprendizaje que es inherentemente político. Busca no solo transmitir información, sino transformar la conciencia, desmantelar jerarquías de poder (incluso en el aula) y construir conocimiento colectivamente a partir de la experiencia vivida.",
       "practice": "La Escuela \"Las Juanas\" en sí misma es un ejercicio de pedagogía feminista. Como se mencionó en la Sesión 6, es una herramienta clave para desaprender el machismo y el racismo, y para llevar la conciencia crítica más allá del propio movimiento, \"incluyendo a hombres, niñas y niños\"."
+    },
+    {
+      "letter": "P",
+      "term": "Pedagogías Transgresoras (o Cimarronas)",
+      "definition": "La educación que no busca \"incluirnos\" en el sistema (universidad, estado), sino que busca destruir las lógicas de ese sistema. Es aprender en la calle, en el círculo de mujeres, en el plantón, en la asamblea.",
+      "practice": "Reflexión eje: ¿Es esta escuela política una pedagogía cimarrona? ¿Cómo nos aseguramos de que nuestro aprendizaje ('Educación Política') se traduzca en desobediencia ('Cimarronaje') y no solo en teoría?"
     },
     {
       "letter": "P",
@@ -340,7 +394,7 @@
     {
       "letter": "P",
       "term": "Política del Lugar (o de la Identidad)",
-      "definition": "Sostiene que la identidad y la experiencia vivida de una persona (su lugar en el mundo) son puntos de partida legítimos y necesarios para la teoría y la acción política. Rechaza la idea de un sujeto político 'universal' y abstracto (que históricamente ha sido blanco y masculino).",
+      "definition": "Sostiene que la identidad y la experiencia vivida de una person (su lugar en el mundo) son puntos de partida legítimos y necesarios para la teoría y la acción política. Rechaza la idea de un sujeto político 'universal' y abstracto (que históricamente ha sido blanco y masculino).",
       "practice": "Da sustento a la 'Política de la Presencia' y a que la 'Estética es Política'. La presencia de una mujer negra o indígena en el poder no es solo simbólica; es la afirmación de que su experiencia y perspectiva son conocimientos políticos válidos y necesarios para gobernar. Legitima las voces y las agendas de los grupos históricamente silenciados."
     },
     {
@@ -366,6 +420,12 @@
       "term": "Queer",
       "definition": "Término paraguas que describe identidades de género y orientaciones sexuales que no se ajustan al binarismo (hombre/mujer) y la heterosexualidad obligatoria. Originalmente un insulto (\"raro\", \"extraño\"), fue reapropiado como una postura política de disidencia.",
       "practice": "Ser/hacer \"queer\" no es solo una identidad (como 'gay' o 'lesbiana'), sino una acción política que desafía y desestabiliza todas las normas, no solo las sexuales. Critica las categorías fijas y se opone a la asimilación, buscando alianzas con otras luchas contra el capitalismo, el racismo y el Estado."
+    },
+    {
+      "letter": "Q",
+      "term": "Quilombo / Palenque",
+      "definition": "Comunidades de resistencia y libertad fundadas por personas africanas esclavizadas que escaparon del régimen colonial. Eran (y son) la creación de nuevos mundos, con sus propias formas de gobierno, justicia, economía y espiritualidad.",
+      "practice": "Inspirarse en su legado es entender que nuestra lucha no es solo para resistir la opresión, sino para construir activamente espacios de libertad aquí y ahora. Un comedor comunitario autogestionado o una red de cuidado feminista pueden ser pensados como pequeños palenques urbanos."
     },
     {
       "letter": "R",
@@ -442,8 +502,8 @@
     {
       "letter": "V",
       "term": "Violencia Epistémica",
-      "definition": "Es el acto de invalidar, silenciar o subordinar los conocimientos, saberes y formas de entender el mundo de un grupo oprimido. Es la violencia que ejerce el conocimiento hegemónico al presentarse como el único válido y universal.",
-      "practice": "Ocurre cuando un médico desestima el saber de una partera tradicional o cuando en la academia solo se citan autores europeos. Combatirla implica un acto de \"soberanía epistémica\": valorar, recuperar y producir conocimiento desde nuestros propios lugares de enunciación."
+      "definition": "Es el acto de invalidar, silenciar o subordinar los conocimientos, saberes y formas de entender el mundo de un grupo oprimido. Es la violencia que ejerce el conocimiento hegemónico (occidental, blanco, masculino) al presentarse como el único válido. Se manifiesta en lo cotidiano al invalidar el conocimiento de alguien por pertenecer a dicho grupo: es cuando te dicen \"estás loca\", \"exagerada\" o \"no sabes de lo que hablas\" solo por ser mujer, indígena, o disidente.",
+      "practice": "Reflexión eje: ¿Cuántas veces nuestras denuncias son desestimadas como \"chismes\" o \"problemas personales\" en lugar de problemas políticos estructurales? Ocurre cuando un médico desestima el saber de una partera tradicional o cuando en la academia solo se citan autores europeos. Combatirla implica un acto de \"soberanía epistémica\" y \"Justicia Epistémica\"."
     },
     {
       "letter": "V",
