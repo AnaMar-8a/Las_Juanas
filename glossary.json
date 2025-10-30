@@ -1,10 +1,10 @@
 {
   "_meta": {
     "projectName": "Abecedario Político Interactivo",
-    "version": "1.8",
+    "version": "2.2",
     "description": "Este archivo contiene todos los términos, definiciones y ejemplos del glosario. Está diseñado para ser la única fuente de verdad de los datos, facilitando su actualización y mantenimiento.",
     "contribution_guide": "Para añadir o sugerir un cambio, por favor, utiliza la plantilla 'Sugerencia de Término' en la sección de 'Issues' del repositorio de GitHub. No edites este archivo directamente en la rama principal.",
-    "last_updated": "2025-10-30T18:22:00-05:00"
+    "last_updated": "2025-10-30T18:40:00-05:00"
   },
   "terms": [
     {
@@ -34,7 +34,7 @@
     {
       "letter": "A",
       "term": "Améfrica / Amefricanidad",
-      "definition": "Un concepto político y geográfico acuñado por la visionaria intelectual afrobrasileña Lélia Gonzalez. Es una herramienta teórica para demoler el mito de la \"democracia racial\" y del \"mestizaje\" como proyectos de blanqueamiento y borramiento de la herencia africana.",
+      "definition": "Un concepto político y geográfico acuñado por la visionaria intelectual afrobrasSileña Lélia Gonzalez. Es una herramienta teórica para demoler el mito de la \"democracia racial\" y del \"mestizaje\" como proyectos de blanqueamiento y borramiento de la herencia africana.",
       "practice": "Lélia Gonzalez nos enseña que la cultura latinoamericana es incomprensible sin su matriz africana. La \"amefricanidad\" no es solo una identidad racial, es una categoría político-cultural que nos permite analizar cómo el racismo estructura nuestras societies. Asumirse \"amefricana\" es reconocerse en una historia continental de esclavización, pero, sobre todo, en una historia de cimarronaje, rebelión y creación cultural."
     },
     {
@@ -44,6 +44,12 @@
       "practice": "Cuestionar el androcentrismo significa preguntarnos activamente: ¿dónde están las mujeres en esta historia? ¿Esta política pública tiene en cuenta las necesidades específicas de las mujeres y disidencias? ¿Este diseño urbano es seguro para todas? Es un ejercicio constante de descentrar la mirada masculina."
     },
     {
+      "letter": "A",
+      "term": "Autonomía (Sobre el cuerpo y el territorio)",
+      "definition": "La soberanía sobre nuestras cuerpas y la defensa de la tierra. Es la afirmación de que ambas luchas son inseparables, un pilar del feminismo decolonial.",
+      "practice": "Reflexión eje: ¿De qué hablamos cuando hablamos de 'decidir'? Este concepto vincula directamente la lucha por el aborto legal (autonomía del cuerpo) con la lucha contra el 'Extractivismo' (autonomía del territorio), entendiéndolas como una misma batalla contra un sistema que busca controlar y despojar cuerpos y tierras."
+    },
+    {
       "letter": "B",
       "term": "Backlash",
       "definition": "Es la reacción violenta, organizada y a gran escala contra los avances del feminismo. No son críticas aisladas, sino una contraofensiva política y cultural que busca desacreditar, desmovilizar y revertir los derechos y libertades conquistadas por las mujeres y disidencias.",
@@ -51,15 +57,27 @@
     },
     {
       "letter": "B",
+      "term": "Binarismo (Colapso del)",
+      "definition": "Es la crítica radical a la idea de que solo existen dos géneros/sexos (hombre/mujer). El binarismo de género es una imposición colonial, una herramienta que se usó para organizar la sociedad, el trabajo y el poder, borrando la diversidad preexistente.",
+      "practice": "Reflexión eje: ¿Cómo las cosmogonías originarias y las identidades travestis/trans/no binaries en Abya Yala ya rompían este binarismo antes de la colonia? Su colapso es una apuesta central del 'Transfeminismo' y del 'Pensamiento Decolonial'."
+    },
+    {
+      "letter": "B",
       "term": "Buen Vivir (Sumak Kawsay)",
-      "definition": "Es un horizonte de vida y un paradigma civilizatorio que surge de las cosmovisiones indígenas de los Andes (conocido como Sumak Kawsay en quechua), que propone una vida en plenitud y armonía, no solo entre los seres humanos, sino con la totalidad de la existencia, con la Pachamama o Madre Tierra.",
-      "practice": "El Buen Vivir es la antítesis del proyecto de \"desarrollo\" occidental, que se basa en la acumulación infinita de capital. Propone, en cambio, una vida basada en la relacionalidad, la reciprocidad y la complementariedad. Nos inspira a construir economías que pongan el cuidado de la vida en el centro y a luchar contra los proyectos extractivistas."
+      "definition": "Es un horizonte de vida y una propuesta civilizatoria radical que surge de las cosmovisiones indígenas (como el Sumak Kawsay en quechua). Es la alternativa al 'desarrollo' occidental, proponiendo una vida en plenitud y armonía (con la naturaleza, la comunidad) por encima de la acumulación capitalista.",
+      "practice": "El Buen Vivir inspira a construir economías que pongan el cuidado de la vida en el centro (ver 'Cuidados'), a organizar nuestras comunidades de forma recíproca ('Minga') y a luchar contra los proyectos 'Extractivistas' que destruyen el tejido de la vida."
     },
     {
       "letter": "C",
-      "term": "Cimarronaje",
+      "term": "Cimarronaje (y Palenques)",
       "definition": "Es el acto histórico y continuo de rebelión y fuga de las personas africanas esclavizadas, quienes crearon comunidades autónomas y libres llamadas palenques o quilombos. Es una filosofía política de la libertad y una estrategia de construcción de mundos alternativos.",
-      "practice": "Hoy, el cimarronaje se manifiesta en la defensa de los territorios colectivos, en la creación de economías propias al margen del capitalismo depredador y en la recuperación de saberes ancestrales como forma de sanación y resistencia política."
+      "practice": "Hoy, el cimarronaje se recupera como una práctica y una metáfora de resistencia sexual, de género y antirracista. Es la creación de espacios autónomos (palenques/quilombos) para sanar y resistir al 'Racismo Estructural' y la 'Colonialidad'."
+    },
+    {
+      "letter": "C",
+      "term": "Colonialidad (del poder, del saber y del ser)",
+      "definition": "Es un concepto clave del 'Pensamiento Decolonial' (A. Quijano, R. Segato) que explica que el colonialismo no terminó con las independencias. Sigue operando a través de: la 'colonialidad del poder' (racismo como estructura de dominación), 'del saber' (eurocentrismo y 'Epistemicidio') y 'del ser' (deshumanización).",
+      "practice": "Reflexión eje: ¿Qué saberes (de mujeres, indígenas, negros) fueron catalogados como 'brujería' o 'folclore' por la ciencia occidental? ¿Cómo los recuperamos? Reconocer la colonialidad es el primer paso para la 'Despatriarcalización'."
     },
     {
       "letter": "C",
@@ -69,15 +87,27 @@
     },
     {
       "letter": "C",
+      "term": "Cuidados (Sostenibilidad de la vida)",
+      "definition": "Mover los cuidados del ámbito privado/doméstico/femenino al centro de la política y la economía. Es la base para la sostenibilidad de la vida.",
+      "practice": "Este concepto es la base de la 'Economía del Cuidado' y los 'Sistemas de Cuidado'. Nos obliga a preguntarnos qué es lo que realmente importa para sostener la vida y a politizar un trabajo históricamente invisibilizado y feminizado."
+    },
+    {
+      "letter": "C",
+      "term": "Cuir (Lo Cuir)",
+      "definition": "Más que la traducción de 'Queer'. Es la reapropiación política y teórica del término desde el Sur Global (Abya Yala), reconociendo nuestras propias genealogías de disidencia sexual y de género, que están inseparablemente marcadas por la raza, la clase y la precariedad.",
+      "practice": "Reflexión eje: ¿Qué significa 'hacer política cuir' en Latinoamérica, en lugar de importar teorías anglosajonas? Significa politizar la identidad reconociendo que el régimen 'Heterocisnormativo' fue impuesto por la 'Colonialidad'."
+    },
+    {
+      "letter": "C",
       "term": "Cuotas de Género",
       "definition": "Son un tipo de acción afirmativa que establece un porcentaje o número mínimo de participación para las mujeres en espacios donde han sido históricamente subrepresentadas, como las listas electorales, juntas directivas o cargos públicos.",
       "practice": "Su objetivo es forzar la inclusión para romper barreras estructurales y garantizar una representación más descriptiva. Sin embargo, su implementación debe ser crítica, asegurando que no solo se cumpla el número, sino que se promueva una representación sustantiva. El debate feminista impulsa 'listas paritarias' (50/50) y 'cremallera' (alternancia hombre-mujer) como mecanismos más efectivos."
     },
     {
       "letter": "C",
-      "term": "Cuerpo-Territorio",
-      "definition": "Es un concepto central en los feminismos comunitarios y decoloniales que afirma la conexión inseparable entre nuestro cuerpo y la tierra que habitamos. El cuerpo es nuestro primer territorio de soberanía.",
-      "practice": "Esta idea revela que el proyecto colonial y patrical opera a través de una doble violencia de despojo: sobre la tierra (extractivismo) y sobre los cuerpos (control, violencia). Defender la soberanía sobre nuestros cuerpos es defender el territorio. La sanación, por tanto, también debe ser doble: sanar la tierra es sanar nuestros cuerpos."
+      "term": "Cuerpo-Territorio (Territorio-Cuerpo-Tierra)",
+      "definition": "Es un concepto y una consigna central de los feminismos comunitarios y decoloniales de Abya Yala. Afirma la conexión inseparable entre el cuerpo (nuestro primer territorio de soberanía) y la tierra que habitamos. El sistema patriarcal y colonial ejerce una doble violencia: despoja la tierra ('Extractivismo') y controla los cuerpos (violencia, control reproductivo).",
+      "practice": "Defender la soberanía sobre nuestros cuerpos (como en la lucha por el aborto legal) es la misma lucha que defender la tierra de la megaminería. El cuerpo de la mujer y la tierra son territorios de conquista y, por ende, territorios de liberación. Sanar la tierra es sanar nuestros cuerpos."
     },
     {
       "letter": "C",
@@ -94,8 +124,14 @@
     {
       "letter": "D",
       "term": "Despatriarcalización",
-      "definition": "Es un proceso político radical que busca desmontar el patriarcado, entendido no solo como la dominación de los hombres sobre las mujeres, sino como un sistema de organización social jerárquico, violento y depredador que fue impuesto y reconfigurado por el colonialismo.",
-      "practice": "Desde una mirada decolonial, despatriarcalizar es mucho más que alcanzar la \"igualdad de género\". Es, necesariamente, una lucha antirracista y anticapitalista. Implica desmantelar la familia nuclear, la heterosexualidad obligatoria, la división sexual del trabajo y la jerarquía entre lo humano y lo no-humano."
+      "definition": "No es solo alcanzar la 'igualdad de género', es un proceso político radical que busca desmontar la lógica patriarcal que estructura el Estado, la familia, la academia y nuestros propios movimientos. Es, necesariamente, una lucha antirracista y anticapitalista.",
+      "practice": "Reflexión eje: ¿Qué prácticas patriarcales (jerarquías, lógicas de competencia, 'caudillismos', división sexual del trabajo) seguimos reproduciendo sin darnos cuenta, incluso dentro de nuestros espacios feministas y de izquierda?"
+    },
+    {
+      "letter": "D",
+      "term": "Disidencias Sexuales",
+      "definition": "Concepto político (muy usado en Abya Yala) para nombrar a las identidades y prácticas que se oponen y disienten activamente del régimen de la heterosexualidad obligatoria y el cisgénero. Es una alternativa al término \"diversidad sexual\", que puede ser visto como asimilacionista o despolitizado.",
+      "practice": "Hablar de \"disidencias\" en lugar de \"diversidad\" es una postura política. Enfatiza la ruptura con la norma (el disenso) y la lucha contra el sistema cisheteropatriarcal, en lugar de simplemente \"ser diferente\" dentro de un sistema que se mantiene intacto. Se alinea con la politización del término 'Cuir'."
     },
     {
       "letter": "D",
@@ -111,15 +147,39 @@
     },
     {
       "letter": "E",
+      "term": "Educación Política",
+      "definition": "Es un proceso de formación y toma de conciencia crítica sobre las estructuras de poder (políticas, económicas, sociales) que organizan la sociedad. No se trata de adoctrinamiento partidista, sino de desarrollar las herramientas para analizar la realidad, entender nuestros derechos y participar activamente en la transformación de la comunidad.",
+      "practice": "La \"Pedagogía Feminista\" es una forma de educación política. La Escuela \"Las Juanas\" en su totalidad es un proyecto de educación política que busca fortalecer el liderazgo de las mujeres para que puedan incidir en sus territorios, disputar el \"sentido común\" y construir alternativas al sistema hegemónico."
+    },
+    {
+      "letter": "E",
+      "term": "Epistemicidio",
+      "definition": "El asesinato sistemático de los conocimientos que no son occidentales, blancos y masculinos. Es la manifestación de la 'Colonialidad del saber' y la causa de la 'Violencia Epistémica'.",
+      "practice": "Reflexión eje: ¿Desde qué autoras estamos pensando? ¿Estamos citando a nuestras compañeras del Sur, o solo a las teóricas europeas? Luchar contra el epistemicidio es practicar la 'Justicia Epistémica', valorar la 'Oralitura', las 'Tecnologías Ancestrales' y la 'Escri-vivencia'."
+    },
+    {
+      "letter": "E",
       "term": "Escri-vivencia (Escrevivência)",
       "definition": "Concepto creado por la escritora afrobrasileña Conceição Evaristo, se refiere a la escritura que nace de la experiencia vivida, del cuerpo y de la memoria colectiva, especialmente de las mujeres negras. No es solo un acto literario, sino un acto político de existencia, resistencia y creación de conocimiento desde un lugar históricamente subalternizado.",
       "practice": "Es una herramienta práctica para alcanzar la 'Justicia Epistémica' y la materialización de la 'Política del Lugar', donde la narración de la propia vida se convierte en fuente de teoría. Desafía la separación occidental entre 'vida' y 'conocimiento', 'arte' y 'política', demostrando que contar la propia historia es un acto fundamental de lucha."
     },
     {
       "letter": "E",
+      "term": "Estallido Social",
+      "definition": "Se refiere a un momento de movilización popular masiva, intensa y a menudo espontánea o no centralizada, que irrumpe en el orden público como respuesta a un profundo malestar social acumulado (desigualdad estructural, neoliberalismo, represión).",
+      "practice": "A diferencia de una protesta convocada, el estallido social (como en Chile 2019 o Colombia 2021) desborda las formas tradicionales de la política. Es una expresión de 'Poder Popular' que, aunque caótica y sin un liderazgo único, rompe la hegemonía y abre la posibilidad de nuevos pactos sociales o procesos constituyentes."
+    },
+    {
+      "letter": "E",
       "term": "Estética es Política",
       "definition": "Captura la idea de que la presencia de cuerpos diversos (racialmente, en términos de identidad de género, discapacidad, etc.) en espacios de poder es en sí misma un acto de ruptura política, ya que desafía la norma hegemónica de quién es visto como 'apto' para liderar.",
       "practice": "Redefine los imaginarios del poder. La visibilidad de lideresas como la congresista brasileña Erika Hilton, con su estética disruptiva y su cuerpo trans, inspira a nuevas generaciones y rompe violentamente con los estereotipos del político tradicional, blanco y cisgénero."
+    },
+    {
+      "letter": "E",
+      "term": "Extractivismo",
+      "definition": "La lógica colonial-capitalista de saquear la tierra (megaminería, agronegocio, fracking) y los cuerpos, viéndolos como recursos infinitos para la acumulación de capital y no como seres vivos interdependientes.",
+      "practice": "Reflexión eje: ¿Por qué las mujeres y las disidencias son las primeras afectadas por el despojo territorial? ¿Qué nos enseñan las ecofeministas comunitarias? Esta lógica vincula la 'Autonomía' del cuerpo con la del territorio y es la causa directa del 'Terricidio' y las 'Zonas de Sacrificio'."
     },
     {
       "letter": "F",
@@ -140,10 +200,22 @@
       "practice": "La lucha feminista y decolonial es una lucha contra-hegemónica. Buscamos romper ese falso \"sentido común\" patriarcal, racista y colonial para demostrar que existen otros saberes, otras formas de organizar la vida y otras economías posibles."
     },
     {
+      "letter": "H",
+      "term": "Heterocisnormatividad",
+      "definition": "Es el régimen político que impone la heterosexualidad y la identidad cisgénero (identificarse con el género asignado al nacer) como obligatorias, 'naturales' y superiores. La homofobia, el lesboodio y la transfobia son los síntomas y mecanismos de control de este sistema.",
+      "practice": "Reflexión eje: ¿Cómo este régimen policializa los afectos, las identidades y las expresiones que se salen de la norma? Cuestionarlo es la base para entender el 'Lesboodio' y la violencia contra todas las 'Disidencias Sexuales'."
+    },
+    {
       "letter": "I",
       "term": "Interseccionalidad",
       "definition": "Acuñado por Kimberlé Crenshaw, este concepto es una herramienta analítica para comprender cómo las diferentes categorías sociales y sistemas de opresión (como raza, género, clase, capacidad, etc.) no actúan de manera independiente, sino que se entrecruzan (intersectan), creando experiencias únicas y complejas de discriminación. No se trata de 'sumar' opresiones, sino de entender cómo crean una experiencia cualitativamente distinta.",
       "practice": "Es el pilar fundamental para comprender la 'Doble Desigualdad'. Permite diseñar políticas públicas mucho más precisas al visibilizar a quienes quedan atrapadas en los 'cruces' de las opresiones. Como se vio en la Sesión 6, un enfoque interseccional permite ver cómo la Violencia Política de Género se recrudece y toma formas específicas contra mujeres con discapacidad (PCD), mujeres trans o mujeres indígenas."
+    },
+    {
+      "letter": "J",
+      "term": "Justicia (Alternativas a la Punitiva)",
+      "definition": "Es la búsqueda de movernos de una justicia punitiva (patriarcal, colonial, centrada en el castigo) a formas que busquen reparar el daño y transformar las condiciones que lo originan. Incluye la 'Justicia Epistémica' (reconocer saberes), la Justicia Restaurativa (reparar el tejido social) y la Justicia Transfeminista (desmantelar las estructuras de violencia).",
+      "practice": "Reflexión eje: ¿Cómo gestionamos los conflictos y las violencias en nuestros movimientos? Esta búsqueda implica desconfiar del 'Punitivismo' (la cárcel como solución) y construir nuestras propias formas de sanar, poniendo en el centro a las víctimas pero también la transformación del sistema."
     },
     {
       "letter": "J",
@@ -162,6 +234,12 @@
       "term": "Kyriarcado",
       "definition": "Un concepto acuñado por la teóloga feminista Elisabeth Schüssler Fiorenza para expandir la idea de patriarcado. Describe un sistema social complejo y piramidal donde múltiples opresiones (racismo, clasismo, capacitismo, colonialismo, etc.) se intersectan y se refuerzan mutuamente.",
       "practice": "Usar el concepto de kyriarcado nos ayuda a evitar simplificaciones. La explotación de una trabajadora doméstica migrante no se explica solo por el patriarcado, sino por la intersección de género, clase, raza y estatus migratorio que la sitúa en una posición de extrema vulnerabilidad dentro de la pirámide kyriarcal."
+    },
+    {
+      "letter": "L",
+      "term": "Lesboodio",
+      "definition": "Es una forma específica de violencia que combina la misoginia (odio a las mujeres) y la homofobia. Es el odio, discriminación y castigo dirigido hacia las lesbianas por desafiar la heterosexualidad obligatoria y el mandato patriarcal de que las mujeres deben estar al servicio de los hombres.",
+      "practice": "Se manifiesta en la invisibilización de las lesbianas en la historia y los medios, en la violencia \"correctiva\" (violaciones), en el acoso laboral, y en la patologización. Nombrarlo (en lugar de solo \"homofobia\") es un acto político para visibilizar una opresión específica que se da en el cruce del patriarcado y la heteronormatividad."
     },
     {
       "letter": "L",
@@ -192,6 +270,12 @@
       "term": "Necropolítica",
       "definition": "Un concepto desarrollado por Achille Mbembe para describir cómo el poder soberano en el mundo contemporáneo opera decidiendo quién debe vivir y quién debe morir. No es solo matar, sino dejar morir, crear \"zonas de muerte\" donde la vida no tiene valor.",
       "practice": "Vemos la necropolítica en las fronteras donde se deja morir a migrantes, en los territorios contaminados por empresas extractivas, en la violencia feminicida que considera los cuerpos de las mujeres como desechables, y en la brutalidad policial sistemática contra las comunidades negras."
+    },
+    {
+      "letter": "N",
+      "term": "Neogolpes",
+      "definition": "Se refiere a las estrategias modernas para destituir gobiernos elegidos democráticamente, que no dependen de la fuerza militar directa (golpe de estado tradicional), sino de un conjunto de tácticas institucionales, mediáticas y judiciales. También se conocen como 'golpes blandos'.",
+      "practice": "Un neogolpe utiliza la \"guerra jurídica\" (lawfare) para inhabilitar líderes, la manipulación mediática para crear \"sentido común\" en contra del gobierno, y las maniobras parlamentarias (como el impeachment a Dilma Rousseff) para lograr la destitución. Es una herramienta clave del 'backlash' de las derechas contra los gobiernos progresistas."
     },
     {
       "letter": "N",
@@ -279,9 +363,15 @@
     },
     {
       "letter": "Q",
-      "term": "Quilombo / Palenque",
-      "definition": "Comunidades de resistencia y libertad fundadas por personas africanas esclavizadas que escaparon del régimen colonial. Eran (y son) la creación de nuevos mundos, con sus propias formas de gobierno, justicia, economía y espiritualidad.",
-      "practice": "Inspirarse en su legado es entender que nuestra lucha no es solo para resistir la opresión, sino para construir activamente espacios de libertad aquí y ahora. Un comedor comunitario autogestionado o una red de cuidado feminista pueden ser pensados como pequeños palenques urbanos."
+      "term": "Queer",
+      "definition": "Término paraguas que describe identidades de género y orientaciones sexuales que no se ajustan al binarismo (hombre/mujer) y la heterosexualidad obligatoria. Originalmente un insulto (\"raro\", \"extraño\"), fue reapropiado como una postura política de disidencia.",
+      "practice": "Ser/hacer \"queer\" no es solo una identidad (como 'gay' o 'lesbiana'), sino una acción política que desafía y desestabiliza todas las normas, no solo las sexuales. Critica las categorías fijas y se opone a la asimilación, buscando alianzas con otras luchas contra el capitalismo, el racismo y el Estado."
+    },
+    {
+      "letter": "R",
+      "term": "Racismo Estructural",
+      "definition": "El pilar que sostiene la 'Colonialidad' y el capitalismo. No es solo un prejuicio individual, sino un sistema que organiza el Estado, la economía y el acceso a derechos, jerarquizando vidas y cuerpos. Genera la 'Doble Desigualdad'.",
+      "practice": "Reflexión eje: ¿Cómo opera la 'blanquitud' (ver 'Privilegio') como una ventaja no nombrada en nuestros feminismos? ¿Cómo practicamos una 'Acción Antirracista' activa más allá de solo adoptar una 'Postura Antirracista'?"
     },
     {
       "letter": "R",
@@ -338,6 +428,12 @@
       "practice": "Denunciar una mina a cielo abierto como \"terricidio\" eleva el nivel de la denuncia. Reconoce que se está asesinando una forma de vida completa, rompiendo el tejido sagrado que une a la comunidad con su territorio. Luchar contra el terricidio es defender la vida en su sentido más amplio."
     },
     {
+      "letter": "T",
+      "term": "Transfeminismo",
+      "definition": "Una corriente del feminismo que enseña que el sujeto político del feminismo no es (solo) 'la mujer'. Es una política de la autodeterminación radical del cuerpo y la identidad que pone en el centro la experiencia trans y travesti para dinamitar el 'Binarismo' y la 'Heterocisnormatividad'.",
+      "practice": "Reflexión eje: ¿Por qué la lucha trans y travesti es central para la liberación de todas las personas? El transfeminismo nos enseña que la opresión de género se basa en el control y la definición de los cuerpos, una lucha que une a mujeres cis, personas trans y todas las disidencias."
+    },
+    {
       "letter": "U",
       "term": "Ubuntu",
       "definition": "Una filosofía y ética sudafricana que se puede traducir como \"soy porque somos\". Postula que la humanidad de una persona está intrínsecamente ligada a la humanidad de los demás. Es un principio de interdependencia, solidaridad y responsabilidad colectiva.",
@@ -370,8 +466,8 @@
     {
       "letter": "Y",
       "term": "Yerbateras / Yerberos",
-      "definition": "Son las guardianas y guardianes del conocimiento ancestral sobre las plantas medicinales. Su saber, transmitido por generaciones a través de la oralitura, representa una forma de ciencia y medicina profundamente conectada con el territorio y la espiritualidad. Fueron históricamente perseguidas (acusadas de \"brujería\" por el poder colonial y religioso) por representar una forma de autonomía en la salud y un poder que escapaba al control patriarcal.",
-      "practice": "Reivindicar la figura de las yerbateras es un acto de reparación histórica y de soberanía epistémica. Es reconocer la validez de otras medicinas y desafiar el monopolio de la industria farmacéutica. Apoyar a las yerbateras de nuestras comunidades, aprender de ellas y defender los territorios donde crecen las plantas medicinales es una forma concreta de luchar por la soberanía sobre nuestros cuerpos y nuestra salud."
+      "definition": "Son las guardianas y guardianes del conocimiento ancestral sobre las plantas medicinales. Su saber, transmitido por generaciones a través de la oralitura, representa una forma de ciencia y medicina profundamente conectada con el territorio y la espiritualidad. Fueron históricamente perseguidas (acusadas de \"brujería\" por el poder colonial y religioso) por representar una forma de autonomy en la salud y un poder que escapaba al control patriarcal.",
+      "practice": "Reivindicar la figura de las yerbateras es un acto de reparación histórica y de soberanía epistémica. Es reconocer la validez de otras medicinas y desafiar el monopolio de la industria farmacéMola. Apoyar a las yerbateras de nuestras comunidades, aprender de ellas y defender los territorios donde crecen las plantas medicinales es una forma concreta de luchar por la soberanía sobre nuestros cuerpos y nuestra salud."
     },
     {
       "letter": "Z",
