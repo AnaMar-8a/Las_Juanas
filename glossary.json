@@ -1,10 +1,10 @@
 {
   "_meta": {
     "projectName": "Abecedario Político Interactivo",
-    "version": "2.5",
+    "version": "3.1",
     "description": "Este archivo contiene todos los términos, definiciones y ejemplos del glosario. Está diseñado para ser la única fuente de verdad de los datos, facilitando su actualización y mantenimiento.",
-    "contribution_guide": "Para añadir o sugerir un cambio, por favor, utiliza la plantilla 'Sugerencia de Término' en la sección de 'Issues' del repositorio de GitHub. No edites este archivo directamente en la rama principal.",
-    "last_updated": "2025-10-30T18:52:00-05:00"
+    "contribution_guide": "Para añadir o sugerir un cambio, por favor, utiliza la plantilla 'Sugerencia de Térmo' en la sección de 'Issues' del repositorio de GitHub. No edites este archivo directamente en la rama principal.",
+    "last_updated": "2025-10-31T08:26:00-05:00"
   },
   "terms": [
     {
@@ -39,6 +39,12 @@
     },
     {
       "letter": "A",
+      "term": "Agenda Propia",
+      "definition": "Es la plataforma de luchas, demandas y propuestas que un movimiento social (feminista, indígena, popular) construye desde sus propias bases y para sus propios objetivos. Se opone a la agenda impuesta desde el poder o la agenda \"permitida\" por los actores hegemónicos.",
+      "practice": "Construir una \"agenda propia\" es un ejercicio de soberanía política. Implica nuestros propios procesos de diagnóstico, deliberación y priorización, sin pedir permiso. En la participación política, significa que no solo reaccionamos a la agenda del gobierno, sino que forzamos nuestros temas (como el aborto, la violencia de género, el extractivismo) en el debate público y en la negociación. Es la base para una 'Representación Sustantiva'."
+    },
+    {
+      "letter": "A",
       "term": "Améfrica / Amefricanidad",
       "definition": "Un concepto político y geográfico acuñado por la visionaria intelectual afrobrasSileña Lélia Gonzalez. Es una herramienta teórica para demoler el mito de la \"democracia racial\" y del \"mestizaje\" como proyectos de blanqueamiento y borramiento de la herencia africana.",
       "practice": "Lélia Gonzalez nos enseña que la cultura latinoamericana es incomprensible sin su matriz africana. La \"amefricanidad\" no es solo una identidad racial, es una categoría político-cultural que nos permite analizar cómo el racismo estructura nuestras societies. Asumirse \"amefricana\" es reconocerse en una historia continental de esclavización, pero, sobre todo, en una historia de cimarronaje, rebelión y creación cultural."
@@ -48,6 +54,12 @@
       "term": "Androcentrismo",
       "definition": "Es la visión del mundo que sitúa al hombre (varón) como el centro y la medida de todas las cosas. Lo masculino se convierte en la norma universal y lo femenino es considerado \"lo otro\", una desviación o una excepción.",
       "practice": "Cuestionar el androcentrismo significa preguntarnos activamente: ¿dónde están las mujeres en esta historia? ¿Esta política pública tiene en cuenta las necesidades específicas de las mujeres y disidencias? ¿Este diseño urbano es seguro para todas? Es un ejercicio constante de descentrar la mirada masculina."
+    },
+    {
+      "letter": "A",
+      "term": "Animalismo (y Política)",
+      "definition": "Es el movimiento político y ético que busca extender la consideración moral y/o derechos a los animales no humanos, desafiando el 'especismo' (la discriminación basada en la especie).",
+      "practice": "Desde una perspectiva ecofeminista, se conecta con la crítica al 'Androcentrismo', que sitúa al 'Hombre' en la cima de una jerarquía de dominación sobre la naturaleza, las mujeres y los animales. Es una lucha contra la lógica capitalista y colonial que ve a todos los seres (humanos y no humanos) como 'recursos' para explotar, vinculándose con la defensa del 'Cuerpo-Territorio'."
     },
     {
       "letter": "A",
@@ -96,6 +108,12 @@
       "term": "Colonialidad (del poder, del saber y del ser)",
       "definition": "Es un concepto clave del 'Pensamiento Decolonial' (A. Quijano, R. Segato) que explica que el colonialismo no terminó con las independencias. Sigue operando a través de: la 'colonialidad del poder' (racismo como estructura de dominación), 'del saber' (eurocentrismo y 'Epistemicidio') y 'del ser' (deshumanización).",
       "practice": "Reflexión eje: ¿Qué saberes (de mujeres, indígenas, negros) fueron catalogados como 'brujería' o 'folclore' por la ciencia occidental? ¿Cómo los recuperamos? Reconocer la colonialidad es el primer paso para la 'Despatriarcalización'."
+    },
+    {
+      "letter": "C",
+      "term": "Colorismo",
+      "definition": "Es una forma de discriminación, que opera a menudo *dentro* de las propias comunidades racializadas, que privilegia las pieles más claras sobre las más oscuras. Es un residuo directo de la 'Colonialidad' y la 'Pigmentocracia'.",
+      "practice": "Reconocer el colorismo es vital para una lucha antirracista honesta. Implica cuestionar por qué, incluso en espacios que se nombran 'diversos' o 'afro', la visibilidad y el liderazgo recaen a menudo en las personas de piel más clara. Es desmantelar el privilegio de la 'blanquitud' y la cercanía a ella."
     },
     {
       "letter": "C",
@@ -153,6 +171,12 @@
     },
     {
       "letter": "D",
+      "term": "Disonancia Cognoscitiva",
+      "definition": "Es la tensión o incomodidad mental que sentimos al tener dos ideas, creencias o valores contradictorios al mismo tiempo, o cuando nuestras acciones contradicen nuestras creencias.",
+      "practice": "En la 'Pedagogía Feminista' y el '(Des)Aprendizaje Antirracista', este es un momento clave. Es la incomodidad que siente alguien al descubrir que sus acciones reproducen el machismo que dice odiar. Nuestro trabajo político no es (solo) culpar, sino usar esa disonancia como una grieta para la transformación y la toma de conciencia."
+    },
+    {
+      "letter": "D",
       "term": "Doble Desigualdad",
       "definition": "Este término nombra de manera precisa la intersección específica de opresiones (racismo y sexismo) que atraviesa la experiencia de las mujeres afrodescendientes e indígenas en los espacios de poder.",
       "practice": "Ayuda a visibilizar por qué las soluciones que solo atienden el género (feminismo blanco) o solo la raza (luchas antirracistas androcéntricas) son insuficientes. Su reconocimiento exige el diseño de acciones afirmativas y políticas públicas que aborden simultáneamente ambas dimensiones de la opresión."
@@ -198,6 +222,18 @@
       "term": "Estética es Política",
       "definition": "Captura la idea de que la presencia de cuerpos diversos (racialmente, en términos de identidad de género, discapacidad, etc.) en espacios de poder es en sí misma un acto de ruptura política, ya que desafía la norma hegemónica de quién es visto como 'apto' para liderar.",
       "practice": "Redefine los imaginarios del poder. La visibilidad de lideresas como la congresista brasileña Erika Hilton, con su estética disruptiva y su cuerpo trans, inspira a nuevas generaciones y rompe violentamente con los estereotipos del político tradicional, blanco y cisgénero."
+    },
+    {
+      "letter": "E",
+      "term": "Etnometodología (y Metodologías Étnicas)",
+      "definition": "Mientras la Etnometodología estudia cómo las personas construyen su realidad social, en la política decolonial lo usamos para valorar las 'Metodologías Étnicas': formas de investigar y actuar que respetan y parten de los saberes ('Epistemicidio'), cosmogonías y lógicas de los pueblos (indígenas, afros).",
+      "practice": "Es la diferencia radical entre un investigador que extrae datos de una comunidad para su tesis (extractivismo epistémico), y un proceso que, usando las metodologías de la propia comunidad (asambleas, 'Oralitura'), co-produce un conocimiento que sirve para la 'Agenda Propia' y la lucha de esa comunidad."
+    },
+    {
+      "letter": "E",
+      "term": "Eugenesia",
+      "definition": "La teoría y práctica pseudo-científica de 'mejorar' la raza humana controlando la reproducción, usualmente eliminando o esterilizando a quienes se consideran 'no aptos' (personas con discapacidad, racializadas, empobrecidas).",
+      "practice": "La eugenesia no es solo cosa del pasado (Nazis). Sigue presente en el 'Racismo Estructural' (esterilización forzada de mujeres indígenas), en el capacitismo (ableism) que devalúa la vida de personas con discapacidad, y en el 'Backlash' contra los derechos reproductivos que busca controlar *cuáles* cuerpos sí pueden (y deben) reproducirse, y cuáles no."
     },
     {
       "letter": "E",
@@ -249,6 +285,12 @@
     },
     {
       "letter": "I",
+      "term": "Incidencia Política",
+      "definition": "Es el conjunto de acciones estratégicas y planificadas que realizamos como movimientos sociales para influir en la toma de decisiones del poder público (leyes, políticas, presupuestos) y garantizar que nuestras demandas se conviertan en cambios reales y efectivos.",
+      "practice": "La incidencia no es solo \"pedir\" o \"protestar\". Es una disputa de poder. Incluye el cabildeo (lobbying) en el congreso, la presentación de propuestas de ley, la creación de alianzas, el litigio estratégico y la movilización social para presionar. Ocupar una 'Curul Feminista' es una táctica de incidencia de alto nivel, pero la incidencia también se hace desde la calle, los medios y las mesas de negociación."
+    },
+    {
+      "letter": "I",
       "term": "Interseccionalidad",
       "definition": "Acuñado por Kimberlé Crenshaw, este concepto es una herramienta analítica para comprender cómo las diferentes categorías sociales y sistemas de opresión (como raza, género, clase, capacidad, etc.) no actúan de manera independiente, sino que se entrecruzan (intersectan), creando experiencias únicas y complejas de discriminación. No se trata de 'sumar' opresiones, sino de entender cómo crean una experiencia cualitativamente distinta.",
       "practice": "Es el pilar fundamental para comprender la 'Doble Desigualdad'. Permite diseñar políticas públicas mucho más precisas al visibilizar a quienes quedan atrapadas en los 'cruces' de las opresiones. Como se vio en la Sesión 6, un enfoque interseccional permite ver cómo la Violencia Política de Género se recrudece y toma formas específicas contra mujeres con discapacidad (PCD), mujeres trans o mujeres indígenas."
@@ -294,6 +336,18 @@
       "term": "Machosfera",
       "definition": "Es el término usado para describir una red de comunidades en línea (blogs, foros, canales de YouTube, etc.) que promueven masculinidades tóxicas, misoginia y una fuerte oposición al feminismo. Es un ecosistema digital donde se comparten y refuerzan discursos de odio, antifeministas y sexistas.",
       "practice": "La machosfera es una de las principales fuentes de radicalización y violencia digital contra las mujeres y disidencias. Funciona como una cámara de eco que valida y amplifica creencias misóginas, presentándolas como verdades irrefutables. Analizar la machosfera es clave para comprender la reacción violenta (backlash) contra los avances feministas en el entorno digital y para desarrollar estrategias de contra-narrativa, alfabetización mediática y creación de espacios en línea seguros."
+    },
+    {
+      "letter": "M",
+      "term": "Mandatar (Mandar Obedeciendo)",
+      "definition": "Un principio político central de los movimientos populares, especialmente el Zapatismo, que invierte la lógica tradicional del poder. Quien ocupa un cargo de representación no \"manda\", sino que \"obedece\" un mandato colectivo construido por la asamblea y la comunidad.",
+      "practice": "Esto transforma la representación. La persona \"mandatada\" (la concejala, la lideresa) no tiene voluntad propia en su cargo; su voz es la voz de la base. Debe rendir cuentas permanentemente y puede ser revocada si no cumple el mandato. Es la forma más radical de 'Poder Popular' y la antítesis del 'caudillismo' patriarcal."
+    },
+    {
+      "letter": "M",
+      "term": "Memoria (como acto político)",
+      "definition": "Es la disputa activa contra el olvido y el borramiento oficial. Es el acto colectivo de rescatar, nombrar y mantener vivas las historias de nuestras luchas, nuestras ancestras y nuestras mártires, como una herramienta para entender el presente y construir el futuro.",
+      "practice": "La memoria no está en el pasado; se ejerce en el presente. Cada 'Escrache' es un acto de memoria contra la impunidad. Cada 'Genealogía Feminista' que recuperamos es un acto de memoria. En la participación política, usamos la memoria para que no se repitan las violencias del poder y para honrar a las que nos abrieron el camino, asegurando que sus luchas no fueron en vano."
     },
     {
       "letter": "M",
@@ -366,6 +420,12 @@
       "term": "Perspectiva de Género",
       "definition": "Es una herramienta analítica que nos permite observar y comprender las desigualdades, roles y violencias que existen entre hombres, mujeres y otras identidades en una sociedad. Es como ponerse unas gafas especiales que nos permiten ver cómo el género impacta todo.",
       "practice": "Aplicarla en una política pública significa analizar cómo afectará de manera diferenciada a hombres y a mujeres. En una organización, significa revisar si nuestras prácticas internas reproducen roles de género."
+    },
+    {
+      "letter": "P",
+      "term": "Pigmentocracia",
+      "definition": "Un concepto que describe cómo la jerarquía social, el poder y la riqueza están estructurados directamente por el color de la piel, creando un continuo donde 'más blanco' equivale a 'más privilegio' y 'más humano'.",
+      "practice": "Es una herramienta clave para analizar el 'Racismo Estructural' y el 'Colorismo' en Abya Yala. Demuestra que el sistema no es solo 'blanco vs. no-blanco', sino un gradiente de opresión. La lucha decolonial es, por tanto, una lucha contra la pigmentocracia que nos clasifica y nos mata según la tonalidad de nuestra piel."
     },
     {
       "letter": "P",
@@ -483,6 +543,12 @@
     },
     {
       "letter": "T",
+      "term": "Territorio (como espacio de disputa)",
+      "definition": "Más allá del espacio geográfico, es una construcción social, política y afectiva. Es el lugar donde se tejen las relaciones comunitarias, pero también donde se manifiestan las opresiones y se ejerce la resistencia. Incluye el 'Cuerpo-Territorio' y la tierra, pero también el barrio, la comunidad digital y la 'Curul' que se ocupa.",
+      "practice": "Entender la política como una defensa del territorio. La participación popular es la lucha por la soberanía sobre nuestros territorios: la defensa del río contra la minera ('Extractivismo'), la recuperación de la calle para las mujeres y disidencias, la construcción de un espacio virtual seguro ('Machosfera') o la lucha por un barrio sin 'Violencia Política'."
+    },
+    {
+      "letter": "T",
       "term": "Terricidio",
       "definition": "Un concepto propuesto por movimientos indígenas y ecofeministas para nombrar el asesinato sistemático no solo de la tierra (ecocidio) y de los pueblos que la habitan (genocidio), sino de la totalidad de la vida y de los sistemas cosmogónicos que la sostienen.",
       "practice": "Denunciar una mina a cielo abierto como \"terricidio\" eleva el nivel de la denuncia. Reconoce que se está asesinando una forma de vida completa, rompiendo el tejido sagrado que une a la comunidad con su territorio. Luchar contra el terricidio es defender la vida en su sentido más amplio."
@@ -492,6 +558,12 @@
       "term": "Transfeminismo",
       "definition": "Una corriente del feminismo que enseña que el sujeto político del feminismo no es (solo) 'la mujer'. Es una política de la autodeterminación radical del cuerpo y la identidad que pone en el centro la experiencia trans y travesti para dinamitar el 'Binarismo' y la 'Heterocisnormatividad'.",
       "practice": "Reflexión eje: ¿Por qué la lucha trans y travesti es central para la liberación de todas las personas? El transfeminismo nos enseña que la opresión de género se basa en el control y la definición de los cuerpos, una lucha que une a mujeres cis, personas trans y todas las disidencias."
+    },
+    {
+      "letter": "T",
+      "term": "Transversalización (de Género)",
+      "definition": "Es la estrategia (conocida como 'mainstreaming') de integrar la 'Perspectiva de Género' en *todas* las áreas, políticas, acciones y presupuestos de una organización o un Estado, y no solo en una oficina 'de la mujer' aislada.",
+      "practice": "El objetivo es que el Ministerio de Economía, el de Transporte o el de Minas sean tan responsables de la igualdad de género como el de la Mujer. El riesgo es la 'dilución': que la perspectiva se vuelva un 'check' burocrático. La 'Incidencia Política' feminista exige que la transversalización sea real, con poder, presupuesto y capacidad de transformar."
     },
     {
       "letter": "U",
@@ -526,7 +598,7 @@
     {
       "letter": "Y",
       "term": "Yerbateras / Yerberos",
-      "definition": "Son las guardianas y guardianes del conocimiento ancestral sobre las plantas medicinales. Su saber, transmitido por generaciones a través de la oralitura, representa una forma de ciencia y medicina profundamente conectada con el territorio y la espiritualidad. Fueron históricamente perseguidas (acusadas de \"brujería\" por el poder colonial y religioso) por representar una forma de autonomy en la salud y un poder que escapaba al control patriarcal.",
+      "definition": "Son las guardianas y guardianas del conocimiento ancestral sobre las plantas medicinales. Su saber, transmitido por generaciones a través de la oralitura, representa una forma de ciencia y medicina profundamente conectada con el territorio y la espiritualidad. Fueron históricamente perseguidas (acusadas de \"brujería\" por el poder colonial y religioso) por representar una forma de autonomy en la salud y un poder que escapaba al control patriarcal.",
       "practice": "Reivindicar la figura de las yerbateras es un acto de reparación histórica y de soberanía epistémica. Es reconocer la validez de otras medicinas y desafiar el monopolio de la industria farmacéMola. Apoyar a las yerbateras de nuestras comunidades, aprender de ellas y defender los territorios donde crecen las plantas medicinales es una forma concreta de luchar por la soberanía sobre nuestros cuerpos y nuestra salud."
     },
     {
