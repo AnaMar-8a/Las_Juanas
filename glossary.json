@@ -1,10 +1,10 @@
 {
   "_meta": {
     "projectName": "Abecedario Político Interactivo",
-    "version": "2.8",
+    "version": "3.0",
     "description": "Este archivo contiene todos los términos, definiciones y ejemplos del glosario. Está diseñado para ser la única fuente de verdad de los datos, facilitando su actualización y mantenimiento.",
-    "contribution_guide": "Para añadir o sugerir un cambio, por favor, utiliza la plantilla 'Sugerencia de Término' en la sección de 'Issues' del repositorio de GitHub. No edites este archivo directamente en la rama principal.",
-    "last_updated": "2025-10-30T19:15:00-05:00"
+    "contribution_guide": "Para añadir o sugerir un cambio, por favor, utiliza la plantilla 'Sugerencia de Términ' en la sección de 'Issues' del repositorio de GitHub. No edites este archivo directamente en la rama principal.",
+    "last_updated": "2025-10-30T19:25:00-05:00"
   },
   "terms": [
     {
@@ -173,7 +173,7 @@
       "letter": "C",
       "term": "Cuotas de Género",
       "definition": "Son un tipo de acción afirmativa que establece un porcentaje o número mínimo de participación para las mujeres en espacios donde han sido históricamente subrepresentadas, como las listas electorales, juntas directivas o cargos públicos.",
-      "practice": "Su objetivo es forzar la inclusión para romper barreras estructurales y garantizar una representación más descriptiva. Sin embargo, su implementación debe ser crítica, asegurando que no solo se cumpla el número, sino que se promueva una representación sustantiva. El debate feminista impulsa 'listas paritarias' (50/50) y 'cremallera' (alternancia hombre-mujer) como mecanismos más efectivos."
+      "practice": "Su objetivo es forzar la inclusión para romper barreras estructurales y garantizar una representation más descriptiva. Sin embargo, su implementación debe ser crítica, asegurando que no solo se cumpla el número, sino que se promueva una representación sustantiva. El debate feminista impulsa 'listas paritarias' (50/50) y 'cremallera' (alternancia hombre-mujer) como mecanismos más efectivos."
     },
     {
       "letter": "C",
@@ -442,7 +442,7 @@
     {
       "letter": "N",
       "term": "Nombrar es Poder",
-      "definition": "Es un principio político feminista fundamental que sostiene que el acto de nombrar y visibilizar una opresión (como la \"Violencia Política de Género\") es el primer paso indispensable para analizarla, combatirla y erradicarla.",
+      "definition": "Es un principio político feminista fundamental que sostiene que el acto de nombrar y visibilizar una opresión (como la \"Violencia Política de Género\") es el primer paso indispensable para analizarla, combatirla y erradicara.",
       "practice": "Como se destacó en la Sesión 6, definir y conceptualizar la VPG no es solo un ejercicio académico, es una victoria política. Permite a las mujeres identificar sus experiencias no como problemas aislados, sino como parte de un sistema de violencia, dándoles la base para denunciar y exigir reparación."
     },
     {
@@ -568,7 +568,7 @@
     {
       "letter": "R",
       "term": "Resiliencia (Crítica Feminista)",
-      "definition": "Una re-apropiación crítica del término. No es la capacidad individual de 'aguantar' o 'recuperarse' de la opresión (una exigencia neoliberal). Es la capacidad *colectiva* de una comunidad para sobrevivir al trauma sistémico, transformar el dolor en 'Resistencia', y sanar colectivamente.",
+      "definition": "Una re-apropiación crítica del término. No es la capacidad individual de 'aguantar' o 'recuperarse' de la opresión (una exigencia neoliberal). Es la capacidad *coletiva* de una comunidad para sobrevivir al trauma sistémico, transformar el dolor en 'Resistencia', y sanar colectivamente.",
       "practice": "La resiliencia feminista no es pasiva. Es la 'Autodefensa' de las 'Zonas de Sacrificio', la 'Esperanza' del 'Cimarronaje'. No busca 'volver a la normalidad' (porque la normalidad es el problema), sino construir una realidad nueva donde la violencia ya no exija esta resiliencia."
     },
     {
@@ -664,7 +664,7 @@
     {
       "letter": "W",
       "term": "Wiphala",
-      "definition": "Es un emblema, un símbolo ancestral de los pueblos  andinos que representa la unidad y la diversidad del cosmos. Sus siete colores y su estructura simbolizan principios de dualidad, complementariedad y reciprocidad. Representa un proyecto político basado en la pluralidad.",
+      "definition": "Es un emblema, un símbolo ancestral de los pueblos andinos que representa la unidad y la diversidad del cosmos. Sus siete colores y su estructura simbolizan principios de dualidad, complementariedad y reciprocidad. Representa un proyecto político basado en la pluralidad.",
       "practice": "Izar la Wiphala junto a las banderas feministas o trans en una manifestación es un poderoso acto político. Significa que nuestra lucha feminista se reconoce como parte de una lucha anticolonial más amplia que aprende de los principios organizativos de los pueblos originarios."
     },
     {
