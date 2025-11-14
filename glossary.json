@@ -11,679 +11,1809 @@
       "letter": "A",
       "term": "Abya Yala",
       "definition": "Es el nombre con el que el pueblo Guna ha nombrado desde siempre al continente que hoy conocemos como América. Significa \"tierra en plena madurez\" o \"tierra de sangre vital\".",
-      "practice": "Utilizar \"Abya Yala\" es un acto de soberanía epistémica. Desafía directamente la narrativa colonial del \"descubrimiento\", que presenta a este continente como un territorio vacío, salvaje y sin historia, esperando ser \"encontrado\" por Europa. Nombrarlo desde una de sus propias lenguas originarias es reconocer la preexistencia de civilizaciones complejas, cosmogonías ricas y sistemas de conocimiento sofisticados. Es un rechazo a la violencia del bautismo forzado que supuso el nombre \"América\" y un primer paso para sanar la herida colonial que nos enseñó a vernos a través de los ojos del colonizador. Cuando decimos \"luchas desde Abya Yala\", no solo ubicamos geográficamente nuestra acción. Estamos afirmando nuestra pertenencia a un proyecto continental de liberación que se nutre de las memorias y resistencias de los pueblos originarios."
+      "practice": "Utilizar \"Abya Yala\" es un acto de soberanía epistémica. Desafía directamente la narrativa colonial del \"descubrimiento\", que presenta a este continente como un territorio vacío, salvaje y sin historia, esperando ser \"encontrado\" por Europa. Nombrarlo desde una de sus propias lenguas originarias es reconocer la preexistencia de civilizaciones complejas, cosmogonías ricas y sistemas de conocimiento sofisticados. Es un rechazo a la violencia del bautismo forzado que supuso el nombre \"América\" y un primer paso para sanar la herida colonial que nos enseñó a vernos a través de los ojos del colonizador. Cuando decimos \"luchas desde Abya Yala\", no solo ubicamos geográficamente nuestra acción. Estamos afirmando nuestra pertenencia a un proyecto continental de liberación que se nutre de las memorias y resistencias de los pueblos originarios.",
+      "slug": "abya-yala",
+      "id": "a-abya-yala",
+      "tags": [
+        "nombre",
+        "continente",
+        "america",
+        "tierra",
+        "colonial",
+        "nuestra"
+      ]
     },
     {
       "letter": "A",
       "term": "Acción Antirracista",
       "definition": "Es la materialización de la postura antirracista. Son las prácticas concretas y deliberadas que buscan desafiar, interrumpir y desmantelar el racismo en sus manifestaciones individuales, institucionales y estructurales. Va más allá de la simple ausencia de racismo.",
-      "practice": "Una acción antirracista es, por ejemplo, intervenir activamente ante un comentario racista, exigir que los paneles de discusión tengan diversidad racial, o diseñar políticas públicas con un enfoque étnico-racial explícito para reparar desigualdades históricas. No es reactiva, sino proactiva."
+      "practice": "Una acción antirracista es, por ejemplo, intervenir activamente ante un comentario racista, exigir que los paneles de discusión tengan diversidad racial, o diseñar políticas públicas con un enfoque étnico-racial explícito para reparar desigualdades históricas. No es reactiva, sino proactiva.",
+      "slug": "accion-antirracista",
+      "id": "a-accion-antirracista",
+      "tags": [
+        "antirracista",
+        "racismo",
+        "racial",
+        "materializacion",
+        "postura",
+        "practicas"
+      ]
     },
     {
       "letter": "A",
       "term": "Acción Intencional",
       "definition": "Es un término que aterriza el concepto de antirracismo. Enfatiza que para combatir un sistema estructuralmente racista, las acciones deben ser deliberadas, planificadas y sostenidas en el tiempo.",
-      "practice": "Se opone a la idea de que la neutralidad o las buenas intenciones son suficientes para generar un cambio real. Una acción intencional es, por ejemplo, establecer cuotas explícitas para la participación de mujeres afro e indígenas en listas electorales, garantizar su financiación, o crear programas de mentoría política para ellas."
+      "practice": "Se opone a la idea de que la neutralidad o las buenas intenciones son suficientes para generar un cambio real. Una acción intencional es, por ejemplo, establecer cuotas explícitas para la participación de mujeres afro e indígenas en listas electorales, garantizar su financiación, o crear programas de mentoría política para ellas.",
+      "slug": "accion-intencional",
+      "id": "a-accion-intencional",
+      "tags": [
+        "termino",
+        "aterriza",
+        "concepto",
+        "antirracismo",
+        "enfatiza",
+        "combatir"
+      ]
     },
     {
       "letter": "A",
       "term": "Acciones Afirmativas",
       "definition": "Son políticas y medidas temporales diseñadas para corregir las desigualdades históricas y estructurales que enfrentan ciertos grupos de la población (mujeres, pueblos indígenas, afrodesc-descendientes, personas con discapacidad, etc.). No son \"privilegios\", sino herramientas para nivelar el punto de partida.",
-      "practice": "Estas acciones buscan garantizar una igualdad de oportunidades real, reconociendo que la igualdad formal (\"todos son iguales ante la ley\") no es suficiente. Ejemplos son las cuotas de participación política, las becas para grupos subrepresentados o los incentivos para la contratación. Implementar acciones afirmativas, como las \"becas para personas trans y no binarias\" logradas en Medellín, es una característica clave de una agenda transformadora."
+      "practice": "Estas acciones buscan garantizar una igualdad de oportunidades real, reconociendo que la igualdad formal (\"todos son iguales ante la ley\") no es suficiente. Ejemplos son las cuotas de participación política, las becas para grupos subrepresentados o los incentivos para la contratación. Implementar acciones afirmativas, como las \"becas para personas trans y no binarias\" logradas en Medellín, es una característica clave de una agenda transformadora.",
+      "slug": "acciones-afirmativas",
+      "id": "a-acciones-afirmativas",
+      "tags": [
+        "grupos",
+        "personas",
+        "acciones",
+        "igualdad",
+        "becas",
+        "politicas"
+      ]
     },
     {
       "letter": "A",
       "term": "Adultocentrismo",
       "definition": "El sistema de opresión basado en la edad, que le da poder y credibilidad a los adultos sobre las jóvenes, niñas y adolescentes. Es la primera forma de jerarquía que aprendemos.",
-      "practice": "Reflexión eje: ¿Cómo desmantelamos el adultocentrismo en nuestros propios movimientos? ¿Cómo dejamos de tratar a las compañeras más jóvenes como \"futuras\" líderes en lugar de potencias presentes?"
+      "practice": "Reflexión eje: ¿Cómo desmantelamos el adultocentrismo en nuestros propios movimientos? ¿Cómo dejamos de tratar a las compañeras más jóvenes como \"futuras\" líderes en lugar de potencias presentes?",
+      "slug": "adultocentrismo",
+      "id": "a-adultocentrismo",
+      "tags": [
+        "jovenes",
+        "sistema",
+        "opresion",
+        "basado",
+        "credibilidad",
+        "adultos"
+      ]
     },
     {
       "letter": "A",
       "term": "Améfrica / Amefricanidad",
       "definition": "Un concepto político y geográfico acuñado por la visionaria intelectual afrobrasSileña Lélia Gonzalez. Es una herramienta teórica para demoler el mito de la \"democracia racial\" y del \"mestizaje\" como proyectos de blanqueamiento y borramiento de la herencia africana.",
-      "practice": "Lélia Gonzalez nos enseña que la cultura latinoamericana es incomprensible sin su matriz africana. La \"amefricanidad\" no es solo una identidad racial, es una categoría político-cultural que nos permite analizar cómo el racismo estructura nuestras societies. Asumirse \"amefricana\" es reconocerse en una historia continental de esclavización, pero, sobre todo, en una historia de cimarronaje, rebelión y creación cultural."
+      "practice": "Lélia Gonzalez nos enseña que la cultura latinoamericana es incomprensible sin su matriz africana. La \"amefricanidad\" no es solo una identidad racial, es una categoría político-cultural que nos permite analizar cómo el racismo estructura nuestras societies. Asumirse \"amefricana\" es reconocerse en una historia continental de esclavización, pero, sobre todo, en una historia de cimarronaje, rebelión y creación cultural.",
+      "slug": "amefrica-amefricanidad",
+      "id": "a-amefrica-amefricanidad",
+      "tags": [
+        "politico",
+        "lelia",
+        "gonzalez",
+        "racial",
+        "africana",
+        "cultural"
+      ]
     },
     {
       "letter": "A",
       "term": "Androcentrismo",
       "definition": "Es la visión del mundo que sitúa al hombre (varón) como el centro y la medida de todas las cosas. Lo masculino se convierte en la norma universal y lo femenino es considerado \"lo otro\", una desviación o una excepción.",
-      "practice": "Cuestionar el androcentrismo significa preguntarnos activamente: ¿dónde están las mujeres en esta historia? ¿Esta política pública tiene en cuenta las necesidades específicas de las mujeres y disidencias? ¿Este diseño urbano es seguro para todas? Es un ejercicio constante de descentrar la mirada masculina."
+      "practice": "Cuestionar el androcentrismo significa preguntarnos activamente: ¿dónde están las mujeres en esta historia? ¿Esta política pública tiene en cuenta las necesidades específicas de las mujeres y disidencias? ¿Este diseño urbano es seguro para todas? Es un ejercicio constante de descentrar la mirada masculina.",
+      "slug": "androcentrismo",
+      "id": "a-androcentrismo",
+      "tags": [
+        "mujeres",
+        "vision",
+        "mundo",
+        "situa",
+        "hombre",
+        "varon"
+      ]
     },
     {
       "letter": "A",
       "term": "Antropocentrismo",
       "definition": "Es la doctrina filosófica que sitúa al ser humano (históricamente, el hombre blanco occidental) como el centro, medida y fin último de todas las cosas, y al resto de la naturaleza como un recurso a su disposición.",
-      "practice": "Es la raíz ideológica del 'Extractivismo', el 'Terricidio' y la crisis climática. El 'Buen Vivir' y los 'Ecofeminismos' proponen una ruptura radical con esta mirada, planteando una vida interdependiente y no jerárquica con todas las formas de existencia."
+      "practice": "Es la raíz ideológica del 'Extractivismo', el 'Terricidio' y la crisis climática. El 'Buen Vivir' y los 'Ecofeminismos' proponen una ruptura radical con esta mirada, planteando una vida interdependiente y no jerárquica con todas las formas de existencia.",
+      "slug": "antropocentrismo",
+      "id": "a-antropocentrismo",
+      "tags": [
+        "doctrina",
+        "filosofica",
+        "situa",
+        "humano",
+        "historicamente",
+        "hombre"
+      ]
     },
     {
       "letter": "A",
       "term": "Aporofobia",
       "definition": "Es el odio, rechazo y desprecio al pobre, a la persona empobrecida (acuñado por Adela Cortina). A menudo se disfraza de 'Xenofobia' o 'Racismo Estructural'.",
-      "practice": "Es la lógica que justifica la 'Necropolítica' y el 'Capitalismo Gore', explicando por qué la 'Precariedad' de ciertas vidas es vista como un fracaso individual y no como un proyecto político que las condena a 'Zonas de Sacrificio'."
+      "practice": "Es la lógica que justifica la 'Necropolítica' y el 'Capitalismo Gore', explicando por qué la 'Precariedad' de ciertas vidas es vista como un fracaso individual y no como un proyecto político que las condena a 'Zonas de Sacrificio'.",
+      "slug": "aporofobia",
+      "id": "a-aporofobia",
+      "tags": [
+        "rechazo",
+        "desprecio",
+        "pobre",
+        "persona",
+        "empobrecida",
+        "acunado"
+      ]
     },
     {
       "letter": "A",
       "term": "Autocrítica",
       "definition": "Es una práctica política fundamental para la 'Sostenibilidad de la lucha'. Es la capacidad, individual y colectiva, de revisar y cuestionar nuestras propias prácticas 'Patriarcales', 'Adultocéntricas' o 'Racistas' dentro de nuestros movimientos.",
-      "practice": "Sin autocrítica, los movimientos repiten las mismas opresiones que dicen combatir. Es la base del '(Des)Aprendizaje Antirracista' y un ejercicio de coherencia para asegurar que nuestras 'Pedagogías Cimarronas' no se conviertan en nuevas 'Hegemonías'."
+      "practice": "Sin autocrítica, los movimientos repiten las mismas opresiones que dicen combatir. Es la base del '(Des)Aprendizaje Antirracista' y un ejercicio de coherencia para asegurar que nuestras 'Pedagogías Cimarronas' no se conviertan en nuevas 'Hegemonías'.",
+      "slug": "autocritica",
+      "id": "a-autocritica",
+      "tags": [
+        "nuestras",
+        "movimientos",
+        "practica",
+        "politica",
+        "fundamental",
+        "sostenibilidad"
+      ]
     },
     {
       "letter": "A",
       "term": "Autodefensa Feminista",
       "definition": "Ir más allá de la \"prevención\". Es la acción directa y legítima para proteger nuestra integridad (física, emocional, digital) frente a la violencia patriarcal. Es recuperar nuestro poder de agencia.",
-      "practice": "Reflexión eje: ¿Qué implica construir estrategias de autodefensa colectivas (escraches, redes de cuidado, autodefensa digital) en lugar de soluciones individuales?"
+      "practice": "Reflexión eje: ¿Qué implica construir estrategias de autodefensa colectivas (escraches, redes de cuidado, autodefensa digital) en lugar de soluciones individuales?",
+      "slug": "autodefensa-feminista",
+      "id": "a-autodefensa-feminista",
+      "tags": [
+        "digital",
+        "autodefensa",
+        "prevencion",
+        "accion",
+        "directa",
+        "legitima"
+      ]
     },
     {
       "letter": "A",
       "term": "Autonomía (Sobre el cuerpo y el territorio)",
       "definition": "La soberanía sobre nuestras cuerpas y la defensa de la tierra. Es la afirmación de que ambas luchas son inseparables, un pilar del feminismo decolonial.",
-      "practice": "Reflexión eje: ¿De qué hablamos cuando hablamos de 'decidir'? Este concepto vincula directamente la lucha por el aborto legal (autonomía del cuerpo) con la lucha contra el 'Extractivismo' (autonomía del territorio), entendiéndolas como una misma batalla contra un sistema que busca controlar y despojar cuerpos y tierras."
+      "practice": "Reflexión eje: ¿De qué hablamos cuando hablamos de 'decidir'? Este concepto vincula directamente la lucha por el aborto legal (autonomía del cuerpo) con la lucha contra el 'Extractivismo' (autonomía del territorio), entendiéndolas como una misma batalla contra un sistema que busca controlar y despojar cuerpos y tierras.",
+      "slug": "autonomia-sobre-el-cuerpo-y-el-territorio",
+      "id": "a-autonomia-sobre-el-cuerpo-y-el-territorio",
+      "tags": [
+        "hablamos",
+        "lucha",
+        "autonomia",
+        "soberania",
+        "nuestras",
+        "cuerpas"
+      ]
     },
     {
       "letter": "B",
       "term": "Backlash",
       "definition": "Es la reacción violenta, organizada y a gran escala contra los avances del feminismo. No son críticas aisladas, sino una contraofensiva política y cultural que busca desacreditar, desmovilizar y revertir los derechos y libertades conquistadas por las mujeres y disidencias.",
-      "practice": "El backlash se manifiesta de muchas formas: en discursos políticos que ridiculizan la \"ideología de género\", en campañas de desinformación en redes sociales (a menudo orquestadas desde la Machosfera), en el recorte de presupuestos para políticas de igualdad, o en el resurgimiento de discursos que idealizan el rol tradicional de la mujer en el hogar. Reconocer el backlash es fundamental para no caer en la trampa de pensar que \"ya no hay nada por lo que luchar\" y para entender que cada derecho conquistado requiere una defensa constante."
+      "practice": "El backlash se manifiesta de muchas formas: en discursos políticos que ridiculizan la \"ideología de género\", en campañas de desinformación en redes sociales (a menudo orquestadas desde la Machosfera), en el recorte de presupuestos para políticas de igualdad, o en el resurgimiento de discursos que idealizan el rol tradicional de la mujer en el hogar. Reconocer el backlash es fundamental para no caer en la trampa de pensar que \"ya no hay nada por lo que luchar\" y para entender que cada derecho conquistado requiere una defensa constante.",
+      "slug": "backlash",
+      "id": "b-backlash",
+      "tags": [
+        "backlash",
+        "discursos",
+        "reaccion",
+        "violenta",
+        "organizada",
+        "escala"
+      ]
     },
     {
       "letter": "B",
       "term": "Binarismo (Colapso del)",
       "definition": "Es la crítica radical a la idea de que solo existen dos géneros/sexos (hombre/mujer). El binarismo de género es una imposición colonial, una herramienta que se usó para organizar la sociedad, el trabajo y el poder, borrando la diversidad preexistente.",
-      "practice": "Reflexión eje: ¿Cómo las cosmogonías originarias y las identidades travestis/trans/no binaries en Abya Yala ya rompían este binarismo antes de la colonia? Su colapso es una apuesta central del 'Transfeminismo' y del 'Pensamiento Decolonial'."
+      "practice": "Reflexión eje: ¿Cómo las cosmogonías originarias y las identidades travestis/trans/no binaries en Abya Yala ya rompían este binarismo antes de la colonia? Su colapso es una apuesta central del 'Transfeminismo' y del 'Pensamiento Decolonial'.",
+      "slug": "binarismo-colapso-del",
+      "id": "b-binarismo-colapso-del",
+      "tags": [
+        "binarismo",
+        "critica",
+        "radical",
+        "existen",
+        "generos",
+        "sexos"
+      ]
     },
     {
       "letter": "B",
       "term": "Blanqueamiento",
-      "definition": "Es el mandato y el proceso social, cultural y estético de \"mejorar la raza\" o "adelantar la raza", que impulsa a las personas racializadas a acercarse a la 'Blanquitud' (en estética, pareja, comportamiento) como estrategia de movilidad y aceptación social.",
-      "practice": "Es una manifestación directa de la 'Colonialidad' y el 'Racismo Estructural' que opera a nivel familiar y personal. Es el pilar sobre el que se construyó la ideología del 'Mestizaje' en América Latina."
+      "definition": "Es el mandato y el proceso social, cultural y estético de \"mejorar la raza\" o \"adelantar la raza\", que impulsa a las personas racializadas a acercarse a la 'Blanquitud' (en estética, pareja, comportamiento) como estrategia de movilidad y aceptación social.",
+      "practice": "Es una manifestación directa de la 'Colonialidad' y el 'Racismo Estructural' que opera a nivel familiar y personal. Es el pilar sobre el que se construyó la ideología del 'Mestizaje' en América Latina.",
+      "slug": "blanqueamiento",
+      "id": "b-blanqueamiento",
+      "tags": [
+        "social",
+        "mandato",
+        "proceso",
+        "cultural",
+        "estetico",
+        "mejorar"
+      ]
     },
     {
       "letter": "B",
       "term": "Blanquitud",
       "definition": "No es solo un color de piel, es un lugar de poder político, social y epistémico. Es el 'Privilegio' racial no nombrado que se presenta a sí mismo como 'lo normal' o 'universal', y desde el cual se ejerce la dominación.",
-      "practice": "Para el '(Des)Aprendizaje Antirracista', es crucial nombrar la blanquitud. Ver cómo opera en nuestros feminismos nos permite practicar una 'Corresponsabilidad' real, cuestionando quién habla, quién es escuchada y quién define la agenda."
+      "practice": "Para el '(Des)Aprendizaje Antirracista', es crucial nombrar la blanquitud. Ver cómo opera en nuestros feminismos nos permite practicar una 'Corresponsabilidad' real, cuestionando quién habla, quién es escuchada y quién define la agenda.",
+      "slug": "blanquitud",
+      "id": "b-blanquitud",
+      "tags": [
+        "color",
+        "lugar",
+        "politico",
+        "social",
+        "epistemico",
+        "privilegio"
+      ]
     },
     {
       "letter": "B",
       "term": "Buen Vivir (Sumak Kawsay)",
       "definition": "Es un horizonte de vida y una propuesta civilizatoria radical que surge de las cosmovisiones indígenas (como el Sumak Kawsay en quechua). Es la alternativa al 'desarrollo' occidental, proponiendo una vida en plenitud y armonía (con la naturaleza, la comunidad) por encima de la acumulación capitalista.",
-      "practice": "El Buen Vivir inspira a construir economías que pongan el cuidado de la vida en el centro (ver 'Cuidados'), a organizar nuestras comunidades de forma recíproca ('Minga') y a luchar contra los proyectos 'Extractivistas' que destruyen el tejido de la vida."
+      "practice": "El Buen Vivir inspira a construir economías que pongan el cuidado de la vida en el centro (ver 'Cuidados'), a organizar nuestras comunidades de forma recíproca ('Minga') y a luchar contra los proyectos 'Extractivistas' que destruyen el tejido de la vida.",
+      "slug": "buen-vivir-sumak-kawsay",
+      "id": "b-buen-vivir-sumak-kawsay",
+      "tags": [
+        "horizonte",
+        "propuesta",
+        "civilizatoria",
+        "radical",
+        "surge",
+        "cosmovisiones"
+      ]
     },
     {
       "letter": "C",
       "term": "Capacitismo",
       "definition": "Es el sistema de opresión que discrimina, subordina e invalida a las personas con discapacidad (diversidad funcional). Impone un estándar de cuerpo y mente 'normal', 'capacitado' y 'productivo', excluyendo a quienes no encajan en él.",
-      "practice": "Es un eje fundamental de la 'Interseccionalidad', a menudo olvidado. Se cruza con la 'Gordofobia' y el 'Patriarcado' al definir qué cuerpos son 'aptos' o 'deseables'. La lucha contra el capacitismo cuestiona la 'Precariedad' (quién es apto para trabajar) y la 'Estética es Política'."
+      "practice": "Es un eje fundamental de la 'Interseccionalidad', a menudo olvidado. Se cruza con la 'Gordofobia' y el 'Patriarcado' al definir qué cuerpos son 'aptos' o 'deseables'. La lucha contra el capacitismo cuestiona la 'Precariedad' (quién es apto para trabajar) y la 'Estética es Política'.",
+      "slug": "capacitismo",
+      "id": "c-capacitismo",
+      "tags": [
+        "sistema",
+        "opresion",
+        "discrimina",
+        "subordina",
+        "invalida",
+        "personas"
+      ]
     },
     {
       "letter": "C",
       "term": "Capitalismo Gore (o Capitalismo de Guerra)",
       "definition": "La idea de que el capitalismo actual en nuestras regiones no solo explota, sino que necesita de la violencia extrema, el narco, la trata y el desmembramiento para funcionar y acumular.",
-      "practice": "Reflexión eje: ¿Cómo la precariedad laboral extrema que sufrimos se conecta con las formas más brutales de violencia? ¿No es el \"sicariato\" la forma más extrema de \"emprendedurismo\" neoliberal?"
+      "practice": "Reflexión eje: ¿Cómo la precariedad laboral extrema que sufrimos se conecta con las formas más brutales de violencia? ¿No es el \"sicariato\" la forma más extrema de \"emprendedurismo\" neoliberal?",
+      "slug": "capitalismo-gore-o-capitalismo-de-guerra",
+      "id": "c-capitalismo-gore-o-capitalismo-de-guerra",
+      "tags": [
+        "extrema",
+        "violencia",
+        "capitalismo",
+        "actual",
+        "nuestras",
+        "regiones"
+      ]
     },
     {
       "letter": "C",
       "term": "Ciberfeminismo (o Hacktivismo Feminista)",
       "definition": "Es la práctica política feminista en el espacio digital. Implica la reapropiación de la tecnología para la 'Resistencia', la 'Autodefensa Feminista' y la creación de 'Redes' y 'Genealogías' fuera del control patriarcal.",
-      "practice": "Es la respuesta organizada a la 'Violencia Política de Género' digital y a la 'Machosfera'. Se materializa en 'Escraches' digitales, la creación de redes de acompañamiento seguras, la difusión de 'Contra-narrativas' y la lucha por la privacidad y contra la vigilancia."
+      "practice": "Es la respuesta organizada a la 'Violencia Política de Género' digital y a la 'Machosfera'. Se materializa en 'Escraches' digitales, la creación de redes de acompañamiento seguras, la difusión de 'Contra-narrativas' y la lucha por la privacidad y contra la vigilancia.",
+      "slug": "ciberfeminismo-o-hacktivismo-feminista",
+      "id": "c-ciberfeminismo-o-hacktivismo-feminista",
+      "tags": [
+        "politica",
+        "feminista",
+        "digital",
+        "creacion",
+        "redes",
+        "practica"
+      ]
     },
     {
       "letter": "C",
       "term": "Cimarronaje",
       "definition": "Es el acto histórico y continuo de rebelión y fuga de las personas africanas esclavizadas. Es una filosofía política de la libertad y una estrategia de construcción de mundos alternativos frente al sistema colonial.",
-      "practice": "Hoy, el cimarronaje se recupera como una práctica y una metáfora de resistencia sexual, de género y antirracista. Es la creación de espacios autónomos (ver 'Quilombo / Palenque') para sanar y resistir al 'Racismo Estructural' y la 'Colonialidad'."
+      "practice": "Hoy, el cimarronaje se recupera como una práctica y una metáfora de resistencia sexual, de género y antirracista. Es la creación de espacios autónomos (ver 'Quilombo / Palenque') para sanar y resistir al 'Racismo Estructural' y la 'Colonialidad'.",
+      "slug": "cimarronaje",
+      "id": "c-cimarronaje",
+      "tags": [
+        "historico",
+        "continuo",
+        "rebelion",
+        "personas",
+        "africanas",
+        "esclavizadas"
+      ]
     },
     {
       "letter": "C",
       "term": "Colonialidad (del poder, del saber y del ser)",
       "definition": "Es un concepto clave del 'Pensamiento Decolonial' (A. Quijano, R. Segato) que explica que el colonialismo no terminó con las independencias. Sigue operando a través de: la 'colonialidad del poder' (racismo como estructura de dominación), 'del saber' (eurocentrismo y 'Epistemicidio') y 'del ser' (deshumanización).",
-      "practice": "Reflexión eje: ¿Qué saberes (de mujeres, indígenas, negros) fueron catalogados como 'brujería' o 'folclore' por la ciencia occidental? ¿Cómo los recuperamos? Reconocer la colonialidad es el primer paso para la 'Despatriarcalización'."
+      "practice": "Reflexión eje: ¿Qué saberes (de mujeres, indígenas, negros) fueron catalogados como 'brujería' o 'folclore' por la ciencia occidental? ¿Cómo los recuperamos? Reconocer la colonialidad es el primer paso para la 'Despatriarcalización'.",
+      "slug": "colonialidad-del-poder-del-saber-y-del-ser",
+      "id": "c-colonialidad-del-poder-del-saber-y-del-ser",
+      "tags": [
+        "colonialidad",
+        "concepto",
+        "clave",
+        "pensamiento",
+        "decolonial",
+        "quijano"
+      ]
     },
     {
       "letter": "C",
       "term": "Contra-narrativas",
       "definition": "Son las historias, relatos y discursos que construimos *desde* los márgenes para disputar la 'Hegemonía Cultural' y el \"sentido común\" impuesto por el poder.",
-      "practice": "Son la materialización de 'Nombrar es Poder'. La 'Escri-vivencia', la 'Oralitura' y las 'Genealogías Feministas del Sur' son formas de contra-narrativas. Son la herramienta de la 'Pedagogía Cimarrona' para crear nuevos imaginarios y un futuro posible."
+      "practice": "Son la materialización de 'Nombrar es Poder'. La 'Escri-vivencia', la 'Oralitura' y las 'Genealogías Feministas del Sur' son formas de contra-narrativas. Son la herramienta de la 'Pedagogía Cimarrona' para crear nuevos imaginarios y un futuro posible.",
+      "slug": "contra-narrativas",
+      "id": "c-contra-narrativas",
+      "tags": [
+        "historias",
+        "relatos",
+        "discursos",
+        "construimos",
+        "margenes",
+        "disputar"
+      ]
     },
     {
       "letter": "C",
       "term": "Corresponsabilidad (en la lucha antirracista)",
       "definition": "Materializa la idea de que la lucha antirracista 'no es solo para mujeres afro'. Define el rol activo y la responsabilidad política que las personas no racializadas y aliadas deben asumir para desmantelar un sistema del que, de una u otra forma, son parte y se benefician.",
-      "practice": "No se trata de culpa o salvadorismo, sino de una responsabilidad política compartida. Se ejerce al usar el privilegio para abrir espacios, amplificar las voces de las compañeras racializadas sin suplantarlas, y confrontar el racismo en los círculos donde las personas racializadas no están presentes."
+      "practice": "No se trata de culpa o salvadorismo, sino de una responsabilidad política compartida. Se ejerce al usar el privilegio para abrir espacios, amplificar las voces de las compañeras racializadas sin suplantarlas, y confrontar el racismo en los círculos donde las personas racializadas no están presentes.",
+      "slug": "corresponsabilidad-en-la-lucha-antirracista",
+      "id": "c-corresponsabilidad-en-la-lucha-antirracista",
+      "tags": [
+        "racializadas",
+        "responsabilidad",
+        "politica",
+        "personas",
+        "materializa",
+        "lucha"
+      ]
     },
     {
       "letter": "C",
       "term": "Cuidador/a",
       "definition": "Es la persona (históricamente una mujer, a menudo racializada, empobrecida o migrante) que realiza el trabajo de cuidado. Nombrarla visibiliza al sujeto político central de la 'Economía del Cuidado'.",
-      "practice": "La lucha feminista busca desmantelar el mandato de que las mujeres son cuidadoras \"por naturaleza\" o \"por amor\". Esto implica exigir derechos laborales, remuneración justa y protección social para quienes cuidan, y redistribuir la responsabilidad hacia los hombres y el Estado ('Corresponsabilidad')."
+      "practice": "La lucha feminista busca desmantelar el mandato de que las mujeres son cuidadoras \"por naturaleza\" o \"por amor\". Esto implica exigir derechos laborales, remuneración justa y protección social para quienes cuidan, y redistribuir la responsabilidad hacia los hombres y el Estado ('Corresponsabilidad').",
+      "slug": "cuidador-a",
+      "id": "c-cuidador-a",
+      "tags": [
+        "cuidado",
+        "persona",
+        "historicamente",
+        "mujer",
+        "menudo",
+        "racializada"
+      ]
     },
     {
       "letter": "C",
       "term": "Cuidados (Sostenibilidad de la vida)",
       "definition": "Mover los cuidados del ámbito privado/doméstico/femenino al centro de la política y la economía. Es la base para la sostenibilidad de la vida.",
-      "practice": "Este concepto es la base de la 'Economía del Cuidado' y los 'Sistemas de Cuidado'. Nos obliga a preguntarnos qué es lo que realmente importa para sostener la vida y a politizar un trabajo históricamente invisibilizado y feminizado."
+      "practice": "Este concepto es la base de la 'Economía del Cuidado' y los 'Sistemas de Cuidado'. Nos obliga a preguntarnos qué es lo que realmente importa para sostener la vida y a politizar un trabajo históricamente invisibilizado y feminizado.",
+      "slug": "cuidados-sostenibilidad-de-la-vida",
+      "id": "c-cuidados-sostenibilidad-de-la-vida",
+      "tags": [
+        "economia",
+        "cuidado",
+        "mover",
+        "cuidados",
+        "ambito",
+        "privado"
+      ]
     },
     {
       "letter": "C",
       "term": "Cuir (Lo Cuir)",
       "definition": "Más que la traducción de 'Queer'. Es la reapropiación política y teórica del término desde el Sur Global (Abya Yala), reconociendo nuestras propias genealogías de disidencia sexual y de género, que están inseparablemente marcadas por la raza, la clase y la precariedad.",
-      "practice": "Reflexión eje: ¿Qué significa 'hacer política cuir' en Latinoamérica, en lugar de importar teorías anglosajonas? Significa politizar la identidad reconociendo que el régimen 'Heterocisnormativo' fue impuesto por la 'Colonialidad'."
+      "practice": "Reflexión eje: ¿Qué significa 'hacer política cuir' en Latinoamérica, en lugar de importar teorías anglosajonas? Significa politizar la identidad reconociendo que el régimen 'Heterocisnormativo' fue impuesto por la 'Colonialidad'.",
+      "slug": "cuir-lo-cuir",
+      "id": "c-cuir-lo-cuir",
+      "tags": [
+        "politica",
+        "reconociendo",
+        "significa",
+        "traduccion",
+        "queer",
+        "reapropiacion"
+      ]
     },
     {
       "letter": "C",
       "term": "Cuotas de Género",
       "definition": "Son un tipo de acción afirmativa que establece un porcentaje o número mínimo de participación para las mujeres en espacios donde han sido históricamente subrepresentadas, como las listas electorales, juntas directivas o cargos públicos.",
-      "practice": "Su objetivo es forzar la inclusión para romper barreras estructurales y garantizar una representation más descriptiva. Sin embargo, su implementación debe ser crítica, asegurando que no solo se cumpla el número, sino que se promueva una representación sustantiva. El debate feminista impulsa 'listas paritarias' (50/50) y 'cremallera' (alternancia hombre-mujer) como mecanismos más efectivos."
+      "practice": "Su objetivo es forzar la inclusión para romper barreras estructurales y garantizar una representation más descriptiva. Sin embargo, su implementación debe ser crítica, asegurando que no solo se cumpla el número, sino que se promueva una representación sustantiva. El debate feminista impulsa 'listas paritarias' (50/50) y 'cremallera' (alternancia hombre-mujer) como mecanismos más efectivos.",
+      "slug": "cuotas-de-genero",
+      "id": "c-cuotas-de-genero",
+      "tags": [
+        "numero",
+        "listas",
+        "accion",
+        "afirmativa",
+        "establece",
+        "porcentaje"
+      ]
     },
     {
       "letter": "C",
       "term": "Cuerpo-Territorio (Territorio-Cuerpo-Tierra)",
       "definition": "Es un concepto y una consigna central de los feminismos comunitarios y decoloniales de Abya Yala. Afirma la conexión inseparable entre el cuerpo (nuestro primer territorio de soberanía) y la tierra que habitamos. El sistema patriarcal y colonial ejerce una doble violencia: despoja la tierra ('Extractivismo') y controla los cuerpos (violencia, control reproductivo).",
-      "practice": "Defender la soberanía sobre nuestros cuerpos (como en la lucha por el aborto legal) es la misma lucha que defender la tierra de la megaminería. El cuerpo de la mujer y la tierra son territorios de conquista y, por ende, territorios de liberación. Sanar la tierra es sanar nuestros cuerpos."
+      "practice": "Defender la soberanía sobre nuestros cuerpos (como en la lucha por el aborto legal) es la misma lucha que defender la tierra de la megaminería. El cuerpo de la mujer y la tierra son territorios de conquista y, por ende, territorios de liberación. Sanar la tierra es sanar nuestros cuerpos.",
+      "slug": "cuerpo-territorio-territorio-cuerpo-tierra",
+      "id": "c-cuerpo-territorio-territorio-cuerpo-tierra",
+      "tags": [
+        "tierra",
+        "cuerpos",
+        "cuerpo",
+        "soberania",
+        "violencia",
+        "defender"
+      ]
     },
     {
       "letter": "C",
       "term": "Curul Feminista",
       "definition": "Es un espacio de representación política en un cuerpo de elección popular que es ocupado con el objetivo explícito de impulsar una agenda política feminista para transformar las estructuras de desigualdad. No es un simple asiento ocupado por una mujer; es un \"territorio de disputa\".",
-      "practice": "Una curul feminista se caracteriza por la representation sustantiva, la autonomía política y la valentía para defender posturas impopulares pero necesarias. Las victorias tangibles, como la creación de un Sistema de Cuidado en Medellín, son el resultado de la incidencia desde estas curules."
+      "practice": "Una curul feminista se caracteriza por la representation sustantiva, la autonomía política y la valentía para defender posturas impopulares pero necesarias. Las victorias tangibles, como la creación de un Sistema de Cuidado en Medellín, son el resultado de la incidencia desde estas curules.",
+      "slug": "curul-feminista",
+      "id": "c-curul-feminista",
+      "tags": [
+        "politica",
+        "ocupado",
+        "feminista",
+        "espacio",
+        "representacion",
+        "cuerpo"
+      ]
     },
     {
       "letter": "D",
       "term": "(Des)Aprendizaje Antirracista",
       "definition": "Refleja la conclusión de que el antirracismo no es un destino, sino un proceso activo y continuo. Incluye la doble acción de desaprender los prejuicios y narrativas racistas interiorizadas y aprender nuevas formas de pensar, actuar y relacionarse desde una práctica consciente.",
-      "practice": "No basta con declararse 'no racista'. Este proceso se materializa en la creación de espacios de formación y autocrítica dentro de los movimientos, en la revisión constante de nuestros propios privilegios y en el compromiso de cuestionar chistes, comentarios y prácticas racistas en nuestro entorno cotidiano."
+      "practice": "No basta con declararse 'no racista'. Este proceso se materializa en la creación de espacios de formación y autocrítica dentro de los movimientos, en la revisión constante de nuestros propios privilegios y en el compromiso de cuestionar chistes, comentarios y prácticas racistas en nuestro entorno cotidiano.",
+      "slug": "des-aprendizaje-antirracista",
+      "id": "d-des-aprendizaje-antirracista",
+      "tags": [
+        "proceso",
+        "racistas",
+        "refleja",
+        "conclusion",
+        "antirracismo",
+        "destino"
+      ]
     },
     {
       "letter": "D",
       "term": "Defensor/a (del Territorio)",
       "definition": "Nombra al sujeto político que encarna la lucha del 'Cuerpo-Territorio'. Son las mujeres, disidencias y comunidades que ponen el cuerpo para defender la vida (ríos, montañas, semillas) frente al 'Extractivismo'.",
-      "practice": "En Abya Yala y el Sur Global, ser defensora es una actividad de alto riesgo. Nombrarlas visibiliza a quienes reciben de forma directa la 'Violencia Política', la estigmatización y la 'Necropolítica' del Estado y las corporaciones, por su 'Resistencia' al despojo."
+      "practice": "En Abya Yala y el Sur Global, ser defensora es una actividad de alto riesgo. Nombrarlas visibiliza a quienes reciben de forma directa la 'Violencia Política', la estigmatización y la 'Necropolítica' del Estado y las corporaciones, por su 'Resistencia' al despojo.",
+      "slug": "defensor-a-del-territorio",
+      "id": "d-defensor-a-del-territorio",
+      "tags": [
+        "cuerpo",
+        "nombra",
+        "sujeto",
+        "politico",
+        "encarna",
+        "lucha"
+      ]
     },
     {
       "letter": "D",
       "term": "Despatriarcalización",
       "definition": "No es solo alcanzar la 'igualdad de género', es un proceso político radical que busca desmontar la lógica patriarcal que estructura el Estado, la familia, la academia y nuestros propios movimientos. Es, necesariamente, una lucha antirracista y anticapitalista.",
-      "practice": "Reflexión eje: ¿Qué prácticas patriarcales (jerarquías, lógicas de competencia, 'caudillismos', división sexual del trabajo) seguimos reproduciendo sin darnos cuenta, incluso dentro de nuestros espacios feministas y de izquierda?"
+      "practice": "Reflexión eje: ¿Qué prácticas patriarcales (jerarquías, lógicas de competencia, 'caudillismos', división sexual del trabajo) seguimos reproduciendo sin darnos cuenta, incluso dentro de nuestros espacios feministas y de izquierda?",
+      "slug": "despatriarcalizacion",
+      "id": "d-despatriarcalizacion",
+      "tags": [
+        "nuestros",
+        "alcanzar",
+        "igualdad",
+        "genero",
+        "proceso",
+        "politico"
+      ]
     },
     {
       "letter": "D",
       "term": "Digna Rabia",
       "definition": "Un concepto zapatista que nombra la indignación como la fuerza afectiva y ética que moviliza la 'Resistencia'. Es la rabia que se levanta contra la injusticia, no como un impulso destructivo, sino como un acto de dignidad y un motor para la transformación.",
-      "practice": "Es la contraparte de la 'Esperanza' y la 'Política del Amor'. No es odio ciego; es el afecto político que nos permite decir ¡YA BASTA! y empezar a construir algo nuevo desde las ruinas del sistema opresor."
+      "practice": "Es la contraparte de la 'Esperanza' y la 'Política del Amor'. No es odio ciego; es el afecto político que nos permite decir ¡YA BASTA! y empezar a construir algo nuevo desde las ruinas del sistema opresor.",
+      "slug": "digna-rabia",
+      "id": "d-digna-rabia",
+      "tags": [
+        "concepto",
+        "zapatista",
+        "nombra",
+        "indignacion",
+        "fuerza",
+        "afectiva"
+      ]
     },
     {
       "letter": "D",
       "term": "Disidencias Sexuales",
       "definition": "Concepto político (muy usado en Abya Yala) para nombrar a las identidades y prácticas que se oponen y disienten activamente del régimen de la heterosexualidad obligatoria y el cisgénero. Es una alternativa al término \"diversidad sexual\", que puede ser visto como asimilacionista o despolitizado.",
-      "practice": "Hablar de \"disidencias\" en lugar de \"diversidad\" es una postura política. Enfatiza la ruptura con la norma (el disenso) y la lucha contra el sistema cisheteropatriarcal, en lugar de simplemente \"ser diferente\" dentro de un sistema que se mantiene intacto. Se alinea con la politización del término 'Cuir'."
+      "practice": "Hablar de \"disidencias\" en lugar de \"diversidad\" es una postura política. Enfatiza la ruptura con la norma (el disenso) y la lucha contra el sistema cisheteropatriarcal, en lugar de simplemente \"ser diferente\" dentro de un sistema que se mantiene intacto. Se alinea con la politización del término 'Cuir'.",
+      "slug": "disidencias-sexuales",
+      "id": "d-disidencias-sexuales",
+      "tags": [
+        "termino",
+        "diversidad",
+        "lugar",
+        "sistema",
+        "concepto",
+        "politico"
+      ]
     },
     {
       "letter": "D",
       "term": "Doble Desigualdad",
       "definition": "Este término nombra de manera precisa la intersección específica de opresiones (racismo y sexismo) que atraviesa la experiencia de las mujeres afrodescendientes e indígenas en los espacios de poder.",
-      "practice": "Ayuda a visibilizar por qué las soluciones que solo atienden el género (feminismo blanco) o solo la raza (luchas antirracistas androcéntricas) son insuficientes. Su reconocimiento exige el diseño de acciones afirmativas y políticas públicas que aborden simultáneamente ambas dimensiones de la opresión."
+      "practice": "Ayuda a visibilizar por qué las soluciones que solo atienden el género (feminismo blanco) o solo la raza (luchas antirracistas androcéntricas) son insuficientes. Su reconocimiento exige el diseño de acciones afirmativas y políticas públicas que aborden simultáneamente ambas dimensiones de la opresión.",
+      "slug": "doble-desigualdad",
+      "id": "d-doble-desigualdad",
+      "tags": [
+        "termino",
+        "nombra",
+        "manera",
+        "precisa",
+        "interseccion",
+        "especifica"
+      ]
     },
     {
       "letter": "E",
       "term": "Ecofeminismo(s)",
       "definition": "Corriente de pensamiento y acción política que conecta la dominación patriarcal sobre las mujeres con la dominación capitalista y antropocéntrica sobre la naturaleza. Sostiene que ambas opresiones provienen de la misma lógica de jerarquía y explotación.",
-      "practice": "Existen múltiples ecofeminismos. Desde el Sur Global, los feminismos comunitarios y decoloniales aportan la visión del 'Cuerpo-Territorio', rechazando el 'Antropocentrismo' y luchando contra el 'Extractivismo' como una lucha antipatriarcal."
+      "practice": "Existen múltiples ecofeminismos. Desde el Sur Global, los feminismos comunitarios y decoloniales aportan la visión del 'Cuerpo-Territorio', rechazando el 'Antropocentrismo' y luchando contra el 'Extractivismo' como una lucha antipatriarcal.",
+      "slug": "ecofeminismo-s",
+      "id": "e-ecofeminismo-s",
+      "tags": [
+        "dominacion",
+        "corriente",
+        "pensamiento",
+        "accion",
+        "politica",
+        "conecta"
+      ]
     },
     {
       "letter": "E",
       "term": "Economía del Cuidado",
       "definition": "Es el sistema de trabajo (físico, mental, emocional) que sostiene la vida y el bienestar de las personas. Incluye cocinar, limpiar, criar, cuidar de enfermos/as, y el apoyo emocional. El feminismo denuncia que este trabajo es la base oculta que sostiene al capitalismo, pero es invisibilizado, no remunerado, y asignado obligatoriamente a mujeres, mujeres racializadas y migrantes.",
-      "practice": "El proyecto político feminista es la reorganización total de este sistema a través de las 4 'R': **R**econocer su valor económico y social; **R**educir la carga (con servicios e infraestructura); **R**edistribuir el trabajo (entre géneros y entre las familias y el Estado); y **R**etribuir (asegurar derechos laborales y pago justo). La meta es crear 'Sistemas de Cuidado' públicos y comunitarios."
+      "practice": "El proyecto político feminista es la reorganización total de este sistema a través de las 4 'R': **R**econocer su valor económico y social; **R**educir la carga (con servicios e infraestructura); **R**edistribuir el trabajo (entre géneros y entre las familias y el Estado); y **R**etribuir (asegurar derechos laborales y pago justo). La meta es crear 'Sistemas de Cuidado' públicos y comunitarios.",
+      "slug": "economia-del-cuidado",
+      "id": "e-economia-del-cuidado",
+      "tags": [
+        "trabajo",
+        "sistema",
+        "emocional",
+        "sostiene",
+        "mujeres",
+        "fisico"
+      ]
     },
     {
       "letter": "E",
       "term": "Educación Política",
       "definition": "Es un proceso de formación y toma de conciencia crítica sobre las estructuras de poder (políticas, económicas, sociales) que organizan la sociedad. No se trata de adoctrinamiento partidista, sino de desarrollar las herramientas para analizar la realidad, entender nuestros derechos y participar activamente en la transformación de la comunidad.",
-      "practice": "La \"Pedagogía Feminista\" es una forma de educación política. La Escuela \"Las Juanas\" en su totalidad es un proyecto de educación política que busca fortalecer el liderazgo de las mujeres para que puedan incidir en sus territorios, disputar el \"sentido común\" y construir alternativas al sistema hegemónico."
+      "practice": "La \"Pedagogía Feminista\" es una forma de educación política. La Escuela \"Las Juanas\" en su totalidad es un proyecto de educación política que busca fortalecer el liderazgo de las mujeres para que puedan incidir en sus territorios, disputar el \"sentido común\" y construir alternativas al sistema hegemónico.",
+      "slug": "educacion-politica",
+      "id": "e-educacion-politica",
+      "tags": [
+        "educacion",
+        "politica",
+        "proceso",
+        "formacion",
+        "conciencia",
+        "critica"
+      ]
     },
     {
       "letter": "E",
       "term": "Epistemicidio",
       "definition": "El asesinato sistemático de los conocimientos que no son occidentales, blancos y masculinos. Es la manifestación de la 'Colonialidad del saber' y la causa de la 'Violencia Epistémica'.",
-      "practice": "Reflexión eje: ¿Desde qué autoras estamos pensando? ¿Estamos citando a nuestras compañeras del Sur, o solo a las teóricas europeas? Luchar contra el epistemicidio es practicar la 'Justicia Epistémica', valorar la 'Oralitura', las 'Tecnologías Ancestrales' y la 'Escri-vivencia'."
+      "practice": "Reflexión eje: ¿Desde qué autoras estamos pensando? ¿Estamos citando a nuestras compañeras del Sur, o solo a las teóricas europeas? Luchar contra el epistemicidio es practicar la 'Justicia Epistémica', valorar la 'Oralitura', las 'Tecnologías Ancestrales' y la 'Escri-vivencia'.",
+      "slug": "epistemicidio",
+      "id": "e-epistemicidio",
+      "tags": [
+        "epistemica",
+        "estamos",
+        "asesinato",
+        "sistematico",
+        "conocimientos",
+        "occidentales"
+      ]
     },
     {
       "letter": "E",
       "term": "Escrache (Dimensión política del)",
       "definition": "No es solo una denuncia, sino una herramienta política colectiva que rompe el pacto de silencio masculino y reubica la vergüenza del lado del agresor, donde pertenece. Es una forma de 'Justicia (Alternativa)' construida desde la comunidad.",
-      "practice": "Reflexión eje: ¿Cómo cuidamos el escrache como herramienta para que no sea cooptado por el 'Punitivismo' (solo buscar castigo), sino que sirva para la transformación comunitaria y la reparación real?"
+      "practice": "Reflexión eje: ¿Cómo cuidamos el escrache como herramienta para que no sea cooptado por el 'Punitivismo' (solo buscar castigo), sino que sirva para la transformación comunitaria y la reparación real?",
+      "slug": "escrache-dimension-politica-del",
+      "id": "e-escrache-dimension-politica-del",
+      "tags": [
+        "herramienta",
+        "denuncia",
+        "politica",
+        "colectiva",
+        "rompe",
+        "pacto"
+      ]
     },
     {
       "letter": "E",
       "term": "Escri-vivencia (Escrevivência)",
       "definition": "Concepto creado por la escritora afrobrasileña Conceição Evaristo, se refiere a la escritura que nace de la experiencia vivida, del cuerpo y de la memoria colectiva, especialmente de las mujeres negras. No es solo un acto literario, sino un acto político de existencia, resistencia y creación de conocimiento desde un lugar históricamente subalternizado.",
-      "practice": "Es una herramienta práctica para alcanzar la 'Justicia Epistémica' y la materialización de la 'Política del Lugar', donde la narración de la propia vida se convierte en fuente de teoría. Desafía la separación occidental entre 'vida' y 'conocimiento', 'arte' y 'política', demostrando que contar la propia historia es un acto fundamental de lucha."
+      "practice": "Es una herramienta práctica para alcanzar la 'Justicia Epistémica' y la materialización de la 'Política del Lugar', donde la narración de la propia vida se convierte en fuente de teoría. Desafía la separación occidental entre 'vida' y 'conocimiento', 'arte' y 'política', demostrando que contar la propia historia es un acto fundamental de lucha.",
+      "slug": "escri-vivencia-escrevivencia",
+      "id": "e-escri-vivencia-escrevivencia",
+      "tags": [
+        "conocimiento",
+        "lugar",
+        "politica",
+        "propia",
+        "concepto",
+        "creado"
+      ]
     },
     {
       "letter": "E",
       "term": "Esperanza (como práctica feminista)",
       "definition": "No es un optimismo pasivo, sino una práctica política activa y disciplinada. Es la convicción de que el futuro no está predeterminado por la opresión actual y el compromiso de construir alternativas. Es un acto de 'Resistencia' contra el cinismo y la parálisis que impone el 'Backlash'.",
-      "practice": "Se cultiva colectivamente. La esperanza feminista se nutre de la memoria ('Genealogías'), se organiza en 'Redes' y se materializa en la 'Política del Amor' y el 'Buen Vivir'. Es la decisión de luchar por un futuro vivible, incluso cuando parece imposible."
+      "practice": "Se cultiva colectivamente. La esperanza feminista se nutre de la memoria ('Genealogías'), se organiza en 'Redes' y se materializa en la 'Política del Amor' y el 'Buen Vivir'. Es la decisión de luchar por un futuro vivible, incluso cuando parece imposible.",
+      "slug": "esperanza-como-practica-feminista",
+      "id": "e-esperanza-como-practica-feminista",
+      "tags": [
+        "politica",
+        "futuro",
+        "optimismo",
+        "pasivo",
+        "practica",
+        "activa"
+      ]
     },
     {
       "letter": "E",
       "term": "Estallido Social",
       "definition": "Se refiere a un momento de movilización popular masiva, intensa y a menudo espontánea o no centralizada, que irrumpe en el orden público como respuesta a un profundo malestar social acumulado (desigualdad estructural, neoliberalismo, represión).",
-      "practice": "A diferencia de una protesta convocada, el estallido social (como en Chile 2019 o Colombia 2021) desborda las formas tradicionales de la política. Es una expresión de 'Poder Popular' que, aunque caótica y sin un liderazgo único, rompe la hegemonía y abre la posibilidad de nuevos pactos sociales o procesos constituyentes."
+      "practice": "A diferencia de una protesta convocada, el estallido social (como en Chile 2019 o Colombia 2021) desborda las formas tradicionales de la política. Es una expresión de 'Poder Popular' que, aunque caótica y sin un liderazgo único, rompe la hegemonía y abre la posibilidad de nuevos pactos sociales o procesos constituyentes.",
+      "slug": "estallido-social",
+      "id": "e-estallido-social",
+      "tags": [
+        "popular",
+        "social",
+        "refiere",
+        "momento",
+        "movilizacion",
+        "masiva"
+      ]
     },
     {
       "letter": "E",
       "term": "Estética es Política",
       "definition": "Captura la idea de que la presencia de cuerpos diversos (racialmente, en términos de identidad de género, discapacidad, etc.) en espacios de poder es en sí misma un acto de ruptura política, ya que desafía la norma hegemónica de quién es visto como 'apto' para liderar.",
-      "practice": "Redefine los imaginarios del poder. La visibilidad de lideresas como la congresista brasileña Erika Hilton, con su estética disruptiva y su cuerpo trans, inspira a nuevas generaciones y rompe violentamente con los estereotipos del político tradicional, blanco y cisgénero."
+      "practice": "Redefine los imaginarios del poder. La visibilidad de lideresas como la congresista brasileña Erika Hilton, con su estética disruptiva y su cuerpo trans, inspira a nuevas generaciones y rompe violentamente con los estereotipos del político tradicional, blanco y cisgénero.",
+      "slug": "estetica-es-politica",
+      "id": "e-estetica-es-politica",
+      "tags": [
+        "captura",
+        "presencia",
+        "cuerpos",
+        "diversos",
+        "racialmente",
+        "terminos"
+      ]
     },
     {
       "letter": "E",
       "term": "Extractivismo",
       "definition": "La lógica colonial-capitalista de saquear la tierra (megaminería, agronegocio, fracking) y los cuerpos, viéndolos como recursos infinitos para la acumulación de capital y no como seres vivos interdependientes.",
-      "practice": "Reflexión eje: ¿Por qué las mujeres y las disidencias son las primeras afectadas por el despojo territorial? ¿Qué nos enseñan las ecofeministas comunitarias? Esta lógica vincula la 'Autonomía' del cuerpo con la del territorio y es la causa directa del 'Terricidio' y las 'Zonas de Sacrificio'."
+      "practice": "Reflexión eje: ¿Por qué las mujeres y las disidencias son las primeras afectadas por el despojo territorial? ¿Qué nos enseñan las ecofeministas comunitarias? Esta lógica vincula la 'Autonomía' del cuerpo con la del territorio y es la causa directa del 'Terricidio' y las 'Zonas de Sacrificio'.",
+      "slug": "extractivismo",
+      "id": "e-extractivismo",
+      "tags": [
+        "logica",
+        "colonial",
+        "capitalista",
+        "saquear",
+        "tierra",
+        "megamineria"
+      ]
     },
     {
       "letter": "F",
       "term": "Feminismo(s)",
       "definition": "Es un conjunto de movimientos políticos, sociales y teorías que tienen como objetivo común la liberación de las mujeres y la erradicación de todas las formas de opresión generadas por el patriarcado.",
-      "practice": "Hablamos de \"feminismos\" en plural para reconocer que no hay una única forma de ser feminista. El feminismo negro, el feminismo indígena, el lesbofeminismo o el transfeminismo critican al feminismo hegemónico (blanco, occidental) por presentar su experiencia como universal, e introducen sus propias agendas y análisis."
+      "practice": "Hablamos de \"feminismos\" en plural para reconocer que no hay una única forma de ser feminista. El feminismo negro, el feminismo indígena, el lesbofeminismo o el transfeminismo critican al feminismo hegemónico (blanco, occidental) por presentar su experiencia como universal, e introducen sus propias agendas y análisis.",
+      "slug": "feminismo-s",
+      "id": "f-feminismo-s",
+      "tags": [
+        "feminismo",
+        "conjunto",
+        "movimientos",
+        "politicos",
+        "sociales",
+        "teorias"
+      ]
     },
     {
       "letter": "F",
       "term": "Feminismo Comunitario (o Popular)",
       "definition": "Es una corriente de feminismo nacida en 'Abya Yala' (Guatemala, Bolivia), desde los pueblos indígenas y populares. Basa su lucha en la comunidad, no en la individua, y entiende la 'Despatriarcalización' como un proceso inseparable del anticapitalismo y la descolonización.",
-      "practice": "Es la cuna de conceptos clave como 'Cuerpo-Territorio'. Su horizonte político es el 'Buen Vivir' y su lucha es contra un trinomio de opresión: patriarcado, capitalismo y colonialismo, a menudo vinculando la sanación personal con la sanación del territorio."
+      "practice": "Es la cuna de conceptos clave como 'Cuerpo-Territorio'. Su horizonte político es el 'Buen Vivir' y su lucha es contra un trinomio de opresión: patriarcado, capitalismo y colonialismo, a menudo vinculando la sanación personal con la sanación del territorio.",
+      "slug": "feminismo-comunitario-o-popular",
+      "id": "f-feminismo-comunitario-o-popular",
+      "tags": [
+        "lucha",
+        "territorio",
+        "sanacion",
+        "corriente",
+        "feminismo",
+        "nacida"
+      ]
     },
     {
       "letter": "G",
       "term": "Genealogías Feministas (del Sur)",
       "definition": "La práctica activa de buscar, rescatar, leer, citar y honrar a las que vinieron antes que nosotras en nuestro propio territorio (Abya Yala, Sur Global). Es descolonizar nuestra biblioteca y nuestra formación política.",
-      "practice": "Reflexión eje: ¿A quiénes leemos? ¿Conocemos a las feministas comunitarias de Guatemala, a las lesbianas feministas de los 80 en Chile, a las anarcofeministas de Argentina, a las negras de Brasil? Es un acto de 'Justicia Epistémica'."
+      "practice": "Reflexión eje: ¿A quiénes leemos? ¿Conocemos a las feministas comunitarias de Guatemala, a las lesbianas feministas de los 80 en Chile, a las anarcofeministas de Argentina, a las negras de Brasil? Es un acto de 'Justicia Epistémica'.",
+      "slug": "genealogias-feministas-del-sur",
+      "id": "g-genealogias-feministas-del-sur",
+      "tags": [
+        "nuestra",
+        "feministas",
+        "practica",
+        "activa",
+        "buscar",
+        "rescatar"
+      ]
     },
     {
       "letter": "G",
       "term": "Género",
       "definition": "Es la construcción social y cultural que se asigna a las personas a partir de su sexo biológico. No es algo natural, sino un conjunto de ideas, roles y expectativas que una sociedad impone sobre lo que significa \"ser hombre\" o \"ser mujer\".",
-      "practice": "Cuestionar los roles de género es desobedecer los mandatos del patriarcado. Es validar que no hay una única forma de ser mujer, es luchar por el reconocimiento de todas las identidades de género y es entender que nuestras capacidades y deseos no están determinados por nuestros genitales."
+      "practice": "Cuestionar los roles de género es desobedecer los mandatos del patriarcado. Es validar que no hay una única forma de ser mujer, es luchar por el reconocimiento de todas las identidades de género y es entender que nuestras capacidades y deseos no están determinados por nuestros genitales.",
+      "slug": "genero",
+      "id": "g-genero",
+      "tags": [
+        "roles",
+        "mujer",
+        "genero",
+        "construccion",
+        "social",
+        "cultural"
+      ]
     },
     {
       "letter": "G",
       "term": "Gobernanza de los Afectos",
       "definition": "Entender que el capitalismo y el patriarcado también nos educan sentimentalmente. Nos enseñan qué desear (el amor romántico, la maternidad obligatoria, el éxito individual) y cómo sentirlo, gobernando así nuestras vidas.",
-      "practice": "Reflexión eje: ¿Cómo desobedecemos esos mandatos afectivos? ¿Cómo construimos redes de afecto (amistad, compañerismo, 'Política del Amor') que sean tan fuertes como los lazos de parentesco o de pareja?"
+      "practice": "Reflexión eje: ¿Cómo desobedecemos esos mandatos afectivos? ¿Cómo construimos redes de afecto (amistad, compañerismo, 'Política del Amor') que sean tan fuertes como los lazos de parentesco o de pareja?",
+      "slug": "gobernanza-de-los-afectos",
+      "id": "g-gobernanza-de-los-afectos",
+      "tags": [
+        "entender",
+        "capitalismo",
+        "patriarcado",
+        "educan",
+        "sentimentalmente",
+        "ensenan"
+      ]
     },
     {
       "letter": "G",
       "term": "Goce (como potencia política)",
       "definition": "Recuperar el placer, la fiesta, el baile y el descanso como actos de resistencia. Es una respuesta al mandato capitalista de la productividad y al mandato patriarcal del sufrimiento y el sacrificio femenino.",
-      "practice": "Reflexión eje: Si nuestra lucha nos agota y nos quita el goce, el sistema ya ganó. ¿Cómo integramos el disfrute, el ocio y el goce cuir/trans/lésbico como parte central de nuestra agenda política ('Sostenibilidad de la lucha') y no como un 'extra'?"
+      "practice": "Reflexión eje: Si nuestra lucha nos agota y nos quita el goce, el sistema ya ganó. ¿Cómo integramos el disfrute, el ocio y el goce cuir/trans/lésbico como parte central de nuestra agenda política ('Sostenibilidad de la lucha') y no como un 'extra'?",
+      "slug": "goce-como-potencia-politica",
+      "id": "g-goce-como-potencia-politica",
+      "tags": [
+        "mandato",
+        "nuestra",
+        "lucha",
+        "recuperar",
+        "placer",
+        "fiesta"
+      ]
     },
     {
       "letter": "G",
       "term": "Gordofobia",
-      "definition": "Es el odio, rechazo y discriminación sistémica hacia los cuerpos gordos. Es una opresión que se disfraza de "preocupación por la salud", pero que en realidad es un sistema de control social y estético.",
-      "practice": "Es una violencia que se cruza ('Interseccionalidad') con la misoginia (control sobre el cuerpo femenino) y el 'Racismo Estructural' (cuerpos racializados y empobrecidos). Desafía la 'Estética es Política' y los mandatos de qué cuerpos merecen deseo o respeto."
+      "definition": "Es el odio, rechazo y discriminación sistémica hacia los cuerpos gordos. Es una opresión que se disfraza de \"preocupación por la salud\", pero que en realidad es un sistema de control social y estético.",
+      "practice": "Es una violencia que se cruza ('Interseccionalidad') con la misoginia (control sobre el cuerpo femenino) y el 'Racismo Estructural' (cuerpos racializados y empobrecidos). Desafía la 'Estética es Política' y los mandatos de qué cuerpos merecen deseo o respeto.",
+      "slug": "gordofobia",
+      "id": "g-gordofobia",
+      "tags": [
+        "cuerpos",
+        "control",
+        "rechazo",
+        "discriminacion",
+        "sistemica",
+        "gordos"
+      ]
     },
     {
       "letter": "H",
       "term": "Hegemonía",
       "definition": "Es el liderazgo o dominio de un grupo social sobre otros que no se basa solo en la fuerza, sino en la capacidad de presentar sus intereses y valores como si fueran el \"sentido común\" de toda la sociedad.",
-      "practice": "La lucha feminista y decolonial es una lucha contra-hegemónica. Buscamos romper ese falso \"sentido común\" patriarcal, racista y colonial para demostrar que existen otros saberes, otras formas de organizar la vida y otras economías posibles."
+      "practice": "La lucha feminista y decolonial es una lucha contra-hegemónica. Buscamos romper ese falso \"sentido común\" patriarcal, racista y colonial para demostrar que existen otros saberes, otras formas de organizar la vida y otras economías posibles.",
+      "slug": "hegemonia",
+      "id": "h-hegemonia",
+      "tags": [
+        "sentido",
+        "comun",
+        "lucha",
+        "liderazgo",
+        "dominio",
+        "grupo"
+      ]
     },
     {
       "letter": "H",
       "term": "Hegemonía Cultural",
       "definition": "Es el \"sentido común\" que el poder impone. Es el dominio que se logra no por la fuerza, sino convenciendo a los oprimidos de que el sistema actual (el 'Patriarcado', la 'Colonialidad', el capitalismo) es el único natural y posible.",
-      "practice": "Nuestra 'Educación Política', las 'Contra-narrativas' y las 'Pedagogías Transgresoras' son la lucha directa contra esa hegemonía cultural. El 'Backlash' es la reacción violenta del poder cuando siente que está perdiendo esta batalla por el sentido común."
+      "practice": "Nuestra 'Educación Política', las 'Contra-narrativas' y las 'Pedagogías Transgresoras' son la lucha directa contra esa hegemonía cultural. El 'Backlash' es la reacción violenta del poder cuando siente que está perdiendo esta batalla por el sentido común.",
+      "slug": "hegemonia-cultural",
+      "id": "h-hegemonia-cultural",
+      "tags": [
+        "sentido",
+        "comun",
+        "impone",
+        "dominio",
+        "logra",
+        "fuerza"
+      ]
     },
     {
       "letter": "H",
       "term": "Heterocisnormatividad",
       "definition": "Es el régimen político que impone la heterosexualidad y la identidad cisgénero (identificarse con el género asignado al nacer) como obligatorias, 'naturales' y superiores. La homofobia, el lesboodio y la transfobia son los síntomas y mecanismos de control de este sistema.",
-      "practice": "Reflexión eje: ¿Cómo este régimen policializa los afectos, las identidades y las expresiones que se salen de la norma? Cuestionarlo es la base para entender el 'Lesboodio' y la violencia contra todas las 'Disidencias Sexuales'."
+      "practice": "Reflexión eje: ¿Cómo este régimen policializa los afectos, las identidades y las expresiones que se salen de la norma? Cuestionarlo es la base para entender el 'Lesboodio' y la violencia contra todas las 'Disidencias Sexuales'.",
+      "slug": "heterocisnormatividad",
+      "id": "h-heterocisnormatividad",
+      "tags": [
+        "regimen",
+        "lesboodio",
+        "politico",
+        "impone",
+        "heterosexualidad",
+        "identidad"
+      ]
     },
     {
       "letter": "I",
       "term": "Interseccionalidad",
       "definition": "Acuñado por Kimberlé Crenshaw, este concepto es una herramienta analítica para comprender cómo las diferentes categorías sociales y sistemas de opresión (como raza, género, clase, capacidad, etc.) no actúan de manera independiente, sino que se entrecruzan (intersectan), creando experiencias únicas y complejas de discriminación. No se trata de 'sumar' opresiones, sino de entender cómo crean una experiencia cualitativamente distinta.",
-      "practice": "Es el pilar fundamental para comprender la 'Doble Desigualdad'. Permite diseñar políticas públicas mucho más precisas al visibilizar a quienes quedan atrapadas en los 'cruces' de las opresiones. Como se vio en la Sesión 6, un enfoque interseccional permite ver cómo la Violencia Política de Género se recrudece y toma formas específicas contra mujeres con discapacidad (PCD), mujeres trans o mujeres indígenas."
+      "practice": "Es el pilar fundamental para comprender la 'Doble Desigualdad'. Permite diseñar políticas públicas mucho más precisas al visibilizar a quienes quedan atrapadas en los 'cruces' de las opresiones. Como se vio en la Sesión 6, un enfoque interseccional permite ver cómo la Violencia Política de Género se recrudece y toma formas específicas contra mujeres con discapacidad (PCD), mujeres trans o mujeres indígenas.",
+      "slug": "interseccionalidad",
+      "id": "i-interseccionalidad",
+      "tags": [
+        "mujeres",
+        "comprender",
+        "genero",
+        "opresiones",
+        "permite",
+        "acunado"
+      ]
     },
     {
       "letter": "J",
       "term": "Justicia (Alternativas a la Punitiva)",
       "definition": "Es la búsqueda de movernos de una justicia punitiva (patriarcal, colonial, centrada en el castigo) a formas que busquen reparar el daño y transformar las condiciones que lo originan. Incluye la 'Justicia Epistémica' (reconocer saberes), la Justicia Restaurativa (reparar el tejido social) y la Justicia Transfeminista (desmantelar las estructuras de violencia).",
-      "practice": "Reflexión eje: ¿Cómo gestionamos los conflictos y las violencias en nuestros movimientos? Esta búsqueda implica desconfiar del 'Punitivismo' (la cárcel como solución) y construir nuestras propias formas de sanar, poniendo en el centro a las víctimas pero también la transformación del sistema."
+      "practice": "Reflexión eje: ¿Cómo gestionamos los conflictos y las violencias en nuestros movimientos? Esta búsqueda implica desconfiar del 'Punitivismo' (la cárcel como solución) y construir nuestras propias formas de sanar, poniendo en el centro a las víctimas pero también la transformación del sistema.",
+      "slug": "justicia-alternativas-a-la-punitiva",
+      "id": "j-justicia-alternativas-a-la-punitiva",
+      "tags": [
+        "justicia",
+        "busqueda",
+        "formas",
+        "reparar",
+        "movernos",
+        "punitiva"
+      ]
     },
     {
       "letter": "J",
       "term": "Justicia Epistémica",
       "definition": "Va más allá de la simple inclusión y apunta a la necesidad de reconocer, valorar e integrar los saberes, prácticas y liderazgos de las comunidades históricamente marginadas como conocimiento válido y fundamental para la formulación de políticas.",
-      "practice": "Es clave para descolonizar el poder. Se materializa al crear mecanismos para que las políticas públicas se construyan desde el conocimiento comunitario, como en consultas vinculantes, o al diseñar sistemas de salud que integren y respeten la medicina tradicional como un saber válido."
+      "practice": "Es clave para descolonizar el poder. Se materializa al crear mecanismos para que las políticas públicas se construyan desde el conocimiento comunitario, como en consultas vinculantes, o al diseñar sistemas de salud que integren y respeten la medicina tradicional como un saber válido.",
+      "slug": "justicia-epistemica",
+      "id": "j-justicia-epistemica",
+      "tags": [
+        "conocimiento",
+        "valido",
+        "politicas",
+        "simple",
+        "inclusion",
+        "apunta"
+      ]
     },
     {
       "letter": "J",
       "term": "Justicia Lingüística",
       "definition": "Es un principio y una práctica política que reconoce que todas las lenguas y formas de comunicación tienen el mismo valor. Busca reparar la violencia colonial que impuso lenguas hegemónicas y relegó a las lenguas indígenas y criollas.",
-      "practice": "En un encuentro, significa tener intérpretes para lenguas originarias o de señas, pero también valorar y no corregir los diferentes acentos y dialectos, entendiendo que la lengua es también un territorio de identidad y resistencia."
+      "practice": "En un encuentro, significa tener intérpretes para lenguas originarias o de señas, pero también valorar y no corregir los diferentes acentos y dialectos, entendiendo que la lengua es también un territorio de identidad y resistencia.",
+      "slug": "justicia-linguistica",
+      "id": "j-justicia-linguistica",
+      "tags": [
+        "lenguas",
+        "principio",
+        "practica",
+        "politica",
+        "reconoce",
+        "formas"
+      ]
     },
     {
       "letter": "J",
       "term": "Justicia Reproductiva",
       "definition": "Un marco político acuñado por feministas negras (SisterSong) que va más allá del 'pro-choice'. Sostiene que la autonomía corporal se basa en tres derechos: el derecho a *no* tener hijos (aborto legal), el derecho a *tener* hijos, y el derecho a *criarlos* con dignidad y en entornos seguros.",
-      "practice": "Es un enfoque interseccional que conecta la 'Autonomía' con el 'Racismo Estructural', la 'Necropolítica' y la justicia económica. No basta con que el aborto sea legal si las mujeres racializadas siguen siendo esterilizadas a la fuerza o si sus hijos son asesinados por la policía."
+      "practice": "Es un enfoque interseccional que conecta la 'Autonomía' con el 'Racismo Estructural', la 'Necropolítica' y la justicia económica. No basta con que el aborto sea legal si las mujeres racializadas siguen siendo esterilizadas a la fuerza o si sus hijos son asesinados por la policía.",
+      "slug": "justicia-reproductiva",
+      "id": "j-justicia-reproductiva",
+      "tags": [
+        "derecho",
+        "hijos",
+        "autonomia",
+        "aborto",
+        "legal",
+        "marco"
+      ]
     },
     {
       "letter": "K",
       "term": "Kyriarcado",
       "definition": "Un concepto acuñado por la teóloga feminista Elisabeth Schüssler Fiorenza para expandir la idea de patriarcado. Describe un sistema social complejo y piramidal donde múltiples opresiones (racismo, clasismo, capacitismo, colonialismo, etc.) se intersectan y se refuerzan mutuamente.",
-      "practice": "Usar el concepto de kyriarcado nos ayuda a evitar simplificaciones. La explotación de una trabajadora doméstica migrante no se explica solo por el patriarcado, sino por la intersección de género, clase, raza y estatus migratorio que la sitúa en una posición de extrema vulnerabilidad dentro de la pirámide kyriarcal."
+      "practice": "Usar el concepto de kyriarcado nos ayuda a evitar simplificaciones. La explotación de una trabajadora doméstica migrante no se explica solo por el patriarcado, sino por la intersección de género, clase, raza y estatus migratorio que la sitúa en una posición de extrema vulnerabilidad dentro de la pirámide kyriarcal.",
+      "slug": "kyriarcado",
+      "id": "k-kyriarcado",
+      "tags": [
+        "concepto",
+        "patriarcado",
+        "acunado",
+        "teologa",
+        "feminista",
+        "elisabeth"
+      ]
     },
     {
       "letter": "L",
       "term": "Lawfare (Guerra Jurídica)",
       "definition": "Es el uso de la ley y los procedimientos judiciales como un arma de guerra para perseguir, estigmatizar y neutralizar a adversarios políticos. Es una herramienta clave de los 'Neogolpes' o 'golpes blandos'.",
-      "practice": "Se manifiesta en la apertura de procesos judiciales sin fundamento, filtraciones mediáticas selectivas y la 'judicialización de la política' para inhabilitar a líderes/as progresistas. Es una forma de 'Backlash' que busca frenar agendas de cambio social."
+      "practice": "Se manifiesta en la apertura de procesos judiciales sin fundamento, filtraciones mediáticas selectivas y la 'judicialización de la política' para inhabilitar a líderes/as progresistas. Es una forma de 'Backlash' que busca frenar agendas de cambio social.",
+      "slug": "lawfare-guerra-juridica",
+      "id": "l-lawfare-guerra-juridica",
+      "tags": [
+        "judiciales",
+        "procedimientos",
+        "guerra",
+        "perseguir",
+        "estigmatizar",
+        "neutralizar"
+      ]
     },
     {
       "letter": "L",
       "term": "Lesboodio",
       "definition": "Es una forma específica de violencia que combina la misoginia (odio a las mujeres) y la homofobia. Es el odio, discriminación y castigo dirigido hacia las lesbianas por desafiar la heterosexualidad obligatoria y el mandato patriarcal de que las mujeres deben estar al servicio de los hombres.",
-      "practice": "Se manifiesta en la invisibilización de las lesbianas en la historia y los medios, en la violencia \"correctiva\" (violaciones), en el acoso laboral, y en la patologización. Nombrarlo (en lugar de solo \"homofobia\") es un acto político para visibilizar una opresión específica que se da en el cruce del patriarcado y la heteronormatividad."
+      "practice": "Se manifiesta en la invisibilización de las lesbianas en la historia y los medios, en la violencia \"correctiva\" (violaciones), en el acoso laboral, y en la patologización. Nombrarlo (en lugar de solo \"homofobia\") es un acto político para visibilizar una opresión específica que se da en el cruce del patriarcado y la heteronormatividad.",
+      "slug": "lesboodio",
+      "id": "l-lesboodio",
+      "tags": [
+        "especifica",
+        "violencia",
+        "mujeres",
+        "homofobia",
+        "lesbianas",
+        "forma"
+      ]
     },
     {
       "letter": "L",
       "term": "Lugar de Enunciación",
       "definition": "Es el lugar social, político, histórico y corporal desde el cual una persona habla, piensa y produce conocimiento. Implica entender que no existe un conocimiento \"neutral\" u \"objetivo\".",
-      "practice": "En nuestras asambleas, antes de dar una opinión, podemos hacer el ejercicio de preguntarnos: ¿desde dónde estoy hablando? ¿Qué privilegios u opresiones marcan mi mirada? Esto nos permite hablar con más honestidad y escuchar con más respeto las perspectivas de las demás."
+      "practice": "En nuestras asambleas, antes de dar una opinión, podemos hacer el ejercicio de preguntarnos: ¿desde dónde estoy hablando? ¿Qué privilegios u opresiones marcan mi mirada? Esto nos permite hablar con más honestidad y escuchar con más respeto las perspectivas de las demás.",
+      "slug": "lugar-de-enunciacion",
+      "id": "l-lugar-de-enunciacion",
+      "tags": [
+        "conocimiento",
+        "lugar",
+        "social",
+        "politico",
+        "historico",
+        "corporal"
+      ]
     },
     {
       "letter": "M",
       "term": "Machosfera",
       "definition": "Es el término usado para describir una red de comunidades en línea (blogs, foros, canales de YouTube, etc.) que promueven masculinidades tóxicas, misoginia y una fuerte oposición al feminismo. Es un ecosistema digital donde se comparten y refuerzan discursos de odio, antifeministas y sexistas.",
-      "practice": "La machosfera es una de las principales fuentes de radicalización y violencia digital contra las mujeres y disidencias. Funciona como una cámara de eco que valida y amplifica creencias misóginas, presentándolas como verdades irrefutables. Analizar la machosfera es clave para comprender la reacción violenta (backlash) contra los avances feministas en el entorno digital y para desarrollar estrategias de contra-narrativa, alfabetización mediática y creación de espacios en línea seguros."
+      "practice": "La machosfera es una de las principales fuentes de radicalización y violencia digital contra las mujeres y disidencias. Funciona como una cámara de eco que valida y amplifica creencias misóginas, presentándolas como verdades irrefutables. Analizar la machosfera es clave para comprender la reacción violenta (backlash) contra los avances feministas en el entorno digital y para desarrollar estrategias de contra-narrativa, alfabetización mediática y creación de espacios en línea seguros.",
+      "slug": "machosfera",
+      "id": "m-machosfera",
+      "tags": [
+        "digital",
+        "linea",
+        "machosfera",
+        "termino",
+        "usado",
+        "describir"
+      ]
     },
     {
       "letter": "M",
       "term": "Mestizaje (como ideología)",
       "definition": "En Abya Yala, es la ideología de Estado que promueve la idea de una 'mezcla' armónica de razas (indígena, africana, europea) para crear una nueva identidad nacional. Sin embargo, en la práctica, funciona como un proyecto de 'Blanqueamiento' que borra las identidades y luchas indígenas y negras.",
-      "practice": "Es el mito de la 'democracia racial' que denuncia 'Améfrica'. Desmontar esta ideología es un paso clave del '(Des)Aprendizaje Antirracista', ya que nos permite ver que el mestizaje no eliminó el 'Racismo Estructural', sino que lo ocultó."
+      "practice": "Es el mito de la 'democracia racial' que denuncia 'Améfrica'. Desmontar esta ideología es un paso clave del '(Des)Aprendizaje Antirracista', ya que nos permite ver que el mestizaje no eliminó el 'Racismo Estructural', sino que lo ocultó.",
+      "slug": "mestizaje-como-ideologia",
+      "id": "m-mestizaje-como-ideologia",
+      "tags": [
+        "ideologia",
+        "estado",
+        "promueve",
+        "mezcla",
+        "armonica",
+        "razas"
+      ]
     },
     {
       "letter": "M",
       "term": "Miedo (como herramienta política)",
       "definition": "Es el uso estratégico de la incertidumbre, la inseguridad y la amenaza (real o fabricada) como un mecanismo de control social y desmovilización política.",
-      "practice": "Como se analizó en la Sesión 5, las narrativas de la derecha a menudo manipulan las emociones, como el miedo a \"perder el país\", a la \"ideología de género\" o a la inseguridad. Usan el miedo para fragmentar la sociedad, justificar la securitización y deslegitimar las agendas de derechos humanos."
+      "practice": "Como se analizó en la Sesión 5, las narrativas de la derecha a menudo manipulan las emociones, como el miedo a \"perder el país\", a la \"ideología de género\" o a la inseguridad. Usan el miedo para fragmentar la sociedad, justificar la securitización y deslegitimar las agendas de derechos humanos.",
+      "slug": "miedo-como-herramienta-politica",
+      "id": "m-miedo-como-herramienta-politica",
+      "tags": [
+        "inseguridad",
+        "miedo",
+        "estrategico",
+        "incertidumbre",
+        "amenaza",
+        "fabricada"
+      ]
     },
     {
       "letter": "M",
       "term": "Minga (Minka)",
       "definition": "Una práctica y filosofía de trabajo colectivo y recíproco con fines de utilidad social que proviene de las culturas indígenas andinas. Es la convocatoria a la acción conjunta, la materialización del principio de que \"el trabajo de todos beneficia a todos\".",
-      "practice": "Cuando hablamos de \"hacer una minga de pensamiento\", estamos aplicando esta filosofía a la producción de conocimiento. Significa que construimos nuestras ideas no desde la genialidad individual, sino a través del diálogo, la escucha y el aporte de todas."
+      "practice": "Cuando hablamos de \"hacer una minga de pensamiento\", estamos aplicando esta filosofía a la producción de conocimiento. Significa que construimos nuestras ideas no desde la genialidad individual, sino a través del diálogo, la escucha y el aporte de todas.",
+      "slug": "minga-minka",
+      "id": "m-minga-minka",
+      "tags": [
+        "filosofia",
+        "trabajo",
+        "practica",
+        "colectivo",
+        "reciproco",
+        "fines"
+      ]
     },
     {
       "letter": "N",
       "term": "Necropolítica",
       "definition": "Un concepto desarrollado por Achille Mbembe para describir cómo el poder soberano en el mundo contemporáneo opera decidiendo quién debe vivir y quién debe morir. No es solo matar, sino dejar morir, crear \"zonas de muerte\" donde la vida no tiene valor.",
-      "practice": "Vemos la necropolítica en las fronteras donde se deja morir a migrantes, en los territorios contaminados por empresas extractivas, en la violencia feminicida que considera los cuerpos de las mujeres como desechables, y en la brutalidad policial sistemática contra las comunidades negras."
+      "practice": "Vemos la necropolítica en las fronteras donde se deja morir a migrantes, en los territorios contaminados por empresas extractivas, en la violencia feminicida que considera los cuerpos de las mujeres como desechables, y en la brutalidad policial sistemática contra las comunidades negras.",
+      "slug": "necropolitica",
+      "id": "n-necropolitica",
+      "tags": [
+        "morir",
+        "concepto",
+        "desarrollado",
+        "achille",
+        "mbembe",
+        "describir"
+      ]
     },
     {
       "letter": "N",
       "term": "Neogolpes",
       "definition": "Se refiere a las estrategias modernas para destituir gobiernos elegidos democráticamente, que no dependen de la fuerza militar directa (golpe de estado tradicional), sino de un conjunto de tácticas institucionales, mediáticas y judiciales. También se conocen como 'golpes blandos'.",
-      "practice": "Un neogolpe utiliza la \"guerra jurídica\" (lawfare) para inhabilitar líderes, la manipulación mediática para crear \"sentido común\" en contra del gobierno, y las maniobras parlamentarias (como el impeachment a Dilma Rousseff) para lograr la destitución. Es una herramienta clave del 'backlash' de las derechas contra los gobiernos progresistas."
+      "practice": "Un neogolpe utiliza la \"guerra jurídica\" (lawfare) para inhabilitar líderes, la manipulación mediática para crear \"sentido común\" en contra del gobierno, y las maniobras parlamentarias (como el impeachment a Dilma Rousseff) para lograr la destitución. Es una herramienta clave del 'backlash' de las derechas contra los gobiernos progresistas.",
+      "slug": "neogolpes",
+      "id": "n-neogolpes",
+      "tags": [
+        "gobiernos",
+        "refiere",
+        "estrategias",
+        "modernas",
+        "destituir",
+        "elegidos"
+      ]
     },
     {
       "letter": "N",
       "term": "Nepantla (Concepto Chicano/Fronterizo)",
       "definition": "Estar \"en medio\". Es el espacio incómodo pero potente de la frontera, de la identidad mestiza, de la disidencia que no encaja ni aquí ni allá. Es un lugar de 'limbo' que, aunque doloroso, es un sitio de profunda creatividad y transformación.",
-      "practice": "Reflexión eje: ¿Cómo habitamos nuestras propias \"nepantlas\" (identitarias, políticas, territoriales)? ¿Cómo usamos esa incomodidad de no pertenecer del todo para crear nuevas políticas, nuevos lenguajes y nuevas formas de ser?"
+      "practice": "Reflexión eje: ¿Cómo habitamos nuestras propias \"nepantlas\" (identitarias, políticas, territoriales)? ¿Cómo usamos esa incomodidad de no pertenecer del todo para crear nuevas políticas, nuevos lenguajes y nuevas formas de ser?",
+      "slug": "nepantla-concepto-chicano-fronterizo",
+      "id": "n-nepantla-concepto-chicano-fronterizo",
+      "tags": [
+        "politicas",
+        "nuevas",
+        "medio",
+        "espacio",
+        "incomodo",
+        "potente"
+      ]
     },
     {
       "letter": "N",
       "term": "Nombrar es Poder",
       "definition": "Es un principio político feminista fundamental que sostiene que el acto de nombrar y visibilizar una opresión (como la \"Violencia Política de Género\") es el primer paso indispensable para analizarla, combatirla y erradicara.",
-      "practice": "Como se destacó en la Sesión 6, definir y conceptualizar la VPG no es solo un ejercicio académico, es una victoria política. Permite a las mujeres identificar sus experiencias no como problemas aislados, sino como parte de un sistema de violencia, dándoles la base para denunciar y exigir reparación."
+      "practice": "Como se destacó en la Sesión 6, definir y conceptualizar la VPG no es solo un ejercicio académico, es una victoria política. Permite a las mujeres identificar sus experiencias no como problemas aislados, sino como parte de un sistema de violencia, dándoles la base para denunciar y exigir reparación.",
+      "slug": "nombrar-es-poder",
+      "id": "n-nombrar-es-poder",
+      "tags": [
+        "violencia",
+        "politica",
+        "principio",
+        "politico",
+        "feminista",
+        "fundamental"
+      ]
     },
     {
       "letter": "O",
       "term": "Oralitura",
       "definition": "Un término que fusiona \"oralidad\" y \"literatura\" para nombrar y validar las ricas tradiciones de producción de saber y belleza que se transmiten a través de la palabra hablada, el canto y la memoria corporal. Desafía la hegemonía de la escritura como única forma de conocimiento legítimo.",
-      "practice": "La oralitura está viva en los cantos que narran la historia, en los relatos de las abuelas que transmiten el saber medicinal y en las coplas que denuncian la injusticia. Valorarla es entender que un poema recitado en una asamblea es tan potente como un ensayo académico."
+      "practice": "La oralitura está viva en los cantos que narran la historia, en los relatos de las abuelas que transmiten el saber medicinal y en las coplas que denuncian la injusticia. Valorarla es entender que un poema recitado en una asamblea es tan potente como un ensayo académico.",
+      "slug": "oralitura",
+      "id": "o-oralitura",
+      "tags": [
+        "saber",
+        "transmiten",
+        "termino",
+        "fusiona",
+        "oralidad",
+        "literatura"
+      ]
     },
     {
       "letter": "P",
       "term": "Patriarcado",
       "definition": "Es un sistema de dominación social, político y cultural en el que los hombres (lo masculino) ostentan el poder y los privilegios. Es una estructura profunda que organiza toda la sociedad y se sostiene a través de la violencia y la imposición de roles de género.",
-      "practice": "Nos enfrentamos al patriarcado cuando luchamos contra la violencia machista, cuando exigimos igual salario por igual trabajo, y cuando construimos formas de organización que no se basan en la jerarquía y la competencia."
+      "practice": "Nos enfrentamos al patriarcado cuando luchamos contra la violencia machista, cuando exigimos igual salario por igual trabajo, y cuando construimos formas de organización que no se basan en la jerarquía y la competencia.",
+      "slug": "patriarcado",
+      "id": "p-patriarcado",
+      "tags": [
+        "violencia",
+        "igual",
+        "sistema",
+        "dominacion",
+        "social",
+        "politico"
+      ]
     },
     {
       "letter": "P",
       "term": "Pedagogía Feminista",
       "definition": "Es un enfoque de enseñanza y aprendizaje que es inherentemente político. Busca no solo transmitir información, sino transformar la conciencia, desmantelar jerarquías de poder (incluso en el aula) y construir conocimiento colectivamente a partir de la experiencia vivida.",
-      "practice": "La Escuela \"Las Juanas\" en sí misma es un ejercicio de pedagogía feminista. Como se mencionó en la Sesión 6, es una herramienta clave para desaprender el machismo y el racismo, y para llevar la conciencia crítica más allá del propio movimiento, \"incluyendo a hombres, niñas y niños\"."
+      "practice": "La Escuela \"Las Juanas\" en sí misma es un ejercicio de pedagogía feminista. Como se mencionó en la Sesión 6, es una herramienta clave para desaprender el machismo y el racismo, y para llevar la conciencia crítica más allá del propio movimiento, \"incluyendo a hombres, niñas y niños\".",
+      "slug": "pedagogia-feminista",
+      "id": "p-pedagogia-feminista",
+      "tags": [
+        "conciencia",
+        "enfoque",
+        "ensenanza",
+        "aprendizaje",
+        "inherentemente",
+        "politico"
+      ]
     },
     {
       "letter": "P",
       "term": "Pedagogías Transgresoras (o Cimarronas)",
       "definition": "La educación que no busca \"incluirnos\" en el sistema (universidad, estado), sino que busca destruir las lógicas de ese sistema. Es aprender en la calle, en el círculo de mujeres, en el plantón, en la asamblea.",
-      "practice": "Reflexión eje: ¿Es esta escuela política una pedagogía cimarrona? ¿Cómo nos aseguramos de que nuestro aprendizaje ('Educación Política') se traduzca en desobediencia ('Cimarronaje') y no solo en teoría?"
+      "practice": "Reflexión eje: ¿Es esta escuela política una pedagogía cimarrona? ¿Cómo nos aseguramos de que nuestro aprendizaje ('Educación Política') se traduzca en desobediencia ('Cimarronaje') y no solo en teoría?",
+      "slug": "pedagogias-transgresoras-o-cimarronas",
+      "id": "p-pedagogias-transgresoras-o-cimarronas",
+      "tags": [
+        "educacion",
+        "busca",
+        "sistema",
+        "politica",
+        "incluirnos",
+        "universidad"
+      ]
     },
     {
       "letter": "P",
       "term": "Pensamiento Decolonial",
       "definition": "Es una corriente de pensamiento que argumenta que el colonialismo no terminó con la independencia de los países. Persiste a través de la 'colonialidad del poder, del saber y del ser': una estructura de poder que impone la cultura, el conocimiento y las formas de vida eurocéntricas como universales y superiores, mientras subordina y descalifica a todas las demás.",
-      "practice": "Es el marco teórico que da sentido a la 'Justicia Epistémica' y a la crítica a un feminismo hegemónico. Nos invita a cuestionar las raíces más profundas de la desigualdad y a reconocer que la emancipación real requiere desmantelar la herencia colonial en nuestras mentes, instituciones y relaciones sociales."
+      "practice": "Es el marco teórico que da sentido a la 'Justicia Epistémica' y a la crítica a un feminismo hegemónico. Nos invita a cuestionar las raíces más profundas de la desigualdad y a reconocer que la emancipación real requiere desmantelar la herencia colonial en nuestras mentes, instituciones y relaciones sociales.",
+      "slug": "pensamiento-decolonial",
+      "id": "p-pensamiento-decolonial",
+      "tags": [
+        "corriente",
+        "pensamiento",
+        "argumenta",
+        "colonialismo",
+        "termino",
+        "independencia"
+      ]
     },
     {
       "letter": "P",
       "term": "Perspectiva de Género",
       "definition": "Es una herramienta analítica que nos permite observar y comprender las desigualdades, roles y violencias que existen entre hombres, mujeres y otras identidades en una sociedad. Es como ponerse unas gafas especiales que nos permiten ver cómo el género impacta todo.",
-      "practice": "Aplicarla en una política pública significa analizar cómo afectará de manera diferenciada a hombres y a mujeres. En una organización, significa revisar si nuestras prácticas internas reproducen roles de género."
+      "practice": "Aplicarla en una política pública significa analizar cómo afectará de manera diferenciada a hombres y a mujeres. En una organización, significa revisar si nuestras prácticas internas reproducen roles de género.",
+      "slug": "perspectiva-de-genero",
+      "id": "p-perspectiva-de-genero",
+      "tags": [
+        "roles",
+        "hombres",
+        "mujeres",
+        "genero",
+        "significa",
+        "herramienta"
+      ]
     },
     {
       "letter": "P",
       "term": "Poder (Concepción Feminista)",
       "definition": "Es una redefinición radical del poder. El feminismo desafía la concepción patriarcal del \"poder sobre\" (dominación) para proponer formas de \"poder para\" (la capacidad de transformar) y \"poder con\" (la construcción de fuerza colectiva).",
-      "practice": "Construir \"poder con\" significa tomar decisiones de forma más democrática y horizontal. Pasar del \"poder sobre\" al \"poder para\" se traduce en usar una curul no para el beneficio personal, sino para impulsar una agenda que mejore la vida de la comunidad."
+      "practice": "Construir \"poder con\" significa tomar decisiones de forma más democrática y horizontal. Pasar del \"poder sobre\" al \"poder para\" se traduce en usar una curul no para el beneficio personal, sino para impulsar una agenda que mejore la vida de la comunidad.",
+      "slug": "poder-concepcion-feminista",
+      "id": "p-poder-concepcion-feminista",
+      "tags": [
+        "redefinicion",
+        "radical",
+        "feminismo",
+        "desafia",
+        "concepcion",
+        "patriarcal"
+      ]
     },
     {
       "letter": "P",
       "term": "Poder Popular",
       "definition": "Es la capacidad política, económica y organizativa que construyen las comunidades desde la base para gobernar sus vidas y territorios de forma autónoma, sin depender de las estructuras del Estado o del capital.",
-      "practice": "Una asamblea comunitaria que decide de forma vinculante cómo gestionar sus recursos hídricos es Poder Popular. Una red de economías solidarias que crea su propia moneda social es Poder Popular. El desafío es \"despatriarcalizar\" y \"descolonizar\" estos espacios."
+      "practice": "Una asamblea comunitaria que decide de forma vinculante cómo gestionar sus recursos hídricos es Poder Popular. Una red de economías solidarias que crea su propia moneda social es Poder Popular. El desafío es \"despatriarcalizar\" y \"descolonizar\" estos espacios.",
+      "slug": "poder-popular",
+      "id": "p-poder-popular",
+      "tags": [
+        "forma",
+        "popular",
+        "capacidad",
+        "politica",
+        "economica",
+        "organizativa"
+      ]
     },
     {
       "letter": "P",
       "term": "Política de la Presencia (y sus límites)",
       "definition": "Este concepto permite analizar el valor de la representación, pero también sus complejidades. Reconoce que la presencia de cuerpos históricamente excluidos en espacios de poder es un paso fundamental y una victoria simbólica, pero no es el fin de la lucha.",
-      "practice": "El debate sobre lideresas como Francia Márquez ilustra que, si bien la presencia es un hito, la comunidad exige también coherencia, gestión y resultados. Nos obliga a desarrollar una mirada crítica, exigiendo que la 'política de la presencia' se traduzca en una 'representación sustantiva' que materialice cambios reales."
+      "practice": "El debate sobre lideresas como Francia Márquez ilustra que, si bien la presencia es un hito, la comunidad exige también coherencia, gestión y resultados. Nos obliga a desarrollar una mirada crítica, exigiendo que la 'política de la presencia' se traduzca en una 'representación sustantiva' que materialice cambios reales.",
+      "slug": "politica-de-la-presencia-y-sus-limites",
+      "id": "p-politica-de-la-presencia-y-sus-limites",
+      "tags": [
+        "presencia",
+        "representacion",
+        "concepto",
+        "permite",
+        "analizar",
+        "valor"
+      ]
     },
     {
       "letter": "P",
       "term": "Política del Amor",
       "definition": "Acuñada por teóricas como bell hooks, es la propuesta de entender el amor no como un sentimiento romántico, sino como una práctica política radical de cuidado, compromiso y justicia. Es la fuerza afectiva que se opone a las lógicas de dominación, miedo y fragmentación.",
-      "practice": "Como surgió en la Sesión 5, es la contrapropuesta estratégica a la \"política del miedo\". Implica construir redes de solidaridad, descolonizar nuestros afectos y poner el cuidado de la vida en el centro de la acción política, como una fuerza movilizadora."
+      "practice": "Como surgió en la Sesión 5, es la contrapropuesta estratégica a la \"política del miedo\". Implica construir redes de solidaridad, descolonizar nuestros afectos y poner el cuidado de la vida en el centro de la acción política, como una fuerza movilizadora.",
+      "slug": "politica-del-amor",
+      "id": "p-politica-del-amor",
+      "tags": [
+        "politica",
+        "cuidado",
+        "fuerza",
+        "miedo",
+        "acunada",
+        "teoricas"
+      ]
     },
     {
       "letter": "P",
       "term": "Política del Lugar (o de la Identidad)",
       "definition": "Sostiene que la identidad y la experiencia vivida de una person (su lugar en el mundo) son puntos de partida legítimos y necesarios para la teoría y la acción política. Rechaza la idea de un sujeto político 'universal' y abstracto (que históricamente ha sido blanco y masculino).",
-      "practice": "Da sustento a la 'Política de la Presencia' y a que la 'Estética es Política'. La presencia de una mujer negra o indígena en el poder no es solo simbólica; es la afirmación de que su experiencia y perspectiva son conocimientos políticos válidos y necesarios para gobernar. Legitima las voces y las agendas de los grupos históricamente silenciados."
+      "practice": "Da sustento a la 'Política de la Presencia' y a que la 'Estética es Política'. La presencia de una mujer negra o indígena en el poder no es solo simbólica; es la afirmación de que su experiencia y perspectiva son conocimientos políticos válidos y necesarios para gobernar. Legitima las voces y las agendas de los grupos históricamente silenciados.",
+      "slug": "politica-del-lugar-o-de-la-identidad",
+      "id": "p-politica-del-lugar-o-de-la-identidad",
+      "tags": [
+        "politica",
+        "experiencia",
+        "necesarios",
+        "historicamente",
+        "presencia",
+        "sostiene"
+      ]
     },
     {
       "letter": "P",
       "term": "Postura Antirracista",
       "definition": "Es la toma de posición política y ética consciente y activa contra el racismo en todas sus formas. Implica reconocer la existencia del racismo estructural y comprometerse con su erradicación. No es una identidad estática, sino un compromiso continuo.",
-      "practice": "Adoptar una postura antirracista significa ir más allá de 'no ser racista' para ser activamente 'antirracista'. Se traduce en educarse constantemente, escuchar y validar las experiencias de las personas racializadas, y estar dispuesto/a a cuestionar los propios privilegios y sesgos. Es la base para la acción antirracista."
+      "practice": "Adoptar una postura antirracista significa ir más allá de 'no ser racista' para ser activamente 'antirracista'. Se traduce en educarse constantemente, escuchar y validar las experiencias de las personas racializadas, y estar dispuesto/a a cuestionar los propios privilegios y sesgos. Es la base para la acción antirracista.",
+      "slug": "postura-antirracista",
+      "id": "p-postura-antirracista",
+      "tags": [
+        "antirracista",
+        "racismo",
+        "posicion",
+        "politica",
+        "etica",
+        "consciente"
+      ]
     },
     {
       "letter": "P",
       "term": "Precariedad / Precarización",
       "definition": "Es la condición de vida impuesta por el neoliberalismo y el 'Capitalismo Gore'. Es la normalización de la inestabilidad laboral, vital y afectiva, la pérdida de derechos y la exposición constante a la violencia y la 'Necropolítica'.",
-      "practice": "La precarización no es un accidente, es un proyecto político. Afecta de manera desproporcionada a mujeres, jóvenes, migrantes y personas racializadas. La lucha contra la precariedad es central para la 'Justicia Reproductiva' (poder criar con dignidad)."
+      "practice": "La precarización no es un accidente, es un proyecto político. Afecta de manera desproporcionada a mujeres, jóvenes, migrantes y personas racializadas. La lucha contra la precariedad es central para la 'Justicia Reproductiva' (poder criar con dignidad).",
+      "slug": "precariedad-precarizacion",
+      "id": "p-precariedad-precarizacion",
+      "tags": [
+        "condicion",
+        "impuesta",
+        "neoliberalismo",
+        "capitalismo",
+        "normalizacion",
+        "inestabilidad"
+      ]
     },
     {
       "letter": "P",
       "term": "Privilegio",
       "definition": "Se refiere a las ventajas, beneficios y facilidades no ganadas que una persona o grupo recibe simplemente por pertenecer a un grupo social dominante (blanco, mestizo, masculino, cisgénero, heterosexual, sin discapacidad, etc.). El privilegio es a menudo invisible para quien lo posee, ya que se percibe como 'lo normal'.",
-      "practice": "Es el concepto que se encuentra detrás del '(Des)Aprendizaje Antirracista' y la 'Corresponsabilidad'. Reconocer los propios privilegios es el punto de partida para que una persona aliada pueda asumir su responsabilidad. Mueve el foco del análisis del 'problema' de los oprimidos al 'sistema' que otorga ventajas a los dominantes."
+      "practice": "Es el concepto que se encuentra detrás del '(Des)Aprendizaje Antirracista' y la 'Corresponsabilidad'. Reconocer los propios privilegios es el punto de partida para que una persona aliada pueda asumir su responsabilidad. Mueve el foco del análisis del 'problema' de los oprimidos al 'sistema' que otorga ventajas a los dominantes.",
+      "slug": "privilegio",
+      "id": "p-privilegio",
+      "tags": [
+        "ventajas",
+        "persona",
+        "grupo",
+        "refiere",
+        "beneficios",
+        "facilidades"
+      ]
     },
     {
       "letter": "P",
       "term": "Punitivismo",
       "definition": "Se refiere a la tendencia a creer que la principal o única solución a los problemas sociales, especialmente la violencia de género, es a través del castigo, el aumento de penas y la cárcel.",
-      "practice": "Desde una perspectiva feminista decolonial y antirracista, el punitivismo es una trampa. El sistema penal ha sido históricamente una herramienta de control y opresión. Es clave \"evitar la lógica punitiva\" y buscar alternativas como la justicia restaurativa, la prevención y la construcción de redes comunitarias."
+      "practice": "Desde una perspectiva feminista decolonial y antirracista, el punitivismo es una trampa. El sistema penal ha sido históricamente una herramienta de control y opresión. Es clave \"evitar la lógica punitiva\" y buscar alternativas como la justicia restaurativa, la prevención y la construcción de redes comunitarias.",
+      "slug": "punitivismo",
+      "id": "p-punitivismo",
+      "tags": [
+        "refiere",
+        "tendencia",
+        "creer",
+        "principal",
+        "unica",
+        "solucion"
+      ]
     },
     {
       "letter": "Q",
       "term": "Queer",
       "definition": "Término paraguas que describe identidades de género y orientaciones sexuales que no se ajustan al binarismo (hombre/mujer) y la heterosexualidad obligatoria. Originalmente un insulto (\"raro\", \"extraño\"), fue reapropiado como una postura política de disidencia.",
-      "practice": "Ser/hacer \"queer\" no es solo una identidad (como 'gay' o 'lesbiana'), sino una acción política que desafía y desestabiliza todas las normas, no solo las sexuales. Critica las categorías fijas y se opone a la asimilación, buscando alianzas con otras luchas contra el capitalismo, el racismo y el Estado."
+      "practice": "Ser/hacer \"queer\" no es solo una identidad (como 'gay' o 'lesbiana'), sino una acción política que desafía y desestabiliza todas las normas, no solo las sexuales. Critica las categorías fijas y se opone a la asimilación, buscando alianzas con otras luchas contra el capitalismo, el racismo y el Estado.",
+      "slug": "queer",
+      "id": "q-queer",
+      "tags": [
+        "sexuales",
+        "politica",
+        "termino",
+        "paraguas",
+        "describe",
+        "identidades"
+      ]
     },
     {
       "letter": "Q",
       "term": "Quilombo / Palenque",
       "definition": "Comunidades de resistencia y libertad fundadas por personas africanas esclavizadas que escaparon del régimen colonial. Eran (y son) la creación de nuevos mundos, con sus propias formas de gobierno, justicia, economía y espiritualidad.",
-      "practice": "Inspirarse en su legado es entender que nuestra lucha no es solo para resistir la opresión, sino para construir activamente espacios de libertad aquí y ahora. Un comedor comunitario autogestionado o una red de cuidado feminista pueden ser pensados como pequeños palenques urbanos."
+      "practice": "Inspirarse en su legado es entender que nuestra lucha no es solo para resistir la opresión, sino para construir activamente espacios de libertad aquí y ahora. Un comedor comunitario autogestionado o una red de cuidado feminista pueden ser pensados como pequeños palenques urbanos.",
+      "slug": "quilombo-palenque",
+      "id": "q-quilombo-palenque",
+      "tags": [
+        "libertad",
+        "comunidades",
+        "resistencia",
+        "fundadas",
+        "personas",
+        "africanas"
+      ]
     },
     {
       "letter": "R",
       "term": "Racismo Estructural",
       "definition": "El pilar que sostiene la 'Colonialidad' y el capitalismo. No es solo un prejuicio individual, sino un sistema que organiza el Estado, la economía y el acceso a derechos, jerarquizando vidas y cuerpos. Genera la 'Doble Desigualdad'.",
-      "practice": "Reflexión eje: ¿Cómo opera la 'blanquitud' (ver 'Privilegio') como una ventaja no nombrada en nuestros feminismos? ¿Cómo practicamos una 'Acción Antirracista' activa más allá de solo adoptar una 'Postura Antirracista'?"
+      "practice": "Reflexión eje: ¿Cómo opera la 'blanquitud' (ver 'Privilegio') como una ventaja no nombrada en nuestros feminismos? ¿Cómo practicamos una 'Acción Antirracista' activa más allá de solo adoptar una 'Postura Antirracista'?",
+      "slug": "racismo-estructural",
+      "id": "r-racismo-estructural",
+      "tags": [
+        "antirracista",
+        "pilar",
+        "sostiene",
+        "colonialidad",
+        "capitalismo",
+        "prejuicio"
+      ]
     },
     {
       "letter": "R",
       "term": "Redes / Articulación",
       "definition": "Es la estrategia política de tejer conexiones horizontales y flexibles entre personas, colectivos y movimientos. Reconoce que la fuerza no reside en una estructura centralizada, sino en la capacidad de actuar de forma coordinada y solidaria.",
-      "practice": "Como se concluyó en la Sesión 6, la creación de redes es la respuesta fundamental a la violencia y la clave para la \"sostenibilidad de la lucha\". Son redes de cuidado, de protección colectiva, de intercambio de saberes y de incidencia conjunta."
+      "practice": "Como se concluyó en la Sesión 6, la creación de redes es la respuesta fundamental a la violencia y la clave para la \"sostenibilidad de la lucha\". Son redes de cuidado, de protección colectiva, de intercambio de saberes y de incidencia conjunta.",
+      "slug": "redes-articulacion",
+      "id": "r-redes-articulacion",
+      "tags": [
+        "redes",
+        "estrategia",
+        "politica",
+        "tejer",
+        "conexiones",
+        "horizontales"
+      ]
     },
     {
       "letter": "R",
       "term": "Representación Sustantiva",
       "definition": "Es un tipo de representación política que va más allá de la simple presencia numérica. Implica que las personas electas actúen en favor de los intereses y las agendas del grupo al que representan.",
-      "practice": "\"El aumento de mujeres en política no garantiza por sí mismo una transformación real\". Se trata de pasar de la cifra a la incidencia real. Una curul feminista busca la representación sustantiva, traduciendo las demandas de los movimientos en leyes y políticas concretas."
+      "practice": "\"El aumento de mujeres en política no garantiza por sí mismo una transformación real\". Se trata de pasar de la cifra a la incidencia real. Una curul feminista busca la representación sustantiva, traduciendo las demandas de los movimientos en leyes y políticas concretas.",
+      "slug": "representacion-sustantiva",
+      "id": "r-representacion-sustantiva",
+      "tags": [
+        "representacion",
+        "politica",
+        "simple",
+        "presencia",
+        "numerica",
+        "implica"
+      ]
     },
     {
       "letter": "R",
       "term": "Resiliencia (Crítica Feminista)",
       "definition": "Una re-apropiación crítica del término. No es la capacidad individual de 'aguantar' o 'recuperarse' de la opresión (una exigencia neoliberal). Es la capacidad *coletiva* de una comunidad para sobrevivir al trauma sistémico, transformar el dolor en 'Resistencia', y sanar colectivamente.",
-      "practice": "La resiliencia feminista no es pasiva. Es la 'Autodefensa' de las 'Zonas de Sacrificio', la 'Esperanza' del 'Cimarronaje'. No busca 'volver a la normalidad' (porque la normalidad es el problema), sino construir una realidad nueva donde la violencia ya no exija esta resiliencia."
+      "practice": "La resiliencia feminista no es pasiva. Es la 'Autodefensa' de las 'Zonas de Sacrificio', la 'Esperanza' del 'Cimarronaje'. No busca 'volver a la normalidad' (porque la normalidad es el problema), sino construir una realidad nueva donde la violencia ya no exija esta resiliencia.",
+      "slug": "resiliencia-critica-feminista",
+      "id": "r-resiliencia-critica-feminista",
+      "tags": [
+        "capacidad",
+        "resiliencia",
+        "normalidad",
+        "apropiacion",
+        "critica",
+        "termino"
+      ]
     },
     {
       "letter": "R",
       "term": "Resistencia",
       "definition": "Es la práctica diaria y organizada de desafiar, desobedecer y subvertir los mandatos del 'Patriarcado', la 'Colonialidad' y el 'Capitalismo Gore'. No es solo reactiva (oponerse), sino creativa (construir alternativas).",
-      "practice": "La 'Resistencia' es el 'Cimarronaje' creando un 'Quilombo'. Es la 'Autodefensa Feminista', el 'Goce' como acto político, y la 'Escri-vivencia' como acto de memoria. Es la acción que alimenta la 'Esperanza'."
+      "practice": "La 'Resistencia' es el 'Cimarronaje' creando un 'Quilombo'. Es la 'Autodefensa Feminista', el 'Goce' como acto político, y la 'Escri-vivencia' como acto de memoria. Es la acción que alimenta la 'Esperanza'.",
+      "slug": "resistencia",
+      "id": "r-resistencia",
+      "tags": [
+        "practica",
+        "diaria",
+        "organizada",
+        "desafiar",
+        "desobedecer",
+        "subvertir"
+      ]
     },
     {
       "letter": "R",
       "term": "Revictimización (o Violencia Secundaria)",
       "definition": "Es la violencia que ejerce el sistema (policía, justicia, medios de comunicación, servicios sociales) *después* de que una víctima (especialmente de violencia de género) denuncia. Ocurre al culparla, dudar de su palabra o hacerla repetir su historia innecesariamente.",
-      "practice": "Es una forma de 'Violencia Institucional' y la razón por la que el 'Punitivismo' no funciona. Desincentiva la denuncia y protege al agresor. Los 'Escraches' y la 'Justicia (Alternativa)' surgen como respuesta a esta violencia."
+      "practice": "Es una forma de 'Violencia Institucional' y la razón por la que el 'Punitivismo' no funciona. Desincentiva la denuncia y protege al agresor. Los 'Escraches' y la 'Justicia (Alternativa)' surgen como respuesta a esta violencia.",
+      "slug": "revictimizacion-o-violencia-secundaria",
+      "id": "r-revictimizacion-o-violencia-secundaria",
+      "tags": [
+        "violencia",
+        "justicia",
+        "denuncia",
+        "ejerce",
+        "sistema",
+        "policia"
+      ]
     },
     {
       "letter": "R",
       "term": "Rizoma",
       "definition": "Un concepto filosófico que describe una forma de organización que no tiene un centro ni una jerarquía, sino que se expande en red, como las raíces del jengibre, donde cualquier punto puede conectarse con cualquier otro.",
-      "practice": "Es un modelo potente para pensar la organización feminista. El movimiento #NiUnaMenos o las redes de acompañamiento de aborto funcionan de forma rizomática. No hay una única sede ni una presidenta, sino miles de nodos autónomos que comparten principios y se activan coordinadamente."
+      "practice": "Es un modelo potente para pensar la organización feminista. El movimiento #NiUnaMenos o las redes de acompañamiento de aborto funcionan de forma rizomática. No hay una única sede ni una presidenta, sino miles de nodos autónomos que comparten principios y se activan coordinadamente.",
+      "slug": "rizoma",
+      "id": "r-rizoma",
+      "tags": [
+        "forma",
+        "organizacion",
+        "cualquier",
+        "concepto",
+        "filosofico",
+        "describe"
+      ]
     },
     {
       "letter": "S",
       "term": "Sistema de Cuidado",
       "definition": "Es la materialización de la \"Economía del Cuidado\" a través de políticas públicas. Se trata de un conjunto de programas y servicios organizados por el Estado para reconocer, reducir y redistribuir el trabajo de cuidado.",
-      "practice": "La creación de un Sistema de Cuidado, como en Medellín, es una \"victoria tangible\" de la incidencia feminista. Puede incluir lavanderías comunitarias, comedores populares, centros de día para personas mayores y espacios de cuidado infantil."
+      "practice": "La creación de un Sistema de Cuidado, como en Medellín, es una \"victoria tangible\" de la incidencia feminista. Puede incluir lavanderías comunitarias, comedores populares, centros de día para personas mayores y espacios de cuidado infantil.",
+      "slug": "sistema-de-cuidado",
+      "id": "s-sistema-de-cuidado",
+      "tags": [
+        "cuidado",
+        "materializacion",
+        "economia",
+        "traves",
+        "politicas",
+        "publicas"
+      ]
     },
     {
       "letter": "S",
       "term": "Sostenibilidad (de la lucha)",
       "definition": "Es la conciencia y la práctica de que la militancia y el activismo deben ser sostenibles a largo plazo, tanto a nivel colectivo como individual. Implica reconocer los límites, la sobrecarga y el desgaste (\"burnout\") como problemas políticos, no como fallas personales.",
-      "practice": "Este concepto (mencionado en las Sesiones 5 y 6) nos obliga a crear políticas de cuidado dentro de nuestros movimientos, a rotar tareas, a celebrar los logros y a construir redes de apoyo mutuo para que la lucha por la vida no nos cueste la vida."
+      "practice": "Este concepto (mencionado en las Sesiones 5 y 6) nos obliga a crear políticas de cuidado dentro de nuestros movimientos, a rotar tareas, a celebrar los logros y a construir redes de apoyo mutuo para que la lucha por la vida no nos cueste la vida.",
+      "slug": "sostenibilidad-de-la-lucha",
+      "id": "s-sostenibilidad-de-la-lucha",
+      "tags": [
+        "conciencia",
+        "practica",
+        "militancia",
+        "activismo",
+        "deben",
+        "sostenibles"
+      ]
     },
     {
       "letter": "S",
       "term": "Sororidad",
       "definition": "Es un pacto político y ético entre mujeres para apoyarse, reconocerse y luchar juntas contra las opresiones del patriarcado. Es la respuesta feminista a la lógica patriarcal que nos enseña a competir entre nosotras.",
-      "practice": "No es una \"amistad ingenua\". Desde una perspectiva decolonial, la sororidad debe ser crítica e interseccional. No puede servir para que las mujeres blancas silencien las denuncias de racismo de mujeres negras o indígenas en nombre de una falsa \"unidad femenina\"."
+      "practice": "No es una \"amistad ingenua\". Desde una perspectiva decolonial, la sororidad debe ser crítica e interseccional. No puede servir para que las mujeres blancas silencien las denuncias de racismo de mujeres negras o indígenas en nombre de una falsa \"unidad femenina\".",
+      "slug": "sororidad",
+      "id": "s-sororidad",
+      "tags": [
+        "mujeres",
+        "pacto",
+        "politico",
+        "etico",
+        "apoyarse",
+        "reconocerse"
+      ]
     },
     {
       "letter": "S",
       "term": "Sur Global",
       "definition": "Es un término político para referirse a los países de África, América Latina, Asia y Oceanía que comparten una historia de colonialismo y una posición de desventaja en el sistema económico mundial. Denota un espacio de resistencia a la hegemonía del \"Norte Global\".",
-      "practice": "Definir nuestra política como emergente \"desde el Sur Global\" es conectar nuestras luchas locales a un movimiento planetario. Es valorar el conocimiento producido desde nuestras realidades y construir alianzas Sur-Sur."
+      "practice": "Definir nuestra política como emergente \"desde el Sur Global\" es conectar nuestras luchas locales a un movimiento planetario. Es valorar el conocimiento producido desde nuestras realidades y construir alianzas Sur-Sur.",
+      "slug": "sur-global",
+      "id": "s-sur-global",
+      "tags": [
+        "global",
+        "nuestras",
+        "termino",
+        "politico",
+        "referirse",
+        "paises"
+      ]
     },
     {
       "letter": "T",
       "term": "Tecnologías Ancestrales",
       "definition": "Son el conjunto de conocimientos, prácticas, herramientas y saberes desarrollados por los pueblos originarios a lo largo de milenios para vivir en armonía con sus territorios. No se trata de técnicas \"primitivas\", sino de sistemas de conocimiento altamente sofisticados (ingeniería agrícola, arquitectura bioclimática, medicina tradicional, etc.).",
-      "practice": "Recuperar y valorar las tecnologías ancestrales es un acto de soberanía y una estrategia clave para enfrentar la crisis climática. En lugar de depender de soluciones industriales y contaminantes, podemos aprender de prácticas como la siembra de policultivos que regeneran el suelo, la construcción con materiales locales o el uso de plantas medicinales para la salud comunitaria."
+      "practice": "Recuperar y valorar las tecnologías ancestrales es un acto de soberanía y una estrategia clave para enfrentar la crisis climática. En lugar de depender de soluciones industriales y contaminantes, podemos aprender de prácticas como la siembra de policultivos que regeneran el suelo, la construcción con materiales locales o el uso de plantas medicinales para la salud comunitaria.",
+      "slug": "tecnologias-ancestrales",
+      "id": "t-tecnologias-ancestrales",
+      "tags": [
+        "practicas",
+        "conjunto",
+        "conocimientos",
+        "herramientas",
+        "saberes",
+        "desarrollados"
+      ]
     },
     {
       "letter": "T",
       "term": "Terricidio",
       "definition": "Un concepto propuesto por movimientos indígenas y ecofeministas para nombrar el asesinato sistemático no solo de la tierra (ecocidio) y de los pueblos que la habitan (genocidio), sino de la totalidad de la vida y de los sistemas cosmogónicos que la sostienen.",
-      "practice": "Denunciar una mina a cielo abierto como \"terricidio\" eleva el nivel de la denuncia. Reconoce que se está asesinando una forma de vida completa, rompiendo el tejido sagrado que une a la comunidad con su territorio. Luchar contra el terricidio es defender la vida en su sentido más amplio."
+      "practice": "Denunciar una mina a cielo abierto como \"terricidio\" eleva el nivel de la denuncia. Reconoce que se está asesinando una forma de vida completa, rompiendo el tejido sagrado que une a la comunidad con su territorio. Luchar contra el terricidio es defender la vida en su sentido más amplio.",
+      "slug": "terricidio",
+      "id": "t-terricidio",
+      "tags": [
+        "terricidio",
+        "concepto",
+        "propuesto",
+        "movimientos",
+        "indigenas",
+        "ecofeministas"
+      ]
     },
     {
       "letter": "T",
       "term": "Transfeminismo",
       "definition": "Una corriente del feminismo que enseña que el sujeto político del feminismo no es (solo) 'la mujer'. Es una política de la autodeterminación radical del cuerpo y la identidad que pone en el centro la experiencia trans y travesti para dinamitar el 'Binarismo' y la 'Heterocisnormatividad'.",
-      "practice": "Reflexión eje: ¿Por qué la lucha trans y travesti es central para la liberación de todas las personas? El transfeminismo nos enseña que la opresión de género se basa en el control y la definición de los cuerpos, una lucha que une a mujeres cis, personas trans y todas las disidencias."
+      "practice": "Reflexión eje: ¿Por qué la lucha trans y travesti es central para la liberación de todas las personas? El transfeminismo nos enseña que la opresión de género se basa en el control y la definición de los cuerpos, una lucha que une a mujeres cis, personas trans y todas las disidencias.",
+      "slug": "transfeminismo",
+      "id": "t-transfeminismo",
+      "tags": [
+        "trans",
+        "feminismo",
+        "ensena",
+        "travesti",
+        "lucha",
+        "personas"
+      ]
     },
     {
       "letter": "T",
       "term": "Transodio / Transfobia",
       "definition": "Es el odio, la discriminación y la violencia sistemática dirigida contra las personas trans, travestis y no binarias. Es la herramienta de control más brutal de la 'Heterocisnormatividad' y la defensa del 'Binarismo'.",
-      "practice": "Se manifiesta en la 'Violencia Institucional' (negación de la identidad en documentos), la exclusión laboral, la violencia física y los asesinatos (transfeminicidios). Es un componente central del 'Backlash' conservador y de la 'Machosfera'."
+      "practice": "Se manifiesta en la 'Violencia Institucional' (negación de la identidad en documentos), la exclusión laboral, la violencia física y los asesinatos (transfeminicidios). Es un componente central del 'Backlash' conservador y de la 'Machosfera'.",
+      "slug": "transodio-transfobia",
+      "id": "t-transodio-transfobia",
+      "tags": [
+        "violencia",
+        "discriminacion",
+        "sistematica",
+        "dirigida",
+        "personas",
+        "trans"
+      ]
     },
     {
       "letter": "U",
       "term": "Ubuntu",
       "definition": "Una filosofía y ética sudafricana que se puede traducir como \"soy porque somos\". Postula que la humanidad de una persona está intrínsecamente ligada a la humanidad de los demás. Es un principio de interdependencia, solidaridad y responsabilidad colectiva.",
-      "practice": "Incorporar la filosofía Ubuntu significa entender que mi liberación no puede existir sin la liberación de mis hermanas. En un conflicto, Ubuntu nos invita a buscar la reconciliación y la restauración de la armonía comunitaria, en lugar de la venganza."
+      "practice": "Incorporar la filosofía Ubuntu significa entender que mi liberación no puede existir sin la liberación de mis hermanas. En un conflicto, Ubuntu nos invita a buscar la reconciliación y la restauración de la armonía comunitaria, en lugar de la venganza.",
+      "slug": "ubuntu",
+      "id": "u-ubuntu",
+      "tags": [
+        "filosofia",
+        "humanidad",
+        "ubuntu",
+        "liberacion",
+        "etica",
+        "sudafricana"
+      ]
     },
     {
       "letter": "V",
       "term": "Violencia Epistémica",
       "definition": "Es el acto de invalidar, silenciar o subordinar los conocimientos, saberes y formas de entender el mundo de un grupo oprimido. Es la violencia que ejerce el conocimiento hegemónico (occidental, blanco, masculino) al presentarse como el único válido. Se manifiesta en lo cotidiano al invalidar el conocimiento de alguien por pertenecer a dicho grupo: es cuando te dicen \"estás loca\", \"exagerada\" o \"no sabes de lo que hablas\" solo por ser mujer, indígena, o disidente.",
-      "practice": "Reflexión eje: ¿Cuántas veces nuestras denuncias son desestimadas como \"chismes\" o \"problemas personales\" en lugar de problemas políticos estructurales? Ocurre cuando un médico desestima el saber de una partera tradicional o cuando en la academia solo se citan autores europeos. Combatirla implica un acto de \"soberanía epistémica\" y \"Justicia Epistémica\"."
+      "practice": "Reflexión eje: ¿Cuántas veces nuestras denuncias son desestimadas como \"chismes\" o \"problemas personales\" en lugar de problemas políticos estructurales? Ocurre cuando un médico desestima el saber de una partera tradicional o cuando en la academia solo se citan autores europeos. Combatirla implica un acto de \"soberanía epistémica\" y \"Justicia Epistémica\".",
+      "slug": "violencia-epistemica",
+      "id": "v-violencia-epistemica",
+      "tags": [
+        "invalidar",
+        "grupo",
+        "conocimiento",
+        "problemas",
+        "epistemica",
+        "silenciar"
+      ]
     },
     {
       "letter": "V",
       "term": "Violencia Institucional (o de Estado)",
       "definition": "Es la violencia que se ejerce *desde* las instituciones que supuestamente deberían protegernos (policía, justicia, salud, educación). Se manifiesta como negligencia, discriminación, revictimización o abuso de poder.",
-      "practice": "La 'Violencia Institucional' es el mecanismo por el cual el 'Racismo Estructural' y el 'Patriarcado' se vuelven acciones concretas, como la criminalización de la protesta ('Punitivismo'), la negación de atención médica a personas trans o la 'Revictimización' de una mujer que denuncia violencia."
+      "practice": "La 'Violencia Institucional' es el mecanismo por el cual el 'Racismo Estructural' y el 'Patriarcado' se vuelven acciones concretas, como la criminalización de la protesta ('Punitivismo'), la negación de atención médica a personas trans o la 'Revictimización' de una mujer que denuncia violencia.",
+      "slug": "violencia-institucional-o-de-estado",
+      "id": "v-violencia-institucional-o-de-estado",
+      "tags": [
+        "violencia",
+        "revictimizacion",
+        "ejerce",
+        "instituciones",
+        "supuestamente",
+        "deberian"
+      ]
     },
     {
       "letter": "V",
       "term": "Violencia Política de Género (VPG)",
       "definition": "Son todas las acciones u omisiones (incluida la tolerancia) que, basadas en el género, tienen por objeto o resultado menoscabar o anular el reconocimiento, goce o ejercicio de los derechos políticos de las mujeres.",
-      "practice": "Como se analizó en la Sesión 6, la VPG no es solo la agresión física. Se manifiesta en el acoso digital, la difamación basada en estereotipos sexistas, la asignación de recursos inequitativa dentro de los partidos, o el asesinato, como el ejemplo trágico compartido en la sesión."
+      "practice": "Como se analizó en la Sesión 6, la VPG no es solo la agresión física. Se manifiesta en el acoso digital, la difamación basada en estereotipos sexistas, la asignación de recursos inequitativa dentro de los partidos, o el asesinato, como el ejemplo trágico compartido en la sesión.",
+      "slug": "violencia-politica-de-genero-vpg",
+      "id": "v-violencia-politica-de-genero-vpg",
+      "tags": [
+        "sesion",
+        "acciones",
+        "omisiones",
+        "incluida",
+        "tolerancia",
+        "basadas"
+      ]
     },
     {
       "letter": "W",
       "term": "Wiphala",
       "definition": "Es un emblema, un símbolo ancestral de los pueblos andinos que representa la unidad y la diversidad del cosmos. Sus siete colores y su estructura simbolizan principios de dualidad, complementariedad y reciprocidad. Representa un proyecto político basado en la pluralidad.",
-      "practice": "Izar la Wiphala junto a las banderas feministas o trans en una manifestación es un poderoso acto político. Significa que nuestra lucha feminista se reconoce como parte de una lucha anticolonial más amplia que aprende de los principios organizativos de los pueblos originarios."
+      "practice": "Izar la Wiphala junto a las banderas feministas o trans en una manifestación es un poderoso acto político. Significa que nuestra lucha feminista se reconoce como parte de una lucha anticolonial más amplia que aprende de los principios organizativos de los pueblos originarios.",
+      "slug": "wiphala",
+      "id": "w-wiphala",
+      "tags": [
+        "pueblos",
+        "representa",
+        "principios",
+        "politico",
+        "lucha",
+        "emblema"
+      ]
     },
     {
       "letter": "X",
       "term": "Xenofobia",
       "definition": "Es el odio, rechazo o hostilidad hacia las personas extranjeras. Desde una perspectiva decolonial, es una tecnología del poder para dividir a los pueblos oprimidos, culpando a las poblaciones migrantes de las crisis generadas por el propio sistema.",
-      "practice": "Un feminismo interseccional debe ser radicalmente antixenófobo. Esto significa combatir los discursos de odio, entender que las fronteras son una herida colonial, y organizar la solidaridad de clase y de género sin importar el pasaporte."
+      "practice": "Un feminismo interseccional debe ser radicalmente antixenófobo. Esto significa combatir los discursos de odio, entender que las fronteras son una herida colonial, y organizar la solidaridad de clase y de género sin importar el pasaporte.",
+      "slug": "xenofobia",
+      "id": "x-xenofobia",
+      "tags": [
+        "rechazo",
+        "hostilidad",
+        "personas",
+        "extranjeras",
+        "perspectiva",
+        "decolonial"
+      ]
     },
     {
       "letter": "Y",
       "term": "Yerbateras / Yerberos",
       "definition": "Son las guardianas y guardianes del conocimiento ancestral sobre las plantas medicinales. Su saber, transmitido por generaciones a través de la oralitura, representa una forma de ciencia y medicina profundamente conectada con el territorio y la espiritualidad. Fueron históricamente perseguidas (acusadas de \"brujería\" por el poder colonial y religioso) por representar una forma de autonomía en la salud y un poder que escapaba al control patriarcal.",
-      "practice": "Reivindicar la figura de las yerbateras es un acto de reparación histórica y de soberanía epistémica. Es reconocer la validez de otras medicinas y desafiar el monopolio de la industria farmacéutica. Apoyar a las yerbateras de nuestras comunidades, aprender de ellas y defender los territorios donde crecen las plantas medicinales es una forma concreta de luchar por la soberanía sobre nuestros cuerpos y nuestra salud."
+      "practice": "Reivindicar la figura de las yerbateras es un acto de reparación histórica y de soberanía epistémica. Es reconocer la validez de otras medicinas y desafiar el monopolio de la industria farmacéutica. Apoyar a las yerbateras de nuestras comunidades, aprender de ellas y defender los territorios donde crecen las plantas medicinales es una forma concreta de luchar por la soberanía sobre nuestros cuerpos y nuestra salud.",
+      "slug": "yerbateras-yerberos",
+      "id": "y-yerbateras-yerberos",
+      "tags": [
+        "forma",
+        "plantas",
+        "medicinales",
+        "salud",
+        "yerbateras",
+        "soberania"
+      ]
     },
     {
       "letter": "Z",
       "term": "Zonas de Sacrificio",
       "definition": "Un concepto de la justicia ambiental para nombrar aquellos territorios que son sistemáticamente contaminados y devastados por industrias extractivas (minería, petroleras, agroindustria) con la complicidad de los Estados. Son \"zonas de sacrificio\" porque el bienestar y la vida de sus habitantes (mayoritariamente comunidades empobrecidas, indígenas y afrodescendientes) son considerados un costo aceptable para el beneficio económico de otros.",
-      "practice": "Nombrar un lugar como \"zona de sacrificio\" es un acto de denuncia política. Expone la lógica del racismo ambiental y la necropolítica que decide qué cuerpos y territorios importan y cuáles son desechables. La lucha contra las zonas de sacrificio, liderada a menudo por mujeres defensoras del territorio, es una lucha por el derecho a existir y a vivir en un ambiente sano."
+      "practice": "Nombrar un lugar como \"zona de sacrificio\" es un acto de denuncia política. Expone la lógica del racismo ambiental y la necropolítica que decide qué cuerpos y territorios importan y cuáles son desechables. La lucha contra las zonas de sacrificio, liderada a menudo por mujeres defensoras del territorio, es una lucha por el derecho a existir y a vivir en un ambiente sano.",
+      "slug": "zonas-de-sacrificio",
+      "id": "z-zonas-de-sacrificio",
+      "tags": [
+        "sacrificio",
+        "ambiental",
+        "nombrar",
+        "territorios",
+        "zonas",
+        "lucha"
+      ]
     }
   ]
 }
