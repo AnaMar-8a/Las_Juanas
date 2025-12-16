@@ -5,12 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentación Interactiva: Abecedario Político</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- 
-        PROYECTO: Abecedario Político Interactivo - Escuela Las Juanas
-        VERSIÓN: 3.0 (Estructura Limpia)
-        FECHA: 20 de Septiembre, 2025
-        DESCRIPCIÓN: Versión final con código modularizado y estructura de archivos correcta.
-    -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -19,40 +13,52 @@
         <canvas id="bg-canvas"></canvas>
         
         <nav class="w-24 bg-white/20 backdrop-blur-sm p-4 hidden lg:flex flex-col items-center space-y-2 overflow-y-auto">
-            <div id="home-button-desktop" class="w-14 h-14 flex items-center justify-center rounded-2xl cursor-pointer hover:bg-white/50 transition-all duration-200" title="Volver al abrazo">
+            <div id="home-button-desktop" class="w-14 h-14 flex items-center justify-center rounded-2xl cursor-pointer hover:bg-white/50 transition-all duration-200 mb-2" title="Volver al abrazo">
                  <span class="text-3xl">🏠</span>
             </div>
-            <div id="alphabet-nav-desktop" class="flex flex-col items-center space-y-1 w-full">
+
+            <div class="flex flex-col gap-2 my-2 w-full px-1 border-b border-t border-purple-200/50 py-4">
+                <button onclick="cambiarIdioma('es')" class="lang-btn text-xs font-bold py-1 rounded border border-purple-300 hover:bg-purple-100 transition-colors" data-lang="es">ES</button>
+                <button onclick="cambiarIdioma('en')" class="lang-btn text-xs font-bold py-1 rounded border border-purple-300 hover:bg-purple-100 transition-colors" data-lang="en">EN</button>
+                <button onclick="cambiarIdioma('pt')" class="lang-btn text-xs font-bold py-1 rounded border border-purple-300 hover:bg-purple-100 transition-colors" data-lang="pt">PT</button>
             </div>
+
+            <div id="alphabet-nav-desktop" class="flex flex-col items-center space-y-1 w-full pt-2">
+                </div>
         </nav>
         
         <div class="flex-1 flex flex-col overflow-hidden">
+            
             <nav class="lg:hidden w-full bg-white/20 backdrop-blur-sm p-2 flex items-center space-x-2">
                 <div id="home-button-mobile" class="w-12 h-12 flex-shrink-0 flex items-center justify-center rounded-2xl cursor-pointer hover:bg-white/50 transition-all duration-200">
                      <span class="text-3xl">🏠</span>
                 </div>
-                <div id="mobile-nav-scroll" class="flex items-center space-x-1 overflow-x-auto flex-grow">
+
+                <div class="flex gap-1 mr-1 border-r border-purple-300 pr-2">
+                    <button onclick="cambiarIdioma('es')" class="lang-btn text-[10px] font-bold px-2 py-1 rounded border border-purple-300 hover:bg-purple-100 transition-colors" data-lang="es">ES</button>
+                    <button onclick="cambiarIdioma('en')" class="lang-btn text-[10px] font-bold px-2 py-1 rounded border border-purple-300 hover:bg-purple-100 transition-colors" data-lang="en">EN</button>
+                    <button onclick="cambiarIdioma('pt')" class="lang-btn text-[10px] font-bold px-2 py-1 rounded border border-purple-300 hover:bg-purple-100 transition-colors" data-lang="pt">PT</button>
                 </div>
+
+                <div id="mobile-nav-scroll" class="flex items-center space-x-1 overflow-x-auto flex-grow">
+                    </div>
             </nav>
 
             <main id="main-content" class="flex-1 flex flex-col p-6 md:p-12 overflow-y-auto relative">
-                <!-- El contenido se generará aquí con JavaScript -->
-            </main>
+                </main>
         </div>
     </div>
 
-    <div id="modal-overlay" class="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50 opacity-0 pointer-events-none">
-        <div id="modal-content" class="bg-white rounded-2xl shadow-2xl w-full max-w-3xl max-h-[80vh] overflow-y-auto p-8 transform scale-95 opacity-0">
-        </div>
+    <div id="modal-overlay" class="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50 opacity-0 pointer-events-none transition-opacity duration-300">
+        <div id="modal-content" class="bg-white rounded-2xl shadow-2xl w-full max-w-3xl max-h-[80vh] overflow-y-auto p-8 transform scale-95 opacity-0 transition-all duration-300 relative">
+            </div>
     </div>
 
-    <!-- ===== BOTÓN FLOTANTE DE WHATSAPP ===== -->
-    <a href="https://wa.me/573113262620?text=Hola%2C%20quisiera%20aportar%20al%20glosario%20vivo%20de%20Las%20Juanas" target="_blank" id="whatsapp-button" class="fixed top-1/2 -translate-y-1/2 right-4 lg:right-8 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg transform hover:scale-110 transition-transform duration-300 text-4xl z-20" title="¡Este es un elemento vivo! Escríbenos para co-crear, aportar o mejorar este glosario.">
+    <a href="https://wa.me/573113262620?text=Hola%2C%20quisiera%20aportar%20al%20glosario%20vivo%20de%20Las%20Juanas" target="_blank" id="whatsapp-button" class="fixed top-1/2 -translate-y-1/2 right-4 lg:right-8 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg transform hover:scale-110 transition-transform duration-300 text-4xl z-20 hover:bg-green-600" title="¡Este es un elemento vivo! Escríbenos para co-crear, aportar o mejorar este glosario.">
         <span>💬</span>
     </a>
 
-<script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script> 
 
 </body>
 </html>
-
